@@ -33,6 +33,9 @@ import Wrapper from 'components/atoms/wrapper';
 // Molecules
 import Navigation from './molecules/navigation';
 
+// Organisms
+import Footer from './organisms/footer';
+
 export const UI = {
   AccordionItem,
   Badge,
@@ -68,4 +71,7 @@ export const UI = {
 
   // Molecules
   Navigation,
+
+  // Organisms
+  Footer,
 };

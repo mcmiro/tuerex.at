@@ -38,7 +38,7 @@ export const footerData = [
       },
       {
         name: 'Karriere',
-        link: 'https://heyio.at',
+        link: 'https://türex.at',
         image: null,
       },
       {

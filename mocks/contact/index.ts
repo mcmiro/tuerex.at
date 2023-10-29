@@ -12,19 +12,19 @@ export const contactData = [
         actionName: 'Beratungstermin',
         actionType: '',
         actionContent: '',
-        redirect: 'https://heyio,at',
+        redirect: 'https://türex,at',
       },
     ],
   },
   {
-    title: 'info@heyio.at',
+    title: 'info@türex.at',
     subtitle: '',
     icon: Mail,
     actions: [
       {
         actionName: 'E-Mail senden',
         actionType: 'mailto',
-        actionContent: 'info@heyio.at',
+        actionContent: 'info@türex.at',
         redirect: '',
       },
     ],

@@ -3,16 +3,13 @@ import clsx from 'clsx';
 import { UI } from 'components';
 
 const classesSchema = {
-  base: 'sticky top-0 left-0 flex justify-between items-center max-h-[72px] py-[26px] px-[16px] md:px-[32px] xl:px-[72px] bg-primary-100 border-b border-black z-30',
+  base: 'flex justify-between items-center h-[72px] px-4 bg-primary-100 border-b border-black',
 };
 
 export interface NavigationProps {
   isActiveHamburger: boolean;
   menuItems: { name: string; url?: string | undefined }[];
   className?: string;
-  toggleCart: () => void;
-  toggleConsultationPopup: () => void;
-  toggleMenu: (e?: any) => void;
 }
 
 const Navigation = ({ menuItems, className }: NavigationProps) => {

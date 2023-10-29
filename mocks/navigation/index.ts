@@ -13,7 +13,7 @@ export const megaMenuData = [
           url: '',
         },
         {
-          title: 'Über die Heyio',
+          title: 'Über die türex',
           url: '/lorem-page',
         },
       ],
@@ -38,7 +38,7 @@ export const megaMenuData = [
           url: '/about-us',
         },
         {
-          title: 'Unser Partner Blanc & Fischer',
+          title: 'Unser Partner türex',
           url: '/about-us',
         },
         {
@@ -47,7 +47,7 @@ export const megaMenuData = [
         },
         {
           title: 'Karriere',
-          url: 'https://heyio.at',
+          url: 'https://türex.at',
         },
       ],
       [

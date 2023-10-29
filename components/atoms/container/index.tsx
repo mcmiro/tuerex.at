@@ -1,19 +1,19 @@
-import React from "react";
-import clsx from "clsx";
+import React from 'react';
+import clsx from 'clsx';
 
 const classesSchema = {
-	base: "flex gap-10 px-4 lg:px-[136px]",
+  base: 'container mx-auto',
 };
 
 export interface ContainerProps {
-	children: React.ReactNode;
-	className?: string;
+  children: React.ReactNode;
+  className?: string;
 }
 
-const Container = ({children, className}: ContainerProps) => {
-	const containerClasses = clsx([classesSchema.base, className]);
+const Container = ({ children, className }: ContainerProps) => {
+  const containerClasses = clsx([classesSchema.base, className]);
 
-	return <div className={containerClasses}>{children}</div>;
+  return <div className={containerClasses}>{children}</div>;
 };
 
 export default Container;
