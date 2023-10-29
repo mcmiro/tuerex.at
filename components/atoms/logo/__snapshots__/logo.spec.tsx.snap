@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test input component Should pass when name, variant, size and placeholder is additional 1`] = `
+<a
+  class="relative h-[28px] block"
+  href="/"
+>
+  <img
+    alt="logo"
+    data-nimg="1"
+    decoding="async"
+    height="28"
+    loading="lazy"
+    src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+    srcset="/_next/image?url=%2Fimg.jpg&w=96&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+    style="color: transparent;"
+    width="85"
+  />
+</a>
+`;

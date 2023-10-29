@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Movie component Should pass when file props in Movie is defined 1`] = `null`;

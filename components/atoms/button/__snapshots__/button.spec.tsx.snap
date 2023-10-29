@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Button component Should pass when props are added 1`] = `null`;
+
+exports[`Test Button component Should pass when type props and size props is defined 1`] = `null`;

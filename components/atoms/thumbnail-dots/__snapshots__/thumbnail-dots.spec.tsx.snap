@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ThumbnailDots component Should pass when ThumbnailDots is defined 1`] = `null`;

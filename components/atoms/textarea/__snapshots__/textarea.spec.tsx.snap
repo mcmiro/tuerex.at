@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Textarea component Should pass when name, variant, size and placeholder is additional 1`] = `
+<textarea
+  class="w-full py-[10px] px-[16px] text-md outline-none border hover:border-2 focus:border-2 disabled:border"
+  cols="20"
+  id=":r0:"
+  placeholder="test"
+  rows="4"
+/>
+`;

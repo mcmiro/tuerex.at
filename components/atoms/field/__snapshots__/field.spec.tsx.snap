@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Field component Should pass when name, variant, size and placeholder is additional 1`] = `[]`;

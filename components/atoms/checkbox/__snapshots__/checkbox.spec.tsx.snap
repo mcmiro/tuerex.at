@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Checkbox component Should pass when name added 1`] = `
+<input
+  class="form-checkbox w-6 h-6 ring-1 ring-black text-black bg-primary-100 disabled:ring-gray-500 disabled:text-gray-500"
+  id=":r0:"
+  name="test"
+  type="checkbox"
+/>
+`;

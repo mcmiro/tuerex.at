@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Radio component Should pass when name added 1`] = `
+<input
+  class="form-radio w-6 h-6 ring-1 ring-black text-black bg-white disabled:ring-gray-500 disabled:text-gray-500 disabled:event-pointer-none"
+  id=":r0:"
+  name="test"
+  type="radio"
+  value=""
+/>
+`;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Wrapper component Should pass when children on ThumbnailDots is exist 1`] = `null`;

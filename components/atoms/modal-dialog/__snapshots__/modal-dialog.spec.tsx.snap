@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ModalDialog component Should pass when children in ModalDialog is defined 1`] = `null`;
