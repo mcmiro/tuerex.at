@@ -36,6 +36,9 @@ import MobileMenu from './molecules/navigation/mobile-menu';
 
 // Organisms
 import Footer from './organisms/footer';
+import PriceTable from './organisms/price-table';
+import TableContent from './organisms/price-table/table';
+import TableNavigation from './organisms/price-table/table-navigation';
 
 export const UI = {
   AccordionItem,
@@ -76,4 +79,7 @@ export const UI = {
 
   // Organisms
   Footer,
+  PriceTable,
+  TableContent,
+  TableNavigation,
 };

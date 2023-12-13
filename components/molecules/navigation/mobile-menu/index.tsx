@@ -19,7 +19,7 @@ const MobileMenu = ({ onClick }: MobileMenuProps) => {
           onClick();
         }
       }}
-      className="absolute z-30 top-0 left-0 w-full h-full bg-black bg-opacity-40 p-4"
+      className="fixed z-30 top-0 left-0 w-full h-full bg-black bg-opacity-40 p-4"
     >
       <div className="bg-white rounded-2xl w-full">
         <div className="flex justify-end w-full px-4 pt-4">

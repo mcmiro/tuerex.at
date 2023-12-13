@@ -55,7 +55,7 @@ export const classesSchema = {
     text: '',
     outline: 'border-primary-700 text-primary-700 md:hover:bg-primary-50',
     contained:
-      'bg-primary-500 md:hover:bg-primary-600 active:bg-primary-700 text-white',
+      'border border-primary-500 bg-primary-500 md:hover:bg-primary-600 md:hover:border-primary-600 active:bg-primary-700 text-white',
   },
   light: {
     text: 'text-primary-500',

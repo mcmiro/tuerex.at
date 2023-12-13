@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { UI } from 'components';
-import { PhoneIcon, XMarkIcon } from '@heroicons/react/24/solid';
-import { contactData } from 'mocks/contact';
+import { XMarkIcon } from '@heroicons/react/24/solid';
+import { priceData } from 'mocks/price';
 
 export interface PriceTableProps {
   onClick: () => void;
 }
 
 const PriceTable = ({ onClick }: PriceTableProps) => {
+  const [tableFilter, setTableFilter] = useState<string>('');
+
+  useEffect(() => {
+    setTableFilter(priceData[0].title);
+  }, [priceData]);
+
+  const handleFilter = (payload: string) => {
+    console.log('payload', payload);
+    setTableFilter(payload);
+  };
   return (
     <div
       onClick={(e: React.MouseEvent<HTMLDivElement>) => {
@@ -15,28 +25,22 @@ const PriceTable = ({ onClick }: PriceTableProps) => {
           onClick();
         }
       }}
-      className="absolute z-30 top-0 left-0 w-full h-full bg-black bg-opacity-40 p-4"
+      className="fixed z-30 top-0 left-0 w-full h-full bg-[#f5f5f5]"
     >
-      <div className="bg-white rounded-2xl w-full">
+      <div className=" rounded-2xl w-full h-full overflow-auto">
         <div className="flex justify-end w-full px-4 pt-4">
           <XMarkIcon
             onClick={onClick}
             className="h-[36px] text-primary-950 cursor-pointer"
           />
         </div>
-        <div className="w-full">
-          <div className="px-4">
-            <a
-              href={`tel:${contactData.phone}`}
-              className="w-full flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
-            >
-              Jetzt anrufen
-              <PhoneIcon className="w-6 h-6 text-white" />
-            </a>
-            <UI.Typography variant="sm" className="text-center pt-2 pb-8">
-              00-24h erreichbar
-            </UI.Typography>
-          </div>
+        <div className="w-full px-4">
+          <UI.Typography variant="h5" align="center" className="font-bold mt-4">
+            Schlüsseldienst Preise
+          </UI.Typography>
+          {/*() => setTableFilter(button.title)*/}
+          <UI.TableNavigation filter={tableFilter} onClick={handleFilter} />
+          <UI.TableContent query={tableFilter} />
         </div>
       </div>
     </div>

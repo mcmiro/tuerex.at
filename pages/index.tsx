@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import Layout from '../components/layouts';
 import { UI } from '../components';
@@ -8,8 +8,15 @@ import WkoLogo from '../assets/images/wko-logo.svg';
 import { contactData } from 'mocks/contact';
 
 const IndexPage = () => {
+  const [priceTableVisible, setPriceTabelVisible] = useState<boolean>(true);
+
+  const hanldePriceTable = () => {
+    setPriceTabelVisible(!priceTableVisible);
+  };
+
   return (
     <Layout title="Schlüßeldienst und Aufsperdienst Wien | Türex">
+      {priceTableVisible && <UI.PriceTable onClick={hanldePriceTable} />}
       <div className="min-h-screen">
         <UI.Container className="flex flex-col items-center w-full gap-4">
           <UI.Typography
