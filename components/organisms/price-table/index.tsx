@@ -2,7 +2,6 @@ import React from 'react';
 import { UI } from 'components';
 import { PhoneIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import { contactData } from 'mocks/contact';
-import Link from 'next/link';
 
 export interface PriceTableProps {
   onClick: () => void;
