@@ -51,7 +51,6 @@ const TableContent = ({ query }: TableContentProps) => {
           </div>
         );
       })}
-      ;
     </div>
   );
 };
