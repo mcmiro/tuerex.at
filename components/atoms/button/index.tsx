@@ -6,7 +6,7 @@ export type ButtonSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 export type ButtonIconPosition = 'left' | 'right';
 
 export const classesSchema = {
-  base: 'relative z-0 overflow-hidden focus:outline-none transition ease-in-out duration-300 tracking-wide block',
+  base: 'relative overflow-hidden focus:outline-none transition ease-in-out duration-300 tracking-wide block',
   size: {
     xs: 'py-1 px-2 text-xs',
     sm: 'py-2 px-4 text-sm',

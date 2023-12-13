@@ -18,7 +18,7 @@ const MobileMenu = ({ onClick }: MobileMenuProps) => {
           onClick();
         }
       }}
-      className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 p-4"
+      className="absolute z-30 top-0 left-0 w-full h-full bg-black bg-opacity-40 p-4"
     >
       <div className="bg-white rounded-2xl w-full">
         <div className="flex justify-end w-full px-4 pt-4">
@@ -34,7 +34,7 @@ const MobileMenu = ({ onClick }: MobileMenuProps) => {
                 <Link href={item.url}>
                   <UI.Typography
                     variant="md"
-                    className="!text-h6 pt-6 inline-block"
+                    className="!text-h4 pt-6 inline-block font-bold"
                   >
                     {item.title}
                   </UI.Typography>

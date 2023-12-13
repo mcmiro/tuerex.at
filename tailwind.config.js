@@ -75,7 +75,7 @@ module.exports = {
         h4: ['1.5rem', '1.75rem'],
         h3: ['1.75rem', '2rem'],
         h2: ['2rem', '2.25rem'],
-        h1: ['2rem', '2.375rem'],
+        h1: ['2.25rem', '2.5rem'],
       },
       transitionProperty: {
         multiple: 'width, height, backgroundColor, border-radius',
