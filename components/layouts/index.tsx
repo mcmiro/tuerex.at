@@ -1,7 +1,6 @@
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
 import { UI } from 'components';
-import { navigationData } from 'mocks/navigation';
 
 type Props = {
   children?: ReactNode;
@@ -17,7 +16,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <header>
-        <UI.Navigation isActiveHamburger={true} menuItems={navigationData} />
+        <UI.Navigation isActiveHamburger={true} />
       </header>
       <main className="min-h-[80vh]">{children}</main>
       <UI.Footer />
