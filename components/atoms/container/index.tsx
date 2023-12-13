@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 
 const classesSchema = {
-  base: 'container mx-auto',
+  base: 'container mx-auto px-4',
 };
 
 export interface ContainerProps {

@@ -32,6 +32,7 @@ import Wrapper from 'components/atoms/wrapper';
 
 // Molecules
 import Navigation from './molecules/navigation';
+import MobileMenu from './molecules/navigation/mobile-menu';
 
 // Organisms
 import Footer from './organisms/footer';
@@ -71,6 +72,7 @@ export const UI = {
 
   // Molecules
   Navigation,
+  MobileMenu,
 
   // Organisms
   Footer,

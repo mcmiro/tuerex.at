@@ -12,7 +12,7 @@ const Logo = () => {
         src={LogoImage}
         width={LOGO_WIDTH}
         height={LOGO_HEIGHT}
-        alt="logo"
+        alt="türex logo"
       />
     </a>
   );

@@ -6,19 +6,18 @@ export type ButtonSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 export type ButtonIconPosition = 'left' | 'right';
 
 export const classesSchema = {
-  base: 'relative z-0 overflow-hidden font-bold focus:outline-none transition ease-in-out duration-300 inline-flex items-center',
+  base: 'relative z-0 overflow-hidden focus:outline-none transition ease-in-out duration-300 tracking-wide block',
   size: {
-    xs: 'py-1 px-2',
-    sm: 'py-2 px-4',
-    md: 'py-3 px-6',
-    lg: 'py-4 px-8',
-    xl: 'py-5 px-8',
+    xs: 'py-1 px-2 text-xs',
+    sm: 'py-2 px-4 text-sm',
+    md: 'py-3 px-6 text-base',
+    lg: 'py-4 px-8 text-lg',
+    xl: 'py-5 px-10 text-xl',
   },
   variant: {
-    text: 'border-0',
-    outline:
-      'border border-solid border-black bg-white rounded-sm hover:bg-black hover:text-white',
-    contained: 'bg-black hover:bg-ash',
+    text: 'border-0 !px-0',
+    outline: 'border border-solid rounded-lg',
+    contained: 'rounded-lg',
   },
   buttonPaddingIconPosition: {
     left: {
@@ -52,17 +51,30 @@ export const classesSchema = {
       xl: 'right-6',
     },
   },
-  disabled: {
-    text: 'text-gray-500 hover:bg-inherit',
+  default: {
+    text: '',
+    outline: 'border-primary-700 text-primary-700 md:hover:bg-primary-50',
+    contained:
+      'bg-primary-500 md:hover:bg-primary-600 active:bg-primary-700 text-white',
+  },
+  light: {
+    text: 'text-primary-500',
     outline:
-      'text-gray-500 border-gray-500 hover:bg-inherit hover:text-gray-500',
-    contained: 'bg-gray-500 text-white hover:bg-gray-500 hover:text-white',
+      'text-gray-500 border-gray-500 md:hover:bg-inherit md:hover:text-gray-700',
+    contained: 'bg-primary-50 text-primary-500 md:hover:bg-gray-100',
+  },
+  disabled: {
+    text: 'text-gray-500 md:hover:bg-inherit cursor-not-allowed',
+    outline:
+      'text-gray-500 border-gray-500 md:hover:bg-inherit md:hover:text-gray-700 cursor-not-allowed',
+    contained: 'bg-gray-300 text-white cursor-not-allowed',
   },
   error: {
-    text: 'text-error-900 hover:bg-inherit',
+    text: 'text-error-900 md:hover:bg-inherit',
     outline:
-      'text-error-900 border-gray-500 hover:bg-inherit hover:text-error-900',
-    contained: 'bg-error-900 text-white hover:bg-error-900 hover:text-white',
+      'text-error-500 border-error-900 md:hover:bg-primary-50 md:hover:text-error-900',
+    contained:
+      'bg-error-500 text-white md:hover:bg-error-900 md:hover:text-white',
   },
 };
 
@@ -75,6 +87,7 @@ export interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
   icon?: any;
   error?: boolean;
   disabled?: boolean;
+  light?: boolean;
   className?: string;
   style?: any;
   onClick?: (e?: any) => void;
@@ -91,19 +104,23 @@ const Button = ({
   icon,
   error,
   disabled,
+  light,
   className,
   style,
   onClick,
   onMouseOver,
   onMouseLeave,
 }: ButtonProps) => {
+  const defaultClass = !disabled && !error && !light ? true : false;
   const buttonClasses = clsx([
     classesSchema.base,
     variant && classesSchema.variant[variant],
     size && !iconVisible && classesSchema.size[size],
     iconPosition && classesSchema.buttonPaddingIconPosition[iconPosition][size],
+    defaultClass && variant && classesSchema.default[variant],
     disabled && variant && classesSchema.disabled[variant],
     error && variant && classesSchema.error[variant],
+    light && variant && classesSchema.light[variant],
     className,
   ]);
 
