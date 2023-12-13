@@ -1,17 +1,14 @@
 import React from 'react';
-import Link from 'next/link';
 import { UI } from 'components';
-import NavigationItem from 'models/navigation';
-import { navigationData } from 'mocks/navigation';
-import { XMarkIcon } from '@heroicons/react/24/outline';
-import { PhoneIcon } from '@heroicons/react/24/outline';
+import { PhoneIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import { contactData } from 'mocks/contact';
+import Link from 'next/link';
 
-export interface MobileMenuProps {
+export interface PriceTableProps {
   onClick: () => void;
 }
 
-const MobileMenu = ({ onClick }: MobileMenuProps) => {
+const PriceTable = ({ onClick }: PriceTableProps) => {
   return (
     <div
       onClick={(e: React.MouseEvent<HTMLDivElement>) => {
@@ -29,20 +26,6 @@ const MobileMenu = ({ onClick }: MobileMenuProps) => {
           />
         </div>
         <div className="w-full">
-          <ul className="w-full pb-16 px-8">
-            {navigationData.map((item: NavigationItem, index: number) => (
-              <li key={index} className="text-primary-950">
-                <Link href={item.url}>
-                  <UI.Typography
-                    variant="md"
-                    className="!text-h4 pt-6 inline-block font-bold"
-                  >
-                    {item.title}
-                  </UI.Typography>
-                </Link>
-              </li>
-            ))}
-          </ul>
           <div className="px-4">
             <a
               href={`tel:${contactData.phone}`}
@@ -61,4 +44,4 @@ const MobileMenu = ({ onClick }: MobileMenuProps) => {
   );
 };
 
-export default MobileMenu;
+export default PriceTable;
