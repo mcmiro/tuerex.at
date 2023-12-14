@@ -53,7 +53,8 @@ export const classesSchema = {
   },
   default: {
     text: '',
-    outline: 'border-primary-700 text-primary-700 md:hover:bg-primary-50',
+    outline:
+      'border-primary-700 text-primary-700 md:hover:bg-primary-50 bg-white',
     contained:
       'border border-primary-500 bg-primary-500 md:hover:bg-primary-600 md:hover:border-primary-600 active:bg-primary-700 text-white',
   },

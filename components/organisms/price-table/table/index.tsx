@@ -16,7 +16,7 @@ const TableContent = ({ query }: TableContentProps) => {
     <div>
       {filteredTableData.map((table: PriceItem, index: number) => {
         return (
-          <div key={index} className="p-4 bg-white rounded-lg mt-8">
+          <div key={index} className="p-4 bg-white rounded-lg mt-8 shadow-lg">
             <div className="flex gap-2">
               <div className="flex items-start mt-.5">
                 <table.icon className="w-6 text-primary-500" />

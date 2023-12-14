@@ -15,7 +15,6 @@ const PriceTable = ({ onClick }: PriceTableProps) => {
   }, [priceData]);
 
   const handleFilter = (payload: string) => {
-    console.log('payload', payload);
     setTableFilter(payload);
   };
   return (
