@@ -10,15 +10,15 @@ export interface TableNavigationProps {
 
 const TableNavigation = ({ filter, onClick }: TableNavigationProps) => {
   return (
-    <div className="flex mt-8 w-full">
+    <div className="flex mt-8 w-full rounded-lg overflow-hidden border border-primary-500">
       {priceData.map((button: PriceItem, index: number) => {
         return (
           <UI.Button
             key={index}
             variant={button.title === filter ? 'contained' : 'outline'}
             size="sm"
-            className={`font-bold py-4 w-1/3 ${button.className} ${
-              index + 1 < priceData.length && 'border-r-0'
+            className={`font-bold py-4 w-1/3 !rounded-none border-0 ${
+              index === 1 && 'border-x'
             }`}
             onClick={() => onClick(button.title)}
           >

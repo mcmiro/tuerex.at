@@ -38,7 +38,6 @@ const PriceTable = ({ onClick }: PriceTableProps) => {
           <UI.Typography variant="h5" align="center" className="font-bold mt-4">
             Schlüsseldienst Preise
           </UI.Typography>
-          {/*() => setTableFilter(button.title)*/}
           <UI.TableNavigation filter={tableFilter} onClick={handleFilter} />
           <UI.TableContent query={tableFilter} />
         </div>

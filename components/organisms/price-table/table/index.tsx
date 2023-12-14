@@ -25,7 +25,7 @@ const TableContent = ({ query }: TableContentProps) => {
                 <UI.Typography variant="h5" className="font-bold">
                   {table.title}
                 </UI.Typography>
-                <UI.Typography variant="xs" className="leading-5">
+                <UI.Typography variant="xs" className="leading-6">
                   {table.workingHours}
                 </UI.Typography>
               </div>
@@ -48,6 +48,9 @@ const TableContent = ({ query }: TableContentProps) => {
                 </tbody>
               </table>
             </div>
+            <UI.Typography variant="xs" className="text-primary-500 mt-12 mb-4">
+              *Alle Preise verstehen Normalsituation
+            </UI.Typography>
           </div>
         );
       })}

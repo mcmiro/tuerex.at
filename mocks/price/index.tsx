@@ -7,7 +7,6 @@ export const priceData = [
     title: 'Frühdienst',
     workingHours: '05:00 bis 17:00 Uhr',
     addonPrice: 0,
-    className: 'rounded-r-none',
     icon: SunIcon,
     services: [
       {
@@ -24,7 +23,6 @@ export const priceData = [
     title: 'Spätdienst',
     workingHours: '17:00 bis 21:00 Uhr',
     addonPrice: 25,
-    className: 'rounded-none border-x border-primary-500',
     icon: MoonIcon,
     services: [
       {
@@ -37,7 +35,6 @@ export const priceData = [
     title: 'Nachtdienst',
     workingHours: '21:00 bis 05:00 Uhr',
     addonPrice: 45,
-    className: 'rounded-l-none',
     icon: SparklesIcon,
     services: [
       {
