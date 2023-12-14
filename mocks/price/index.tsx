@@ -24,7 +24,7 @@ export const priceData = [
     title: 'Spätdienst',
     workingHours: '17:00 bis 21:00 Uhr',
     addonPrice: 25,
-    className: 'rounded-none !border-x-0',
+    className: 'rounded-none border-x border-primary-500',
     icon: MoonIcon,
     services: [
       {
