@@ -4,7 +4,7 @@ const AvailabilityCheck = () => {
   const [status, setStatus] = useState<number>(0);
   const statusMessages = [
     'Verfügbarkeit prüfen',
-    'Jetzt verfügbar',
+    'Verfügbar',
     'Nicht Verfügbar',
   ];
 

@@ -5,6 +5,7 @@ import Button from 'components/atoms/button';
 import Checkbox from 'components/atoms/checkbox';
 import Container from 'components/atoms/container';
 import Dropdown from 'components/atoms/dropdown';
+import FaqItem from './atoms/faq-item';
 import Field from 'components/atoms/field';
 import Hamburger from 'components/atoms/hamburger';
 import HeroBanner from 'components/atoms/hero-banner';
@@ -32,6 +33,7 @@ import Wrapper from 'components/atoms/wrapper';
 // Molecules
 import Navigation from './molecules/navigation';
 import MobileMenu from './molecules/navigation/mobile-menu';
+import Faq from './molecules/faq';
 
 // Organisms
 import Footer from './organisms/footer';
@@ -47,6 +49,7 @@ export const UI = {
   Checkbox,
   Container,
   Dropdown,
+  FaqItem,
   Field,
   Hamburger,
   HeroBanner,
@@ -74,6 +77,7 @@ export const UI = {
   // Molecules
   Navigation,
   MobileMenu,
+  Faq,
 
   // Organisms
   Footer,

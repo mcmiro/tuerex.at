@@ -4,8 +4,9 @@ import Layout from '../components/layouts';
 import { UI } from '../components';
 import { ArrowRightIcon, PhoneIcon } from '@heroicons/react/24/outline';
 import { CheckIcon } from '@heroicons/react/24/outline';
-import WkoLogo from '../assets/images/wko-logo.svg';
 import { contactData } from 'mocks/contact';
+import faqData from 'mocks/faq';
+import WkoLogo from '../assets/images/wko-logo.svg';
 
 const IndexPage = () => {
   const [priceTableVisible, setPriceTabelVisible] = useState<boolean>(false);
@@ -113,6 +114,9 @@ const IndexPage = () => {
         </div>
       </div>
       {/* Price Section END */}
+      {/* FAQ START */}
+      <UI.Faq items={faqData} />
+      {/* FAQ END */}
     </Layout>
   );
 };
