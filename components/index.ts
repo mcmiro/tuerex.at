@@ -1,3 +1,4 @@
+import AvailabilityCheck from './atoms/availability-check';
 import AccordionItem from './atoms/accordion-item';
 import Badge from 'components/atoms/badge';
 import Button from 'components/atoms/button';
@@ -14,9 +15,7 @@ import MegaMenu from 'components/atoms/mega-menu';
 import MegaMenuItem from 'components/atoms/mega-menu-item';
 import Menu from 'components/atoms/menu';
 import MenuItem from 'components/atoms/menu-item';
-import Modal from 'components/atoms/modal';
 import ModalDialog from 'components/atoms/modal-dialog';
-import ModalOverlay from 'components/atoms/modal-overlay';
 import Radio from 'components/atoms/radio';
 import Select from 'components/atoms/select';
 import Step from 'components/atoms/step';
@@ -41,6 +40,7 @@ import TableContent from './organisms/price-table/table';
 import TableNavigation from './organisms/price-table/table-navigation';
 
 export const UI = {
+  AvailabilityCheck,
   AccordionItem,
   Badge,
   Button,
@@ -57,9 +57,7 @@ export const UI = {
   MegaMenuItem,
   Menu,
   MenuItem,
-  Modal,
   ModalDialog,
-  ModalOverlay,
   Radio,
   Select,
   Step,

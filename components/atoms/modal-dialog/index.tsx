@@ -1,9 +1,9 @@
 import React from 'react';
 import clsx from 'clsx';
+import { XMarkIcon } from '@heroicons/react/24/solid';
 
 const classesSchema = {
-  base: 'relative flex flex-col w-full cursor-pointer',
-  center: 'justify-center items-center mx-auto',
+  base: 'fixed z-30 top-0 left-0 w-full h-full bg-[#f5f5f5]',
 };
 
 export interface ModalDialogProps {
@@ -13,21 +13,27 @@ export interface ModalDialogProps {
   onClick?: (e?: any) => void;
 }
 
-const ModalDialog = ({
-  children,
-  className,
-  center,
-  onClick,
-}: ModalDialogProps) => {
-  const modalDialogClasses = clsx([
-    classesSchema.base,
-    center && classesSchema.center,
-    className,
-  ]);
+const ModalDialog = ({ children, className, onClick }: ModalDialogProps) => {
+  const modalDialogClasses = clsx([classesSchema.base, className]);
 
   return (
-    <div onClick={onClick} className={modalDialogClasses}>
-      {children}
+    <div
+      onClick={(e: React.MouseEvent<HTMLDivElement>) => {
+        if (e.target === e.currentTarget) {
+          onClick;
+        }
+      }}
+      className={modalDialogClasses}
+    >
+      <div className=" rounded-2xl w-full h-full overflow-auto">
+        <div className="flex justify-end w-full px-4 pt-4">
+          <XMarkIcon
+            onClick={onClick}
+            className="h-[36px] text-primary-950 cursor-pointer"
+          />
+        </div>
+        <div className="w-full px-4">{children}</div>
+      </div>
     </div>
   );
 };

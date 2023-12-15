@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import Layout from '../components/layouts';
 import { UI } from '../components';
@@ -6,7 +6,6 @@ import { ArrowRightIcon, PhoneIcon } from '@heroicons/react/24/outline';
 import { CheckIcon } from '@heroicons/react/24/outline';
 import WkoLogo from '../assets/images/wko-logo.svg';
 import { contactData } from 'mocks/contact';
-import { priceData } from 'mocks/price';
 
 const IndexPage = () => {
   const [priceTableVisible, setPriceTabelVisible] = useState<boolean>(false);
@@ -15,31 +14,28 @@ const IndexPage = () => {
     setPriceTabelVisible(false);
   };
 
-  const [tableFilter, setTableFilter] = useState<string>('');
-
-  useEffect(() => {
-    setTableFilter(priceData[0].title);
-  }, [priceData]);
-
-  const handleFilter = (payload: string) => {
-    setTableFilter(payload);
-  };
-
   return (
     <Layout title="Schlüßeldienst und Aufsperdienst Wien | Türex">
-      {priceTableVisible && <UI.PriceTable onClick={hanldeClosePriceTable} />}
+      {/* Modal Price START */}
+      {priceTableVisible && (
+        <UI.ModalDialog onClick={hanldeClosePriceTable}>
+          <UI.Typography variant="h5" align="center" className="font-bold mt-4">
+            Schlüsseldienst Preise
+          </UI.Typography>
+          <UI.PriceTable />
+        </UI.ModalDialog>
+      )}
+      {/* Modal Price END */}
+      {/* Hero Section START */}
       <div className="min-h-screen">
-        <UI.Container className="flex flex-col items-center w-full gap-4">
+        <UI.Container className="flex flex-col items-center w-full gap-4 pb-8">
           <UI.Typography
             variant="xs"
             className="text-center pt-[56px] text-gray-800"
           >
             Keine versteckten Kosten
           </UI.Typography>
-          <div className="flex gap-2 items-center">
-            <div className="w-3 h-3 rounded-full bg-green-400"></div>
-            <p className="text-green-400 text-sm">Jetzt verfügbar</p>
-          </div>
+          <UI.AvailabilityCheck />
           <UI.Button
             variant="contained"
             size="sm"
@@ -59,22 +55,12 @@ const IndexPage = () => {
             <span className="text-primary-500">mit Fixpreisen</span>
           </UI.Typography>
           <ul className="flex items-center justify-between pt-12 w-full">
-            <li>
-              <UI.Typography
-                variant="md"
-                className="flex items-center gap-1 !text-[18px] font-['Lexend'] text-gray-800"
-              >
-                <CheckIcon className="w-5" />
-                24h/365 Tage
-              </UI.Typography>
+            <li className="flex items-center gap-1 text-[18px] md:text-[22px] font-['Lexend'] text-gray-800">
+              <CheckIcon className="w-5" />
+              24h/365 Tage
             </li>
-            <li>
-              <UI.Typography
-                variant="md"
-                className="flex items-center gap-1 !text-[18px] font-['Lexend'] text-gray-800"
-              >
-                <CheckIcon className="w-5" /> Behördlich befähigt
-              </UI.Typography>
+            <li className="flex items-center gap-1 text-[18px] md:text-[22px] font-['Lexend'] text-gray-800">
+              <CheckIcon className="w-5" /> Behördlich befähigt
             </li>
           </ul>
           <div className="w-full pt-12">
@@ -100,7 +86,8 @@ const IndexPage = () => {
           </UI.Typography>
         </UI.Container>
       </div>
-      {/* Price Table START */}
+      {/* Hero Section START */}
+      {/* Price Section START */}
       <div className="w-full px-4 bg-[#f5f5f5] pt-16 pb-8">
         <UI.Typography variant="h2" align="center" className="font-bold mt-4">
           Schlüsseldienst<br></br>
@@ -111,10 +98,7 @@ const IndexPage = () => {
           unserer Preise. Sowohl für den Notdienst, als auch für den
           Normaldienst.
         </UI.Typography>
-        <UI.TableNavigation filter={tableFilter} onClick={handleFilter} />
-        <div>
-          <UI.TableContent query={tableFilter} />
-        </div>
+        <UI.PriceTable />
         <div className="w-full pt-12">
           <a
             href={`tel:${contactData.phone}`}
@@ -128,7 +112,7 @@ const IndexPage = () => {
           </UI.Typography>
         </div>
       </div>
-      {/* Price Table END */}
+      {/* Price Section END */}
     </Layout>
   );
 };
