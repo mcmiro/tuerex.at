@@ -18,7 +18,7 @@ const TableNavigation = ({ filter, onClick }: TableNavigationProps) => {
             variant={button.title === filter ? 'contained' : 'outline'}
             size="sm"
             className={`font-bold py-4 w-1/3 !rounded-none border-0 text-primary-950 ${
-              index === 1 && 'border-x'
+              index + 1 < priceData.length && 'border-r'
             }`}
             onClick={() => onClick(button.title)}
           >

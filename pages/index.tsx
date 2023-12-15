@@ -36,6 +36,10 @@ const IndexPage = () => {
           >
             Keine versteckten Kosten
           </UI.Typography>
+          <div className="flex gap-2 items-center">
+            <div className="w-3 h-3 rounded-full bg-green-400"></div>
+            <p className="text-green-400 text-sm">Jetzt verfügbar</p>
+          </div>
           <UI.Button
             variant="contained"
             size="sm"
