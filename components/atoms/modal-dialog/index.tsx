@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { XMarkIcon } from '@heroicons/react/24/solid';
 
 const classesSchema = {
-  base: 'fixed z-30 top-0 left-0 w-full h-full bg-[#f5f5f5]',
+  base: 'fixed z-30 top-0 left-0 w-full h-screen h-screen-webkit bg-[#f5f5f5]',
 };
 
 export interface ModalDialogProps {
@@ -25,7 +25,7 @@ const ModalDialog = ({ children, className, onClick }: ModalDialogProps) => {
       }}
       className={modalDialogClasses}
     >
-      <div className=" rounded-2xl w-full h-full overflow-auto">
+      <div className="rounded-2xl w-full h-full overflow-auto">
         <div className="flex justify-end w-full px-4 pt-4">
           <XMarkIcon
             onClick={onClick}

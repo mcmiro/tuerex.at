@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { UI } from 'components';
 
 const classesSchema = {
-  base: 'bg-primary-100',
+  base: 'bg-primary-100 pt-[56px]',
   content: 'px-4',
   title: 'pt-[32px]',
 };
@@ -14,15 +14,9 @@ const Footer = () => {
   return (
     <footer className={classesSchema.base}>
       <div className={classesSchema.content}>
-        <UI.Typography
-          variant="h4"
-          className={classesSchema.title}
-          weight="extraThin"
-        >
-          Reusing the ressources
-        </UI.Typography>
+        <UI.Logo />
         <UI.Typography variant="md" className="py-[32px]">
-          © türex {copyrightDate} <Link href="/data-privacy">Datenschutz</Link>
+          © türex {copyrightDate} <Link href="/datenschutz">Datenschutz</Link>
         </UI.Typography>
       </div>
     </footer>

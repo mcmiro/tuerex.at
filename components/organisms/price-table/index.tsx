@@ -11,9 +11,9 @@ const PriceTable = () => {
 
     if (hour >= 5 && hour < 17) {
       setTableFilter(priceData[0].title);
-    } else if (hour >= 17 && hour < 22) {
+    } else if (hour >= 17 && hour < 21) {
       setTableFilter(priceData[1].title);
-    } else if (hour >= 22 && hour < 5) {
+    } else if ((hour >= 0 && hour < 5) || hour >= 21) {
       setTableFilter(priceData[2].title);
     } else {
       setTableFilter(priceData[0].title);
@@ -28,6 +28,7 @@ const PriceTable = () => {
     <div>
       <UI.TableNavigation filter={tableFilter} onClick={handleFilter} />
       <UI.TableContent query={tableFilter} />
+      <UI.Call />
     </div>
   );
 };

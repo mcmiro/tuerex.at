@@ -1,4 +1,3 @@
-import AvailabilityCheck from './atoms/availability-check';
 import AccordionItem from './atoms/accordion-item';
 import Badge from 'components/atoms/badge';
 import Button from 'components/atoms/button';
@@ -9,6 +8,7 @@ import FaqItem from './atoms/faq-item';
 import Field from 'components/atoms/field';
 import Hamburger from 'components/atoms/hamburger';
 import HeroBanner from 'components/atoms/hero-banner';
+import Icon from './atoms/icon';
 import Input from 'components/atoms/input';
 import Label from 'components/atoms/label';
 import Logo from 'components/atoms/logo';
@@ -31,9 +31,12 @@ import Typography from 'components/atoms/typography';
 import Wrapper from 'components/atoms/wrapper';
 
 // Molecules
-import Navigation from './molecules/navigation';
-import MobileMenu from './molecules/navigation/mobile-menu';
+import AvailabilityCheck from './molecules/availability-check';
+import Call from './molecules/call';
 import Faq from './molecules/faq';
+import MobileMenu from './molecules/navigation/mobile-menu';
+import Navigation from './molecules/navigation';
+import Payment from './molecules/payment';
 
 // Organisms
 import Footer from './organisms/footer';
@@ -42,10 +45,10 @@ import TableContent from './organisms/price-table/table';
 import TableNavigation from './organisms/price-table/table-navigation';
 
 export const UI = {
-  AvailabilityCheck,
   AccordionItem,
   Badge,
   Button,
+  Call,
   Checkbox,
   Container,
   Dropdown,
@@ -53,6 +56,7 @@ export const UI = {
   Field,
   Hamburger,
   HeroBanner,
+  Icon,
   Input,
   Label,
   Logo,
@@ -75,9 +79,11 @@ export const UI = {
   Wrapper,
 
   // Molecules
-  Navigation,
-  MobileMenu,
+  AvailabilityCheck,
   Faq,
+  MobileMenu,
+  Navigation,
+  Payment,
 
   // Organisms
   Footer,

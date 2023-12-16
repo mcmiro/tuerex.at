@@ -36,7 +36,7 @@ const FaqItem = ({
       <div
         className={`flex flex-col justify-between items-center text-[24px] transition-top-right relative py-2`}
       >
-        <div className="flex justify-between w-full text-[20px] font-bold py-4">
+        <div className="flex justify-between w-full text-[18px] font-bold py-4">
           {title}
           <PlusIcon
             className={`w-6 h-6 shrink-0 transition-all ease-in-out duration-300 ${

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test icon component Should pass when icon is greater false 1`] = `null`;
+
+exports[`Test icon component Should pass when icon is greater true 1`] = `null`;
+
+exports[`Test icon component Should pass when icon is true 1`] = `null`;

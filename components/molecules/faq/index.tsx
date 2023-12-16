@@ -14,7 +14,6 @@ const Faq = ({ items }: FaqProps) => {
   const [faqIsActive, setFaqIsActive] = useState(-1);
 
   const toggleFaq = (payload: number) => {
-    console.log('payload', payload);
     if (payload === faqIsActive) {
       setFaqIsActive(-1);
     } else {

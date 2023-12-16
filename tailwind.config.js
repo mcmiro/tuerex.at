@@ -77,6 +77,9 @@ module.exports = {
         h2: ['2rem', '2.25rem'],
         h1: ['2.25rem', '2.5rem'],
       },
+      height: {
+        'screen-webkit': 'webkit-fill-available',
+      },
       transitionProperty: {
         multiple: 'width, height, backgroundColor, border-radius',
       },
