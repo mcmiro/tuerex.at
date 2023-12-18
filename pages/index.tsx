@@ -126,7 +126,7 @@ const IndexPage = () => {
           <UI.Icon icon={KeyIcon} />
           <UI.Typography
             variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8 !leading-8"
+            className="text-black mt-4 !text-h4 !leading-8"
           >
             Schadfreie Türöffnung
           </UI.Typography>
@@ -141,7 +141,7 @@ const IndexPage = () => {
       </UI.Container>
       {/* Content Section END */}
       {/* Payment Section START */}
-      <UI.Container className="bg-primary-950 py-[56px]">
+      <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
         <UI.Typography
           variant="h2"
           align="center"
@@ -218,7 +218,7 @@ const IndexPage = () => {
       </UI.Container>
       {/* Content Section END */}
       {/* Call Section START */}
-      <UI.Container className="bg-primary-950 py-[56px]">
+      <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
         <UI.Typography
           variant="h2"
           align="center"
@@ -238,17 +238,19 @@ const IndexPage = () => {
       </UI.Container>
       {/* Call Section END */}
       {/* Price Section START */}
-      <div className="w-full px-4 bg-[#f5f5f5] pt-16 pb-8">
-        <UI.Typography variant="h2" align="center" className="font-bold mt-4">
-          Schlüsseldienst<br></br>
-          <span className="text-primary-500">Preise und Kosten</span>.
-        </UI.Typography>
-        <UI.Typography variant="lg" align="center" className="mt-8">
-          Transparent und ohne versteckte Kosten. Hier findest du die Auflistung
-          unserer Preise. Sowohl für den Notdienst, als auch für den
-          Normaldienst.
-        </UI.Typography>
-        <UI.PriceTable />
+      <div className="bg-[#f5f5f5] pt-16 pb-8">
+        <UI.Container>
+          <UI.Typography variant="h2" align="center" className="font-bold mt-4">
+            Schlüsseldienst<br></br>
+            <span className="text-primary-500">Preise und Kosten</span>.
+          </UI.Typography>
+          <UI.Typography variant="lg" align="center" className="mt-8">
+            Transparent und ohne versteckte Kosten. Hier findest du die
+            Auflistung unserer Preise. Sowohl für den Notdienst, als auch für
+            den Normaldienst.
+          </UI.Typography>
+          <UI.PriceTable />
+        </UI.Container>
       </div>
       {/* Price Section END */}
       {/* Content Section START */}
@@ -342,7 +344,7 @@ const IndexPage = () => {
       </UI.Container>
       {/* Content Section END */}
       {/* FAQ START */}
-      <UI.Container>
+      <UI.Container className="pb-16">
         <UI.Typography variant="h2" className="font-bold mt-[168px] mb-8">
           Häufig gestellte Fragen
         </UI.Typography>
@@ -350,7 +352,7 @@ const IndexPage = () => {
       </UI.Container>
       {/* FAQ END */}
       {/* Call Section START */}
-      <UI.Container className="bg-primary-950 py-[56px]">
+      <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
         <UI.Typography
           variant="h2"
           align="center"

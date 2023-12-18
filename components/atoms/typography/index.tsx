@@ -38,10 +38,10 @@ const variantComponentMapping = {
 const classesSchema = {
   base: 'm-0 p-0 whitespace-pre-line',
   variant: {
-    xs: 'text-xs',
-    sm: 'text-sm',
-    md: 'text-md',
-    lg: 'text-lg',
+    xs: 'text-xs leading-6',
+    sm: 'text-sm leading-6',
+    md: 'text-md leading-6',
+    lg: 'text-lg leading-6',
     h1: 'text-h1 tracking-tighter font-[Lexend]',
     h2: 'text-h2 tracking-tighter font-[Lexend]',
     h3: 'text-h3 tracking-tighter font-[Lexend]',

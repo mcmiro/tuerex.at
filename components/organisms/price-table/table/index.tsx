@@ -42,7 +42,7 @@ const TableContent = ({ query }: TableContentProps) => {
                       className="border-b border-[#E2E8F0] h-[56px] text-lg"
                     >
                       <td>{el.service}</td>
-                      <td>{el.price}€</td>
+                      <td className="text-right">{el.price}€</td>
                     </tr>
                   ))}
                 </tbody>

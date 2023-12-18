@@ -1,17 +1,23 @@
 import React from 'react';
 import clsx from 'clsx';
 
+type WidthMode = 'full' | 'contained';
+
 const classesSchema = {
-  base: 'container mx-auto px-4',
+  base: 'mx-auto px-4',
+  full: 'w-full',
+  contained: 'container',
 };
 
 export interface ContainerProps {
+  widthMode?: WidthMode;
   children: React.ReactNode;
   className?: string;
 }
 
-const Container = ({ children, className }: ContainerProps) => {
-  const containerClasses = clsx([classesSchema.base, className]);
+const Container = ({ widthMode, children, className }: ContainerProps) => {
+  const widthProp = widthMode ? classesSchema[widthMode] : 'container';
+  const containerClasses = clsx([classesSchema.base, widthProp, className]);
 
   return <div className={containerClasses}>{children}</div>;
 };
