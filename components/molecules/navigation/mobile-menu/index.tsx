@@ -2,10 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import { UI } from 'components';
 import NavigationItem from 'models/navigation';
-import { navigationData } from 'mocks/navigation';
+import { navigationData } from 'content/navigation';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import { PhoneIcon } from '@heroicons/react/24/outline';
-import { contactData } from 'mocks/contact';
+import { contactData } from 'content/contact';
 
 export interface MobileMenuProps {
   onClick: () => void;

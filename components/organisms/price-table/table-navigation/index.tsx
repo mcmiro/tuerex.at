@@ -1,6 +1,6 @@
 import React from 'react';
 import { UI } from 'components';
-import { priceData } from 'mocks/price';
+import { priceData } from 'content/price';
 import PriceItem from 'models/prices';
 
 export interface TableNavigationProps {

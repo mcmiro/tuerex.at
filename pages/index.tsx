@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Layout from '../components/layouts';
 import { UI } from '../components';
-import faqData from 'mocks/faq';
+import faqData from 'content/faq';
 import WkoLogo from '../assets/images/wko-logo.svg';
 import {
   ArrowRightIcon,
@@ -36,7 +36,7 @@ const IndexPage = () => {
       )}
       {/* Modal Price END */}
       {/* Hero Section START */}
-      <div className="min-h-screen">
+      <header className="min-h-screen">
         <UI.Container className="flex flex-col items-center w-full gap-4 pb-8">
           <div className="pt-[56px] pb-4">
             <UI.AvailabilityCheck />
@@ -82,7 +82,7 @@ const IndexPage = () => {
             Mitglied der Wirtschaftskammer Wien
           </UI.Typography>
         </UI.Container>
-      </div>
+      </header>
       {/* Hero Section START */}
       {/* Content Section START */}
       <UI.Container>

@@ -31,12 +31,12 @@ const FaqItem = ({
   return (
     <div
       onClick={(e) => handleElementHeight(e)}
-      className={`cursor-pointer tracking-wider relative transition-all ease-in-out duration-300 px-4 border-t border-[#E2E8F0]`}
+      className={`cursor-pointer relative transition-all ease-in-out duration-300 px-4 border-t border-[#E2E8F0]`}
     >
       <div
         className={`flex flex-col justify-between items-center text-[24px] transition-top-right relative py-2`}
       >
-        <div className="flex justify-between w-full text-[18px] font-bold py-4">
+        <div className="flex justify-between w-full text-[18px] font-bold py-4 tracking-wide">
           {title}
           <PlusIcon
             className={`w-6 h-6 shrink-0 transition-all ease-in-out duration-300 ${

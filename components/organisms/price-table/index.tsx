@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { UI } from 'components';
-import { priceData } from 'mocks/price';
+import { priceData } from 'content/price';
 
 const PriceTable = () => {
   const [tableFilter, setTableFilter] = useState<string>('');

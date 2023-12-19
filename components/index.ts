@@ -32,8 +32,10 @@ import Wrapper from 'components/atoms/wrapper';
 
 // Molecules
 import AvailabilityCheck from './molecules/availability-check';
+import Breadcrumbs from './molecules/breadcrumbs';
 import Call from './molecules/call';
 import Faq from './molecules/faq';
+import HeaderSub from './molecules/header-sub';
 import MobileMenu from './molecules/navigation/mobile-menu';
 import Navigation from './molecules/navigation';
 import Payment from './molecules/payment';
@@ -80,7 +82,9 @@ export const UI = {
 
   // Molecules
   AvailabilityCheck,
+  Breadcrumbs,
   Faq,
+  HeaderSub,
   MobileMenu,
   Navigation,
   Payment,

@@ -1,5 +1,6 @@
 interface ServiceItemProps {
   service: string;
+  description: string;
   price: number;
 }
 

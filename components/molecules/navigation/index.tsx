@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { UI } from 'components';
 import { Bars2Icon } from '@heroicons/react/24/solid';
 import { PhoneIcon } from '@heroicons/react/24/outline';
-import { contactData } from 'mocks/contact';
+import { contactData } from 'content/contact';
 
 const classesSchema = {
   base: 'flex justify-between items-center h-[72px] px-4 bg-white border-b border-[#E2E8F0]',

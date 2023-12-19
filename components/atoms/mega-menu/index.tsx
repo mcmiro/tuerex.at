@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import { megaMenuData } from '../../../mocks/navigation';
+import { megaMenuData } from '../../../content/navigation';
 import MegaMenuItem from '../mega-menu-item';
 
 const classesSchema = {

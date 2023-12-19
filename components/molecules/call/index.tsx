@@ -1,7 +1,7 @@
 import React from 'react';
 import { UI } from 'components';
 import { PhoneIcon } from '@heroicons/react/24/outline';
-import { contactData } from 'mocks/contact';
+import { contactData } from 'content/contact';
 import clsx from 'clsx';
 
 type CallMode = 'dark' | 'light';
