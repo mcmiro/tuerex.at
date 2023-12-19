@@ -32,7 +32,7 @@ const AvailabilityCheck = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          text: 'Your message goes here',
+          text: 'User is visiting the page',
         }),
       });
       const result = await response.json();
