@@ -7,11 +7,13 @@ export interface HeaderSubProps {
 
 const HeaderSub = ({ title }: HeaderSubProps) => {
   return (
-    <UI.Container widthMode="full" className="bg-primary-500 py-20">
-      <UI.Typography variant="h1" weight="bold" className="text-white">
-        {title}
-      </UI.Typography>
-    </UI.Container>
+    <div className="bg-primary-500">
+      <UI.Container className="py-20">
+        <UI.Typography variant="h1" weight="bold" className="text-white">
+          {title}
+        </UI.Typography>
+      </UI.Container>
+    </div>
   );
 };
 

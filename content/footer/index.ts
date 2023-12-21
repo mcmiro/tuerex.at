@@ -1,100 +1,82 @@
-import Instagram from 'assets/icons/instagram.svg';
-import Facebook from 'assets/icons/facebook.svg';
-import Pinterest from 'assets/icons/pinterest.svg';
-
+import { contactData } from 'content/contact';
 export const footerData = [
   {
-    title: 'UNSERE PRODUKTE',
+    title: 'Schlüsseldienst',
     menu: [
       {
-        name: 'Lorem',
-        link: '/lorem-page',
+        title: 'Notdienst anrufen (00-24h)',
+        url: `tel:${contactData.phone}`,
         image: null,
       },
       {
-        name: 'Limo',
-        link: '/limo-page',
+        title: 'Kosten und Preise',
+        url: '/#prices',
+        image: null,
+      },
+      {
+        title: 'Zahlungsoptionen',
+        url: '/#payment',
         image: null,
       },
     ],
   },
   {
-    title: 'INFO',
+    title: 'Support & Help Center',
     menu: [
       {
-        name: 'Kontakt',
-        link: '/contact',
+        title: 'Informationen über Abwicklung',
+        url: '/abwicklung',
         image: null,
       },
       {
-        name: 'Über uns',
-        link: '/about-us',
+        title: 'Häufig gestellte Fragen',
+        url: '/faq',
         image: null,
       },
       {
-        name: 'Showroom',
-        link: '/showroom',
-        image: null,
-      },
-      {
-        name: 'Karriere',
-        link: 'https://türex.at',
-        image: null,
-      },
-      {
-        name: 'FAQ',
-        link: '/faq',
-        image: null,
-      },
-      {
-        name: 'AGB',
-        link: '/terms-and-conditions',
-        image: null,
-      },
-      {
-        name: 'Widerruf',
-        link: '/cancellation-policy',
-        image: null,
-      },
-      {
-        name: 'Lieferung',
-        link: '/shipping-conditions',
-        image: null,
-      },
-      {
-        name: 'Impressum',
-        link: '/impressum',
-        image: null,
-      },
-      {
-        name: 'Cookies',
-        link: '/',
+        title: 'Rechtsverbindliche Erklärung (PDF)',
+        url: '/echtsverbindliche-erklaerung.pdf',
         image: null,
       },
     ],
   },
   {
-    title: 'SOCIAL MEDIA',
+    title: 'Türex',
     menu: [
       {
-        name: 'instagram',
-        link: 'https://www.instagram.com',
-        image: Instagram,
+        title: 'Alle Leistungen von Türex',
+        url: '/leistungen',
+        image: null,
       },
       {
-        name: 'facebook',
-        link: 'https://www.facebook.com',
-        image: Facebook,
+        title: 'Seriöser Schlüsseldienst',
+        url: '/serioeser-schluesseldienst',
+        image: null,
       },
       {
-        name: 'pinterest',
-        link: 'https://www.pinterest.de',
-        image: Pinterest,
+        title: 'Kontakt',
+        url: '/impressum',
+        image: null,
+      },
+    ],
+  },
+  {
+    title: 'Rechtliches',
+    menu: [
+      {
+        title: 'Datenschutzerklärung',
+        url: '/datenschutz',
+        image: null,
       },
       {
-        name: 'additional',
-        link: '',
-        image: '',
+        title: 'Allgemeine Geschäftsbedingungen',
+        url: '/agb',
+        image: null,
+      },
+      {
+        title: 'Impressum',
+        url: '/impressum',
+        image: null,
       },
     ],
   },

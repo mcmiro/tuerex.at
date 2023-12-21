@@ -1,9 +1,10 @@
 import React from 'react';
-import Link from 'next/link';
 import { UI } from 'components';
+import FooterColumn from './column';
+import { footerData } from 'content/footer';
 
 const classesSchema = {
-  base: 'bg-primary-100 pt-[56px]',
+  base: 'pt-[56px]',
   content: 'px-4',
   title: 'pt-[32px]',
 };
@@ -13,11 +14,31 @@ const Footer = () => {
 
   return (
     <footer className={classesSchema.base}>
-      <div className={classesSchema.content}>
+      <UI.Container className={classesSchema.content}>
         <UI.Logo />
-        <UI.Typography variant="md" className="py-[32px]">
-          © türex {copyrightDate} <Link href="/datenschutz">Datenschutz</Link>
-        </UI.Typography>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12">
+          {footerData.map((group: any, index: number) => {
+            return (
+              <div key={index} className="pb-8">
+                <UI.Typography
+                  variant="md"
+                  weight="semibold"
+                  className="!text-[20px] font-[lexend]"
+                >
+                  {group.title}
+                </UI.Typography>
+                <FooterColumn items={group.menu} />
+              </div>
+            );
+          })}
+        </div>
+      </UI.Container>
+      <div className="bg-primary-950 w-full">
+        <UI.Container>
+          <UI.Typography variant="md" className="py-[16px] text-white">
+            © Copyright© {copyrightDate} Türex. Alle Rechte vorbehalten.
+          </UI.Typography>
+        </UI.Container>
       </div>
     </footer>
   );

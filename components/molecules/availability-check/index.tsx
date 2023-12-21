@@ -56,10 +56,13 @@ const AvailabilityCheck = () => {
     const handleStatus = async (): Promise<void> => {
       setTimeout(() => {
         setStatus(availabilityData[2]);
-      }, 2000);
+      }, 1000);
     };
-
-    handleStatus();
+    if (!slackValue) {
+      handleStatus();
+    } else {
+      setStatus(availabilityData[2]);
+    }
   }, []);
 
   useEffect(() => {
@@ -67,6 +70,10 @@ const AvailabilityCheck = () => {
       sendMessageToSlack();
     }
   }, [status]);
+
+  useEffect(() => {
+    console.log('env', process.env.NEXT_PUBLIC_SLACK_URL);
+  }, []);
 
   return (
     <div>

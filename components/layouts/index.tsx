@@ -14,6 +14,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => {
         <title>{title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </Head>
       <header>
         <UI.Navigation isActiveHamburger={true} />

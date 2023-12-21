@@ -141,24 +141,26 @@ const IndexPage = () => {
       </UI.Container>
       {/* Content Section END */}
       {/* Payment Section START */}
-      <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
-        <UI.Typography
-          variant="h2"
-          align="center"
-          className="text-white font-bold"
-        >
-          Entscheide selbst, wie du gerne bezahlst.
-        </UI.Typography>
-        <UI.Typography
-          variant="lg"
-          align="center"
-          className="!text-h5 mt-8 text-white"
-        >
-          Bequem & direkt vor Ort.
-        </UI.Typography>
-        <UI.Payment />
-        <UI.Call mode="dark" />
-      </UI.Container>
+      <div id="payment">
+        <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
+          <UI.Typography
+            variant="h2"
+            align="center"
+            className="text-white font-bold"
+          >
+            Entscheide selbst, wie du gerne bezahlst.
+          </UI.Typography>
+          <UI.Typography
+            variant="lg"
+            align="center"
+            className="!text-h5 mt-8 text-white"
+          >
+            Bequem & direkt vor Ort.
+          </UI.Typography>
+          <UI.Payment />
+          <UI.Call mode="dark" />
+        </UI.Container>
+      </div>
       {/* Payment Section END */}
       {/* Content Section START */}
       <UI.Container>
@@ -238,7 +240,7 @@ const IndexPage = () => {
       </UI.Container>
       {/* Call Section END */}
       {/* Price Section START */}
-      <div className="bg-[#f5f5f5] pt-16 pb-8">
+      <div className="bg-[#f5f5f5] pt-16 pb-8" id="prices">
         <UI.Container>
           <UI.Typography variant="h2" align="center" className="font-bold mt-4">
             Schlüsseldienst<br></br>
@@ -312,7 +314,12 @@ const IndexPage = () => {
             Der Ausweis dient nur zur Überprüfung deiner Person. Diesen zeigst
             du einfach unserem Kollegen vor Ort. <br></br>
             <br></br>Zusätzlich wirst du von uns eine{' '}
-            <a href="#" className="underline text-primary-500">
+            <a
+              href="/echtsverbindliche-erklaerung.pdf"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline text-primary-500"
+            >
               rechtsverbindliche Erklärung
             </a>{' '}
             unterzeichnen.

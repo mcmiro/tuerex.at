@@ -1,6 +1,5 @@
 import React from 'react';
 import clsx from 'clsx';
-import { megaMenuData } from '../../../content/navigation';
 import MegaMenuItem from '../mega-menu-item';
 
 const classesSchema = {
@@ -8,15 +7,26 @@ const classesSchema = {
   visible: 'visible',
 };
 
+interface ItemProps {
+  title: string;
+  url: string;
+}
+
+interface MenuItemProps {
+  title: string;
+  menu: [ItemProps[]];
+}
+
 export interface MegaMenuProps {
+  menuData: MenuItemProps[];
   selectedName?: string;
   className?: string;
 }
 
-const MegaMenu = ({ selectedName, className }: MegaMenuProps) => {
+const MegaMenu = ({ menuData, selectedName, className }: MegaMenuProps) => {
   const megaMenuClasses = clsx([classesSchema.base, className]);
 
-  const megaMenuColumns = megaMenuData.map((items) => {
+  const megaMenuColumns = menuData.map((items) => {
     if (selectedName !== items.title) return null;
 
     return items.menu.map((menus, index) => {
@@ -27,7 +37,7 @@ const MegaMenu = ({ selectedName, className }: MegaMenuProps) => {
             index !== 0 ? 'lg:w-7/12' : 'lg:w-5/12'
           }`}
         >
-          {menus.map((map, index) => {
+          {menus.map((map, index: number) => {
             return (
               <div key={index} className="pb-[16px]">
                 <MegaMenuItem link={map} title={index === 0 && true} />

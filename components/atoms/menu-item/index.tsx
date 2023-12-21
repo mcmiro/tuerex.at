@@ -1,26 +1,23 @@
-import React from "react";
-import clsx from "clsx";
-import Button from "../button";
+import React from 'react';
+import clsx from 'clsx';
+import Link from 'next/link';
 
 const classesSchema = {
-	base: "text-md list-none hover:underline hover:decoration-3 hover:underline-offset-8",
+  base: 'text-h6 font-bold list-none hover:underline hover:decoration-3 hover:underline-offset-8',
 };
 
 export interface MenuItemProps {
-	item: {name: string; url?: string | undefined};
-	className?: string;
-	onHover: (e?: any) => void;
+  item: { title: string; url: string };
+  className?: string;
 }
 
-const MenuItem = ({item, className, onHover}: MenuItemProps) => {
-	const menuItemClasses = clsx([classesSchema.base, className]);
-	return (
-		<li className={menuItemClasses}>
-			<Button variant="text" className="font-normal" onMouseOver={() => onHover(item.name)}>
-				{item.name}
-			</Button>
-		</li>
-	);
+const MenuItem = ({ item, className }: MenuItemProps) => {
+  const menuItemClasses = clsx([classesSchema.base, className]);
+  return (
+    <li className={menuItemClasses}>
+      <Link href={item.url}>{item.title}</Link>
+    </li>
+  );
 };
 
 export default MenuItem;
