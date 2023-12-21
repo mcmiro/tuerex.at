@@ -9,7 +9,10 @@ import {
 
 const IndexPage = () => {
   return (
-    <Layout title="Schlüßeldienst und Aufsperdienst Wien | Türex">
+    <Layout
+      title="Seriösen Schlüsseldienst erkennen | 6 Tipps vom Profi | TÜREX"
+      metaDescription="Hole dir 6 Tipps vom Profi, um einen seriösen Schlüsseldienst in Wien zu entdecken. Jetzt mehr erfahren."
+    >
       <header className="mb-16">
         <UI.HeaderSub title="Seriöser Schlüßeldienst" />
         <UI.Breadcrumbs />

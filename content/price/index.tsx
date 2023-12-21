@@ -10,36 +10,40 @@ export const priceData = [
     icon: SunIcon,
     services: [
       {
-        service: 'Türöffnung mit Teleskop',
-        description:
-          'je Sicherheitselement 49€ max. 98€ / 2 Elemente (Dichtung, Beschlag, sonstiges) je Sicherheitselement 49€ max. 98€ / 2 Elemente (Dichtung, Beschlag, sonstiges) je Sicherheitselement 49€ max. 98€ / 2 Elemente (Dichtung, Beschlag, sonstiges)',
-        price: 65,
-      },
-      {
         service: 'Zugeschlagene Tür',
         description:
-          'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.',
+          'Türöffnung bei zugeschlagener Tür (keine Sicherheitstür), wenn der Schlüssel nicht im Zylinder steckt.',
         price: 75,
       },
       {
         service: 'Verschlossene Tür',
-        description: '',
+        description:
+          'Öffnung einer verschlossenen bzw. zugesperrten Tür (keine Sicherheitstür).',
         price: 135,
       },
       {
         service: 'Zugeschlagene Sicherheitstür',
-        description: '',
+        description:
+          'Öffnung einer zugeschlagenen Sicherheitstür, wenn der Schlüssel nicht im Zylinder steckt.',
         price: 135,
       },
       {
         service: 'Verschlossene Sicherheitstür',
-        description: '',
+        description:
+          'Öffnung einer verschlossenen bzw. zugesperrten Sicherheitstür.',
         price: 195,
       },
       {
         service: 'Schlüssel abgebrochen',
-        description: '',
+        description:
+          'Türöffnung inkl. Entfernung eines im Zylinder abgebrochenen Schlüssels. Falls erforderlich, wird ein neuer Zylinder bereitgestellt.',
         price: 95,
+      },
+      {
+        service: 'Türöffnung mit Teleskop',
+        description:
+          'Aufpreis für Inspektion und Türöffnung mittels einer Teleskopstange mit angebrachter Kamera, wenn notwendig.',
+        price: 65,
       },
     ],
   },
@@ -50,24 +54,40 @@ export const priceData = [
     icon: MoonIcon,
     services: [
       {
-        service: 'Türöffnung mit Teleskop',
-        description: '',
-        price: 65,
-      },
-      {
-        service: 'Türöffnung (zugeschlagene Tür)',
-        description: '',
+        service: 'Zugeschlagene Tür',
+        description:
+          'Türöffnung bei zugeschlagener Tür (keine Sicherheitstür), wenn der Schlüssel nicht im Zylinder steckt.',
         price: 75,
       },
       {
-        service: 'Türöffnung (verschlossene Tür)',
-        description: '',
+        service: 'Verschlossene Tür',
+        description:
+          'Öffnung einer verschlossenen bzw. zugesperrten Tür (keine Sicherheitstür).',
         price: 135,
       },
       {
-        service: 'Schlüssel im Zylinder abgebrochen',
-        description: '',
+        service: 'Zugeschlagene Sicherheitstür',
+        description:
+          'Öffnung einer zugeschlagenen Sicherheitstür, wenn der Schlüssel nicht im Zylinder steckt.',
+        price: 135,
+      },
+      {
+        service: 'Verschlossene Sicherheitstür',
+        description:
+          'Öffnung einer verschlossenen bzw. zugesperrten Sicherheitstür.',
+        price: 195,
+      },
+      {
+        service: 'Schlüssel abgebrochen',
+        description:
+          'Türöffnung inkl. Entfernung eines im Zylinder abgebrochenen Schlüssels. Falls erforderlich, wird ein neuer Zylinder bereitgestellt.',
         price: 95,
+      },
+      {
+        service: 'Türöffnung mit Teleskop',
+        description:
+          'Aufpreis für Inspektion und Türöffnung mittels einer Teleskopstange mit angebrachter Kamera, wenn notwendig.',
+        price: 65,
       },
     ],
   },
@@ -78,24 +98,40 @@ export const priceData = [
     icon: SparklesIcon,
     services: [
       {
-        service: 'Türöffnung mit Teleskop',
-        description: '',
-        price: 65,
-      },
-      {
-        service: 'Türöffnung (zugeschlagene Tür)',
-        description: '',
+        service: 'Zugeschlagene Tür',
+        description:
+          'Türöffnung bei zugeschlagener Tür (keine Sicherheitstür), wenn der Schlüssel nicht im Zylinder steckt.',
         price: 75,
       },
       {
-        service: 'Türöffnung (verschlossene Tür)',
-        description: '',
+        service: 'Verschlossene Tür',
+        description:
+          'Öffnung einer verschlossenen bzw. zugesperrten Tür (keine Sicherheitstür).',
         price: 135,
       },
       {
-        service: 'Schlüssel im Zylinder abgebrochen',
-        description: '',
+        service: 'Zugeschlagene Sicherheitstür',
+        description:
+          'Öffnung einer zugeschlagenen Sicherheitstür, wenn der Schlüssel nicht im Zylinder steckt.',
+        price: 135,
+      },
+      {
+        service: 'Verschlossene Sicherheitstür',
+        description:
+          'Öffnung einer verschlossenen bzw. zugesperrten Sicherheitstür.',
+        price: 195,
+      },
+      {
+        service: 'Schlüssel abgebrochen',
+        description:
+          'Türöffnung inkl. Entfernung eines im Zylinder abgebrochenen Schlüssels. Falls erforderlich, wird ein neuer Zylinder bereitgestellt.',
         price: 95,
+      },
+      {
+        service: 'Türöffnung mit Teleskop',
+        description:
+          'Aufpreis für Inspektion und Türöffnung mittels einer Teleskopstange mit angebrachter Kamera, wenn notwendig.',
+        price: 65,
       },
     ],
   },

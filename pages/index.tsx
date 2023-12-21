@@ -24,7 +24,10 @@ const IndexPage = () => {
   };
 
   return (
-    <Layout title="Schlüßeldienst und Aufsperdienst Wien | Türex">
+    <Layout
+      title="24/7 Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
+      metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
+    >
       {/* Modal Price START */}
       {priceTableVisible && (
         <UI.ModalDialog onClick={hanldeClosePriceTable}>

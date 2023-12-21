@@ -9,9 +9,12 @@ import {
 
 const IndexPage = () => {
   return (
-    <Layout title="Schlüßeldienst und Aufsperdienst Wien | Türex">
+    <Layout
+      title="Häufig gestellte Fragen | TÜREX"
+      metaDescription="Antworten auf die am häufigsten gestellten Fragen. Jetzt mehr erfahren."
+    >
       <header className="mb-16">
-        <UI.HeaderSub title="FAQ" />
+        <UI.HeaderSub title="Häufig gestellte Fragen (FAQ)" />
         <UI.Breadcrumbs />
       </header>
       {/* Content Section START */}

@@ -55,7 +55,7 @@ const TableContent = ({ query }: TableContentProps) => {
                 </tbody>
               </table>
             </div>
-            <UI.Typography variant="xs" className="text-primary-500 mt-12 mb-4">
+            <UI.Typography variant="xs" className="text-primary-500 mt-6 mb-4">
               *Fixpreise gelten nur sofern die Angaben des Kunden beim Antreffen
               stimmen und die übliche Arbeitszeit für die jeweilige Leistung
               nicht überschritten wird. Bei Mehraufwand informieren wir vorab

@@ -5,14 +5,20 @@ import { UI } from 'components';
 type Props = {
   children?: ReactNode;
   title?: string;
+  metaDescription?: string;
 };
 
-const Layout = ({ children, title = 'This is the default title' }: Props) => {
+const Layout = ({
+  children,
+  title = 'This is the default title',
+  metaDescription,
+}: Props) => {
   return (
     <div>
       <Head>
         <title>{title}</title>
         <meta charSet="utf-8" />
+        <meta name="description" content={metaDescription} />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </Head>

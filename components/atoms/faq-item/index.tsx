@@ -48,7 +48,7 @@ const FaqItem = ({
           className="overflow-hidden transition-all ease-in-out duration-300"
           style={{ height: isActive ? height + 'px' : 0 }}
         >
-          <div className={`faq-item py-8`}>
+          <div className={`faq-item pb-6`}>
             <UI.Typography variant="lg">{content}</UI.Typography>
           </div>
         </div>

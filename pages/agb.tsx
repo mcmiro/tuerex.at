@@ -9,7 +9,10 @@ import {
 
 const IndexPage = () => {
   return (
-    <Layout title="Schlüßeldienst und Aufsperdienst Wien | Türex">
+    <Layout
+      title="Allgemeine Geschäftsbedingungen | TÜREX"
+      metaDescription="Allgemeine Geschäftsbedingungen für die Verwendung unserer Dienstleistungen. Jetzt mehr erfahren."
+    >
       <header className="mb-16">
         <UI.HeaderSub title="Allgemeine Geschäftsbedingungen" />
         <UI.Breadcrumbs />

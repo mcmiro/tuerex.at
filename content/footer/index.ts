@@ -10,7 +10,7 @@ export const footerData = [
       },
       {
         title: 'Kosten und Preise',
-        url: '/#prices',
+        url: '/preise',
         image: null,
       },
       {

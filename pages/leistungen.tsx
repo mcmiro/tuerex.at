@@ -1,71 +1,211 @@
 import React from 'react';
 import Layout from '../components/layouts';
 import { UI } from '../components';
-import {
-  CheckBadgeIcon,
-  ClockIcon,
-  KeyIcon,
-} from '@heroicons/react/24/outline';
+import { CheckBadgeIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 
 const IndexPage = () => {
   return (
-    <Layout title="Schlüßeldienst und Aufsperdienst Wien | Türex">
+    <Layout
+      title="Unsere Leistungen | TÜREX"
+      metaDescription="Erfahre alles über unsere Dienstleistungen im Bereich Schlosserarbeiten. Jetzt mehr entdecken."
+    >
       <header className="mb-16">
         <UI.HeaderSub title="Leistungen" />
         <UI.Breadcrumbs />
       </header>
       {/* Content Section START */}
       <UI.Container>
-        <UI.Typography variant="h2" className="font-bold">
-          Verlässlicher <br></br>
-          <span className="text-primary-500">24h Schlüsseldienst</span>.
-        </UI.Typography>
         <div className="mt-[56px]">
           <UI.Icon icon={CheckBadgeIcon} />
           <UI.Typography
             variant="h3"
             className="text-black mt-4 !text-h4 !leading-8"
           >
-            Akzeptiert von Hausversicherungen
+            Leistungen
           </UI.Typography>
           <UI.Typography
             variant="md"
             className="mt-6 !text-[18px] text-primary-900 leading-8"
           >
-            Nach dem erfolgreichen Entsperren, kannst du unsere Rechnung einfach
-            an deine Haushaltsversicherung senden.
+            Erlebe die umfassenden Dienstleistungen von Türex. Unsere Services
+            sind darauf ausgerichtet, dir nicht nur bei Türöffnungen zu helfen,
+            sondern umfassen alle Schlosserarbeiten, um deine Sicherheit auf ein
+            neues Niveau zu heben.
           </UI.Typography>
         </div>
         <div className="mt-[56px]">
-          <UI.Icon icon={ClockIcon} />
+          <UI.Icon icon={CheckBadgeIcon} />
           <UI.Typography
             variant="h3"
             className="text-black mt-4 !text-h4 !leading-8"
           >
-            24h Schlüsselnotdienst
+            Schlüsseldienst - rund um die Uhr für dich da
           </UI.Typography>
           <UI.Typography
             variant="md"
             className="mt-6 !text-[18px] text-primary-900 leading-8"
           >
-            Wir sind rund um die Uhr, 365 Tage im Jahr, für dich da, um in
-            Notfällen zu helfen.
+            Wenn du dich vor verschlossenen Türen wiederfindest oder einen
+            Schlüsselbruch erlebst, kannst du auf unseren{' '}
+            <Link href="/" className="underline">
+              24/7 Schlüsselnotdienst
+            </Link>{' '}
+            zählen. Unsere Experten bieten nicht nur schnelle und schadfreie
+            Türöffnungen, sondern kümmern sich auch um individuelle Reparaturen
+            nach deinen Bedürfnissen.
           </UI.Typography>
         </div>
-        <div className="my-[56px]">
-          <UI.Icon icon={KeyIcon} />
+        <div className="mt-[56px]">
+          <UI.Icon icon={CheckBadgeIcon} />
           <UI.Typography
             variant="h3"
             className="text-black mt-4 !text-h4 !leading-8"
           >
-            Schadfreie Türöffnung
+            Leistungen rund um Schlosserarbeiten
           </UI.Typography>
           <UI.Typography
             variant="md"
             className="mt-6 !text-[18px] text-primary-900 leading-8"
           >
-            Unsere Profis öffnen Türen ohne Schäden. Ob ausgesperrt oder
-            abgebrochener Schlüssel - eine schonende Türöffnung ist unser Ziel.
+            Unsere Dienstleistungen gehen über den traditionellen
+            Schlüsselnotdienst hinaus. Wir setzen auf modernste Technologien und
+            bewährte Methoden, um deine Sicherheit zu maximieren. Von
+            Zylinderanlagen bis zu individuellen Schließsystemen legen wir
+            höchste Wert auf Qualität und Zuverlässigkeit, um eine umfassende
+            Optimierung deiner Sicherheit und Privatsphäre zu gewährleisten.
+            Vertraue auf unsere Erfahrung und Hingabe, um die Sicherheit deines
+            Zuhauses oder Unternehmens auf das nächste Level zu heben.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Icon icon={CheckBadgeIcon} />
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            Zylinderanlagen
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Unsere maßgeschneiderten Zylinderanlagen-Lösungen bieten nicht nur
+            erstklassigen Schutz, sondern auch eine benutzerfreundliche
+            Handhabung. Mit modernster Technologie und hochwertigen Materialien
+            gewährleisten wir maximale Sicherheit für dein Zuhause oder
+            Unternehmen.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Icon icon={CheckBadgeIcon} />
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            Schlossanlagen
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Vertraue auf unsere Experten für die professionelle Installation und
+            Wartung hochwertiger Schlösser. Unsere Schlossanlagen zeichnen sich
+            durch Robustheit und Präzision aus, um einen zuverlässigen Schutz
+            vor unbefugtem Zugang zu gewährleisten.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Icon icon={CheckBadgeIcon} />
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            Schließanlagen
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Effiziente Zugangskontrolle ist entscheidend, und unsere
+            intelligenten Schließanlagen bieten genau das. Sie ermöglichen eine
+            flexible und sichere Verwaltung von Berechtigungen, um den
+            individuellen Anforderungen deines Sicherheitskonzepts gerecht zu
+            werden. Wir montieren die ideale Schließanlage für dich.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Icon icon={CheckBadgeIcon} />
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            Sicherheitsbeschlag
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Unsere verstärkten Sicherheitsbeschläge bieten nicht nur eine
+            ästhetische Ergänzung zu deinen Türen, sondern auch eine zusätzliche
+            Schutzschicht. Hergestellt aus robusten Materialien, tragen sie dazu
+            bei, potenzielle Schwachstellen zu stärken und die Sicherheit deines
+            Zuhauses zu erhöhen.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Icon icon={CheckBadgeIcon} />
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            Einbruchschutz für Türen
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Unsere umfassenden Sicherheitsmaßnahmen für Türen beruhen auf einer
+            Kombination aus modernster Sicherheitstechnologie und bewährten
+            Schutzvorrichtungen. Wir bieten individuelle Lösungen, die auf deine
+            spezifischen Anforderungen zugeschnitten sind, um ein Höchstmaß an
+            Sicherheit zu gewährleisten.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Icon icon={CheckBadgeIcon} />
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            Balkenschloss
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Das Balkenschloss ist eine effektive Ergänzung für deine
+            Eingangstür. Es bietet zusätzliche Sicherheit durch seine robuste
+            Bauweise und einfache Bedienung.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Icon icon={CheckBadgeIcon} />
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            Individuelle Reparaturen
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Unsere Schlosser bieten nicht nur Standardlösungen, sondern auch
+            individuelle Reparaturen, die sich nach deinen Wünschen richten. Wir
+            passen Schließsysteme und Sicherheitsvorkehrungen speziell an deine
+            Bedürfnisse an, um eine maßgeschneiderte Sicherheitslösung zu
+            gewährleisten.
           </UI.Typography>
         </div>
       </UI.Container>

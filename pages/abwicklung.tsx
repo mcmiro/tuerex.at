@@ -9,7 +9,10 @@ import {
 
 const IndexPage = () => {
   return (
-    <Layout title="Schlüßeldienst und Aufsperdienst Wien | Türex">
+    <Layout
+      title="Abwicklung und sonstige Informationen | TÜREX"
+      metaDescription="Erfahre alles, was du über die Abwicklung nach der Beauftragung unseres Schlüsseldienstes wissen musst. Jetzt mehr erfahren."
+    >
       <header className="mb-16">
         <UI.HeaderSub title="Abwicklung" />
         <UI.Breadcrumbs />
