@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className={classesSchema.base}>
       <UI.Container className={classesSchema.content}>
         <UI.Logo />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12 pb-[56px]">
           {footerData.map((group: any, index: number) => {
             return (
               <div key={index} className="pb-8">
