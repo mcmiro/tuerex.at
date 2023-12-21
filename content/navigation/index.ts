@@ -9,7 +9,7 @@ export const navigationData = [
   },
   {
     title: 'Preise',
-    url: '/#preise',
+    url: '/#prices',
   },
   {
     title: 'FAQ',
@@ -17,6 +17,6 @@ export const navigationData = [
   },
   {
     title: 'Abwicklung',
-    url: '/informationen-ueber-abwicklung',
+    url: '/abwicklung',
   },
 ];

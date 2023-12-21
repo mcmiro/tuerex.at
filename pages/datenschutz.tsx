@@ -11,7 +11,7 @@ const IndexPage = () => {
   return (
     <Layout title="Schlüßeldienst und Aufsperdienst Wien | Türex">
       <header className="mb-16">
-        <UI.HeaderSub title="Impressum" />
+        <UI.HeaderSub title="Datenschutzerklärung" />
         <UI.Breadcrumbs />
       </header>
       {/* Content Section START */}

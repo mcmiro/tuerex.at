@@ -53,7 +53,7 @@ const IndexPage = () => {
           <UI.Typography
             variant="h1"
             weight="bold"
-            className="text-center pt-10 font-['Lexend']"
+            className="text-center pt-10 font-['Lexend'] md:text-[56px] md:!leading-[1.1]"
           >
             <span className="text-primary-500">Schlüsseldienst</span> &<br></br>
             Aufsperrdienst in Wien<br></br>
@@ -62,7 +62,7 @@ const IndexPage = () => {
           <UI.Typography variant="xs" className="text-center text-gray-800">
             Klare Preisgestaltung
           </UI.Typography>
-          <ul className="flex items-center justify-between pt-12 w-full">
+          <ul className="flex items-center justify-between pt-12 w-full max-w-[480px]">
             <li className="flex items-center gap-1 text-[18px] md:text-[22px] font-['Lexend'] text-gray-800">
               <CheckIcon className="w-5" />
               24h/365 Tage
@@ -343,7 +343,7 @@ const IndexPage = () => {
             iconVisible={true}
             iconPosition={'right'}
             icon={<ArrowSmallRightIcon className="w-8" />}
-            className="w-full my-8 font-bold flex items-center py-4"
+            className="w-full my-8 font-bold flex items-center py-4 max-w-[300px]"
           >
             Alle Leistungen ansehen
           </UI.Button>

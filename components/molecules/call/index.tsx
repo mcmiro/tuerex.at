@@ -22,7 +22,7 @@ export const Call = ({ mode }: CallProps) => {
     <div className="w-full pt-12">
       <a
         href={`tel:${contactData.phone}`}
-        className="w-full flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
+        className="w-full max-w-[300px] mx-auto flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
       >
         Jetzt anrufen
         <PhoneIcon className="w-6 h-6 text-white" />
