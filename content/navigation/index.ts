@@ -9,7 +9,7 @@ export const navigationData = [
   },
   {
     title: 'Preise',
-    url: '/preise',
+    url: '/#preise',
   },
   {
     title: 'FAQ',
