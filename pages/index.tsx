@@ -288,7 +288,7 @@ const IndexPage = () => {
       <UI.Container>
         <UI.Typography variant="h2" className="font-bold mt-[56px]">
           <span className="text-primary-500">Aufsperrdienst Wien</span> - das
-          ist bezüglich der <span className="text-primary-500">Türöffnung</span>
+          ist bezüglich der <span className="text-primary-500">Türöffnung</span>{' '}
           deinerseits zu beachten.
         </UI.Typography>
         <div className="mt-[56px]">

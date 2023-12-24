@@ -5,7 +5,7 @@ export default async (req: any, res: any) => {
     const slackWebhookUrl = process.env.NEXT_PUBLIC_SLACK_URL;
 
     const message = {
-      text: req.body.text || 'Default message if text is not provided',
+      text: req.body.text || 'New user is visiting the page!',
     };
 
     await axios.post(slackWebhookUrl!, message);

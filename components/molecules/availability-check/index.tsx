@@ -3,6 +3,7 @@ import AvailabilityItem from 'models/availability';
 import { availabilityData } from 'content/availability';
 import clsx from 'clsx';
 import useSlackStore from 'store/slack-store';
+import useVisitor from 'hooks/use-visitor';
 
 type StatusVariant = 'error' | 'pending' | 'success';
 
@@ -23,6 +24,7 @@ const classesSchema = {
 const AvailabilityCheck = () => {
   const [status, setStatus] = useState<AvailabilityItem>(availabilityData[1]);
   const { slackValue, updateSlackValue } = useSlackStore();
+  const { visitorInformation } = useVisitor();
 
   const sendMessageToSlack = async () => {
     try {
@@ -32,7 +34,7 @@ const AvailabilityCheck = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          text: 'User is visiting the page',
+          text: JSON.stringify(visitorInformation),
         }),
       });
       const result = await response.json();
@@ -67,7 +69,7 @@ const AvailabilityCheck = () => {
 
   useEffect(() => {
     if (!slackValue) {
-      sendMessageToSlack();
+      visitorInformation && status && sendMessageToSlack();
     }
   }, [status]);
 
