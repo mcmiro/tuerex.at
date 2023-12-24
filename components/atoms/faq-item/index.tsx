@@ -34,7 +34,7 @@ const FaqItem = ({
       className={`cursor-pointer relative transition-all ease-in-out duration-300 px-4 border-t border-[#E2E8F0]`}
     >
       <div
-        className={`flex flex-col justify-between items-center text-[24px] transition-top-right relative py-2`}
+        className={`flex flex-col justify-between items-start text-[24px] transition-top-right relative py-2`}
       >
         <div className="flex justify-between w-full text-[18px] font-bold py-4 tracking-wide">
           {title}

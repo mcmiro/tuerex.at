@@ -1,13 +1,8 @@
 import React from 'react';
 import Layout from '../components/layouts';
 import { UI } from '../components';
-import {
-  CheckBadgeIcon,
-  ClockIcon,
-  KeyIcon,
-} from '@heroicons/react/24/outline';
 
-const IndexPage = () => {
+const ImpressumPage = () => {
   return (
     <Layout
       title="Impressum | TÜREX"
@@ -19,57 +14,39 @@ const IndexPage = () => {
       </header>
       {/* Content Section START */}
       <UI.Container>
-        <UI.Typography variant="h2" className="font-bold">
-          Verlässlicher <br></br>
-          <span className="text-primary-500">24h Schlüsseldienst</span>.
-        </UI.Typography>
         <div className="mt-[56px]">
-          <UI.Icon icon={CheckBadgeIcon} />
           <UI.Typography
             variant="h3"
             className="text-black mt-4 !text-h4 !leading-8"
           >
-            Akzeptiert von Hausversicherungen
+            Praktische Durchführung, Dienstleistung und Umsetzung.
           </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Nach dem erfolgreichen Entsperren, kannst du unsere Rechnung einfach
-            an deine Haushaltsversicherung senden.
-          </UI.Typography>
-        </div>
-        <div className="mt-[56px]">
-          <UI.Icon icon={ClockIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            24h Schlüsselnotdienst
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Wir sind rund um die Uhr, 365 Tage im Jahr, für dich da, um in
-            Notfällen zu helfen.
-          </UI.Typography>
-        </div>
-        <div className="my-[56px]">
-          <UI.Icon icon={KeyIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            Schadfreie Türöffnung
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Unsere Profis öffnen Türen ohne Schäden. Ob ausgesperrt oder
-            abgebrochener Schlüssel - eine schonende Türöffnung ist unser Ziel.
-          </UI.Typography>
+          <ul className="my-[56px] leading-8">
+            <li>
+              <strong>Firmenname:</strong> Sead Hadrovic e.U.
+            </li>
+            <li>
+              <strong>Adresse:</strong> Oldenburggasse 6, 1230 Wien
+            </li>
+            <li>
+              <strong>Gewerbeordnung:</strong> Metalltechnik für Metall- und
+              Maschinenbau (Handwerk), eingeschränkt auf Aufsperrdienst und
+              Schlossmontagen
+            </li>
+            <li>
+              <strong>Mitglied bei:</strong> WKÖ
+            </li>
+            <li>
+              <strong>Behörde gem. ECG (E-Commerce Gesetz):</strong>{' '}
+              Magistratisches Bezirksamt des XXIII. Bezirkes
+            </li>
+            <li>
+              <strong>Firmengericht:</strong> Handelsgericht Wien
+            </li>
+            <li>
+              <strong>UID:</strong> ATU XXXXXXX
+            </li>
+          </ul>
         </div>
       </UI.Container>
       {/* Content Section END */}
@@ -77,4 +54,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default ImpressumPage;

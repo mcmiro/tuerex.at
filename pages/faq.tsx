@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../components/layouts';
 import { UI } from '../components';
-import {
-  CheckBadgeIcon,
-  ClockIcon,
-  KeyIcon,
-} from '@heroicons/react/24/outline';
+import faqDataBooking from 'content/faq/booking';
+import faqDataGeneral from 'content/faq/general';
+import faqDataOther from 'content/faq/other';
+import faqDataPricesAndPayment from 'content/faq/prices-and-payment';
+import faqDataSecurity from 'content/faq/security';
 
 const IndexPage = () => {
   return (
@@ -18,60 +18,47 @@ const IndexPage = () => {
         <UI.Breadcrumbs />
       </header>
       {/* Content Section START */}
-      <UI.Container>
-        <UI.Typography variant="h2" className="font-bold">
-          Verlässlicher <br></br>
-          <span className="text-primary-500">24h Schlüsseldienst</span>.
+      {/* General START */}
+      <UI.Container className="pb-16">
+        <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
+          Allgemeine Informationen
         </UI.Typography>
-        <div className="mt-[56px]">
-          <UI.Icon icon={CheckBadgeIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            Akzeptiert von Hausversicherungen
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Nach dem erfolgreichen Entsperren, kannst du unsere Rechnung einfach
-            an deine Haushaltsversicherung senden.
-          </UI.Typography>
-        </div>
-        <div className="mt-[56px]">
-          <UI.Icon icon={ClockIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            24h Schlüsselnotdienst
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Wir sind rund um die Uhr, 365 Tage im Jahr, für dich da, um in
-            Notfällen zu helfen.
-          </UI.Typography>
-        </div>
-        <div className="my-[56px]">
-          <UI.Icon icon={KeyIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            Schadfreie Türöffnung
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Unsere Profis öffnen Türen ohne Schäden. Ob ausgesperrt oder
-            abgebrochener Schlüssel - eine schonende Türöffnung ist unser Ziel.
-          </UI.Typography>
-        </div>
+        <UI.Faq items={faqDataGeneral} />
       </UI.Container>
+      {/* General END */}
+      {/* Prices START */}
+      <UI.Container className="pb-16">
+        <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
+          Preise und Bezahlung
+        </UI.Typography>
+        <UI.Faq items={faqDataPricesAndPayment} />
+      </UI.Container>
+      {/* Prices END */}
+      {/* Booking START */}
+      <UI.Container className="pb-16">
+        <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
+          Buchung und Storno
+        </UI.Typography>
+        <UI.Faq items={faqDataBooking} />
+      </UI.Container>
+      {/* Booking END */}
+      {/* Security START */}
+      <UI.Container className="pb-16">
+        <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
+          Seriosität und Sicherheit
+        </UI.Typography>
+        <UI.Faq items={faqDataSecurity} />
+        {/* Other START */}
+        <UI.Container className="pb-16">
+          <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
+            Sonstiges
+          </UI.Typography>
+          <UI.Faq items={faqDataOther} />
+        </UI.Container>
+        {/* Other END */}
+      </UI.Container>
+      {/* Security END */}
+
       {/* Content Section END */}
     </Layout>
   );

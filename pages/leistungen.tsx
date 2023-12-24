@@ -189,7 +189,7 @@ const IndexPage = () => {
             Bauweise und einfache Bedienung.
           </UI.Typography>
         </div>
-        <div className="mt-[56px]">
+        <div className="my-[56px]">
           <UI.Icon icon={CheckBadgeIcon} />
           <UI.Typography
             variant="h3"

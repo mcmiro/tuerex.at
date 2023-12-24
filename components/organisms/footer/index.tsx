@@ -4,7 +4,7 @@ import FooterColumn from './column';
 import { footerData } from 'content/footer';
 
 const classesSchema = {
-  base: 'pt-[56px]',
+  base: 'pt-[56px] border-t bg-primary-50',
   content: 'px-4',
   title: 'pt-[32px]',
 };
