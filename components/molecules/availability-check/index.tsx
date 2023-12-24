@@ -71,10 +71,6 @@ const AvailabilityCheck = () => {
     }
   }, [status]);
 
-  useEffect(() => {
-    console.log('env', process.env.NEXT_PUBLIC_SLACK_URL);
-  }, []);
-
   return (
     <div>
       {status && (

@@ -9,7 +9,7 @@ const classesSchema = {
   container: 'flex items-center gap-2 py-6',
 };
 
-interface BreadcrumbsProps {
+export interface BreadcrumbsProps {
   className?: string;
   containerClassName?: string;
 }
