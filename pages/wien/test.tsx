@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from 'components/layouts';
 import { UI } from 'components';
 import { CheckIcon } from '@heroicons/react/24/outline';
-import axios from 'axios';
+//import axios from 'axios';
 
 export interface ContentProps {
   data: {
@@ -17,7 +17,8 @@ export interface ContentProps {
   };
 }
 
-const IndexPage = ({ data }: ContentProps) => {
+//const IndexPage = ({ data }: ContentProps) => {
+const IndexPage = () => {
   return (
     <Layout
       title="Schlüsseldienst Preise & Kosten | klare Preisgestaltung | TÜREX"
@@ -34,7 +35,7 @@ const IndexPage = ({ data }: ContentProps) => {
             weight="bold"
             className="text-center pt-10 font-['Lexend'] md:text-[56px] md:!leading-[1.1]"
           >
-            <span className="text-primary-500">{data.postalCode}</span>
+            <span className="text-primary-500">test</span>
           </UI.Typography>
           <UI.Typography variant="xs" className="text-center text-gray-800">
             Klare Preisgestaltung
@@ -80,30 +81,30 @@ const IndexPage = ({ data }: ContentProps) => {
 
 export default IndexPage;
 
-export async function getStaticPaths() {
-  const response = await axios.get(
-    `${process.env.NEXT_LOCAL_URL}/districts.json`
-  );
-  const paths = response.data.data.map((el: any) => ({
-    params: { postal: el.postalCode },
-  }));
+//export async function getStaticPaths() {
+//  const response = await axios.get(
+//    `${process.env.NEXT_LOCAL_URL}/districts.json`
+//  );
+//  const paths = response.data.data.map((el: any) => ({
+//    params: { postal: el.postalCode },
+//  }));
 
-  return {
-    paths,
-    fallback: 'blocking',
-  };
-}
+//  return {
+//    paths,
+//    fallback: 'blocking',
+//  };
+//}
 
-export const getStaticProps = async (context: any) => {
-  const { params } = context;
-  const postalCode = params.postal;
+//export const getStaticProps = async (context: any) => {
+//  const { params } = context;
+//  const postalCode = params.postal;
 
-  const response = await axios.get(
-    `${process.env.NEXT_LOCAL_URL}/districts.json`
-  );
-  const data = response.data.data.find(
-    (el: any) => el.postalCode.toString() === postalCode
-  );
+//  const response = await axios.get(
+//    `${process.env.NEXT_LOCAL_URL}/districts.json`
+//  );
+//  const data = response.data.data.find(
+//    (el: any) => el.postalCode.toString() === postalCode
+//  );
 
-  return { props: { data } };
-};
+//  return { props: { data } };
+//};
