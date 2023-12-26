@@ -99,14 +99,12 @@ export const getStaticProps = async (context: any) => {
   const { params } = context;
   const postalCode = params.postal;
 
-  //const baseUrl =
-  //  process.env.NODE_ENV === 'development'
-  //    ? process.env.NEXT_LOCAL_URL
-  //    : `https://tuerex-5e516a787a48.herokuapp.com`;
-
-  const baseUrl = `https://tuerex-5e516a787a48.herokuapp.com`;
-
-  const response = await axios.get(`${baseUrl}/districts.json`);
+  const response = await axios.get(
+    `${
+      process.env.NEXT_LOCAL_URL ||
+      `https://${process.env.HEROKU_APP_NAME}.herokuapp.com`
+    }/districts.json`
+  );
   const data = response.data.data.find(
     (el: any) => el.postalCode.toString() === postalCode
   );
