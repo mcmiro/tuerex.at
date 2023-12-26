@@ -83,9 +83,10 @@ const IndexPage = ({ data }: ContentProps) => {
 export default IndexPage;
 
 export async function getStaticPaths() {
-  const response = await axios.get(
-    `${process.env.NEXT_LOCAL_URL}/districts.json`
-  );
+  const baseUrl =
+    process.env.NEXT_LOCAL_URL ||
+    `https://${process.env.NEXT_LOCAL_URL}.herokuapp.com`;
+  const response = await axios.get(`${baseUrl}/districts.json`);
   const paths = response.data.data.map((el: any) => ({
     params: { postal: el.postalCode },
   }));
@@ -100,9 +101,11 @@ export const getStaticProps = async (context: any) => {
   const { params } = context;
   const postalCode = params.postal;
 
-  const response = await axios.get(
-    `${process.env.NEXT_LOCAL_URL}/districts.json`
-  );
+  const baseUrl =
+    process.env.NEXT_LOCAL_URL ||
+    `https://${process.env.NEXT_LOCAL_URL}.herokuapp.com`;
+
+  const response = await axios.get(`${baseUrl}/districts.json`);
   const data = response.data.data.find(
     (el: any) => el.postalCode.toString() === postalCode
   );
