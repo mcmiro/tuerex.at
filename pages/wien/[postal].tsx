@@ -34,7 +34,9 @@ const IndexPage = ({ data }: ContentProps) => {
             weight="bold"
             className="text-center pt-10 font-['Lexend'] md:text-[56px] md:!leading-[1.1]"
           >
-            <span className="text-primary-500">{data.postalCode}</span>
+            <span className="text-primary-500">
+              {data.h1} {data.postalCode}
+            </span>
           </UI.Typography>
           <UI.Typography variant="xs" className="text-center text-gray-800">
             Klare Preisgestaltung
