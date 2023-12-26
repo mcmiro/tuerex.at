@@ -99,7 +99,9 @@ export const getStaticProps = async (context: any) => {
   const { params } = context;
   const postalCode = params.postal;
 
-  const response = await axios.get(`${process.env.NEXT_LOCAL_URL}`);
+  const response = await axios.get(
+    `${process.env.NEXT_LOCAL_URL}/districts.json`
+  );
   const data = response.data.data.find(
     (el: any) => el.postalCode.toString() === postalCode
   );
