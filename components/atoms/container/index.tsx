@@ -13,13 +13,18 @@ export interface ContainerProps {
   widthMode?: WidthMode;
   children: React.ReactNode;
   className?: string;
+  id?: string;
 }
 
-const Container = ({ widthMode, children, className }: ContainerProps) => {
+const Container = ({ widthMode, children, className, id }: ContainerProps) => {
   const widthProp = widthMode ? classesSchema[widthMode] : 'container';
   const containerClasses = clsx([classesSchema.base, widthProp, className]);
 
-  return <div className={containerClasses}>{children}</div>;
+  return (
+    <div className={containerClasses} id={id}>
+      {children}
+    </div>
+  );
 };
 
 export default Container;

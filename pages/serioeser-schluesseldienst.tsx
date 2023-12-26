@@ -57,31 +57,31 @@ const SerioeserSchluesseldienstPage = () => {
           </div>
           <ul className="pl-8 leading-9">
             <li className="list-disc">
-              <Link href="#">Ortsansässigkeit</Link>
+              <Link href="#tipp-one">Ortsansässigkeit</Link>
             </li>
             <li className="list-disc">
-              <Link href="#">Behördliche Befähigung</Link>
+              <Link href="#tipp-two">Behördliche Befähigung</Link>
             </li>
             <li className="list-disc">
-              <Link href="#">
+              <Link href="#tipp-tree">
                 Transparente Preise (Keine versteckten Kosten)
               </Link>
             </li>
             <li className="list-disc">
-              <Link href="#">Schadenfreie Türöffnung</Link>
+              <Link href="#tipp-four">Schadenfreie Türöffnung</Link>
             </li>
             <li className="list-disc">
-              <Link href="#">Sicherheit</Link>
+              <Link href="#tipp-five">Sicherheit</Link>
             </li>
             <li className="list-disc">
-              <Link href="#">Bezahlung</Link>
+              <Link href="#tipp-six">Bezahlung</Link>
             </li>
           </ul>
         </div>
       </UI.Container>
       {/* Content Section END */}
       {/* Tipp #1 START */}
-      <UI.Container className="mt-[56px]">
+      <UI.Container className="mt-[56px]" id="tipp-one">
         <UI.Typography variant="h2" className="font-bold">
           <span className="text-primary-500">Tipp #1</span>
           <br></br>
@@ -106,17 +106,14 @@ const SerioeserSchluesseldienstPage = () => {
       </UI.Container>
       {/* Tipp #1 END */}
       {/* Tipp #2 START */}
-      <UI.Container className="my-[56px]">
+      <UI.Container className="my-[56px]" id="tipp-two">
         <UI.Typography variant="h2" className="font-bold">
           <span className="text-primary-500">Tipp #2</span>
           <br></br>
           Achte auf die behördliche Befähigung des Schlüsseldienstes.
         </UI.Typography>
         <div className="mt-[24px]">
-          <UI.Typography
-            variant="md"
-            className="mt-2 !text-[18px] text-primary-900 leading-8"
-          >
+          <div className="mt-2 !text-[18px] text-primary-900 leading-8">
             In Österreich ist es für Schlüsseldienste gesetzlich vorgeschrieben,
             eine Befähigungsprüfung zu absolvieren.
             <br></br>
@@ -132,7 +129,7 @@ const SerioeserSchluesseldienstPage = () => {
             <br></br>
             Ein seriöser Schlüsseldienst wird dir auf Nachfrage gerne einen
             Nachweis über seine behördliche Befähigung vorlegen.
-          </UI.Typography>
+          </div>
         </div>
       </UI.Container>
       {/* Tipp #2 END */}
@@ -168,7 +165,7 @@ const SerioeserSchluesseldienstPage = () => {
       </UI.Container>
       {/* Call Section END */}
       {/* Tipp #3 START */}
-      <UI.Container className="my-[56px]">
+      <UI.Container className="my-[56px]" id="tipp-tree">
         <UI.Typography variant="h2" className="font-bold">
           <span className="text-primary-500">Tipp #3</span>
           <br></br>
@@ -204,7 +201,7 @@ const SerioeserSchluesseldienstPage = () => {
       </div>
       {/* Price Section END */}
       {/* Tipp #4 START */}
-      <UI.Container className="my-[56px]">
+      <UI.Container className="my-[56px]" id="tipp-four">
         <UI.Typography variant="h2" className="font-bold">
           <span className="text-primary-500">Tipp #4</span>
           <br></br>
@@ -246,7 +243,7 @@ const SerioeserSchluesseldienstPage = () => {
       </div>
       {/* Payment Section END */}
       {/* Tipp #5 START */}
-      <UI.Container className="mt-[56px]">
+      <UI.Container className="mt-[56px]" id="tipp-five">
         <UI.Typography variant="h2" className="font-bold">
           <span className="text-primary-500">Tipp #5</span>
           <br></br>
@@ -267,7 +264,7 @@ const SerioeserSchluesseldienstPage = () => {
       </UI.Container>
       {/* Tipp #5 END */}
       {/* Tipp #6 START */}
-      <UI.Container className="my-[56px]">
+      <UI.Container className="my-[56px]" id="tipp-six">
         <UI.Typography variant="h2" className="font-bold">
           <span className="text-primary-500">Tipp #6</span>
           <br></br>
