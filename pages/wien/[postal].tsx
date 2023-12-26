@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from 'components/layouts';
 import { UI } from 'components';
 import { CheckIcon } from '@heroicons/react/24/outline';
-//import axios from 'axios';
+import axios from 'axios';
 
 export interface ContentProps {
   data: {
@@ -17,7 +17,7 @@ export interface ContentProps {
   };
 }
 
-const IndexPage = () => {
+const IndexPage = ({ data }: ContentProps) => {
   return (
     <Layout
       title="Schlüsseldienst Preise & Kosten | klare Preisgestaltung | TÜREX"
@@ -34,7 +34,9 @@ const IndexPage = () => {
             weight="bold"
             className="text-center pt-10 font-['Lexend'] md:text-[56px] md:!leading-[1.1]"
           >
-            <span className="text-primary-500">test</span>
+            <span className="text-primary-500">
+              {data.h1} {data.postalCode}
+            </span>
           </UI.Typography>
           <UI.Typography variant="xs" className="text-center text-gray-800">
             Klare Preisgestaltung
@@ -80,35 +82,35 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-//export async function getStaticPaths() {
-//  const baseUrl =
-//    process.env.NODE_ENV === 'development'
-//      ? process.env.NEXT_LOCAL_URL
-//      : `https://${process.env.NEXT_LOCAL_URL}.herokuapp.com`;
-//  const response = await axios.get(`${baseUrl}/districts.json`);
-//  const paths = response.data.data.map((el: any) => ({
-//    params: { postal: el.postalCode },
-//  }));
+export async function getStaticPaths() {
+  const baseUrl =
+    process.env.NODE_ENV === 'development'
+      ? process.env.NEXT_LOCAL_URL
+      : `https://${process.env.NEXT_LOCAL_URL}.netlify.app`;
+  const response = await axios.get(`${baseUrl}/districts.json`);
+  const paths = response.data.data.map((el: any) => ({
+    params: { postal: el.postalCode },
+  }));
 
-//  return {
-//    paths,
-//    fallback: 'blocking',
-//  };
-//}
+  return {
+    paths,
+    fallback: 'blocking',
+  };
+}
 
-//export const getStaticProps = async (context: any) => {
-//  const { params } = context;
-//  const postalCode = params.postal;
+export const getStaticProps = async (context: any) => {
+  const { params } = context;
+  const postalCode = params.postal;
 
-//  const baseUrl =
-//    process.env.NODE_ENV === 'development'
-//      ? process.env.NEXT_LOCAL_URL
-//      : `https://${process.env.NEXT_LOCAL_URL}.netlify.app`;
+  const baseUrl =
+    process.env.NODE_ENV === 'development'
+      ? process.env.NEXT_LOCAL_URL
+      : `https://${process.env.NEXT_LOCAL_URL}.netlify.app`;
 
-//  const response = await axios.get(`${baseUrl}/districts.json`);
-//  const data = response.data.data.find(
-//    (el: any) => el.postalCode.toString() === postalCode
-//  );
+  const response = await axios.get(`${baseUrl}/districts.json`);
+  const data = response.data.data.find(
+    (el: any) => el.postalCode.toString() === postalCode
+  );
 
-//  return { props: { data } };
-//};
+  return { props: { data } };
+};
