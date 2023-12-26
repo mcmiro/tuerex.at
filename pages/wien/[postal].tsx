@@ -99,12 +99,7 @@ export const getStaticProps = async (context: any) => {
   const { params } = context;
   const postalCode = params.postal;
 
-  const response = await axios.get(
-    `${
-      process.env.NEXT_LOCAL_URL ||
-      `https://${process.env.HEROKU_APP_NAME}.herokuapp.com`
-    }/districts.json`
-  );
+  const response = await axios.get(`${process.env.NEXT_LOCAL_URL}`);
   const data = response.data.data.find(
     (el: any) => el.postalCode.toString() === postalCode
   );
