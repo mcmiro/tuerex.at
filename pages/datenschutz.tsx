@@ -4,7 +4,10 @@ import { UI } from '../components';
 
 const IndexPage = () => {
   return (
-    <Layout title="Schlüßeldienst und Aufsperdienst Wien | Türex">
+    <Layout
+      title="Datenschutzerklärung | TÜREX"
+      metaDescription="Alle relevanten Informationen zur Datenschutzerklärung. Jetzt mehr erfahren."
+    >
       <header className="mb-16">
         <UI.HeaderSub title="Datenschutzerklärung" />
         <UI.Breadcrumbs />

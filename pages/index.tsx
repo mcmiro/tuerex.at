@@ -4,6 +4,7 @@ import Layout from '../components/layouts';
 import { UI } from '../components';
 import faqData from 'content/faq';
 import WkoLogo from '../assets/images/wko-logo.svg';
+import indexStrucutreData from 'utils/structure-data';
 import {
   ArrowRightIcon,
   CheckIcon,
@@ -27,6 +28,7 @@ const IndexPage = () => {
     <Layout
       title="24/7 Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
+      jsonLd={indexStrucutreData}
     >
       {/* Modal Price START */}
       {priceTableVisible && (

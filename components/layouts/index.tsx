@@ -6,12 +6,14 @@ type Props = {
   children?: ReactNode;
   title?: string;
   metaDescription?: string;
+  jsonLd?: any;
 };
 
 const Layout = ({
   children,
-  title = 'This is the default title',
+  title = 'TÜREX',
   metaDescription,
+  jsonLd,
 }: Props) => {
   return (
     <div>
@@ -21,6 +23,13 @@ const Layout = ({
         <meta name="description" content={metaDescription} />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        {jsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            key="item-jsonld"
+          />
+        )}
       </Head>
       <header>
         <UI.Navigation isActiveHamburger={true} />

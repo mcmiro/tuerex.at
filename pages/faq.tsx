@@ -6,12 +6,14 @@ import faqDataGeneral from 'content/faq/general';
 import faqDataOther from 'content/faq/other';
 import faqDataPricesAndPayment from 'content/faq/prices-and-payment';
 import faqDataSecurity from 'content/faq/security';
+import faqStructureData from 'utils/structure-data/faq';
 
 const IndexPage = () => {
   return (
     <Layout
       title="Häufig gestellte Fragen | TÜREX"
       metaDescription="Antworten auf die am häufigsten gestellten Fragen. Jetzt mehr erfahren."
+      jsonLd={faqStructureData}
     >
       <header className="mb-16">
         <UI.HeaderSub title="Häufig gestellte Fragen (FAQ)" />

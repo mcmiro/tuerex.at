@@ -4,12 +4,14 @@ import Layout from '../components/layouts';
 import { UI } from '../components';
 import WkoLogo from '../assets/images/wko-logo.svg';
 import Link from 'next/link';
+import serioeserSchluesseldienstStrucutreData from 'utils/structure-data/serioeser-schluesseldienst';
 
 const SerioeserSchluesseldienstPage = () => {
   return (
     <Layout
       title="24/7 Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
+      jsonLd={serioeserSchluesseldienstStrucutreData}
     >
       {/* Hero Section START */}
       <header className="pb-32">
