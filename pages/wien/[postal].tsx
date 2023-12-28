@@ -15,20 +15,20 @@ export interface ContentProps {
   data: {
     postalCode: string;
     description: string;
-    h1: string;
-    copy1: string;
-    h2: string;
-    copy2: string;
-    h3: string;
-    copy3: string;
+    headlineOne: string;
+    copyOne: string;
+    headlineTwo: string;
+    copyTwo: string;
+    headlineThree: string;
+    copyThree: string;
   };
 }
 
 const IndexPage = ({ data }: ContentProps) => {
   return (
     <Layout
-      title="Schlüsseldienst Preise & Kosten | klare Preisgestaltung | TÜREX"
-      metaDescription="Entdecke transparente Schlüsseldienst Preise bei TÜREX. Klare Preisgestaltung, fair und ohne versteckte Kosten. Jetzt mehr erfahren."
+      title={`Schlüsseldienst ${data.postalCode} Wien | Aufsperr-Notdienst | TÜREX`}
+      metaDescription={data.description}
     >
       {/* Hero Section START */}
       <header className="pb-8">
@@ -81,14 +81,13 @@ const IndexPage = ({ data }: ContentProps) => {
             variant="h3"
             className="text-black mt-4 !text-h4 !leading-8"
           >
-            Akzeptiert von Hausversicherungen
+            {data.headlineOne}
           </UI.Typography>
           <UI.Typography
             variant="md"
             className="mt-6 !text-[18px] text-primary-900 leading-8"
           >
-            Nach dem erfolgreichen Entsperren, kannst du unsere Rechnung einfach
-            an deine Haushaltsversicherung senden.
+            {data.copyOne}
           </UI.Typography>
         </div>
         <div className="mt-[56px]">
@@ -97,14 +96,13 @@ const IndexPage = ({ data }: ContentProps) => {
             variant="h3"
             className="text-black mt-4 !text-h4 !leading-8"
           >
-            24h Schlüsselnotdienst
+            {data.headlineTwo}
           </UI.Typography>
           <UI.Typography
             variant="md"
             className="mt-6 !text-[18px] text-primary-900 leading-8"
           >
-            Wir sind rund um die Uhr, 365 Tage im Jahr, für dich da, um in
-            Notfällen zu helfen.
+            {data.copyTwo}
           </UI.Typography>
         </div>
         <div className="my-[56px]">
@@ -113,14 +111,13 @@ const IndexPage = ({ data }: ContentProps) => {
             variant="h3"
             className="text-black mt-4 !text-h4 !leading-8"
           >
-            Schadfreie Türöffnung
+            {data.headlineThree}
           </UI.Typography>
           <UI.Typography
             variant="md"
             className="mt-6 !text-[18px] text-primary-900 leading-8"
           >
-            Unsere Profis öffnen Türen ohne Schäden. Ob ausgesperrt oder
-            abgebrochener Schlüssel - eine schonende Türöffnung ist unser Ziel.
+            {data.copyThree}
           </UI.Typography>
         </div>
       </UI.Container>

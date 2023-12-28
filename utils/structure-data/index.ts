@@ -2,8 +2,7 @@ const indexStrucutreData = {
   '@context': 'https://schema.org',
   '@type': 'Locksmith',
   name: 'Schlüsseldienst Wien | Auffsperrdienst | TÜREX',
-  image:
-    'https://tuerex.at/_next/static/media/schluesseldienst-wien-aufsperrdienst.webp',
+  image: 'https://tuerex.at/images/schluesseldienst-wien-aufsperrdienst.jpg',
   '@id': 'https://tuerex.at',
   url: 'https://tuerex.at',
   telephone: '+436763741204',

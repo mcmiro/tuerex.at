@@ -6,6 +6,7 @@ interface ServiceItemProps {
 
 interface PriceItemProps {
   title: string;
+  subTitle: string;
   workingHours: string;
   addonPrice: number;
   icon: React.ElementType;
@@ -14,6 +15,7 @@ interface PriceItemProps {
 
 class PriceItem {
   readonly title: string;
+  readonly subTitle: string;
   readonly workingHours: string;
   readonly addonPrice: number;
   readonly icon: React.ElementType;
@@ -21,12 +23,14 @@ class PriceItem {
 
   constructor({
     title,
+    subTitle,
     workingHours,
     addonPrice,
     icon,
     services,
   }: PriceItemProps) {
     this.title = title;
+    this.subTitle = subTitle;
     this.workingHours = workingHours;
     this.addonPrice = addonPrice;
     this.icon = icon;

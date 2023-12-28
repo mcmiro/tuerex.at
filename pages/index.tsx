@@ -16,6 +16,8 @@ import {
   UserIcon,
   ArrowSmallRightIcon,
 } from '@heroicons/react/24/outline';
+import Link from 'next/link';
+import router from 'next/router';
 
 const IndexPage = () => {
   const [priceTableVisible, setPriceTabelVisible] = useState<boolean>(false);
@@ -78,7 +80,9 @@ const IndexPage = () => {
           </ul>
           <UI.Call />
           <div className="relative w-full h-8">
-            <Image src={WkoLogo} layout="fill" alt="wkö logo" />
+            <Link href="https://firmen.wko.at/sead-hadrovi%C4%87/wien/?firmaid=281d167a-1201-460e-9c76-dabac353623b">
+              <Image src={WkoLogo} layout="fill" alt="wkö logo" />
+            </Link>
           </div>
           <UI.Typography
             variant="sm"
@@ -187,7 +191,7 @@ const IndexPage = () => {
         <UI.Typography variant="h2" className="font-bold mt-[56px]">
           <span className="text-primary-500">Schlüsseldienst Wien</span>
           <br></br>
-          so einfach geht es
+          so einfach geht es.
         </UI.Typography>
         <div className="mt-[56px]">
           <UI.Icon icon={DevicePhoneMobileIcon} />
@@ -267,9 +271,8 @@ const IndexPage = () => {
             <span className="text-primary-500">Preise und Kosten</span>.
           </UI.Typography>
           <UI.Typography variant="lg" align="center" className="mt-8">
-            Transparent und ohne versteckte Kosten. Hier findest du die
-            Auflistung unserer Preise. Sowohl für den Notdienst, als auch für
-            den Normaldienst.
+            Transparent und mit klarer Preisgestaltung. Hier findest du die
+            Auflistung unserer Preise.
           </UI.Typography>
           <UI.PriceTable />
         </UI.Container>
@@ -305,6 +308,16 @@ const IndexPage = () => {
             </UI.Typography>
           </div>
         </div>
+        <UI.Button
+          variant="contained"
+          onClick={() => router.push('/serioeser-schluesseldienst')}
+          iconVisible={true}
+          iconPosition={'right'}
+          icon={<ArrowSmallRightIcon className="w-8" />}
+          className="w-full my-8 font-bold flex items-center py-4 max-w-[300px]"
+        >
+          Mehr erfahren
+        </UI.Button>
       </UI.Container>
       <UI.Container className="flex items-center gap-4 w-full py-8">
         <div className="relative w-24 h-8">
@@ -376,6 +389,7 @@ const IndexPage = () => {
 
               <UI.Button
                 variant="contained"
+                onClick={() => router.push('/leistungen')}
                 iconVisible={true}
                 iconPosition={'right'}
                 icon={<ArrowSmallRightIcon className="w-8" />}

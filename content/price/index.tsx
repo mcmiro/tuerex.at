@@ -5,6 +5,7 @@ import { MoonIcon } from '@heroicons/react/24/outline';
 export const priceData = [
   {
     title: 'Frühdienst',
+    subTitle: 'Werktags von 05:00 bis 17:00 Uhr',
     workingHours: '05:00 bis 17:00 Uhr',
     addonPrice: 0,
     icon: SunIcon,
@@ -49,6 +50,7 @@ export const priceData = [
   },
   {
     title: 'Spätdienst',
+    subTitle: 'Werktags von 17:00 bis 21:00 Uhr',
     workingHours: '17:00 bis 21:00 Uhr',
     addonPrice: 25,
     icon: MoonIcon,
@@ -93,6 +95,7 @@ export const priceData = [
   },
   {
     title: 'Nachtdienst',
+    subTitle: 'Werktags von 21:00 bis 05:00 Uhr',
     workingHours: '21:00 bis 05:00 Uhr',
     addonPrice: 45,
     icon: SparklesIcon,
@@ -137,6 +140,7 @@ export const priceData = [
   },
   {
     title: 'Sonn- und Feiertage',
+    subTitle: 'Sonn- und Feiertags von 00:00 bis 24:00 Uhr',
     workingHours: '00:00 bis 24:00 Uhr',
     addonPrice: 45,
     icon: SparklesIcon,

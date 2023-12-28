@@ -51,7 +51,8 @@ const SerioeserSchluesseldienstPage = () => {
           className="mt-6 !text-[18px] text-primary-900 leading-8"
         >
           In diesem Artikel erfährst du, anhand welcher Kriterien du einen
-          seriösen Schlüsseldienst in Wien erkennen kannst.
+          seriösen <Link href="/">Schlüsseldienst in Wien</Link> erkennen
+          kannst.
         </UI.Typography>
         <div className="mt-[56px] border-y border-gray-200 pb-3">
           <div className="flex justify-between w-full text-[18px] font-bold py-4 tracking-wide">

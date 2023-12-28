@@ -22,11 +22,11 @@ const TableContent = ({ query }: TableContentProps) => {
                 <table.icon className="w-6 text-primary-500" />
               </div>
               <div>
-                <UI.Typography variant="h5" className="font-bold">
+                <UI.Typography variant="h3" className="!text-h5 font-bold">
                   {table.title}
                 </UI.Typography>
                 <UI.Typography variant="xs" className="leading-6">
-                  {table.workingHours}
+                  {table.subTitle}
                 </UI.Typography>
               </div>
             </div>

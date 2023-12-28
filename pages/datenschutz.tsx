@@ -66,24 +66,7 @@ const IndexPage = () => {
             variant="md"
             className="mt-6 !text-[18px] text-primary-900 leading-8"
           >
-            Unsere Website verwendet so genannte Cookies. Dabei handelt es sich
-            um kleine Textdateien, die mit Hilfe des Browsers auf Ihrem Endgerät
-            abgelegt werden. Sie richten keinen Schaden an.
-            <br></br>
-            <br></br>
-            Wir nutzen Cookies dazu, unser Angebot nutzerfreundlich zu
-            gestalten. Einige Cookies bleiben auf Ihrem Endgerät gespeichert,
-            bis Sie diese löschen. Sie ermöglichen es uns, Ihren Browser beim
-            nächsten Besuch wiederzuerkennen.
-            <br></br>
-            <br></br>
-            Wenn Sie dies nicht wünschen, so können Sie Ihren Browser so
-            einrichten, dass er Sie über das Setzen von Cookies informiert und
-            Sie dies nur im Einzelfall erlauben.
-            <br></br>
-            <br></br>
-            Bei der Deaktivierung von Cookies kann die Funktionalität unserer
-            Website eingeschränkt sein.
+            Auf unserer Website speichern wir keine Cookies.
           </UI.Typography>
         </div>
         <div className="mt-[56px]">

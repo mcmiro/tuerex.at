@@ -43,9 +43,6 @@ const ImpressumPage = () => {
             <li>
               <strong>Firmengericht:</strong> Handelsgericht Wien
             </li>
-            <li>
-              <strong>UID:</strong> ATU XXXXXXX
-            </li>
           </ul>
         </div>
       </UI.Container>

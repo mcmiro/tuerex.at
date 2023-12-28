@@ -18,6 +18,10 @@ const Breadcrumbs = ({ className, containerClassName }: BreadcrumbsProps) => {
   const breadcrumbsClasses = clsx([classesSchema.base, className]);
   const containerClasses = clsx([classesSchema.container, containerClassName]);
 
+  const capitalizeEveryWord = (str: string) => {
+    return str.replace(/\b\w/g, (char) => char.toUpperCase());
+  };
+
   const [currentPath, setCurrentPath] = useState('');
   useEffect(() => {
     const currentPath = window?.location.pathname.replace('/', '');
@@ -26,7 +30,9 @@ const Breadcrumbs = ({ className, containerClassName }: BreadcrumbsProps) => {
       .charAt(0)
       .toUpperCase()}${currentPath.slice(1)}`;
 
-    setCurrentPath(capitalizedPath);
+    const splitedPath = capitalizedPath.replace('-', ' ');
+
+    setCurrentPath(capitalizeEveryWord(splitedPath));
   }, []);
 
   return (
