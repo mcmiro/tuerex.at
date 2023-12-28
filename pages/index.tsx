@@ -79,9 +79,9 @@ const IndexPage = () => {
             </li>
           </ul>
           <UI.Call />
-          <div className="relative w-full h-8">
+          <div className="flex justify-center relative w-full h-8">
             <Link href="https://firmen.wko.at/sead-hadrovi%C4%87/wien/?firmaid=281d167a-1201-460e-9c76-dabac353623b">
-              <Image src={WkoLogo} layout="fill" alt="wkö logo" />
+              <img src={WkoLogo.src} alt="wkö logo" />
             </Link>
           </div>
           <UI.Typography
@@ -155,7 +155,7 @@ const IndexPage = () => {
             <Image
               width={1920}
               height={1280}
-              layout="cover"
+              priority
               src="/images/schluesseldienst-wien-aufsperrdienst.jpg"
               alt="Schlüsseldienst Wien Mitarbeiter öffnet eine Tür"
               className="rounded-xl overflow-hidden"
@@ -285,7 +285,6 @@ const IndexPage = () => {
             <Image
               width={1920}
               height={1280}
-              layout="cover"
               src="/images/serioeser-schluesseldienst.jpg"
               alt="Mitarbeiter des seriösen Schlüsseldienstes öffnen die Eingangstür"
               className="rounded-xl overflow-hidden"
@@ -321,7 +320,7 @@ const IndexPage = () => {
       </UI.Container>
       <UI.Container className="flex items-center gap-4 w-full py-8">
         <div className="relative w-24 h-8">
-          <Image src={WkoLogo} layout="fill" alt="wkö logo" />
+          <img src={WkoLogo.src} alt="wkö logo" />
         </div>
         <UI.Typography variant="sm" className="font-['Lexend'] text-[10px]">
           Mitglied der Wirtschaftskammer Wien
@@ -403,7 +402,6 @@ const IndexPage = () => {
             <Image
               width={1920}
               height={1280}
-              layout="cover"
               src="/images/mehr-als-ein-schluesseldienst.jpg"
               alt="Professioneller Schlosser in seiner Werkstatt"
               className="rounded-xl overflow-hidden"

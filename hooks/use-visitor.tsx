@@ -27,15 +27,10 @@ const useVisitor = () => {
 
   useEffect(() => {
     const fetchGeoLocation = () => {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const { latitude, longitude } = position.coords;
-          setGeoLocation({ latitude, longitude });
-        },
-        (error) => {
-          console.error('Error getting geolocation:', error);
-        }
-      );
+      navigator.geolocation.getCurrentPosition((position) => {
+        const { latitude, longitude } = position.coords;
+        setGeoLocation({ latitude, longitude });
+      });
     };
 
     fetchGeoLocation();

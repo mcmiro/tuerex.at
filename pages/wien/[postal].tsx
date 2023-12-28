@@ -58,7 +58,7 @@ const IndexPage = ({ data }: ContentProps) => {
           </ul>
           <UI.Call />
           <div className="relative w-full h-8 mt-8">
-            <Image src={WkoLogo} layout="fill" alt="wkö logo" />
+            <Image src={WkoLogo} objectFit="fill" alt="wkö logo" />
           </div>
           <UI.Typography
             variant="sm"

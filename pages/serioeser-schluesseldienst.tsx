@@ -114,7 +114,7 @@ const SerioeserSchluesseldienstPage = () => {
             <Image
               width={1920}
               height={1280}
-              layout="cover"
+              objectFit="cover"
               src="/images/ortsansaessig-in-wien.jpg"
               alt="Wien von oben fotografiert"
               className="rounded-xl overflow-hidden"
@@ -171,7 +171,7 @@ const SerioeserSchluesseldienstPage = () => {
         <UI.Call mode="dark" />
         <UI.Container className="flex gap-4">
           <div className="relative w-24 h-8">
-            <Image src={WkoLogo} layout="fill" alt="wkö logo" />
+            <Image src={WkoLogo} objectFit="fill" alt="wkö logo" />
           </div>
           <UI.Typography
             variant="sm"
@@ -206,7 +206,7 @@ const SerioeserSchluesseldienstPage = () => {
             <Image
               width={1920}
               height={1280}
-              layout="cover"
+              objectFit="cover"
               src="/images/keine-versteckte-kosten.jpg"
               alt="Schlüßeldienst Kunde bezahlt die Türöffnung. Klare Preisgestaltung"
               className="rounded-xl overflow-hidden"
@@ -257,7 +257,7 @@ const SerioeserSchluesseldienstPage = () => {
             <Image
               width={1920}
               height={1280}
-              layout="cover"
+              objectFit="cover"
               src="/images/schadenfreie-oeffnung.jpg"
               alt="Ein Mitarbeiter öffnet eine Tür schadfrei"
               className="rounded-xl overflow-hidden"
