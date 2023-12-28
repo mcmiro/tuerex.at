@@ -90,58 +90,73 @@ const IndexPage = () => {
       </header>
       {/* Hero Section START */}
       {/* Content Section START */}
-      <UI.Container>
-        <UI.Typography variant="h2" className="font-bold">
+      <UI.Container className="mt-[56px]">
+        <UI.Typography variant="h2" weight="bold">
           Verlässlicher <br></br>
           <span className="text-primary-500">24h Schlüsseldienst</span>.
         </UI.Typography>
-        <div className="mt-[56px]">
-          <UI.Icon icon={CheckBadgeIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            Akzeptiert von Hausversicherungen
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Nach dem erfolgreichen Entsperren, kannst du unsere Rechnung einfach
-            an deine Haushaltsversicherung senden.
-          </UI.Typography>
-        </div>
-        <div className="mt-[56px]">
-          <UI.Icon icon={ClockIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            24h Schlüsselnotdienst
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Wir sind rund um die Uhr, 365 Tage im Jahr, für dich da, um in
-            Notfällen zu helfen.
-          </UI.Typography>
-        </div>
-        <div className="my-[56px]">
-          <UI.Icon icon={KeyIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            Schadfreie Türöffnung
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Unsere Profis öffnen Türen ohne Schäden. Ob ausgesperrt oder
-            abgebrochener Schlüssel - eine schonende Türöffnung ist unser Ziel.
-          </UI.Typography>
+        <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
+          <div className="order-2 md:order-1">
+            <div>
+              <UI.Icon icon={CheckBadgeIcon} />
+              <UI.Typography
+                variant="h3"
+                className="text-black mt-4 !text-h4 !leading-8"
+              >
+                Akzeptiert von Hausversicherungen
+              </UI.Typography>
+              <UI.Typography
+                variant="md"
+                className="mt-6 !text-[18px] text-primary-900 leading-8"
+              >
+                Nach dem erfolgreichen Entsperren, kannst du unsere Rechnung
+                einfach an deine Haushaltsversicherung senden.
+              </UI.Typography>
+            </div>
+            <div className="mt-[56px]">
+              <UI.Icon icon={ClockIcon} />
+              <UI.Typography
+                variant="h3"
+                className="text-black mt-4 !text-h4 !leading-8"
+              >
+                24h Schlüsselnotdienst
+              </UI.Typography>
+              <UI.Typography
+                variant="md"
+                className="mt-6 !text-[18px] text-primary-900 leading-8"
+              >
+                Wir sind rund um die Uhr, 365 Tage im Jahr, für dich da, um in
+                Notfällen zu helfen.
+              </UI.Typography>
+            </div>
+            <div className="my-[56px]">
+              <UI.Icon icon={KeyIcon} />
+              <UI.Typography
+                variant="h3"
+                className="text-black mt-4 !text-h4 !leading-8"
+              >
+                Schadfreie Türöffnung
+              </UI.Typography>
+              <UI.Typography
+                variant="md"
+                className="mt-6 !text-[18px] text-primary-900 leading-8"
+              >
+                Unsere Profis öffnen Türen ohne Schäden. Ob ausgesperrt oder
+                abgebrochener Schlüssel - eine schonende Türöffnung ist unser
+                Ziel.
+              </UI.Typography>
+            </div>
+          </div>
+          <div className="relative mb-[56px] order-1 md:order-2">
+            <Image
+              width={1920}
+              height={1280}
+              layout="cover"
+              src="/images/schluesseldienst-wien-aufsperrdienst.jpg"
+              alt="Schlüsseldienst Wien Mitarbeiter öffnet eine Tür"
+              className="rounded-xl overflow-hidden"
+            />
+          </div>
         </div>
       </UI.Container>
       {/* Content Section END */}
@@ -261,22 +276,34 @@ const IndexPage = () => {
       </div>
       {/* Price Section END */}
       {/* Content Section START */}
-      <UI.Container>
-        <UI.Typography variant="h2" className="font-bold mt-[56px]">
-          <span className="text-primary-500">Seriöser Schlüsseldienst</span>?
-          <br></br>
-          Bei uns bist du richtig.
-        </UI.Typography>
-        <div className="mt-[56px]">
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Unser Unternehmen ist behördlich befähigt und verpflichtet sich zu
-            höchster Seriosität und Transparenz. Erfahre jetzt mehr darüber, was
-            du bei Schlüsseldienst Unternehmen bezüglich Seriosität wissen
-            musst.
-          </UI.Typography>
+      <UI.Container className="mt-[56px]">
+        <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
+          <div className="relative order-1 md:order-2">
+            <Image
+              width={1920}
+              height={1280}
+              layout="cover"
+              src="/images/serioeser-schluesseldienst.jpg"
+              alt="Mitarbeiter des seriösen Schlüsseldienstes öffnen die Eingangstür"
+              className="rounded-xl overflow-hidden"
+            />
+          </div>
+          <div className="order-2 md:order-1">
+            <UI.Typography variant="h2" weight="bold">
+              <span className="text-primary-500">Seriöser Schlüsseldienst</span>
+              ?<br></br>
+              Bei uns bist du richtig.
+            </UI.Typography>
+            <UI.Typography
+              variant="md"
+              className="mt-6 !text-[18px] text-primary-900 leading-8"
+            >
+              Unser Unternehmen ist behördlich befähigt und verpflichtet sich zu
+              höchster Seriosität und Transparenz. Erfahre jetzt mehr darüber,
+              was du bei Schlüsseldienst Unternehmen bezüglich Seriosität wissen
+              musst.
+            </UI.Typography>
+          </div>
         </div>
       </UI.Container>
       <UI.Container className="flex items-center gap-4 w-full py-8">
@@ -330,28 +357,44 @@ const IndexPage = () => {
             unterzeichnen.
           </UI.Typography>
         </div>
-        <UI.Typography variant="h2" className="font-bold mt-[56px]">
-          Mehr als nur ein{' '}
-          <span className="text-primary-500">Schlüsseldienst</span>.
-        </UI.Typography>
-        <div className="mt-[56px]">
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Wir bieten nicht nur den Schlüsseldienst an, sondern auch
-            professionelle Schlosserarbeiten für deine Sicherheit.
-          </UI.Typography>
+      </UI.Container>
+      <UI.Container>
+        <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
+          <div>
+            <UI.Typography variant="h2" weight="bold">
+              Mehr als nur ein{' '}
+              <span className="text-primary-500">Schlüsseldienst</span>.
+            </UI.Typography>
+            <div className="mt-[56px]">
+              <UI.Typography
+                variant="md"
+                className="mt-6 !text-[18px] text-primary-900 leading-8"
+              >
+                Wir bieten nicht nur den Schlüsseldienst an, sondern auch
+                professionelle Schlosserarbeiten für deine Sicherheit.
+              </UI.Typography>
 
-          <UI.Button
-            variant="contained"
-            iconVisible={true}
-            iconPosition={'right'}
-            icon={<ArrowSmallRightIcon className="w-8" />}
-            className="w-full my-8 font-bold flex items-center py-4 max-w-[300px]"
-          >
-            Alle Leistungen ansehen
-          </UI.Button>
+              <UI.Button
+                variant="contained"
+                iconVisible={true}
+                iconPosition={'right'}
+                icon={<ArrowSmallRightIcon className="w-8" />}
+                className="w-full my-8 font-bold flex items-center py-4 max-w-[300px]"
+              >
+                Alle Leistungen ansehen
+              </UI.Button>
+            </div>
+          </div>
+          <div className="relative">
+            <Image
+              width={1920}
+              height={1280}
+              layout="cover"
+              src="/images/mehr-als-ein-schluesseldienst.jpg"
+              alt="Professioneller Schlosser in seiner Werkstatt"
+              className="rounded-xl overflow-hidden"
+            />
+          </div>
         </div>
       </UI.Container>
       {/* Content Section END */}

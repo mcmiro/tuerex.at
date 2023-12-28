@@ -84,26 +84,41 @@ const SerioeserSchluesseldienstPage = () => {
       {/* Content Section END */}
       {/* Tipp #1 START */}
       <UI.Container className="mt-[56px]" id="tipp-one">
-        <UI.Typography variant="h2" className="font-bold">
-          <span className="text-primary-500">Tipp #1</span>
-          <br></br>
-          Achte auf die Ortsansässigkeit.
-        </UI.Typography>
-        <div className="mt-[24px]">
-          <UI.Typography
-            variant="md"
-            className="mt-2 !text-[18px] text-primary-900 leading-8"
-          >
-            Unseriöse Schlüsseldienste sind oft nicht in Wien ansässig, sondern
-            in anderen Städten oder sogar Ländern. Sie werben mit günstigen
-            Preisen, aber die tatsächlichen Kosten fallen am Ende sehr hoch aus.
-            <br></br>
-            <br></br>
-            Wenn du einen Schlüsseldienst in Wien beauftragst, solltest du
-            darauf achten, dass dieser auch in Wien oder zumindest in
-            Wien-Umgebung ansässig ist. Weiterer Vorteil davon ist, dass die
-            Anfahrtskosten fair sind.
-          </UI.Typography>
+        <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
+          <div className="order-2 md:order-1">
+            <UI.Typography variant="h2" className="font-bold">
+              <span className="text-primary-500">Tipp #1</span>
+              <br></br>
+              Achte auf die Ortsansässigkeit.
+            </UI.Typography>
+            <div className="mt-[24px]">
+              <UI.Typography
+                variant="md"
+                className="mt-2 !text-[18px] text-primary-900 leading-8"
+              >
+                Unseriöse Schlüsseldienste sind oft nicht in Wien ansässig,
+                sondern in anderen Städten oder sogar Ländern. Sie werben mit
+                günstigen Preisen, aber die tatsächlichen Kosten fallen am Ende
+                sehr hoch aus.
+                <br></br>
+                <br></br>
+                Wenn du einen Schlüsseldienst in Wien beauftragst, solltest du
+                darauf achten, dass dieser auch in Wien oder zumindest in
+                Wien-Umgebung ansässig ist. Weiterer Vorteil davon ist, dass die
+                Anfahrtskosten fair sind.
+              </UI.Typography>
+            </div>
+          </div>
+          <div className="order-1 md:order-2">
+            <Image
+              width={1920}
+              height={1280}
+              layout="cover"
+              src="/images/ortsansaessig-in-wien.jpg"
+              alt="Wien von oben fotografiert"
+              className="rounded-xl overflow-hidden"
+            />
+          </div>
         </div>
       </UI.Container>
       {/* Tipp #1 END */}
@@ -168,20 +183,34 @@ const SerioeserSchluesseldienstPage = () => {
       {/* Call Section END */}
       {/* Tipp #3 START */}
       <UI.Container className="my-[56px]" id="tipp-tree">
-        <UI.Typography variant="h2" className="font-bold">
-          <span className="text-primary-500">Tipp #3</span>
-          <br></br>
-          Achte auf versteckte Kosten.
-        </UI.Typography>
-        <div className="mt-[24px]">
-          <UI.Typography
-            variant="md"
-            className="mt-2 !text-[18px] text-primary-900 leading-8"
-          >
-            Ein seriöser Schlüsseldienst wird dir keine versteckten Kosten
-            berechnen. Alle Leistungen und Kosten werden vor Beginn der Arbeiten
-            transparent aufgelistet.
-          </UI.Typography>
+        <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
+          <div className="order-2 md:order-1">
+            <UI.Typography variant="h2" className="font-bold">
+              <span className="text-primary-500">Tipp #3</span>
+              <br></br>
+              Achte auf versteckte Kosten.
+            </UI.Typography>
+            <div className="mt-[24px]">
+              <UI.Typography
+                variant="md"
+                className="mt-2 !text-[18px] text-primary-900 leading-8"
+              >
+                Ein seriöser Schlüsseldienst wird dir keine versteckten Kosten
+                berechnen. Alle Leistungen und Kosten werden vor Beginn der
+                Arbeiten transparent aufgelistet.
+              </UI.Typography>
+            </div>
+          </div>
+          <div className="order-1 md:order-2">
+            <Image
+              width={1920}
+              height={1280}
+              layout="cover"
+              src="/images/keine-versteckte-kosten.jpg"
+              alt="Schlüßeldienst Kunde bezahlt die Türöffnung. Klare Preisgestaltung"
+              className="rounded-xl overflow-hidden"
+            />
+          </div>
         </div>
       </UI.Container>
       {/* Tipp #3 END */}
@@ -204,21 +233,35 @@ const SerioeserSchluesseldienstPage = () => {
       {/* Price Section END */}
       {/* Tipp #4 START */}
       <UI.Container className="my-[56px]" id="tipp-four">
-        <UI.Typography variant="h2" className="font-bold">
-          <span className="text-primary-500">Tipp #4</span>
-          <br></br>
-          Schadenfreie Öffnung.
-        </UI.Typography>
-        <div className="mt-[24px]">
-          <UI.Typography
-            variant="md"
-            className="mt-2 !text-[18px] text-primary-900 leading-8"
-          >
-            Ein seriöser Schlüsseldienst wird immer versuchen, die Tür möglichst
-            beschädigungsfrei zu öffnen. Sollte dies nicht möglich sein, wird er
-            dich vorher darüber informieren und die Kosten für einen
-            Schlosswechsel transparent aufschlüsseln.
-          </UI.Typography>
+        <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
+          <div className="order-2 md:order-1">
+            <UI.Typography variant="h2" className="font-bold">
+              <span className="text-primary-500">Tipp #4</span>
+              <br></br>
+              Schadenfreie Öffnung.
+            </UI.Typography>
+            <div className="mt-[24px]">
+              <UI.Typography
+                variant="md"
+                className="mt-2 !text-[18px] text-primary-900 leading-8"
+              >
+                Ein seriöser Schlüsseldienst wird immer versuchen, die Tür
+                möglichst beschädigungsfrei zu öffnen. Sollte dies nicht möglich
+                sein, wird er dich vorher darüber informieren und die Kosten für
+                einen Schlosswechsel transparent aufschlüsseln.
+              </UI.Typography>
+            </div>
+          </div>
+          <div className="order-1 md:order-2">
+            <Image
+              width={1920}
+              height={1280}
+              layout="cover"
+              src="/images/schadenfreie-oeffnung.jpg"
+              alt="Ein Mitarbeiter öffnet eine Tür schadfrei"
+              className="rounded-xl overflow-hidden"
+            />
+          </div>
         </div>
       </UI.Container>
       {/* Tipp #4 END */}
