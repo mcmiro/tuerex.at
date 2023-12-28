@@ -137,7 +137,7 @@ export const priceData = [
   },
   {
     title: 'Sonn- und Feiertage',
-    workingHours: '21:00 bis 05:00 Uhr',
+    workingHours: '00:00 bis 24:00 Uhr',
     addonPrice: 45,
     icon: SparklesIcon,
     services: [

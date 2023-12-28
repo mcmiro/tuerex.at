@@ -25,6 +25,13 @@ const TableNavigation = ({ filter, onClick }: TableNavigationProps) => {
               onClick={() => onClick(button.title)}
             >
               {button.title}
+              <span
+                className={`block mt-1 font-normal text-[12px] ${
+                  button.title === filter ? 'text-white' : 'text-primary-500'
+                }`}
+              >
+                {button.workingHours}
+              </span>
             </UI.Button>
           );
         })}
@@ -35,7 +42,7 @@ const TableNavigation = ({ filter, onClick }: TableNavigationProps) => {
           return (
             <button
               key={index}
-              className={`font-bold py-4 text-[14px] rounded-none text-primary-950 w-full ${
+              className={`font-bold py-2 text-[14px] rounded-none text-primary-950 w-full ${
                 index % 2 !== 1 ? 'border-r border-primary-500' : ''
               }
 							${button.title === filter ? 'bg-primary-500 text-white' : 'bg-white'}
@@ -44,6 +51,13 @@ const TableNavigation = ({ filter, onClick }: TableNavigationProps) => {
               onClick={() => onClick(button.title)}
             >
               {button.title}
+              <span
+                className={`block font-normal text-[12px] ${
+                  button.title === filter ? 'text-white' : 'text-primary-500'
+                }`}
+              >
+                {button.workingHours}
+              </span>
             </button>
           );
         })}
