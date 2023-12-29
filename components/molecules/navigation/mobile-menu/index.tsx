@@ -6,12 +6,14 @@ import { navigationData } from 'content/navigation';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import { PhoneIcon } from '@heroicons/react/24/outline';
 import { contactData } from 'content/contact';
+import useSlack from 'hooks/use-slack';
 
 export interface MobileMenuProps {
   onClick: () => void;
 }
 
 const MobileMenu = ({ onClick }: MobileMenuProps) => {
+  const { sendMessageToSlack } = useSlack();
   return (
     <div
       onClick={(e: React.MouseEvent<HTMLDivElement>) => {
@@ -45,6 +47,7 @@ const MobileMenu = ({ onClick }: MobileMenuProps) => {
           </ul>
           <div className="px-4">
             <a
+              onClick={() => sendMessageToSlack('New call was initiated.')}
               href={`tel:${contactData.phone}`}
               className="w-full flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
             >

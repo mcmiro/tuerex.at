@@ -5,6 +5,7 @@ import { Bars2Icon } from '@heroicons/react/24/solid';
 import { PhoneIcon } from '@heroicons/react/24/outline';
 import { contactData } from 'content/contact';
 import { navigationData } from 'content/navigation';
+import useSlack from 'hooks/use-slack';
 
 const classesSchema = {
   base: 'border-b border-[#E2E8F0]',
@@ -17,6 +18,7 @@ export interface NavigationProps {
 }
 
 const Navigation = ({ className }: NavigationProps) => {
+  const { sendMessageToSlack } = useSlack();
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
   const navigationClasses = clsx([classesSchema.base, className]);
   const containerClasses = clsx([classesSchema.container]);
@@ -29,7 +31,10 @@ const Navigation = ({ className }: NavigationProps) => {
         <div className="hidden md:flex items-center justify-end w-full gap-10">
           <UI.Menu items={navigationData} />
           <div className="flex items-center justify-center w-[40px] h-[40px] rounded-lg bg-primary-500 cursor-pointer">
-            <a href={`tel:${contactData.phone}`}>
+            <a
+              onClick={() => sendMessageToSlack('New call was initiated.')}
+              href={`tel:${contactData.phone}`}
+            >
               <PhoneIcon className="h-[24px] text-white" />
             </a>
           </div>
@@ -37,7 +42,10 @@ const Navigation = ({ className }: NavigationProps) => {
         {/* Desktop Menu END */}
         {/* Mobile Menu START */}
         <div className="flex md:hidden items-center gap-4">
-          <div className="flex items-center justify-center w-[40px] h-[40px] rounded-lg bg-primary-500 cursor-pointer">
+          <div
+            onClick={() => sendMessageToSlack('New call was initiated.')}
+            className="flex items-center justify-center w-[40px] h-[40px] rounded-lg bg-primary-500 cursor-pointer"
+          >
             <a href={`tel:${contactData.phone}`}>
               <PhoneIcon className="h-[24px] text-white" />
             </a>

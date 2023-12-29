@@ -4,6 +4,7 @@ import { availabilityData } from 'content/availability';
 import clsx from 'clsx';
 import useSlackStore from 'store/slack-store';
 import useVisitor from 'hooks/use-visitor';
+import useSlack from 'hooks/use-slack';
 
 type StatusVariant = 'error' | 'pending' | 'success';
 
@@ -23,28 +24,9 @@ const classesSchema = {
 
 const AvailabilityCheck = () => {
   const [status, setStatus] = useState<AvailabilityItem>(availabilityData[1]);
-  const { slackValue, updateSlackValue } = useSlackStore();
+  const { sendMessageToSlack } = useSlack();
+  const { slackValue } = useSlackStore();
   const { visitorInformation } = useVisitor();
-
-  const sendMessageToSlack = async () => {
-    try {
-      const response = await fetch('/api/slack', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          text: JSON.stringify(visitorInformation),
-        }),
-      });
-      const result = await response.json();
-      if (result.success) {
-        updateSlackValue(true);
-      }
-    } catch (error) {
-      console.error('Error sending message to Slack:', error);
-    }
-  };
 
   const badgeClasses = clsx([
     classesSchema.badge[status.status as StatusVariant],
@@ -69,7 +51,9 @@ const AvailabilityCheck = () => {
 
   useEffect(() => {
     if (!slackValue) {
-      visitorInformation && status && sendMessageToSlack();
+      visitorInformation &&
+        status &&
+        sendMessageToSlack(JSON.stringify(visitorInformation));
     }
   }, [status]);
 

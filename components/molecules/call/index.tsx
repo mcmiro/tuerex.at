@@ -3,6 +3,7 @@ import { UI } from 'components';
 import { PhoneIcon } from '@heroicons/react/24/outline';
 import { contactData } from 'content/contact';
 import clsx from 'clsx';
+import useSlack from 'hooks/use-slack';
 
 type CallMode = 'dark' | 'light';
 
@@ -16,11 +17,13 @@ export interface CallProps {
 }
 
 export const Call = ({ mode }: CallProps) => {
+  const { sendMessageToSlack } = useSlack();
   const callClasses = clsx([classesSchema[mode ? mode : 'light']]);
 
   return (
     <div className="w-full pt-12">
       <a
+        onClick={() => sendMessageToSlack('New call was initiated.')}
         href={`tel:${contactData.phone}`}
         className="w-full max-w-[300px] mx-auto flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
       >
