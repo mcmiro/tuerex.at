@@ -10,3 +10,13 @@ html,
 body {
   font-family: 'Inter', sans-serif;
 }
+
+.cookie-wrapper {
+  bottom: -96px;
+  transition: all 1s;
+}
+
+.cookie-wrapper.active {
+  bottom: 16px;
+  transition: all 1s;
+}

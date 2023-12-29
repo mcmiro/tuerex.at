@@ -1,8 +1,8 @@
-import React from 'react';
-import Image from 'next/image';
+import React, { useEffect, useState } from 'react';
 import Layout from 'components/layouts';
 import { UI } from 'components';
 import WkoLogo from '../../assets/images/wko-logo.svg';
+import DistrictItem from 'models/districts-content';
 import {
   CheckBadgeIcon,
   CheckIcon,
@@ -10,21 +10,37 @@ import {
   KeyIcon,
 } from '@heroicons/react/24/outline';
 import axios from 'axios';
+import Link from 'next/link';
 
-export interface ContentProps {
-  data: {
-    postalCode: string;
-    description: string;
-    headlineOne: string;
-    copyOne: string;
-    headlineTwo: string;
-    copyTwo: string;
-    headlineThree: string;
-    copyThree: string;
+const IndexPage: React.FC<{
+  data: DistrictItem;
+  districts: DistrictItem[];
+}> = ({ data, districts }) => {
+  const [navigationitems, setNavigationItems] = useState<DistrictItem[]>();
+
+  const findSurroundingItems = (targetPostalCode: string) => {
+    const targetIndex = districts.findIndex(
+      (el) => el.postalCode === targetPostalCode
+    );
+
+    if (targetIndex !== -1) {
+      const startIndex = Math.max(0, targetIndex - 2);
+      const endIndex = Math.min(districts.length - 1, targetIndex + 2);
+
+      const surroundingItems = districts
+        .slice(startIndex, endIndex + 1)
+        .filter((el) => el.postalCode !== targetPostalCode);
+
+      setNavigationItems(surroundingItems);
+    }
+
+    return [];
   };
-}
 
-const IndexPage = ({ data }: ContentProps) => {
+  useEffect(() => {
+    findSurroundingItems(data.postalCode);
+  }, []);
+
   return (
     <Layout
       title={`Schlüsseldienst ${data.postalCode} Wien | Aufsperr-Notdienst | TÜREX`}
@@ -58,7 +74,7 @@ const IndexPage = ({ data }: ContentProps) => {
           </ul>
           <UI.Call />
           <div className="relative w-full h-8 mt-8">
-            <Image src={WkoLogo} objectFit="fill" alt="wkö logo" />
+            <img src={WkoLogo.src} alt="wkö logo" className="mx-auto" />
           </div>
           <UI.Typography
             variant="sm"
@@ -158,6 +174,31 @@ const IndexPage = ({ data }: ContentProps) => {
         </UI.Container>
       </div>
       {/* Price Section END */}
+      {/* Navigatio START */}
+      <div className="bg-[#f5f5f5] py-[56px]">
+        <UI.Container>
+          <UI.Typography variant="h4">Weitere Bezirke:</UI.Typography>
+          <div className="flex justify-between mt-[16px]">
+            {navigationitems &&
+              navigationitems.map((el: DistrictItem, index: number) => {
+                return (
+                  <div
+                    key={index}
+                    className="border border-primary-500 rounded-lg px-6 py-2 inline-block"
+                  >
+                    <Link
+                      href={`/wien/${el.postalCode}`}
+                      className="border-b border-primary-500"
+                    >
+                      Wien {el.postalCode}
+                    </Link>
+                  </div>
+                );
+              })}
+          </div>
+        </UI.Container>
+      </div>
+      {/* Navigatio END */}
       {/* Payment Section START */}
       <div id="payment">
         <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
@@ -207,9 +248,20 @@ export const getStaticProps = async (context: any) => {
   const response = await axios.get(
     `${process.env.NEXT_LOCAL_URL}/districts.json`
   );
+
+  const districts = response.data.data;
+
   const data = response.data.data.find(
     (el: any) => el.postalCode.toString() === postalCode
   );
 
-  return { props: { data } };
+  if (!data) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: { data, districts },
+  };
 };
