@@ -13,7 +13,7 @@ export interface MobileMenuProps {
 }
 
 const MobileMenu = ({ onClick }: MobileMenuProps) => {
-  const { sendMessageToSlack } = useSlack();
+  const { getTimeStampNow, sendMessageToSlack } = useSlack();
   return (
     <div
       onClick={(e: React.MouseEvent<HTMLDivElement>) => {
@@ -47,7 +47,11 @@ const MobileMenu = ({ onClick }: MobileMenuProps) => {
           </ul>
           <div className="px-4">
             <a
-              onClick={() => sendMessageToSlack('New call was initiated.')}
+              onClick={() =>
+                sendMessageToSlack(
+                  `New call was initiated. ${getTimeStampNow()}`
+                )
+              }
               href={`tel:${contactData.phone}`}
               className="w-full flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
             >

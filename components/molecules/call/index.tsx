@@ -17,13 +17,15 @@ export interface CallProps {
 }
 
 export const Call = ({ mode }: CallProps) => {
-  const { sendMessageToSlack } = useSlack();
+  const { getTimeStampNow, sendMessageToSlack } = useSlack();
   const callClasses = clsx([classesSchema[mode ? mode : 'light']]);
 
   return (
     <div className="w-full pt-12">
       <a
-        onClick={() => sendMessageToSlack('New call was initiated.')}
+        onClick={() =>
+          sendMessageToSlack(`New call was initiated. ${getTimeStampNow()}`)
+        }
         href={`tel:${contactData.phone}`}
         className="w-full max-w-[300px] mx-auto flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
       >

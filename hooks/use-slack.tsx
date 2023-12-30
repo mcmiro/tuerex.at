@@ -23,8 +23,30 @@ const useSlack = () => {
     }
   };
 
+  const getTimeStampNow = () => {
+    const now = new Date();
+
+    const options: Intl.DateTimeFormatOptions = {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric',
+      timeZone: 'Europe/Vienna',
+      hour12: false,
+    };
+
+    const germanDateTime = new Intl.DateTimeFormat('de-DE', options).format(
+      now
+    );
+    return germanDateTime;
+  };
+
   return {
     sendMessageToSlack,
+    getTimeStampNow,
   };
 };
 

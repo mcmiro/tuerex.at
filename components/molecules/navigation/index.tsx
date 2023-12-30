@@ -18,7 +18,7 @@ export interface NavigationProps {
 }
 
 const Navigation = ({ className }: NavigationProps) => {
-  const { sendMessageToSlack } = useSlack();
+  const { getTimeStampNow, sendMessageToSlack } = useSlack();
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
   const navigationClasses = clsx([classesSchema.base, className]);
   const containerClasses = clsx([classesSchema.container]);
@@ -32,7 +32,11 @@ const Navigation = ({ className }: NavigationProps) => {
           <UI.Menu items={navigationData} />
           <div className="flex items-center justify-center w-[40px] h-[40px] rounded-lg bg-primary-500 cursor-pointer">
             <a
-              onClick={() => sendMessageToSlack('New call was initiated.')}
+              onClick={() =>
+                sendMessageToSlack(
+                  `New call was initiated. ${getTimeStampNow()}`
+                )
+              }
               href={`tel:${contactData.phone}`}
             >
               <PhoneIcon className="h-[24px] text-white" />
@@ -43,7 +47,9 @@ const Navigation = ({ className }: NavigationProps) => {
         {/* Mobile Menu START */}
         <div className="flex md:hidden items-center gap-4">
           <div
-            onClick={() => sendMessageToSlack('New call was initiated.')}
+            onClick={() =>
+              sendMessageToSlack(`New call was initiated. ${getTimeStampNow()}`)
+            }
             className="flex items-center justify-center w-[40px] h-[40px] rounded-lg bg-primary-500 cursor-pointer"
           >
             <a href={`tel:${contactData.phone}`}>
