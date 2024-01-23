@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '../components/layouts';
-import { UI } from '../components';
+import Layout from 'components/layouts';
+import { UI } from 'components';
 import { CheckBadgeIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import axios from 'axios';

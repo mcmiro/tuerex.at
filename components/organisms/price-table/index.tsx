@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { UI } from 'components';
 import { priceData } from 'content/price';
+import holidays from 'content/holidays';
 
 const PriceTable = () => {
   const [tableFilter, setTableFilter] = useState<string>('');
@@ -10,7 +11,18 @@ const PriceTable = () => {
     const hour = now.getHours();
     const day = now.getDay();
 
-    if (day === 6 || day === 7) {
+    const options: Intl.DateTimeFormatOptions = {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric',
+    };
+
+    const dateNowGerman = now.toLocaleDateString('de-DE', options);
+    const isHoliday = holidays.includes(dateNowGerman);
+
+    if (isHoliday) {
+      setTableFilter(priceData[3].title);
+    } else if (day === 6 || day === 7) {
       setTableFilter(priceData[3].title);
     } else if (hour >= 5 && hour < 17) {
       setTableFilter(priceData[0].title);
