@@ -41,6 +41,7 @@ import Navigation from './molecules/navigation';
 import Payment from './molecules/payment';
 
 // Organisms
+import BlockRendererClient from './organisms/block-renderer-client';
 import Footer from './organisms/footer';
 import PriceTable from './organisms/price-table';
 import TableContent from './organisms/price-table/table';
@@ -90,6 +91,7 @@ export const UI = {
   Payment,
 
   // Organisms
+  BlockRendererClient,
   Footer,
   PriceTable,
   TableContent,

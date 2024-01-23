@@ -20,3 +20,8 @@ body {
   bottom: 16px;
   transition: all 1s;
 }
+
+.blocks-renderer img {
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
