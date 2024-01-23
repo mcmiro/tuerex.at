@@ -8,20 +8,23 @@ import useSlack from 'hooks/use-slack';
 type CallMode = 'dark' | 'light';
 
 const classesSchema = {
+  base: 'w-full pt-12',
   dark: 'text-white',
   light: 'text-black',
 };
 
 export interface CallProps {
   mode?: CallMode;
+  className?: string;
 }
 
-export const Call = ({ mode }: CallProps) => {
+export const Call = ({ mode, className }: CallProps) => {
   const { getTimeStampNow, sendMessageToSlack } = useSlack();
+  const callBaseClasses = clsx([classesSchema.base, className]);
   const callClasses = clsx([classesSchema[mode ? mode : 'light']]);
 
   return (
-    <div className="w-full pt-12">
+    <div className={callBaseClasses}>
       <a
         onClick={() =>
           sendMessageToSlack(`New call was initiated. ${getTimeStampNow()}`)
