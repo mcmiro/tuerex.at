@@ -17,7 +17,7 @@ const TableContent = ({ query }: TableContentProps) => {
       {filteredTableData.map((table: PriceItem, index: number) => {
         return (
           <div key={index} className="p-4 bg-white rounded-lg mt-8 shadow-lg">
-            <div className="flex gap-2 pt-2">
+            <div className="flex gap-2 pt-2 border-b border-[#E2E8F0] pb-8">
               <div className="flex items-start mt-.5">
                 <table.icon className="w-6 text-primary-500" />
               </div>
@@ -25,12 +25,9 @@ const TableContent = ({ query }: TableContentProps) => {
                 <UI.Typography variant="h3" className="!text-h5 font-bold">
                   {table.title}
                 </UI.Typography>
-                <UI.Typography variant="xs" className="leading-6">
-                  {table.subTitle}
-                </UI.Typography>
               </div>
             </div>
-            <div className="mt-8">
+            <div className="mt-4">
               <table className="w-full">
                 <tbody>
                   {table.services.map((el: any, index: number) => (
@@ -47,8 +44,11 @@ const TableContent = ({ query }: TableContentProps) => {
                           dangerouslySetInnerHTML={{ __html: el.description }}
                         ></span>
                       </td>
-                      <td className="align-top pt-3 font-semibold">
-                        {el.price}€
+                      <td className="align-top pt-3 font-semibold w-16 text-right">
+                        {typeof el.price === 'number'
+                          ? el.price + table.addonPrice
+                          : el.price}
+                        €
                       </td>
                     </tr>
                   ))}
