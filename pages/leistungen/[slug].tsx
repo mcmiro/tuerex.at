@@ -182,13 +182,16 @@ export async function getStaticPaths() {
 
 export const getStaticProps = async (context: any) => {
   const { params } = context;
-  const slug = params.postal;
+  const slug = params.slug;
 
   const response = await axios.get(
     `${process.env.NEXT_PUBLIC_STRAPI_URL}/services?populate=*&slug=${slug}`
   );
 
-  const data = response.data.data[0].attributes;
+  const data = response.data.data.find(
+    (el: any) => el.attributes.slug.toLowerCase() === slug
+  );
+  console.log(data);
 
   if (!data) {
     return {
@@ -197,6 +200,6 @@ export const getStaticProps = async (context: any) => {
   }
 
   return {
-    props: { data },
+    props: { data: data.attributes },
   };
 };
