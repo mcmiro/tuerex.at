@@ -191,7 +191,6 @@ export const getStaticProps = async (context: any) => {
   const data = response.data.data.find(
     (el: any) => el.attributes.slug.toLowerCase() === slug
   );
-  console.log(data);
 
   if (!data) {
     return {

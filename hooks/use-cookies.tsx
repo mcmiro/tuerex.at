@@ -5,7 +5,6 @@ export const useCookies = () => {
   const [functionalCookies, setFunctionalCookies] = useState<string>();
 
   const saveFunctionalCookies = (payload: any) => {
-    console.log('paxyload', payload);
     Cookies.set('functional-cookies', payload);
   };
 
