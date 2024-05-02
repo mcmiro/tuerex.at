@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Layout from '../components/layouts';
 import { UI } from '../components';
-import faqData from 'content/faq';
+import faqData from 'constants/faq';
 import WkoLogo from '../assets/images/wko-logo.svg';
+import { contactData } from 'constants/contact';
 import indexStrucutreData from 'utils/structure-data';
 import {
   ArrowRightIcon,
@@ -15,6 +16,9 @@ import {
   LockOpenIcon,
   UserIcon,
   ArrowSmallRightIcon,
+  PhoneIcon,
+  CurrencyEuroIcon,
+  ShieldCheckIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import router from 'next/router';
@@ -29,13 +33,14 @@ const IndexPage = () => {
   return (
     <Layout
       title="24/7 Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
+      canonical="https://tuerex.at"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
       jsonLd={indexStrucutreData}
     >
       {/* Modal Price START */}
       {priceTableVisible && (
         <UI.ModalDialog onClick={hanldeClosePriceTable}>
-          <UI.Typography variant="h5" align="center" className="font-bold mt-4">
+          <UI.Typography variant="h5" align="center" className="mt-4 font-bold">
             Schlüsseldienst Preise
           </UI.Typography>
           <UI.PriceTable />
@@ -70,16 +75,16 @@ const IndexPage = () => {
             Klare Preisgestaltung
           </UI.Typography>
           <ul className="flex items-center justify-between pt-12 w-full max-w-[480px]">
-            <li className="flex items-center gap-1 text-[18px] md:text-[22px] font-['Lexend'] text-gray-800">
+            <li className="flex items-center gap-1 text-[16px] md:text-[22px] font-['Lexend'] text-gray-800">
               <CheckIcon className="w-5" />
               24h/365 Tage
             </li>
-            <li className="flex items-center gap-1 text-[18px] md:text-[22px] font-['Lexend'] text-gray-800">
+            <li className="flex items-center gap-1 text-[16px] md:text-[22px] font-['Lexend'] text-gray-800">
               <CheckIcon className="w-5" /> Behördlich befähigt
             </li>
           </ul>
           <UI.Call />
-          <div className="flex justify-center relative w-full h-8">
+          <div className="relative flex justify-center w-full h-8 mt-6">
             <Link href="https://firmen.wko.at/sead-hadrovi%C4%87/wien/?firmaid=281d167a-1201-460e-9c76-dabac353623b">
               <img src={WkoLogo.src} alt="wkö logo" />
             </Link>
@@ -94,12 +99,112 @@ const IndexPage = () => {
       </header>
       {/* Hero Section START */}
       {/* Content Section START */}
-      <UI.Container className="mt-[56px]">
-        <UI.Typography variant="h2" weight="bold">
-          Verlässlicher <br></br>
-          <span className="text-primary-500">24h Schlüsseldienst</span>.
+      <UI.Container className="mt-[98px]">
+        <UI.Typography variant="h2" weight="bold" align="center">
+          Wenn dich dein Schlüssel im Stich lässt: <br></br>
+          <span className="text-primary-500">
+            unser 24h Schlüsseldienst hilft weiter
+          </span>
+          .
         </UI.Typography>
-        <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
+        <UI.Typography
+          variant="md"
+          align="center"
+          className="mt-6 !text-[18px] text-primary-900 leading-8"
+        >
+          Wenn du plötzlich vor verschlossener Tür stehst und dein Schlüssel
+          dich im Stich lässt, steht unser 24h Schlüsseldienst bereit. Wir sind
+          ein professioneller Aufsperrdienst, ausgebildet dafür, dir in solchen
+          Notfällen zu helfen.
+        </UI.Typography>
+        <ul className="flex flex-col lg:flex-row justify-start lg:justify-between gap-8 mt-[98px]">
+          <li className="w-full lg:w1/3">
+            <UI.Icon icon={ClockIcon} />
+            <UI.Typography
+              variant="h3"
+              className="text-black mt-4 !text-h4 !leading-8"
+            >
+              24 Stunden erreichbar
+            </UI.Typography>
+            <UI.Typography
+              variant="md"
+              className="mt-6 !text-[16px] text-primary-900 leading-6"
+            >
+              Wir sind rund um die Uhr, 365 Tage im Jahr, für dich da. Wir
+              helfen in Notfällen. Sowohl in der Nacht, als auch an Sonn- und
+              Feiertagen.
+            </UI.Typography>
+          </li>
+          <li className="w-full lg:w1/3">
+            <UI.Icon icon={KeyIcon} />
+            <UI.Typography
+              variant="h3"
+              className="text-black mt-4 !text-h4 !leading-8"
+            >
+              Schadenfreie Türöffnung
+            </UI.Typography>
+            <UI.Typography
+              variant="md"
+              className="mt-6 !text-[16px] text-primary-900 leading-6"
+            >
+              Unsere Profis öffnen Türen ohne Schäden. Ob ausgesperrt oder
+              abgebrochener Schlüssel - eine schonende Türöffnung ist unser
+              Ziel.
+            </UI.Typography>
+          </li>
+          <li className="w-full lg:w1/3">
+            <UI.Icon icon={CurrencyEuroIcon} />
+            <UI.Typography
+              variant="h3"
+              className="text-black mt-4 !text-h4 !leading-8"
+            >
+              Faire & klare Fixpreise
+            </UI.Typography>
+            <UI.Typography
+              variant="md"
+              className="mt-6 !text-[16px] text-primary-900 leading-6"
+            >
+              Unsere{' '}
+              <Link href="#prices" className="underline">
+                Fixpreise
+              </Link>{' '}
+              sind fair und klar, pro Leistung definiert. So kannst du jederzeit
+              die Kosten im Überblick behalten.
+            </UI.Typography>
+          </li>
+        </ul>
+      </UI.Container>
+      {/* Content Section END */}
+      {/* Call Section START */}
+      <div className="my-20">
+        <a
+          href={`tel:${contactData.phone}`}
+          className="w-full max-w-[300px] mx-auto flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
+        >
+          Jetzt anrufen
+          <PhoneIcon className="w-6 h-6 text-white" />
+        </a>
+      </div>
+      {/* Call Section END */}
+      {/* Content Section START */}
+      <UI.Container className="mt-[98px]">
+        <UI.Typography variant="h2" weight="bold">
+          Umfassender Service durch <br></br>
+          <span className="text-primary-500">
+            behördlich befähigten Aufsperrdienst
+          </span>
+          .
+        </UI.Typography>
+        <UI.Typography
+          variant="md"
+          className="mt-6 !text-[18px] text-primary-900 leading-8"
+        >
+          Unsere Aufgabe ist es zwar für ordnungsgemäße, schadenfreie
+          Türröffnungen zu sorgen. Unsere Expertise geht aber weit mehr hinaus.
+          Als professioneller Schlüsseldienst sorgen wir auch dafür, dass du
+          dich während des ganzen Prozesses sicher und wohl fühlst.
+        </UI.Typography>
+        <div className="grid md:grid-cols-2 gap-8 my-[98px]">
           <div className="order-2 md:order-1">
             <div>
               <UI.Icon icon={CheckBadgeIcon} />
@@ -107,47 +212,55 @@ const IndexPage = () => {
                 variant="h3"
                 className="text-black mt-4 !text-h4 !leading-8"
               >
-                Akzeptiert von Hausversicherungen
+                Akzeptiert von Haushaltsversicherungen
               </UI.Typography>
               <UI.Typography
                 variant="md"
-                className="mt-6 !text-[18px] text-primary-900 leading-8"
+                className="mt-6 !text-[16px] text-primary-900 leading-6"
               >
-                Nach dem erfolgreichen Entsperren, kannst du unsere Rechnung
-                einfach an deine Haushaltsversicherung senden.
+                Nachdem wir deine Tür aufgesperrt haben, kannst du unsere
+                Rechnung bedenkenlos bei deiner Haushaltsversicherung
+                einreichen. Unsere Leistungen werden von allen Versicherungen
+                akzeptiert.
               </UI.Typography>
             </div>
             <div className="mt-[56px]">
-              <UI.Icon icon={ClockIcon} />
+              <UI.Icon icon={ShieldCheckIcon} />
               <UI.Typography
                 variant="h3"
                 className="text-black mt-4 !text-h4 !leading-8"
               >
-                24h Schlüsselnotdienst
+                Behördlich befähigt
               </UI.Typography>
               <UI.Typography
                 variant="md"
-                className="mt-6 !text-[18px] text-primary-900 leading-8"
+                className="mt-6 !text-[16px] text-primary-900 leading-6"
               >
-                Wir sind rund um die Uhr, 365 Tage im Jahr, für dich da, um in
-                Notfällen zu helfen.
+                Wir sind behördlich befähigt und haben uns zu höchster
+                Seriosität und Transparenz verpflichtet. Dieser Verpflichtung
+                gehen wir auch sehr gerne nach.
               </UI.Typography>
             </div>
-            <div className="my-[56px]">
-              <UI.Icon icon={KeyIcon} />
+            <div className="mt-[56px]">
+              <UI.Icon icon={PhoneIcon} />
               <UI.Typography
                 variant="h3"
                 className="text-black mt-4 !text-h4 !leading-8"
               >
-                Schadfreie Türöffnung
+                Laufende Betreuung
               </UI.Typography>
               <UI.Typography
                 variant="md"
-                className="mt-6 !text-[18px] text-primary-900 leading-8"
+                className="mt-6 !text-[16px] text-primary-900 leading-6"
               >
-                Unsere Profis öffnen Türen ohne Schäden. Ob ausgesperrt oder
-                abgebrochener Schlüssel - eine schonende Türöffnung ist unser
-                Ziel.
+                Wir verstehen, dass das Warten vor der verschlossenen Tür
+                anstregend sein kann. Unser Team steht dir auch während der
+                Wartezeit zur Verfügung, und betreut dich falls notwendig. Wir
+                haben dafür auch einige{' '}
+                <Link href="#tipps" className="underline">
+                  Tipps
+                </Link>{' '}
+                für dich vorbereitet.
               </UI.Typography>
             </div>
           </div>
@@ -158,7 +271,7 @@ const IndexPage = () => {
               priority
               src="/images/schluesseldienst-wien-aufsperrdienst.jpg"
               alt="Schlüsseldienst Wien Mitarbeiter öffnet eine Tür"
-              className="rounded-xl overflow-hidden"
+              className="overflow-hidden rounded-xl"
             />
           </div>
         </div>
@@ -170,7 +283,7 @@ const IndexPage = () => {
           <UI.Typography
             variant="h2"
             align="center"
-            className="text-white font-bold"
+            className="font-bold text-white"
           >
             Entscheide selbst, wie du gerne bezahlst.
           </UI.Typography>
@@ -188,10 +301,10 @@ const IndexPage = () => {
       {/* Payment Section END */}
       {/* Content Section START */}
       <UI.Container>
-        <UI.Typography variant="h2" className="font-bold mt-[56px]">
+        <UI.Typography variant="h2" className="font-bold mt-[98px]">
           <span className="text-primary-500">Schlüsseldienst Wien</span>
           <br></br>
-          so einfach geht es.
+          so unkompliziert geht es.
         </UI.Typography>
         <div className="mt-[56px]">
           <UI.Icon icon={DevicePhoneMobileIcon} />
@@ -238,9 +351,19 @@ const IndexPage = () => {
             className="mt-6 !text-[18px] text-primary-900 leading-8"
           >
             Unsere Experten öffnen deine Tür schnell und ohne Schäden, damit du
-            schnell wieder in Ihre Räumlichkeiten gelangen kannst.
+            schnell wieder in deine Räumlichkeiten gelangen kannst.
           </UI.Typography>
         </div>
+        <UI.Button
+          variant="contained"
+          onClick={() => router.push('/abwicklung')}
+          iconVisible={true}
+          iconPosition={'right'}
+          icon={<ArrowSmallRightIcon className="w-8" />}
+          className="flex items-center py-4 my-8 font-bold mb-[98px]"
+        >
+          Mehr erfahren
+        </UI.Button>
       </UI.Container>
       {/* Content Section END */}
       {/* Call Section START */}
@@ -248,7 +371,7 @@ const IndexPage = () => {
         <UI.Typography
           variant="h2"
           align="center"
-          className="text-white font-bold"
+          className="font-bold text-white"
         >
           Rufe uns jetzt an.
         </UI.Typography>
@@ -266,7 +389,7 @@ const IndexPage = () => {
       {/* Price Section START */}
       <div className="bg-[#f5f5f5] pt-16 pb-8" id="prices">
         <UI.Container>
-          <UI.Typography variant="h2" align="center" className="font-bold mt-4">
+          <UI.Typography variant="h2" align="center" className="mt-4 font-bold">
             Schlüsseldienst<br></br>
             <span className="text-primary-500">Preise und Kosten</span>.
           </UI.Typography>
@@ -279,7 +402,7 @@ const IndexPage = () => {
       </div>
       {/* Price Section END */}
       {/* Content Section START */}
-      <UI.Container className="mt-[56px]">
+      <UI.Container className="py-[56px]">
         <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
           <div className="relative order-1 md:order-2">
             <Image
@@ -287,7 +410,7 @@ const IndexPage = () => {
               height={1280}
               src="/images/serioeser-schluesseldienst.jpg"
               alt="Mitarbeiter des seriösen Schlüsseldienstes öffnen die Eingangstür"
-              className="rounded-xl overflow-hidden"
+              className="overflow-hidden rounded-xl"
             />
           </div>
           <div className="order-2 md:order-1">
@@ -300,76 +423,83 @@ const IndexPage = () => {
               variant="md"
               className="mt-6 !text-[18px] text-primary-900 leading-8"
             >
-              Unser Unternehmen ist behördlich befähigt und verpflichtet sich zu
-              höchster Seriosität und Transparenz. Erfahre jetzt mehr darüber,
-              was du bei Schlüsseldienst Unternehmen bezüglich Seriosität wissen
-              musst.
+              Wir haben 6 Tipps für dich vorbereitet, die dir zeigen sollen,
+              worauf du bei einem Schlüsseldienst Unternehmen achten sollst.
+              Erfahre jetzt mehr darüber, was du alles bezüglich Seriosität
+              beachten musst.
             </UI.Typography>
+            <UI.Button
+              variant="contained"
+              onClick={() => router.push('/serioeser-schluesseldienst')}
+              iconVisible={true}
+              iconPosition={'right'}
+              icon={<ArrowSmallRightIcon className="w-8" />}
+              className="w-full mt-12 mb-8 font-bold flex items-center py-4 max-w-[300px]"
+            >
+              Mehr erfahren
+            </UI.Button>
+            <UI.Container className="flex items-center w-full gap-4 !px-0">
+              <div className="relative w-24 h-8">
+                <img src={WkoLogo.src} alt="wkö logo" />
+              </div>
+              <UI.Typography
+                variant="sm"
+                className="font-['Lexend'] text-[10px]"
+              >
+                Mitglied der Wirtschaftskammer Wien
+              </UI.Typography>
+            </UI.Container>
           </div>
         </div>
-        <UI.Button
-          variant="contained"
-          onClick={() => router.push('/serioeser-schluesseldienst')}
-          iconVisible={true}
-          iconPosition={'right'}
-          icon={<ArrowSmallRightIcon className="w-8" />}
-          className="w-full my-8 font-bold flex items-center py-4 max-w-[300px]"
-        >
-          Mehr erfahren
-        </UI.Button>
       </UI.Container>
-      <UI.Container className="flex items-center gap-4 w-full py-8">
-        <div className="relative w-24 h-8">
-          <img src={WkoLogo.src} alt="wkö logo" />
-        </div>
-        <UI.Typography variant="sm" className="font-['Lexend'] text-[10px]">
-          Mitglied der Wirtschaftskammer Wien
-        </UI.Typography>
-      </UI.Container>
-      <UI.Container>
-        <UI.Typography variant="h2" className="font-bold mt-[56px]">
-          <span className="text-primary-500">Aufsperrdienst Wien</span> - das
-          ist bezüglich der <span className="text-primary-500">Türöffnung</span>{' '}
-          deinerseits zu beachten.
-        </UI.Typography>
-        <div className="mt-[56px]">
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Nach dem unser Schlüsselnotdienst die Tür erfolgreich entsperrt hat,
-            benötigen wir kurz deine Kooperation. Du wirst gebeten, deinen
-            Ausweis bereitzustellen, um deine Identität zu bestätigen und die
-            rechtsverbindliche Erklärung zu unterzeichnen.
+      <div className="py-[56px] bg-[#f5f5f5]">
+        <UI.Container>
+          <UI.Typography variant="h2" className="font-bold mt-[56px]">
+            <span className="text-primary-500">Aufsperrdienst Wien</span> - das
+            ist bezüglich der{' '}
+            <span className="text-primary-500">Türöffnung</span> deinerseits zu
+            beachten.
           </UI.Typography>
-        </div>
-        <div className="my-[56px]">
-          <UI.Icon icon={UserIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            Ausweis und rechtsverbindliche Erklärung
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Der Ausweis dient nur zur Überprüfung deiner Person. Diesen zeigst
-            du einfach unserem Kollegen vor Ort. <br></br>
-            <br></br>Zusätzlich wirst du von uns eine{' '}
-            <a
-              href="/echtsverbindliche-erklaerung.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="underline text-primary-500"
+          <div className="mt-[56px]">
+            <UI.Typography
+              variant="md"
+              className="mt-6 !text-[18px] text-primary-900 leading-8"
             >
-              rechtsverbindliche Erklärung
-            </a>{' '}
-            unterzeichnen.
-          </UI.Typography>
-        </div>
-      </UI.Container>
+              Nachdem unser Schlüsselnotdienst die Tür erfolgreich entsperrt
+              hat, benötigen wir kurz deine Kooperation. Du wirst gebeten,
+              deinen Ausweis bereitzustellen, um deine Identität zu bestätigen
+              und die rechtsverbindliche Erklärung zu unterzeichnen.
+            </UI.Typography>
+          </div>
+          <div className="my-[56px]">
+            <UI.Icon icon={UserIcon} />
+            <UI.Typography
+              variant="h3"
+              className="text-black mt-4 !text-h4 !leading-8"
+            >
+              Ausweis und rechtsverbindliche Erklärung
+            </UI.Typography>
+            <UI.Typography
+              variant="md"
+              className="mt-6 !text-[18px] text-primary-900 leading-8"
+            >
+              Der Ausweis dient nur zur Überprüfung deiner Person. Diesen zeigst
+              du einfach unserem Kollegen vor Ort. Zusätzlich wirst du von uns
+              gebeten eine{' '}
+              <a
+                href="/echtsverbindliche-erklaerung.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="underline text-primary-500"
+              >
+                rechtsverbindliche Erklärung
+              </a>{' '}
+              unterzeichnen. Dadurch wird sichergestellt, dass auch alles
+              gesetzeskonform abläuft.
+            </UI.Typography>
+          </div>
+        </UI.Container>
+      </div>
       <UI.Container>
         <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
           <div>
@@ -383,7 +513,9 @@ const IndexPage = () => {
                 className="mt-6 !text-[18px] text-primary-900 leading-8"
               >
                 Wir bieten nicht nur den Schlüsseldienst an, sondern auch
-                professionelle Schlosserarbeiten für deine Sicherheit.
+                professionelle Schlosserarbeiten für deine Sicherheit. Unsere
+                Expertise steht dir auch außerhelb der Notdienstzeiten, für
+                verschiedene Leistungen zur Verfügung.
               </UI.Typography>
 
               <UI.Button
@@ -404,12 +536,139 @@ const IndexPage = () => {
               height={1280}
               src="/images/mehr-als-ein-schluesseldienst.jpg"
               alt="Professioneller Schlosser in seiner Werkstatt"
-              className="rounded-xl overflow-hidden"
+              className="overflow-hidden rounded-xl"
             />
           </div>
         </div>
       </UI.Container>
       {/* Content Section END */}
+      {/* Tipps Section START */}
+      <UI.Container id="tipps">
+        <div className="pt-[98px]">
+          <UI.Typography variant="h2" className="font-bold mt-[98px]">
+            <span className="text-primary-500">Tipps für die Wartezeit</span>
+            <br></br>
+            auf unseren Schlüsseldienst
+          </UI.Typography>
+
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Mit diesen Tipps kannst du die Zeit während des Wartens sinnvoll
+            nutzen und die unangenehme Situation möglichst stressfrei gestalten.
+            Wir hoffen, dass diese Tipps dir weiterhelfen.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            <span className="block text-primary-500">Tipp #1</span>
+            Ruhe bewahren
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Es ist zwar leicht gesagt, und nicht immer einfach, aber versuche
+            ruhig zu bleiben und dich zu entspannen. Zusätzlicher Stress in
+            Notsituationen bringt nicht viel, und wir sind ja auch in Kürze bei
+            dir.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            <span className="block text-primary-500">Tipp #2</span>
+            Erreichbar bleiben
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Halte dein Telefon griffbereit und stelle sicher, dass du erreichbar
+            bist. So können wir dich in der Zwischenzeit und bei unserer Ankunft
+            erreichen.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            <span className="block text-primary-500">Tipp #3</span>
+            Lesen, Podcasts oder Musik hören
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Lese ein E-Book, höre Podcasts oder Musik auf deinem Smartphone, um
+            die Wartezeit wertvoll zu verbringen. Achte aber darauf, dass dein
+            Akku nicht leer wird. Es ist wichtig, dass wir in Kontakt bleiben
+            können.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            <span className="block text-primary-500">Tipp #4</span>
+            Kontaktiere deine Nachbarn
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Informiere deine Nachbarn, dass du auf den Schlüsseldienst wartest.
+            Oftmals sind sie bereit zu helfen und bieten dir womöglich an, mit
+            einer warmen Tasse Kaffee oder Tee in ihrer Wohnung zu warten. Sehr
+            hilfreich, vor allem im Winter oder mit Kindern.
+          </UI.Typography>
+        </div>
+        <div className="mt-[56px]">
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            <span className="block text-primary-500">Tipp #5</span>
+            Akku prüfen
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Überprüfe den Ladestand deines Handys. Eine volle Batterie sorgt
+            dafür, dass du ständig erreichbar bist. Gegebenenfalls kannst du
+            auch deine Nachbarn fragen, ob du kurz das Handy bei ihnen laden
+            kannst.
+          </UI.Typography>
+        </div>
+        <div className="my-[56px]">
+          <UI.Typography
+            variant="h3"
+            className="text-black mt-4 !text-h4 !leading-8"
+          >
+            <span className="block text-primary-500">Tipp #6</span>
+            In der Nähe bleiben
+          </UI.Typography>
+          <UI.Typography
+            variant="md"
+            className="mt-6 !text-[18px] text-primary-900 leading-8"
+          >
+            Bleibe in der Nähe deiner Wohnung, damit du den Schlüsseldienst
+            sofort empfangen kannst, wenn er eintrifft, um weitere Wartezeiten
+            zu vermeiden.
+          </UI.Typography>
+        </div>
+      </UI.Container>
+
+      {/* Tipps Section END */}
       {/* FAQ START */}
       <UI.Container className="pb-16">
         <UI.Typography variant="h2" className="font-bold mt-[168px] mb-8">
@@ -423,7 +682,7 @@ const IndexPage = () => {
         <UI.Typography
           variant="h2"
           align="center"
-          className="text-white font-bold"
+          className="font-bold text-white"
         >
           Rufe uns jetzt an.
         </UI.Typography>

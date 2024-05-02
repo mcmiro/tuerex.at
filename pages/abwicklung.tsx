@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layouts';
 import { UI } from '../components';
 import Link from 'next/link';
-import { contactData } from 'content/contact';
+import { contactData } from 'constants/contact';
 import { PhoneIcon } from '@heroicons/react/24/outline';
 
 const IndexPage = () => {
@@ -43,14 +43,17 @@ const IndexPage = () => {
             weight="bold"
             className="text-black mt-4 !text-h4 !leading-8"
           >
-            Beauftragung, Preis und Wartezeit{' '}
+            Beauftragung, Preis und Wartezeit
           </UI.Typography>
           <UI.Typography
             variant="md"
             className="mt-6 !text-[18px] text-primary-900 leading-8"
           >
             So beauftragst du unseren{' '}
-            <Link href={'/'}>Schlüsseldienst in Wien</Link>.
+            <Link href={'/'} className="underline">
+              Schlüsseldienst in Wien
+            </Link>
+            .
           </UI.Typography>
         </div>
       </UI.Container>
@@ -137,7 +140,7 @@ const IndexPage = () => {
             maximal 45 Minuten bei dir, um rasch eine Lösung zu bieten.
           </UI.Typography>
           <Link
-            href={'#tipp'}
+            href={'/#tipps'}
             className="border-b border-primary-500 text-primary-500"
           >
             Tipps für die Wartezeit
@@ -178,7 +181,7 @@ const IndexPage = () => {
             ordnungsgemäße Erledigung.
           </UI.Typography>
         </div>
-        <div className="mt-[56px]">
+        <div className="my-[56px]">
           <UI.Typography
             variant="h3"
             className="text-black mt-4 !text-h4 !leading-8"
@@ -194,128 +197,6 @@ const IndexPage = () => {
             Erklärung zu unterzeichnen. Dies ist gesetzlich vorgeschrieben, und
             wir sind dazu verpflichtet, höchste Seriosität und Transparenz zu
             bieten.
-          </UI.Typography>
-        </div>
-      </UI.Container>
-      <UI.Container id="tipp">
-        <div className="mt-[56px]">
-          <UI.Typography
-            variant="h3"
-            align="center"
-            weight="bold"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            Tipps für die Wartezeit
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Mit diesen Tipps kannst du die Zeit während des Wartens sinnvoll
-            nutzen und die unangenehme Situation möglichst stressfrei gestalten.
-          </UI.Typography>
-        </div>
-        <div className="mt-[56px]">
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            <span className="text-primary-500 block">Tipp #1</span>
-            Ruhe bewahren
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Es ist zwar nicht immer einfach, aber versuche ruhig zu bleiben und
-            dich zu entspannen. Zusätzlicher Stress in Notsituationen bringt
-            nicht viel, und wir sind ja auch in Kürze bei dir.
-          </UI.Typography>
-        </div>
-        <div className="mt-[56px]">
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            <span className="text-primary-500 block">Tipp #2</span>
-            Erreichbar bleiben
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Halte dein Telefon griffbereit und stell sicher, dass du erreichbar
-            bist. So können wir dich in der Zwischenzeit und bei unserer Ankunft
-            erreichen.
-          </UI.Typography>
-        </div>
-        <div className="mt-[56px]">
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            <span className="text-primary-500 block">Tipp #3</span>
-            Lesen, Podcasts oder Musik hören
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Lese ein E-Book, höre Podcasts oder Musik auf deinem Smartphone, um
-            die Wartezeit wertvoll zu verbringen.
-          </UI.Typography>
-        </div>
-        <div className="mt-[56px]">
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            <span className="text-primary-500 block">Tipp #4</span>
-            Kontaktiere deine Nachbarn
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Informiere deine Nachbarn, dass du auf den Schlüsseldienst wartest.
-            Oftmals sind sie bereit zu helfen und bieten dir womöglich an, mit
-            einer warmen Tasse Kaffee oder Tee in ihrer Wohnung zu warten. Sehr
-            hilfreich, vor allem im Winter oder mit Kindern.
-          </UI.Typography>
-        </div>
-        <div className="mt-[56px]">
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            <span className="text-primary-500 block">Tipp #5</span>
-            Akku prüfen
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Überprüfe den Ladestand deines Handys. Eine volle Batterie sorgt
-            dafür, dass du ständig erreichbar bist. Gegebenenfalls kannst du
-            auch deine Nachbarn fragen, ob du kurz das Handy bei ihnen laden
-            kannst.
-          </UI.Typography>
-        </div>
-        <div className="my-[56px]">
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            <span className="text-primary-500 block">Tipp #6</span>
-            In der Nähe bleiben
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Bleibe in der Nähe deiner Wohnung, damit du den Schlüsseldienst
-            sofort empfangen kannst, wenn er eintrifft, um weitere Wartezeiten
-            zu vermeiden.
           </UI.Typography>
         </div>
       </UI.Container>

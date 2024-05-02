@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../components/layouts';
 import { UI } from '../components';
-import faqDataBooking from 'content/faq/booking';
-import faqDataGeneral from 'content/faq/general';
-import faqDataOther from 'content/faq/other';
-import faqDataPricesAndPayment from 'content/faq/prices-and-payment';
-import faqDataSecurity from 'content/faq/security';
+import faqDataBooking from 'constants/faq/booking';
+import faqDataGeneral from 'constants/faq/general';
+import faqDataOther from 'constants/faq/other';
+import faqDataPricesAndPayment from 'constants/faq/prices-and-payment';
+import faqDataSecurity from 'constants/faq/security';
 import faqStructureData from 'utils/structure-data/faq';
 
 const IndexPage = () => {

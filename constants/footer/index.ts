@@ -1,4 +1,4 @@
-import { contactData } from 'content/contact';
+import { contactData } from 'constants/contact';
 export const footerData = [
   {
     title: 'Schlüsseldienst',

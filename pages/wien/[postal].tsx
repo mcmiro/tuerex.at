@@ -57,7 +57,7 @@ const IndexPage: React.FC<{
             weight="bold"
             className="text-center pt-10 font-['Lexend'] md:text-[56px] md:!leading-[1.1]"
           >
-            <span className="text-primary-500 block">Schlüsseldienst</span>
+            <span className="block text-primary-500">Schlüsseldienst</span>
             {data.postalCode} Wien
           </UI.Typography>
           <UI.Typography variant="xs" className="text-center text-gray-800">
@@ -143,7 +143,7 @@ const IndexPage: React.FC<{
         <UI.Typography
           variant="h2"
           align="center"
-          className="text-white font-bold"
+          className="font-bold text-white"
         >
           Jetzt anrufen.
         </UI.Typography>
@@ -161,7 +161,7 @@ const IndexPage: React.FC<{
       {/* Price Section START */}
       <div className="bg-[#f5f5f5] pt-16 pb-8" id="prices">
         <UI.Container>
-          <UI.Typography variant="h2" align="center" className="font-bold mt-4">
+          <UI.Typography variant="h2" align="center" className="mt-4 font-bold">
             Schlüsseldienst<br></br>
             <span className="text-primary-500">Preise und Kosten</span>.
           </UI.Typography>
@@ -184,7 +184,7 @@ const IndexPage: React.FC<{
                 return (
                   <div
                     key={index}
-                    className="border border-primary-500 rounded-lg px-6 py-2 inline-block"
+                    className="inline-block px-6 py-2 border rounded-lg border-primary-500"
                   >
                     <Link
                       href={`/wien/${el.postalCode}`}
@@ -205,7 +205,7 @@ const IndexPage: React.FC<{
           <UI.Typography
             variant="h2"
             align="center"
-            className="text-white font-bold"
+            className="font-bold text-white"
           >
             Entscheide selbst, wie du gerne bezahlst.
           </UI.Typography>

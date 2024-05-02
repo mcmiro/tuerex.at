@@ -12,6 +12,7 @@ export const priceData = [
     services: [
       {
         service: 'Zugefallene Tür (normale Tür)',
+        link: '/leistungen/oeffnung-einer-zugefallenen-tuer',
         description:
           'Öffnung von zugefallenen Türen (keine Sicherheitstüren). Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 89,
@@ -50,6 +51,7 @@ export const priceData = [
     services: [
       {
         service: 'Zugefallene Tür (normale Tür)',
+        link: '/leistungen/oeffnung-einer-zugefallenen-tuer',
         description:
           'Öffnung von zugefallenen Türen (keine Sicherheitstüren). Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 89,
@@ -88,6 +90,7 @@ export const priceData = [
     services: [
       {
         service: 'Zugefallene Tür (normale Tür)',
+        link: '/leistungen/oeffnung-einer-zugefallenen-tuer',
         description:
           'Öffnung von zugefallenen Türen (keine Sicherheitstüren). Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 89,
@@ -126,6 +129,7 @@ export const priceData = [
     services: [
       {
         service: 'Zugefallene Tür (normale Tür)',
+        link: '/leistungen/oeffnung-einer-zugefallenen-tuer',
         description:
           'Öffnung von zugefallenen Türen (keine Sicherheitstüren). Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 89,

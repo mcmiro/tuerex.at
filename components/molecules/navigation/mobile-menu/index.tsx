@@ -2,10 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import { UI } from 'components';
 import NavigationItem from 'models/navigation';
-import { navigationData } from 'content/navigation';
+import { navigationData } from 'constants/navigation';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import { PhoneIcon } from '@heroicons/react/24/outline';
-import { contactData } from 'content/contact';
+import { contactData } from 'constants/contact';
 import useSlack from 'hooks/use-slack';
 
 export interface MobileMenuProps {

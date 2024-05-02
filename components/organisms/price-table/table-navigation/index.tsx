@@ -1,6 +1,6 @@
 import React from 'react';
 import { UI } from 'components';
-import { priceData } from 'content/price';
+import { priceData } from 'constants/price';
 import PriceItem from 'models/prices';
 
 export interface TableNavigationProps {
@@ -42,7 +42,7 @@ const TableNavigation = ({ filter, onClick }: TableNavigationProps) => {
           return (
             <button
               key={index}
-              className={`font-bold py-2 text-[14px] rounded-none text-primary-950 w-full ${
+              className={`font-bold p-2 text-[14px] rounded-none text-primary-950 w-full ${
                 index % 2 !== 1 ? 'border-r border-primary-500' : ''
               }
 							${button.title === filter ? 'bg-primary-500 text-white' : 'bg-white'}

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { UI } from 'components';
-import { priceData } from 'content/price';
-import holidays from 'content/holidays';
+import { priceData } from 'constants/price';
+import holidays from 'constants/holidays';
 
 const PriceTable = () => {
   const [tableFilter, setTableFilter] = useState<string>('');

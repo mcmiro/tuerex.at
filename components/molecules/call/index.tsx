@@ -1,7 +1,7 @@
 import React from 'react';
 import { UI } from 'components';
 import { PhoneIcon } from '@heroicons/react/24/outline';
-import { contactData } from 'content/contact';
+import { contactData } from 'constants/contact';
 import clsx from 'clsx';
 import useSlack from 'hooks/use-slack';
 

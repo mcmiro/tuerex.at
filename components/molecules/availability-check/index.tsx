@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AvailabilityItem from 'models/availability';
-import { availabilityData } from 'content/availability';
+import { availabilityData } from 'constants/availability';
 import clsx from 'clsx';
 import useSlackStore from 'store/slack-store';
 import useVisitor from 'hooks/use-visitor';

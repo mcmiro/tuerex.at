@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { UI } from 'components';
 import FooterColumn from './column';
-import { footerData } from 'content/footer';
+import { footerData } from 'constants/footer';
 import { useCookies } from 'hooks/use-cookies';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import CookieIcon from '../../../assets/icons/cookie.svg';

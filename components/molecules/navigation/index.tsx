@@ -3,8 +3,8 @@ import clsx from 'clsx';
 import { UI } from 'components';
 import { Bars2Icon } from '@heroicons/react/24/solid';
 import { PhoneIcon } from '@heroicons/react/24/outline';
-import { contactData } from 'content/contact';
-import { navigationData } from 'content/navigation';
+import { contactData } from 'constants/contact';
+import { navigationData } from 'constants/navigation';
 import useSlack from 'hooks/use-slack';
 
 const classesSchema = {

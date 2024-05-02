@@ -51,8 +51,11 @@ const SerioeserSchluesseldienstPage = () => {
           className="mt-6 !text-[18px] text-primary-900 leading-8"
         >
           In diesem Artikel erfährst du, anhand welcher Kriterien du einen
-          seriösen <Link href="/">Schlüsseldienst in Wien</Link> erkennen
-          kannst.
+          seriösen{' '}
+          <Link href="/" className="underline">
+            Schlüsseldienst in Wien
+          </Link>{' '}
+          erkennen kannst.
         </UI.Typography>
         <div className="mt-[56px] border-y border-gray-200 pb-3">
           <div className="flex justify-between w-full text-[18px] font-bold py-4 tracking-wide">
@@ -117,7 +120,7 @@ const SerioeserSchluesseldienstPage = () => {
               objectFit="cover"
               src="/images/ortsansaessig-in-wien.jpg"
               alt="Wien von oben fotografiert"
-              className="rounded-xl overflow-hidden"
+              className="overflow-hidden rounded-xl"
             />
           </div>
         </div>
@@ -156,7 +159,7 @@ const SerioeserSchluesseldienstPage = () => {
         <UI.Typography
           variant="h2"
           align="center"
-          className="text-white font-bold"
+          className="font-bold text-white"
         >
           Wir sind befähigt!
         </UI.Typography>
@@ -169,7 +172,7 @@ const SerioeserSchluesseldienstPage = () => {
           Schlossern geführt.
         </UI.Typography>
         <UI.Call mode="dark" />
-        <UI.Container className="flex gap-4">
+        <UI.Container className="flex justify-center gap-4 pt-12">
           <div className="relative w-24 h-8">
             <Image src={WkoLogo} objectFit="fill" alt="wkö logo" />
           </div>
@@ -209,7 +212,7 @@ const SerioeserSchluesseldienstPage = () => {
               objectFit="cover"
               src="/images/keine-versteckte-kosten.jpg"
               alt="Schlüßeldienst Kunde bezahlt die Türöffnung. Klare Preisgestaltung"
-              className="rounded-xl overflow-hidden"
+              className="overflow-hidden rounded-xl"
             />
           </div>
         </div>
@@ -218,7 +221,7 @@ const SerioeserSchluesseldienstPage = () => {
       {/* Price Section START */}
       <div className="bg-[#f5f5f5] pt-16 pb-8" id="prices">
         <UI.Container>
-          <UI.Typography variant="h2" align="center" className="font-bold mt-4">
+          <UI.Typography variant="h2" align="center" className="mt-4 font-bold">
             Unsere
             <br></br>
             <span className="text-primary-500">Fixpreise</span>
@@ -260,7 +263,7 @@ const SerioeserSchluesseldienstPage = () => {
               objectFit="cover"
               src="/images/schadenfreie-oeffnung.jpg"
               alt="Ein Mitarbeiter öffnet eine Tür schadfrei"
-              className="rounded-xl overflow-hidden"
+              className="overflow-hidden rounded-xl"
             />
           </div>
         </div>
@@ -272,7 +275,7 @@ const SerioeserSchluesseldienstPage = () => {
           <UI.Typography
             variant="h2"
             align="center"
-            className="text-white font-bold"
+            className="font-bold text-white"
           >
             Entscheide selbst, wie du gerne bezahlst.
           </UI.Typography>

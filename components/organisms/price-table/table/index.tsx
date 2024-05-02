@@ -1,7 +1,8 @@
 import React from 'react';
 import PriceItem from 'models/prices';
 import { UI } from 'components';
-import { priceData } from 'content/price';
+import { priceData } from 'constants/price';
+import Link from 'next/link';
 
 export interface TableContentProps {
   query: string;
@@ -37,7 +38,13 @@ const TableContent = ({ query }: TableContentProps) => {
                     >
                       <td className="flex flex-col gap-2">
                         <span className="font-semibold pt-2 leading-6">
-                          {el.service}
+                          {el.link ? (
+                            <Link href={el.link} className="underline">
+                              {el.service}
+                            </Link>
+                          ) : (
+                            el.service
+                          )}
                         </span>
                         <span
                           className="text-[14px] mb-6 text-gray-700 leading-5"
