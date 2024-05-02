@@ -43,7 +43,7 @@ const IndexPage: React.FC<{
 
   return (
     <Layout
-      title={`Schlüsseldienst ${data.postalCode} Wien | Aufsperr-Notdienst | TÜREX`}
+      title={`Schlüsseldienst ${data.postalCode} Wien (${data.districtName}) | Aufsperr-Notdienst | TÜREX`}
       metaDescription={data.description}
     >
       {/* Hero Section START */}
@@ -58,7 +58,7 @@ const IndexPage: React.FC<{
             className="text-center pt-10 font-['Lexend'] md:text-[56px] md:!leading-[1.1]"
           >
             <span className="block text-primary-500">Schlüsseldienst</span>
-            {data.postalCode} Wien
+            {data.postalCode} Wien - {data.districtName}
           </UI.Typography>
           <UI.Typography variant="xs" className="text-center text-gray-800">
             Klare Preisgestaltung
@@ -88,8 +88,13 @@ const IndexPage: React.FC<{
       {/* Content Section START */}
       <UI.Container>
         <UI.Typography variant="h2" className="font-bold">
-          Verlässlicher <br></br>
-          <span className="text-primary-500">24h Schlüsseldienst</span>.
+          {data.subline}
+        </UI.Typography>
+        <UI.Typography
+          variant="md"
+          className="mt-6 !text-[18px] text-primary-900 leading-8"
+        >
+          {data.introCopy}
         </UI.Typography>
         <div className="mt-[56px]">
           <UI.Icon icon={CheckBadgeIcon} />
@@ -162,7 +167,7 @@ const IndexPage: React.FC<{
       <div className="bg-[#f5f5f5] pt-16 pb-8" id="prices">
         <UI.Container>
           <UI.Typography variant="h2" align="center" className="mt-4 font-bold">
-            Schlüsseldienst<br></br>
+            Schlüsseldienst in {data.postalCode} Wien<br></br>
             <span className="text-primary-500">Preise und Kosten</span>.
           </UI.Typography>
           <UI.Typography variant="lg" align="center" className="mt-8">
