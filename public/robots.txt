@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.tuerex.at
+Host: https://tuerex.at
 
 # Sitemaps
-Sitemap: https://www.tuerex.at/sitemap.xml
+Sitemap: https://tuerex.at/sitemap.xml

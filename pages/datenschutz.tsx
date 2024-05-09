@@ -9,11 +9,12 @@ const IndexPage = () => {
       metaDescription="Alle relevanten Informationen zur Datenschutzerklärung. Jetzt mehr erfahren."
     >
       <header className="mb-16">
+        <UI.Navigation isActiveHamburger={true} />
         <UI.HeaderSub title="Datenschutzerklärung" />
         <UI.Breadcrumbs />
       </header>
       {/* Content Section START */}
-      <UI.Container>
+      <UI.Container element="main" widthMode="full">
         <div className="mt-[56px]">
           <UI.Typography
             variant="h3"

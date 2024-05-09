@@ -11,6 +11,7 @@ const IndexPage = () => {
     >
       {/* Hero Section START */}
       <header className="pb-8">
+        <UI.Navigation isActiveHamburger={true} />
         <UI.Container className="flex flex-col items-center w-full gap-4 pb-8">
           <div className="pt-[56px] pb-4">
             <UI.AvailabilityCheck />
@@ -41,39 +42,41 @@ const IndexPage = () => {
         </UI.Container>
       </header>
       {/* Hero Section START */}
-      {/* Price Section START */}
-      <div className="bg-[#f5f5f5] pt-16 pb-8" id="prices">
-        <UI.Container>
-          <UI.Typography variant="lg" align="center">
-            Transparent und mit klarer Preisgestaltung. Hier findest du die
-            Auflistung unserer Preise.
-          </UI.Typography>
-          <UI.PriceTable />
-        </UI.Container>
-      </div>
-      {/* Price Section END */}
-      {/* Payment Section START */}
-      <div id="payment">
-        <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
-          <UI.Typography
-            variant="h2"
-            align="center"
-            className="text-white font-bold"
-          >
-            Entscheide selbst, wie du gerne bezahlst.
-          </UI.Typography>
-          <UI.Typography
-            variant="lg"
-            align="center"
-            className="!text-h5 mt-8 text-white"
-          >
-            Bequem & direkt vor Ort.
-          </UI.Typography>
-          <UI.Payment />
-          <UI.Call mode="dark" />
-        </UI.Container>
-      </div>
-      {/* Payment Section END */}
+      <UI.Container element="main" widthMode="full">
+        {/* Price Section START */}
+        <div className="bg-[#f5f5f5] pt-16 pb-8" id="prices">
+          <UI.Container>
+            <UI.Typography variant="lg" align="center">
+              Transparent und mit klarer Preisgestaltung. Hier findest du die
+              Auflistung unserer Preise.
+            </UI.Typography>
+            <UI.PriceTable />
+          </UI.Container>
+        </div>
+        {/* Price Section END */}
+        {/* Payment Section START */}
+        <div id="payment">
+          <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
+            <UI.Typography
+              variant="h2"
+              align="center"
+              className="text-white font-bold"
+            >
+              Entscheide selbst, wie du gerne bezahlst.
+            </UI.Typography>
+            <UI.Typography
+              variant="lg"
+              align="center"
+              className="!text-h5 mt-8 text-white"
+            >
+              Bequem & direkt vor Ort.
+            </UI.Typography>
+            <UI.Payment />
+            <UI.Call mode="dark" />
+          </UI.Container>
+        </div>
+        {/* Payment Section END */}
+      </UI.Container>
     </Layout>
   );
 };

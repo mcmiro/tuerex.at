@@ -16,51 +16,53 @@ const IndexPage = () => {
       jsonLd={faqStructureData}
     >
       <header className="mb-16">
+        <UI.Navigation isActiveHamburger={true} />
         <UI.HeaderSub title="Häufig gestellte Fragen (FAQ)" />
         <UI.Breadcrumbs />
       </header>
       {/* Content Section START */}
       {/* General START */}
-      <UI.Container className="pb-16">
-        <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
-          Allgemeine Informationen
-        </UI.Typography>
-        <UI.Faq items={faqDataGeneral} />
-      </UI.Container>
-      {/* General END */}
-      {/* Prices START */}
-      <UI.Container className="pb-16">
-        <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
-          Preise und Bezahlung
-        </UI.Typography>
-        <UI.Faq items={faqDataPricesAndPayment} />
-      </UI.Container>
-      {/* Prices END */}
-      {/* Booking START */}
-      <UI.Container className="pb-16">
-        <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
-          Buchung und Storno
-        </UI.Typography>
-        <UI.Faq items={faqDataBooking} />
-      </UI.Container>
-      {/* Booking END */}
-      {/* Security START */}
-      <UI.Container className="pb-16">
-        <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
-          Seriosität und Sicherheit
-        </UI.Typography>
-        <UI.Faq items={faqDataSecurity} />
-        {/* Other START */}
+      <UI.Container element="main" widthMode="full">
         <UI.Container className="pb-16">
           <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
-            Sonstiges
+            Allgemeine Informationen
           </UI.Typography>
-          <UI.Faq items={faqDataOther} />
+          <UI.Faq items={faqDataGeneral} />
         </UI.Container>
-        {/* Other END */}
+        {/* General END */}
+        {/* Prices START */}
+        <UI.Container className="pb-16">
+          <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
+            Preise und Bezahlung
+          </UI.Typography>
+          <UI.Faq items={faqDataPricesAndPayment} />
+        </UI.Container>
+        {/* Prices END */}
+        {/* Booking START */}
+        <UI.Container className="pb-16">
+          <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
+            Buchung und Storno
+          </UI.Typography>
+          <UI.Faq items={faqDataBooking} />
+        </UI.Container>
+        {/* Booking END */}
+        {/* Security START */}
+        <UI.Container className="pb-16">
+          <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
+            Seriosität und Sicherheit
+          </UI.Typography>
+          <UI.Faq items={faqDataSecurity} />
+          {/* Other START */}
+          <UI.Container className="pb-16">
+            <UI.Typography variant="h2" className="font-bold mt-[32px] mb-8">
+              Sonstiges
+            </UI.Typography>
+            <UI.Faq items={faqDataOther} />
+          </UI.Container>
+          {/* Other END */}
+        </UI.Container>
+        {/* Security END */}
       </UI.Container>
-      {/* Security END */}
-
       {/* Content Section END */}
     </Layout>
   );

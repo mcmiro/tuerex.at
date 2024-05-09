@@ -38,10 +38,7 @@ const Layout = ({
           />
         )}
       </Head>
-      <header>
-        <UI.Navigation isActiveHamburger={true} />
-      </header>
-      <main className="min-h-[80vh]">{children}</main>
+      {children}
       <UI.Footer />
     </>
   );

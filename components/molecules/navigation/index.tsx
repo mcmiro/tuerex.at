@@ -9,7 +9,7 @@ import useSlack from 'hooks/use-slack';
 
 const classesSchema = {
   base: 'border-b border-[#E2E8F0]',
-  container: 'flex justify-between items-center h-[72px] px-4 bg-white',
+  container: 'flex justify-between items-center h-[72px] bg-white',
 };
 
 export interface NavigationProps {

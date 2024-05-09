@@ -9,11 +9,12 @@ const ImpressumPage = () => {
       metaDescription="Impressum und Kontaktdaten von Türex. Jetzt mehr erfahren."
     >
       <header className="mb-16">
+        <UI.Navigation isActiveHamburger={true} />
         <UI.HeaderSub title="Impressum" />
         <UI.Breadcrumbs />
       </header>
       {/* Content Section START */}
-      <UI.Container>
+      <UI.Container element="main" widthMode="full">
         <div className="mt-[56px]">
           <UI.Typography
             variant="h3"
