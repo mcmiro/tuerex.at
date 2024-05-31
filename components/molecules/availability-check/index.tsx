@@ -43,6 +43,7 @@ const AvailabilityCheck = () => {
       }, 1000);
     };
     if (!slackValue) {
+      console.log('slack value', slackValue);
       handleStatus();
     } else {
       setStatus(availabilityData[2]);

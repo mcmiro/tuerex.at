@@ -5,15 +5,18 @@ const useSlack = () => {
 
   const sendMessageToSlack = async (message: string) => {
     try {
-      const response = await fetch('/api/slack', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          text: message,
-        }),
-      });
+      const response = await fetch(
+        'https://super-puffpuff-f8ff31.netlify.app/api/slack',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            text: message,
+          }),
+        }
+      );
       const result = await response.json();
       if (result.success) {
         updateSlackValue(true);
