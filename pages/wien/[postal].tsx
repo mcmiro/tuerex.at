@@ -43,7 +43,7 @@ const IndexPage: React.FC<{
 
   return (
     <Layout
-      canonical={`https://www.tuerex.at/wien/${data.postalCode}`}
+      canonical={`https://tuerex.at/wien/${data.postalCode}`}
       title={`Schlüsseldienst ${data.postalCode} Wien (${data.districtName}) | Aufsperr-Notdienst | TÜREX`}
       metaDescription={data.description}
     >

@@ -9,7 +9,7 @@ import Link from 'next/link';
 const IndexPage = ({ data }: any) => {
   return (
     <Layout
-      canonical={`https://www.tuerex.at/leistungen/${data.slug}`}
+      canonical={`https://tuerex.at/leistungen/${data.slug}`}
       title={`${data.seo.title} | TÜREX`}
       metaDescription={data.seo.description}
     >

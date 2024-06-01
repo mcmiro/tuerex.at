@@ -2,6 +2,6 @@
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.tuerex.at',
+  siteUrl: 'https://tuerex.at',
   generateRobotsTxt: true,
 };

@@ -32,7 +32,7 @@ const IndexPage = () => {
   return (
     <Layout
       title="24h Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
-      canonical="https://www.tuerex.at/"
+      canonical="https://tuerex.at/"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
       jsonLd={indexStrucutreData}
     >

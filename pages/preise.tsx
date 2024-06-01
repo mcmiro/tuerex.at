@@ -6,7 +6,7 @@ import { CheckIcon } from '@heroicons/react/24/outline';
 const IndexPage = () => {
   return (
     <Layout
-      canonical="https://www.tuerex.at/preise"
+      canonical="https://tuerex.at/preise"
       title="Schlüsseldienst Preise & Kosten | klare Preisgestaltung | TÜREX"
       metaDescription="Entdecke transparente Schlüsseldienst Preise bei TÜREX. Klare Preisgestaltung, fair und ohne versteckte Kosten. Jetzt mehr erfahren."
     >

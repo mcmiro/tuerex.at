@@ -9,7 +9,7 @@ import serioeserSchluesseldienstStrucutreData from 'utils/structure-data/serioes
 const SerioeserSchluesseldienstPage = () => {
   return (
     <Layout
-      canonical="https://www.tuerex.at/serioeser-schluesseldienst"
+      canonical="https://tuerex.at/serioeser-schluesseldienst"
       title="24/7 Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
       jsonLd={serioeserSchluesseldienstStrucutreData}
