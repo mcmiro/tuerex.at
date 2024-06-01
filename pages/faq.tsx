@@ -11,6 +11,7 @@ import faqStructureData from 'utils/structure-data/faq';
 const IndexPage = () => {
   return (
     <Layout
+      canonical="https://www.tuerex.at/faq"
       title="Häufig gestellte Fragen | TÜREX"
       metaDescription="Antworten auf die am häufigsten gestellten Fragen. Jetzt mehr erfahren."
       jsonLd={faqStructureData}

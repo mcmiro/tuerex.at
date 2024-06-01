@@ -9,6 +9,7 @@ import DistrictItem from 'models/districts-content';
 const IndexPage: React.FC<{ data: DistrictItem[] }> = ({ data }) => {
   return (
     <Layout
+      canonical={`https://www.tuerex.at/leistungen`}
       title="Unsere Leistungen | TÜREX"
       metaDescription="Erfahre alles über unsere Dienstleistungen im Bereich Schlosserarbeiten. Jetzt mehr entdecken."
     >

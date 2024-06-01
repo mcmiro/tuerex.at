@@ -9,6 +9,7 @@ import serioeserSchluesseldienstStrucutreData from 'utils/structure-data/serioes
 const SerioeserSchluesseldienstPage = () => {
   return (
     <Layout
+      canonical="https://www.tuerex.at/serioeser-schluesseldienst"
       title="24/7 Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
       jsonLd={serioeserSchluesseldienstStrucutreData}
@@ -278,22 +279,24 @@ const SerioeserSchluesseldienstPage = () => {
         {/* Payment Section START */}
         <div id="payment">
           <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
-            <UI.Typography
-              variant="h2"
-              align="center"
-              className="font-bold text-white"
-            >
-              Entscheide selbst, wie du gerne bezahlst.
-            </UI.Typography>
-            <UI.Typography
-              variant="lg"
-              align="center"
-              className="!text-h5 mt-8 text-white"
-            >
-              Bequem & direkt vor Ort.
-            </UI.Typography>
-            <UI.Payment />
-            <UI.Call mode="dark" />
+            <div className="px-4">
+              <UI.Typography
+                variant="h2"
+                align="center"
+                className="font-bold text-white"
+              >
+                Entscheide selbst, wie du gerne bezahlst.
+              </UI.Typography>
+              <UI.Typography
+                variant="lg"
+                align="center"
+                className="!text-h5 mt-8 text-white"
+              >
+                Bequem & direkt vor Ort.
+              </UI.Typography>
+              <UI.Payment />
+              <UI.Call mode="dark" />
+            </div>
           </UI.Container>
         </div>
         {/* Payment Section END */}

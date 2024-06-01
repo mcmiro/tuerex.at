@@ -31,8 +31,8 @@ const IndexPage = () => {
 
   return (
     <Layout
-      title="24/7 Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
-      canonical="https://tuerex.at"
+      title="24h Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
+      canonical="https://www.tuerex.at/"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
       jsonLd={indexStrucutreData}
     >
@@ -51,10 +51,10 @@ const IndexPage = () => {
       )}
       {/* Modal Price END */}
       {/* Hero Section START */}
-      <header className="min-h-screen">
+      <header>
         <UI.Navigation isActiveHamburger={true} />
         <UI.Container className="flex flex-col items-center w-full gap-4 pb-8">
-          <div className="pt-[56px] pb-4">
+          <div className="pt-[40px] pb-4">
             <UI.AvailabilityCheck />
           </div>
           <UI.Button
@@ -69,7 +69,7 @@ const IndexPage = () => {
           <UI.Typography
             variant="h1"
             weight="bold"
-            className="text-center pt-10 font-['Lexend'] md:text-[56px] md:!leading-[1.1]"
+            className="text-center pt-6 font-['Lexend'] md:text-[46px] md:!leading-[1.1]"
           >
             <span className="text-primary-500">Schlüsseldienst</span> &<br></br>
             Aufsperrdienst in Wien<br></br>
@@ -78,12 +78,12 @@ const IndexPage = () => {
           <UI.Typography variant="xs" className="text-center text-gray-800">
             Klare Preisgestaltung
           </UI.Typography>
-          <ul className="flex items-center justify-between pt-12 w-full max-w-[480px]">
-            <li className="flex items-center gap-1 text-[16px] md:text-[22px] font-['Lexend'] text-gray-800">
+          <ul className="flex items-center justify-between pt-8 w-full max-w-[480px]">
+            <li className="flex items-center gap-1 text-[16px] md:text-[18px] font-['Lexend'] text-gray-800">
               <CheckIcon className="w-5" />
               24h/365 Tage
             </li>
-            <li className="flex items-center gap-1 text-[16px] md:text-[22px] font-['Lexend'] text-gray-800">
+            <li className="flex items-center gap-1 text-[16px] md:text-[18px] font-['Lexend'] text-gray-800">
               <CheckIcon className="w-5" /> Behördlich befähigt
             </li>
           </ul>
@@ -285,22 +285,24 @@ const IndexPage = () => {
         {/* Payment Section START */}
         <div id="payment">
           <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
-            <UI.Typography
-              variant="h2"
-              align="center"
-              className="font-bold text-white"
-            >
-              Entscheide selbst, wie du gerne bezahlst.
-            </UI.Typography>
-            <UI.Typography
-              variant="lg"
-              align="center"
-              className="!text-h5 mt-8 text-white"
-            >
-              Bequem & direkt vor Ort.
-            </UI.Typography>
-            <UI.Payment />
-            <UI.Call mode="dark" />
+            <div className="px-4">
+              <UI.Typography
+                variant="h2"
+                align="center"
+                className="font-bold text-white"
+              >
+                Entscheide selbst, wie du gerne bezahlst.
+              </UI.Typography>
+              <UI.Typography
+                variant="lg"
+                align="center"
+                className="!text-h5 mt-8 text-white"
+              >
+                Bequem & direkt vor Ort.
+              </UI.Typography>
+              <UI.Payment />
+              <UI.Call mode="dark" />
+            </div>
           </UI.Container>
         </div>
         {/* Payment Section END */}

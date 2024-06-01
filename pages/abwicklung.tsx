@@ -8,6 +8,7 @@ import { PhoneIcon } from '@heroicons/react/24/outline';
 const IndexPage = () => {
   return (
     <Layout
+      canonical="https://www.tuerex.at/abwicklung"
       title="Informationen zur Abwicklung | TÜREX"
       metaDescription="Erfahre mehr über die Abwicklung - von Beauftragung bis Tipps für die Wartezeit. Jetzt mehr erfahren."
     >
