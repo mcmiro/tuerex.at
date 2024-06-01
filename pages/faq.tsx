@@ -6,7 +6,7 @@ import faqDataGeneral from 'constants/faq/general';
 import faqDataOther from 'constants/faq/other';
 import faqDataPricesAndPayment from 'constants/faq/prices-and-payment';
 import faqDataSecurity from 'constants/faq/security';
-import faqStructureData from 'utils/structure-data/faq';
+import faqStructureData from 'constants/structure-data/faq';
 
 const IndexPage = () => {
   return (

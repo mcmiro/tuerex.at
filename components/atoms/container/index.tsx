@@ -4,8 +4,8 @@ import clsx from 'clsx';
 type WidthMode = 'full' | 'contained';
 
 const classesSchema = {
-  base: 'mx-auto',
-  full: 'w-full',
+  base: 'mx-auto px-4',
+  full: 'w-full !px-0',
   contained: 'container px-4',
 };
 

@@ -5,7 +5,7 @@ import { UI } from '../components';
 import faqData from 'constants/faq';
 import WkoLogo from '../assets/images/wko-logo.svg';
 import { contactData } from 'constants/contact';
-import indexStrucutreData from 'utils/structure-data';
+import indexStrucutreData from 'constants/structure-data';
 import {
   ArrowRightIcon,
   CheckIcon,
@@ -32,7 +32,7 @@ const IndexPage = () => {
   return (
     <Layout
       title="24/7 Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
-      canonical="https://tuerex.at"
+      canonical="https://www.tuerex.at"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
       jsonLd={indexStrucutreData}
     >
@@ -51,7 +51,7 @@ const IndexPage = () => {
       )}
       {/* Modal Price END */}
       {/* Hero Section START */}
-      <header className="min-h-screen">
+      <header>
         <UI.Navigation isActiveHamburger={true} />
         <UI.Container className="flex flex-col items-center w-full gap-4 pb-8">
           <div className="pt-[56px] pb-4">
@@ -285,22 +285,24 @@ const IndexPage = () => {
         {/* Payment Section START */}
         <div id="payment">
           <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
-            <UI.Typography
-              variant="h2"
-              align="center"
-              className="font-bold text-white"
-            >
-              Entscheide selbst, wie du gerne bezahlst.
-            </UI.Typography>
-            <UI.Typography
-              variant="lg"
-              align="center"
-              className="!text-h5 mt-8 text-white"
-            >
-              Bequem & direkt vor Ort.
-            </UI.Typography>
-            <UI.Payment />
-            <UI.Call mode="dark" />
+            <div className="px-4">
+              <UI.Typography
+                variant="h2"
+                align="center"
+                className="font-bold text-white"
+              >
+                Entscheide selbst, wie du gerne bezahlst.
+              </UI.Typography>
+              <UI.Typography
+                variant="lg"
+                align="center"
+                className="!text-h5 mt-8 text-white"
+              >
+                Bequem & direkt vor Ort.
+              </UI.Typography>
+              <UI.Payment />
+              <UI.Call mode="dark" />
+            </div>
           </UI.Container>
         </div>
         {/* Payment Section END */}

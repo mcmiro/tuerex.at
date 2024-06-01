@@ -57,22 +57,24 @@ const IndexPage = () => {
         {/* Payment Section START */}
         <div id="payment">
           <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
-            <UI.Typography
-              variant="h2"
-              align="center"
-              className="text-white font-bold"
-            >
-              Entscheide selbst, wie du gerne bezahlst.
-            </UI.Typography>
-            <UI.Typography
-              variant="lg"
-              align="center"
-              className="!text-h5 mt-8 text-white"
-            >
-              Bequem & direkt vor Ort.
-            </UI.Typography>
-            <UI.Payment />
-            <UI.Call mode="dark" />
+            <div className="px-4">
+              <UI.Typography
+                variant="h2"
+                align="center"
+                className="text-white font-bold"
+              >
+                Entscheide selbst, wie du gerne bezahlst.
+              </UI.Typography>
+              <UI.Typography
+                variant="lg"
+                align="center"
+                className="!text-h5 mt-8 text-white"
+              >
+                Bequem & direkt vor Ort.
+              </UI.Typography>
+              <UI.Payment />
+              <UI.Call mode="dark" />
+            </div>
           </UI.Container>
         </div>
         {/* Payment Section END */}
