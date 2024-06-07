@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://www.tuerex.at/*"
+  to = "https://tuerex.at/:splat"
+  status = 301
+  force = true
