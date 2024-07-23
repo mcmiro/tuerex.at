@@ -32,7 +32,7 @@ export const Call = ({ mode, className }: CallProps) => {
         href={`tel:${contactData.phone}`}
         className="w-full max-w-[300px] mx-auto flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
       >
-        Jetzt anrufen
+        0676/374 12 04
         <PhoneIcon className="w-6 h-6 text-white" />
       </a>
       <UI.Typography variant="sm" className={`${callClasses} text-center pt-2`}>

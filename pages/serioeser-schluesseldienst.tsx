@@ -10,7 +10,7 @@ const SerioeserSchluesseldienstPage = () => {
   return (
     <Layout
       canonical="https://tuerex.at/serioeser-schluesseldienst"
-      title="24/7 Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
+      title="Seriösen Schlüsseldienst finden | TÜREX"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
       jsonLd={serioeserSchluesseldienstStrucutreData}
     >

@@ -21,6 +21,7 @@ import {
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import router from 'next/router';
+import { priceData } from 'constants/price';
 
 const IndexPage = () => {
   const [priceTableVisible, setPriceTabelVisible] = useState<boolean>(false);
@@ -31,7 +32,7 @@ const IndexPage = () => {
 
   return (
     <Layout
-      title="24h Schlüsseldienst Wien | Aufsperrdienst zum Fixpreis | TÜREX"
+      title="Schlüsseldienst und Aufsperrdienst in Wien | TÜREX"
       canonical="https://tuerex.at/"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
       jsonLd={indexStrucutreData}
@@ -71,8 +72,8 @@ const IndexPage = () => {
             weight="bold"
             className="text-center pt-6 font-['Lexend'] md:text-[46px] md:!leading-[1.1]"
           >
-            <span className="text-primary-500">Schlüsseldienst</span> &<br></br>
-            Aufsperrdienst in Wien<br></br>
+            Schlüsseldienst Wien &<br></br>
+            Aufsperrdienst Wien<br></br>
             <span className="text-primary-500">mit Fixpreisen</span>
           </UI.Typography>
           <UI.Typography variant="xs" className="text-center text-gray-800">
@@ -181,12 +182,12 @@ const IndexPage = () => {
         </UI.Container>
         {/* Content Section END */}
         {/* Call Section START */}
-        <div className="my-20">
+        <div className="flex justify-center my-20">
           <a
             href={`tel:${contactData.phone}`}
-            className="w-full max-w-[300px] mx-auto flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
+            className="flex items-center justify-center gap-2 h-[40px] rounded-lg bg-primary-500 cursor-pointer text-white font-bold px-4"
           >
-            Jetzt anrufen
+            0676/374 12 04
             <PhoneIcon className="w-6 h-6 text-white" />
           </a>
         </div>
@@ -408,7 +409,11 @@ const IndexPage = () => {
               Transparent und mit klarer Preisgestaltung. Hier findest du die
               Auflistung unserer Preise.
             </UI.Typography>
-            <UI.PriceTable />
+            <UI.TableNavigation
+              filter={priceData[0].title}
+              onClick={() => console.log('test')}
+            />
+            <UI.TableContent query={priceData[0].title} />
           </UI.Container>
         </div>
         {/* Price Section END */}

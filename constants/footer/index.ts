@@ -35,7 +35,7 @@ export const footerData = [
       },
       {
         title: 'Rechtsverbindliche Erklärung (PDF)',
-        url: '/echtsverbindliche-erklaerung.pdf',
+        url: '/rechtsverbindliche-erklaerung.pdf',
         image: null,
       },
     ],
@@ -76,6 +76,11 @@ export const footerData = [
       {
         title: 'Impressum',
         url: '/impressum',
+        image: null,
+      },
+      {
+        title: 'B2B',
+        url: '/b2b',
         image: null,
       },
     ],
