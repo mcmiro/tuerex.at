@@ -5,6 +5,7 @@ import { CheckBadgeIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import axios from 'axios';
 import DistrictItem from 'models/districts-content';
+import { services } from 'constants/services';
 
 const IndexPage: React.FC<{ data: DistrictItem[] }> = ({ data }) => {
   return (
@@ -20,6 +21,20 @@ const IndexPage: React.FC<{ data: DistrictItem[] }> = ({ data }) => {
       </header>
       {/* Content Section START */}
       <UI.Container element="main" widthMode="full">
+        <UI.Container>
+          <div className="grid grid-cols-3 gap-2 mt-8">
+            {services.map((el, index: number) => (
+              <div
+                key={index}
+                className="bg-primary-50 p-4 m-1 rounded-lg text-center"
+              >
+                <Link href={el.url} className="border-b border-black">
+                  {el.title}
+                </Link>
+              </div>
+            ))}
+          </div>
+        </UI.Container>
         <UI.Container>
           <div className="mt-[56px]">
             <UI.Icon icon={CheckBadgeIcon} />
@@ -215,7 +230,7 @@ const IndexPage: React.FC<{ data: DistrictItem[] }> = ({ data }) => {
           </div>
         </UI.Container>
         {/* Content Section END */}
-        <UI.Container>
+        <UI.Container className="mt-16">
           <UI.Typography variant="h3">Unsere Tätigkeitsgebiete:</UI.Typography>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-[28px] mb-[56px]">
             {data.map((el: any, index: number) => (

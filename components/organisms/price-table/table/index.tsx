@@ -58,10 +58,12 @@ const TableContent = ({ query }: TableContentProps) => {
                         ></span>
                       </td>
                       <td className="align-top pt-3 font-semibold w-16 text-right">
-                        {typeof el.price === 'number'
-                          ? el.price + table.addonPrice
-                          : el.price}
-                        €
+                        <var className="not-italic">
+                          {typeof el.price === 'number'
+                            ? el.price + table.addonPrice
+                            : el.price}
+                          €
+                        </var>
                       </td>
                     </tr>
                   ))}

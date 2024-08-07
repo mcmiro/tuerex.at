@@ -6,6 +6,7 @@ export type TypographyVariant =
   | 'sm'
   | 'md'
   | 'lg'
+  | 'xl'
   | 'h6'
   | 'h5'
   | 'h4'
@@ -27,6 +28,7 @@ const variantComponentMapping = {
   sm: 'p',
   md: 'p',
   lg: 'p',
+  xl: 'p',
   h1: 'h1',
   h2: 'h2',
   h3: 'h3',
@@ -42,6 +44,7 @@ const classesSchema = {
     sm: 'text-sm leading-6',
     md: 'text-md leading-6',
     lg: 'text-lg leading-6',
+    xl: 'text-h4 tracking-tighter font-[Lexend]',
     h1: 'text-h1 tracking-tighter font-[Lexend]',
     h2: 'text-h2 tracking-tighter font-[Lexend]',
     h3: 'text-h3 tracking-tighter font-[Lexend]',

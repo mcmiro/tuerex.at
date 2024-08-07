@@ -12,31 +12,35 @@ export const priceData = [
     services: [
       {
         service: 'Zugefallene Tür (normale Tür)',
-        link: '/leistungen/oeffnung-einer-zugefallenen-tuer',
+        link: '/leistungen/zugefallene-standardtueren',
         description:
           'Öffnung von zugefallenen Türen (keine Sicherheitstüren). Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 89,
       },
       {
         service: 'Zugefallene Sicherheitstür',
+        link: '/leistungen/zugefallene-sicherheitstueren',
         description:
           'Öffnung von zugefallenen Sicherheitstüren. Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 114,
       },
       {
         service: 'Versperrte Tür (Normale- und Sicherheitstür)',
+        link: '/leistungen/versperrte-tueren',
         description:
           'Öffnung von Türen, die versperrt sind oder einen steckenden/abgebrochenen Schlüssel haben. Bei abgebrochenem Schlüssel gilt der Preis nur, wenn das Entfernen ohne Zylindertausch möglich ist. Ansonsten siehe Leistung "Zylindertausch" Preis inklusive Anfahrtskosten.',
         price: 149,
       },
       {
         service: 'Zylindertausch',
+        link: '/leistungen/zylinder-tausch',
         description:
           'Zylindertausch, falls erforderlich (z.B. bei einem abgebrochenen Schlüssel). Der Preis wird individuell nach Arbeitsumfang und dem gewünschten Zylindermodell gesondert angeboten.',
         price: 'ab 60',
       },
       {
         service: 'Aufpreis für Türöffnung mit Teleskop',
+        link: '/leistungen/tueroeffnung-mit-teleskop',
         description:
           'Aufpreis für die jeweilige Leistung, sofern Inspektion und Türöffnung mittels einer Teleskopstange mit angebrachter Kamera erforderlich sind.',
         price: 79,
@@ -51,31 +55,35 @@ export const priceData = [
     services: [
       {
         service: 'Zugefallene Tür (normale Tür)',
-        link: '/leistungen/oeffnung-einer-zugefallenen-tuer',
+        link: '/leistungen/zugefallene-standardtueren',
         description:
           'Öffnung von zugefallenen Türen (keine Sicherheitstüren). Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 89,
       },
       {
         service: 'Zugefallene Sicherheitstür',
+        link: '/leistungen/zugefallene-sicherheitstueren',
         description:
           'Öffnung von zugefallenen Sicherheitstüren. Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 114,
       },
       {
         service: 'Versperrte Tür (Normale- und Sicherheitstür)',
+        link: '/leistungen/versperrte-tueren',
         description:
           'Öffnung von Türen, die versperrt sind oder einen steckenden/abgebrochenen Schlüssel haben. Bei abgebrochenem Schlüssel gilt der Preis nur, wenn das Entfernen ohne Zylindertausch möglich ist. Ansonsten siehe Leistung "Zylindertausch" Preis inklusive Anfahrtskosten.',
         price: 149,
       },
       {
         service: 'Zylindertausch',
+        link: '/leistungen/zylinder-tausch',
         description:
           'Zylindertausch, falls erforderlich (z.B. bei einem abgebrochenen Schlüssel). Der Preis wird individuell nach Arbeitsumfang und dem gewünschten Zylindermodell gesondert angeboten.',
         price: 'ab 60',
       },
       {
         service: 'Aufpreis für Türöffnung mit Teleskop',
+        link: '/leistungen/tueroeffnung-mit-teleskop',
         description:
           'Aufpreis für die jeweilige Leistung, sofern Inspektion und Türöffnung mittels einer Teleskopstange mit angebrachter Kamera erforderlich sind.',
         price: 79,
@@ -90,31 +98,35 @@ export const priceData = [
     services: [
       {
         service: 'Zugefallene Tür (normale Tür)',
-        link: '/leistungen/oeffnung-einer-zugefallenen-tuer',
+        link: '/leistungen/zugefallene-standardtueren',
         description:
           'Öffnung von zugefallenen Türen (keine Sicherheitstüren). Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 89,
       },
       {
         service: 'Zugefallene Sicherheitstür',
+        link: '/leistungen/zugefallene-sicherheitstueren',
         description:
           'Öffnung von zugefallenen Sicherheitstüren. Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 114,
       },
       {
         service: 'Versperrte Tür (Normale- und Sicherheitstür)',
+        link: '/leistungen/versperrte-tueren',
         description:
           'Öffnung von Türen, die versperrt sind oder einen steckenden/abgebrochenen Schlüssel haben. Bei abgebrochenem Schlüssel gilt der Preis nur, wenn das Entfernen ohne Zylindertausch möglich ist. Ansonsten siehe Leistung "Zylindertausch" Preis inklusive Anfahrtskosten.',
         price: 149,
       },
       {
         service: 'Zylindertausch',
+        link: '/leistungen/zylinder-tausch',
         description:
           'Zylindertausch, falls erforderlich (z.B. bei einem abgebrochenen Schlüssel). Der Preis wird individuell nach Arbeitsumfang und dem gewünschten Zylindermodell gesondert angeboten.',
         price: 'ab 60',
       },
       {
         service: 'Aufpreis für Türöffnung mit Teleskop',
+        link: '/leistungen/tueroeffnung-mit-teleskop',
         description:
           'Aufpreis für die jeweilige Leistung, sofern Inspektion und Türöffnung mittels einer Teleskopstange mit angebrachter Kamera erforderlich sind.',
         price: 79,
@@ -129,31 +141,35 @@ export const priceData = [
     services: [
       {
         service: 'Zugefallene Tür (normale Tür)',
-        link: '/leistungen/oeffnung-einer-zugefallenen-tuer',
+        link: '/leistungen/zugefallene-standardtueren',
         description:
           'Öffnung von zugefallenen Türen (keine Sicherheitstüren). Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 89,
       },
       {
         service: 'Zugefallene Sicherheitstür',
+        link: '/leistungen/zugefallene-sicherheitstueren',
         description:
           'Öffnung von zugefallenen Sicherheitstüren. Die Tür ist nicht versperrt, und der Schlüssel steckt nicht im Zylinder. Preis inklusive Anfahrtskosten.',
         price: 114,
       },
       {
         service: 'Versperrte Tür (Normale- und Sicherheitstür)',
+        link: '/leistungen/versperrte-tueren',
         description:
           'Öffnung von Türen, die versperrt sind oder einen steckenden/abgebrochenen Schlüssel haben. Bei abgebrochenem Schlüssel gilt der Preis nur, wenn das Entfernen ohne Zylindertausch möglich ist. Ansonsten siehe Leistung "Zylindertausch" Preis inklusive Anfahrtskosten.',
         price: 149,
       },
       {
         service: 'Zylindertausch',
+        link: '/leistungen/zylinder-tausch',
         description:
           'Zylindertausch, falls erforderlich (z.B. bei einem abgebrochenen Schlüssel). Der Preis wird individuell nach Arbeitsumfang und dem gewünschten Zylindermodell gesondert angeboten.',
         price: 'ab 60',
       },
       {
         service: 'Aufpreis für Türöffnung mit Teleskop',
+        link: '/leistungen/tueroeffnung-mit-teleskop',
         description:
           'Aufpreis für die jeweilige Leistung, sofern Inspektion und Türöffnung mittels einer Teleskopstange mit angebrachter Kamera erforderlich sind.',
         price: 79,

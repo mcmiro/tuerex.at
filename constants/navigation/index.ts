@@ -17,7 +17,7 @@ export const navigationData = [
   },
   {
     title: 'B2B',
-    url: '/b2b',
+    url: '/leistungen/b2b-leistungen',
   },
   {
     title: 'FAQ',

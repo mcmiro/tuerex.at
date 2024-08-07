@@ -29,6 +29,7 @@ export const Call = ({ mode, className }: CallProps) => {
         onClick={() =>
           sendMessageToSlack(`New call was initiated. ${getTimeStampNow()}`)
         }
+        aria-label="Schlüsseldienst anrufen - Notdienst 24h. Telefonnummer: +436763741204"
         href={`tel:${contactData.phone}`}
         className="w-full max-w-[300px] mx-auto flex gap-4 items-center justify-center font-bold bg-primary-500 py-3 px-6 text-base rounded-lg text-white"
       >
@@ -36,7 +37,9 @@ export const Call = ({ mode, className }: CallProps) => {
         <PhoneIcon className="w-6 h-6 text-white" />
       </a>
       <UI.Typography variant="sm" className={`${callClasses} text-center pt-2`}>
-        00-24h erreichbar
+        <time dateTime="PT24H" aria-label="Öffnungszeiten: 24 Stunden täglich">
+          00-24h erreichbar
+        </time>
       </UI.Typography>
     </div>
   );

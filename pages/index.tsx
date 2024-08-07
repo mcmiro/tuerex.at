@@ -73,8 +73,7 @@ const IndexPage = () => {
             className="text-center pt-6 font-['Lexend'] md:text-[46px] md:!leading-[1.1]"
           >
             Schlüsseldienst Wien &<br></br>
-            Aufsperrdienst Wien<br></br>
-            <span className="text-primary-500">mit Fixpreisen</span>
+            <span className="text-primary-500">Aufsperrdienst Wien</span>
           </UI.Typography>
           <UI.Typography variant="xs" className="text-center text-gray-800">
             Klare Preisgestaltung
@@ -411,7 +410,7 @@ const IndexPage = () => {
             </UI.Typography>
             <UI.TableNavigation
               filter={priceData[0].title}
-              onClick={() => console.log('test')}
+              onClick={() => router.push(`/preise`)}
             />
             <UI.TableContent query={priceData[0].title} />
           </UI.Container>

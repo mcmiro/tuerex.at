@@ -44,6 +44,11 @@ export const footerData = [
     title: 'Türex',
     menu: [
       {
+        title: 'B2B',
+        url: '/leistungen/b2b-leistungen',
+        image: null,
+      },
+      {
         title: 'Alle Leistungen von Türex',
         url: '/leistungen',
         image: null,
@@ -76,11 +81,6 @@ export const footerData = [
       {
         title: 'Impressum',
         url: '/impressum',
-        image: null,
-      },
-      {
-        title: 'B2B',
-        url: '/b2b',
         image: null,
       },
     ],
