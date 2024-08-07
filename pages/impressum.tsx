@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/layouts';
 import { UI } from '../components';
+import Link from 'next/link';
 
 const ImpressumPage = () => {
   return (
@@ -14,7 +15,7 @@ const ImpressumPage = () => {
         <UI.Breadcrumbs />
       </header>
       {/* Content Section START */}
-      <UI.Container element="main" widthMode="full">
+      <UI.Container element="main" widthMode="contained">
         <div className="mt-[56px]">
           <UI.Typography
             variant="h3"
@@ -28,6 +29,18 @@ const ImpressumPage = () => {
             </li>
             <li>
               <strong>Adresse:</strong> Oldenburggasse 6, 1230 Wien
+            </li>
+            <li>
+              <strong>E-Mail-Adresse:</strong>{' '}
+              <Link href={'mailto:info@tuerex.at'} className="underline">
+                info@tuerex.at
+              </Link>
+            </li>
+            <li>
+              <strong>Telefon:</strong>{' '}
+              <Link href={'tel:+436763741204'} className="underline">
+                +43 676 374 12 04
+              </Link>
             </li>
             <li>
               <strong>Gewerbeordnung:</strong> Metalltechnik für Metall- und

@@ -35,7 +35,7 @@ export const footerData = [
       },
       {
         title: 'Rechtsverbindliche Erklärung (PDF)',
-        url: '/echtsverbindliche-erklaerung.pdf',
+        url: '/rechtsverbindliche-erklaerung.pdf',
         image: null,
       },
     ],
@@ -43,6 +43,11 @@ export const footerData = [
   {
     title: 'Türex',
     menu: [
+      {
+        title: 'B2B',
+        url: '/leistungen/b2b-leistungen',
+        image: null,
+      },
       {
         title: 'Alle Leistungen von Türex',
         url: '/leistungen',

@@ -12,11 +12,15 @@ export const navigationData = [
     url: '/preise',
   },
   {
-    title: 'FAQ',
-    url: '/faq',
-  },
-  {
     title: 'Abwicklung',
     url: '/abwicklung',
+  },
+  {
+    title: 'B2B',
+    url: '/leistungen/b2b-leistungen',
+  },
+  {
+    title: 'FAQ',
+    url: '/faq',
   },
 ];

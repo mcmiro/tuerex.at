@@ -28,24 +28,23 @@ const Navigation = ({ className }: NavigationProps) => {
       <UI.Container className={containerClasses}>
         <UI.Logo />
         {/* Desktop Menu START */}
-        <div className="hidden md:flex items-center justify-end w-full gap-10">
+        <div className="hidden lg:flex items-center justify-end w-full gap-10">
           <UI.Menu items={navigationData} />
-          <div className="flex items-center justify-center w-[40px] h-[40px] rounded-lg bg-primary-500 cursor-pointer">
-            <a
-              onClick={() =>
-                sendMessageToSlack(
-                  `New call was initiated. ${getTimeStampNow()}`
-                )
-              }
-              href={`tel:${contactData.phone}`}
-            >
-              <PhoneIcon className="h-[24px] text-white" />
-            </a>
-          </div>
+
+          <a
+            onClick={() =>
+              sendMessageToSlack(`New call was initiated. ${getTimeStampNow()}`)
+            }
+            href={`tel:${contactData.phone}`}
+            className="flex items-center justify-center gap-2 h-[40px] rounded-lg bg-primary-500 cursor-pointer text-white font-bold px-4"
+          >
+            <PhoneIcon className="h-[20px] text-white" />
+            0676/374 12 04
+          </a>
         </div>
         {/* Desktop Menu END */}
         {/* Mobile Menu START */}
-        <div className="flex md:hidden items-center gap-4">
+        <div className="flex lg:hidden items-center gap-4">
           <div
             onClick={() =>
               sendMessageToSlack(`New call was initiated. ${getTimeStampNow()}`)

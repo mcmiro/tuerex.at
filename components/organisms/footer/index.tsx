@@ -5,6 +5,8 @@ import { footerData } from 'constants/footer';
 import { useCookies } from 'hooks/use-cookies';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import CookieIcon from '../../../assets/icons/cookie.svg';
+import { FaLinkedin, FaInstagram } from 'react-icons/fa';
+import Link from 'next/link';
 
 const classesSchema = {
   base: 'pt-[56px] border-t bg-primary-50',
@@ -50,6 +52,20 @@ const Footer = () => {
             );
           })}
         </div>
+      </UI.Container>
+      <UI.Container className="pb-8 flex gap-8 justify-center">
+        <Link
+          href="https://www.linkedin.com/company/tuerex-schluesseldienst/"
+          target="blank"
+        >
+          <FaLinkedin className="w-10 h-10" />
+        </Link>
+        <Link
+          href="https://www.instagram.com/tuerex_schluesseldienst/"
+          target="blank"
+        >
+          <FaInstagram className="w-10 h-10" />
+        </Link>
       </UI.Container>
       <div className="bg-primary-950 w-full">
         <UI.Container>
