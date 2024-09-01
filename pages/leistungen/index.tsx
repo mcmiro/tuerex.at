@@ -3,11 +3,9 @@ import Layout from 'components/layouts';
 import { UI } from 'components';
 import { CheckBadgeIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import axios from 'axios';
-import DistrictItem from 'models/districts-content';
 import { services } from 'constants/services';
 
-const IndexPage: React.FC<{ data: DistrictItem[] }> = ({ data }) => {
+const IndexPage: React.FC = () => {
   return (
     <Layout
       canonical={`https://tuerex.at/leistungen`}
@@ -230,38 +228,9 @@ const IndexPage: React.FC<{ data: DistrictItem[] }> = ({ data }) => {
           </div>
         </UI.Container>
         {/* Content Section END */}
-        <UI.Container className="mt-16">
-          <UI.Typography variant="h3">Unsere Tätigkeitsgebiete:</UI.Typography>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-[28px] mb-[56px]">
-            {data.map((el: any, index: number) => (
-              <div
-                key={index}
-                className="bg-primary-50 p-4 m-1 rounded-lg text-center"
-              >
-                <Link
-                  href={`/wien/${el.postalCode}`}
-                  className="border-b border-black"
-                >
-                  Wien {el.postalCode}
-                </Link>
-              </div>
-            ))}
-          </div>
-        </UI.Container>
       </UI.Container>
     </Layout>
   );
 };
 
 export default IndexPage;
-
-export const getStaticProps = async () => {
-  const response = await axios.get(
-    `${process.env.NEXT_LOCAL_URL}/districts.json`
-  );
-  const data = response.data.data;
-
-  return {
-    props: { data },
-  };
-};
