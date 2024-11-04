@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import Layout from '../components/layouts';
 import { UI } from '../components';
@@ -24,32 +24,13 @@ import router from 'next/router';
 import { priceData } from 'constants/price';
 
 const IndexPage = () => {
-  const [priceTableVisible, setPriceTabelVisible] = useState<boolean>(false);
-
-  const hanldeClosePriceTable = () => {
-    setPriceTabelVisible(false);
-  };
-
   return (
     <Layout
-      title="Schlüsseldienst und Aufsperrdienst in Wien | TÜREX"
+      title="Schlüsseldienst Wien ab €89,- | TÜREX"
       canonical="https://tuerex.at/"
       metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
       jsonLd={indexStrucutreData}
     >
-      {/* Modal Price START */}
-      {priceTableVisible && (
-        <UI.ModalDialog onClick={hanldeClosePriceTable}>
-          <UI.Typography
-            variant="md"
-            align="center"
-            className="mt-4 font-bold h5"
-          >
-            Schlüsseldienst Preise
-          </UI.Typography>
-          <UI.PriceTable />
-        </UI.ModalDialog>
-      )}
       {/* Modal Price END */}
       {/* Hero Section START */}
       <header>
@@ -58,22 +39,12 @@ const IndexPage = () => {
           <div className="pt-[40px] pb-4">
             <UI.AvailabilityCheck />
           </div>
-          <UI.Button
-            variant="contained"
-            size="sm"
-            light
-            className="!rounded-full flex gap-2 items-center"
-            onClick={() => setPriceTabelVisible(true)}
-          >
-            Preise ansehen <ArrowRightIcon className="w-4" />
-          </UI.Button>
           <UI.Typography
             variant="h1"
             weight="bold"
-            className="text-center pt-6 font-['Lexend'] md:text-[46px] md:!leading-[1.1]"
+            className="text-center pt-6 font-['Lexend'] md:text-[64px] md:!leading-[1.1] tracking-normal"
           >
-            Schlüsseldienst Wien &<br></br>
-            <span className="text-primary-500">Aufsperrdienst Wien</span>
+            Schlüsseldienst Wien
           </UI.Typography>
           <UI.Typography variant="xs" className="text-center text-gray-800">
             Klare Preisgestaltung

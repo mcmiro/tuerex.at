@@ -22,10 +22,6 @@ const Layout = ({
       <Head>
         <title>{title}</title>
         <meta charSet="utf-8" />
-        <meta
-          name="google-site-verification"
-          content="Ag_9ln1qbSI82P6HV81ER67gj6tA2RrNZaRnZuZSQCk"
-        />
         <meta name="description" content={metaDescription} />
         {canonical && <link rel="canonical" href={canonical} />}
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
