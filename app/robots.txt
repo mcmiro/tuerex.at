@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /wien/
+
+Sitemap: https://tuerex.at/sitemap-0.xml
