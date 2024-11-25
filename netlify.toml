@@ -9,3 +9,10 @@
   to = "https://tuerex.at/rechtsverbindliche.pdf"
   status = 301
   force = true
+
+
+[[redirects]]
+  from = "https://super-puffpuff-f8ff31.netlify.app/*"
+  to = "https://tuerex.at/:splat"
+  status = 301
+  force = true
