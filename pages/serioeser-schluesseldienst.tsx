@@ -1,10 +1,10 @@
-import React from 'react';
-import Image from 'next/image';
-import Layout from '../components/layouts';
-import { UI } from '../components';
-import WkoLogo from '../assets/images/wko-logo.svg';
-import Link from 'next/link';
-import serioeserSchluesseldienstStrucutreData from 'utils/structure-data/serioeser-schluesseldienst';
+import React from "react";
+import Image from "next/image";
+import Layout from "../components/layouts";
+import { UI } from "../components";
+import WkoLogo from "../assets/images/wko-logo.svg";
+import Link from "next/link";
+import serioeserSchluesseldienstStrucutreData from "utils/structure-data/serioeser-schluesseldienst";
 
 const SerioeserSchluesseldienstPage = () => {
   return (
@@ -26,7 +26,7 @@ const SerioeserSchluesseldienstPage = () => {
             weight="bold"
             className="text-center pt-10 font-['Lexend'] md:text-[56px] md:!leading-[1.1]"
           >
-            <span className="text-primary-500">Seriösen Schlüsseldienst</span>{' '}
+            <span className="text-primary-500">Seriösen Schlüsseldienst</span>{" "}
             in<br></br>
             Wien finden.
           </UI.Typography>
@@ -54,10 +54,10 @@ const SerioeserSchluesseldienstPage = () => {
             className="mt-6 !text-[18px] text-primary-900 leading-8"
           >
             In diesem Artikel erfährst du, anhand welcher Kriterien du einen
-            seriösen{' '}
+            seriösen{" "}
             <Link href="/" className="underline">
               Schlüsseldienst in Wien
-            </Link>{' '}
+            </Link>{" "}
             erkennen kannst.
           </UI.Typography>
           <div className="mt-[56px] border-y border-gray-200 pb-3">
@@ -73,7 +73,7 @@ const SerioeserSchluesseldienstPage = () => {
               </li>
               <li className="list-disc">
                 <Link href="#tipp-tree">
-                  Transparente Preise (Keine versteckten Kosten)
+                  Transparente Preise {"(Keine versteckten Kosten)"}
                 </Link>
               </li>
               <li className="list-disc">
@@ -314,8 +314,8 @@ const SerioeserSchluesseldienstPage = () => {
             >
               Ein seriöser Schlüsseldienst wird nach der Öffnung der Tür nach
               deinem Ausweis bitten, und die Richtigkeit deiner Person mittels
-              einer{' '}
-              <span className="underline">rechtsverbindlichen Erklärung</span>{' '}
+              einer{" "}
+              <span className="underline">rechtsverbindlichen Erklärung</span>{" "}
               bestätigen lassen.
             </UI.Typography>
           </div>
