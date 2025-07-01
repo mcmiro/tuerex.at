@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://tuerex.at</loc><lastmod>2024-11-04T13:41:33.117Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/abwicklung</loc><lastmod>2024-11-04T13:41:33.117Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/agb</loc><lastmod>2024-11-04T13:41:33.117Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/datenschutz</loc><lastmod>2024-11-04T13:41:33.117Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/faq</loc><lastmod>2024-11-04T13:41:33.117Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/impressum</loc><lastmod>2024-11-04T13:41:33.117Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/leistungen</loc><lastmod>2024-11-04T13:41:33.117Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/leistungen/b2b-leistungen</loc><lastmod>2024-11-04T13:41:33.117Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/leistungen/tueroeffnung-mit-teleskop</loc><lastmod>2024-11-04T13:41:33.117Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/leistungen/versperrte-tueren</loc><lastmod>2024-11-04T13:41:33.118Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/leistungen/zugefallene-sicherheitstueren</loc><lastmod>2024-11-04T13:41:33.118Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/leistungen/zugefallene-standardtueren</loc><lastmod>2024-11-04T13:41:33.118Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/leistungen/zylinder-tausch</loc><lastmod>2024-11-04T13:41:33.118Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/preise</loc><lastmod>2024-11-04T13:41:33.118Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/serioeser-schluesseldienst</loc><lastmod>2024-11-04T13:41:33.118Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://tuerex.at/robots.txt</loc><lastmod>2024-11-04T13:41:33.118Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/abwicklung</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/agb</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/datenschutz</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/faq</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/impressum</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/leistungen</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/leistungen/b2b-leistungen</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/leistungen/tueroeffnung-mit-teleskop</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/leistungen/versperrte-tueren</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/leistungen/zugefallene-sicherheitstueren</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/leistungen/zugefallene-standardtueren</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/leistungen/zylinder-tausch</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/preise</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://tuerex.at/serioeser-schluesseldienst</loc><lastmod>2025-06-30T13:45:56.103Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
