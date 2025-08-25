@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import Image from 'next/image';
-import Layout from '../components/layouts';
-import { UI } from '../components';
-import faqData from 'constants/faq';
-import WkoLogo from '../assets/images/wko-logo.svg';
-import { contactData } from 'constants/contact';
-import indexStrucutreData from 'utils/structure-data';
+import React, { useState } from "react";
+import Image from "next/image";
+import Layout from "../components/layouts";
+import { UI } from "../components";
+import faqData from "constants/faq";
+import WkoLogo from "../assets/images/wko-logo.svg";
+import { contactData } from "constants/contact";
+import indexStrucutreData from "utils/structure-data";
 import {
   ArrowRightIcon,
   CheckIcon,
@@ -18,10 +18,10 @@ import {
   PhoneIcon,
   CurrencyEuroIcon,
   ShieldCheckIcon,
-} from '@heroicons/react/24/outline';
-import Link from 'next/link';
-import router from 'next/router';
-import { priceData } from 'constants/price';
+} from "@heroicons/react/24/outline";
+import Link from "next/link";
+import router from "next/router";
+import { priceData } from "constants/price";
 
 const IndexPage = () => {
   const [priceTableVisible, setPriceTabelVisible] = useState<boolean>(false);
@@ -169,10 +169,10 @@ const IndexPage = () => {
                 variant="md"
                 className="mt-6 !text-[16px] text-primary-900 leading-6"
               >
-                Unsere{' '}
+                Unsere{" "}
                 <Link href="#prices" className="underline">
                   Fixpreise
-                </Link>{' '}
+                </Link>{" "}
                 sind fair und klar, pro Leistung definiert. So kannst du
                 jederzeit die Kosten im Überblick behalten.
               </UI.Typography>
@@ -261,10 +261,10 @@ const IndexPage = () => {
                   Wir verstehen, dass das Warten vor der verschlossenen Tür
                   anstregend sein kann. Unser Team steht dir auch während der
                   Wartezeit zur Verfügung, und betreut dich falls notwendig. Wir
-                  haben dafür auch einige{' '}
+                  haben dafür auch einige{" "}
                   <Link href="#tipps" className="underline">
                     Tipps
-                  </Link>{' '}
+                  </Link>{" "}
                   für dich vorbereitet.
                 </UI.Typography>
               </div>
@@ -363,9 +363,9 @@ const IndexPage = () => {
           </div>
           <UI.Button
             variant="contained"
-            onClick={() => router.push('/abwicklung')}
+            onClick={() => router.push("/abwicklung")}
             iconVisible={true}
-            iconPosition={'right'}
+            iconPosition={"right"}
             icon={<ArrowRightIcon className="w-8" />}
             className="flex items-center py-4 my-8 font-bold mb-[98px]"
           >
@@ -447,9 +447,9 @@ const IndexPage = () => {
               </UI.Typography>
               <UI.Button
                 variant="contained"
-                onClick={() => router.push('/serioeser-schluesseldienst')}
+                onClick={() => router.push("/serioeser-schluesseldienst")}
                 iconVisible={true}
-                iconPosition={'right'}
+                iconPosition={"right"}
                 icon={<ArrowRightIcon className="w-8" />}
                 className="w-full mt-12 mb-8 font-bold flex items-center py-4 max-w-[300px]"
               >
@@ -473,7 +473,7 @@ const IndexPage = () => {
           <UI.Container>
             <UI.Typography variant="h2" className="font-bold mt-[56px]">
               <span className="text-primary-500">Aufsperrdienst Wien</span> -
-              das ist bezüglich der{' '}
+              das ist bezüglich der{" "}
               <span className="text-primary-500">Türöffnung</span> deinerseits
               zu beachten.
             </UI.Typography>
@@ -502,7 +502,7 @@ const IndexPage = () => {
               >
                 Der Ausweis dient nur zur Überprüfung deiner Person. Diesen
                 zeigst du einfach unserem Kollegen vor Ort. Zusätzlich wirst du
-                von uns gebeten eine{' '}
+                von uns gebeten eine{" "}
                 <a
                   href="/echtsverbindliche-erklaerung.pdf"
                   rel="noopener noreferrer"
@@ -510,7 +510,7 @@ const IndexPage = () => {
                   className="underline text-primary-500"
                 >
                   rechtsverbindliche Erklärung
-                </a>{' '}
+                </a>{" "}
                 unterzeichnen. Dadurch wird sichergestellt, dass auch alles
                 gesetzeskonform abläuft.
               </UI.Typography>
@@ -521,7 +521,7 @@ const IndexPage = () => {
           <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
             <div>
               <UI.Typography variant="h2" weight="bold">
-                Mehr als nur ein{' '}
+                Mehr als nur ein{" "}
                 <span className="text-primary-500">Schlüsseldienst</span>.
               </UI.Typography>
               <div className="mt-[56px]">
@@ -537,9 +537,9 @@ const IndexPage = () => {
 
                 <UI.Button
                   variant="contained"
-                  onClick={() => router.push('/leistungen')}
+                  onClick={() => router.push("/leistungen")}
                   iconVisible={true}
-                  iconPosition={'right'}
+                  iconPosition={"right"}
                   icon={<ArrowRightIcon className="w-8" />}
                   className="w-full my-8 font-bold flex items-center py-4 max-w-[300px]"
                 >

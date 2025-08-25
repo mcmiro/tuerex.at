@@ -3,301 +3,1343 @@
     {
       "postalCode": "1010",
       "districtName": "Innere Stadt",
-      "description": "Schlüsseldienst in Wien 1010: Transparente Fixpreise, 24/7 erreichbar, schnelle Ankunft in der Innenstadt. Jetzt anrufen.",
-      "subline": "Zuverlässiger 24-Stunden Schlüsselnotdienst.",
-      "introCopy": "Wenn du plötzlich vor einer verschlossenen Tür stehst und dein Schlüssel nicht funktioniert, kannst du auf unseren 24-Stunden-Schlüsseldienst zählen. Wir sind darauf spezialisiert, in solchen Notfällen professionell zu helfen.",
-      "headlineOne": "Keine Anfahrtskosten in 1010 Wien",
-      "copyOne": "Wir sind rund um die Uhr unterwegs. In unseren Preisen sind die Anfahrtskosten für 1010 Wien bereits inkludiert.",
-      "headlineTwo": "24h im Einsatz",
-      "copyTwo": "Wir sind sowohl als Schlüsselnotdienst, als auch im Normal- und Spätdienst tätig.",
-      "headlineThree": "Schadfreie Türöffnung",
-      "copyThree": "Unsere Experten ermöglichen einen schadenfreien Zugang zu Türen. Egal, ob du dich ausgesperrt hast oder dein Schlüssel abgebrochen ist – unser Ziel ist eine behutsame Türöffnung."
+      "description": "Schlüsseldienst 1010 Wien mit Aufsperrdienst: 24/7 erreichbar, transparente Fixpreise. Ankunft innerhalb von 20-30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Zuverlässiger 24h Schlüsselnotdienst.",
+      "proofSectionCopy": "Ein Anruf genügt, und wir sind unterwegs. Unser Schlüsseldienst 1010 Wien ist jederzeit für dich erreichbar – auch an Sonn- und Feiertagen. Solltest du dich vor einer verschlossenen Tür wiederfinden oder dein Schlüssel nicht mehr funktioniert, helfen wir sofort. Wir sind in der ganzen Inneren Stadt für dich da – zuverlässig, schnell und transparent. Türex ist ein behördlich geprüfter Schlüssel- und Aufsperrdienst in 1010 Wien und garantiert volle Transparenz in Preisen und Arbeitsweise.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1010 Wien",
+      "proofCopyOne": "Egal ob du tagsüber einen Schlüsseldienst 1010 für den Schlosswechsel brauchst oder nachts den Aufsperrdienst 1010 für eine Türöffnung – wir sind jederzeit erreichbar. Rund um die Uhr, an jedem Tag im Jahr. Unsere Teams sind ständig in der Inneren Stadt unterwegs und leisten schnelle, zuverlässige Hilfe bei allen Anliegen rund um Schlüssel und Schloss.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1010 Wien",
+      "proofCopyTwo": "Unser behördlich befähigter Schlüsseldienst 1010 Wien öffnet Türen fachgerecht und in der Regel ohne Beschädigung. Ob Sicherheitstür oder einfache Wohnungstür – meist gelingt eine sanfte Türöffnung. Unsere Profis verfügen über langjährige Erfahrung und nutzen moderne Methoden, um Schäden möglichst zu verhindern.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Unsere Preisgestaltung ist transparent und fair – ohne versteckte Kosten. Für jede Leistung berechnen wir einen Fixpreis, der An- und Abfahrt sowie sämtliche Nebenkosten umfasst. Dieser Fixpreis bleibt gleich, solange die übliche Arbeitszeit für die jeweilige Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien legen wir unsere Preise vollständig offen. Bei uns gibt es weder Lockangebote noch versteckte Kosten. Du erhältst eindeutige Fixpreise, die sich nach Uhrzeit, Tageszeit und der Art der Türöffnung richten. So weißt du stets genau, was auf dich zukommt. In unserer Schlüsseldienst-Preisliste findest du alle Preise für Türöffnungen auf einen Blick.",
+      "differenceSectionCopy": "Einige sprechen vom Schlüsseldienst, meinen damit aber eigentlich den Aufsperrdienst. Ganz falsch ist das nicht, dennoch gibt es einen feinen Unterschied. Ein klassischer Schlüsseldienst übernimmt alle Arbeiten rund um Schlüssel und Schlösser: Schlüssel nachmachen, Zylinder austauschen oder Beratung zum Thema Einbruchschutz. Der Aufsperrdienst hingegen wird dann gebraucht, wenn jemand vor verschlossener Tür steht und schnell wieder Zugang zur Wohnung benötigt. Hier geht es darum, Türen zuverlässig und rund um die Uhr zu öffnen. In unserem Fall sind wir beides: Schlüsseldienst und Aufsperrdienst in einer Leistung vereint. Der Unterschied liegt lediglich im Schwerpunkt, die Preise bleiben davon unberührt und orientieren sich ausschließlich an der erbrachten Arbeit und dem Zeitpunkt des Einsatzes.",
+      "waitingTime": [
+        {
+          "districtPart": "Börseviertel",
+          "time": "ca. 15 Minuten"
+        },
+        {
+          "districtPart": "Schwedenplatz",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Opernviertel",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Burgviertel",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Stuben- & Franziskanerviertel",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "In welchen Bezirken ist Türex noch tätig?",
+          "answer": "Türex ist in allen Bezirken Wiens tätig. Egal zu welcher Uhrzeit und an welchem Tag im Jahr, wir machen uns auf den Weg zu dir, sobald du uns kontaktierst."
+        },
+        {
+          "question": "Kann ich den Schlüsseldienst 1010 Wien auch in anderen Bezirken beauftragen?",
+          "answer": "Ja, du kannst unseren Schlüsseldienst 1010 Wien auch in anderen Bezirken Wiens beauftragen. Wichtig ist nur, dass du berechtigt bist, uns für die Türöffnung zu beauftragen. Das heißt, du musst nachweisen können, dass du der Hauptmieter, Mieter oder Eigentümer der Wohnung bist oder dass du die Erlaubnis des Eigentümers hast."
+        },
+        {
+          "question": "Welche Unterlagen muss ich herzeigen, wenn Schlüsseldienst 1010 Wien meine Tür aufsperrt?",
+          "answer": "Um sicherzustellen, dass du berechtigt bist, die Türöffnung in Auftrag zu geben, musst du einen gültigen Ausweis vorlegen. Nach der Öffnung wirst du von unserem Team gebeten, eine rechtsverbindliche Erklärung zu unterschreiben. Diese wird für gesetzkonforme Türöffnungen benötigt und dient zur beidseitiger Sicherheit."
+        },
+        {
+          "question": "Was bedeutet Fixpreis?",
+          "answer": "Ein Fixpreis bedeutet, dass der Preis für die Dienstleistung im Voraus festgelegt wird. Für jede konkrete Leistung ist ein Preis definiert, der unverändert bleibt, solange die übliche Arbeitszeit für die Dienstleistung nicht überschritten wird."
+        }
+      ]
     },
     {
       "postalCode": "1020",
       "districtName": "Leopoldstadt",
-      "description": "Schlüsseldienst in Wien 1020: Transparente Preise, rund um die Uhr verfügbar, schnelle Hilfe in Leopoldstadt. Jetzt anrufen.",
-      "subline": "Seriöser 24/7 Aufsperrdienst.",
-      "introCopy": "In einer unerwarteten Situation vor einer verschlossenen Tür? Unser 24-Stunden-Schlüsseldienst ist speziell für solche Fälle geschult und steht bereit, um professionelle Hilfe zu leisten.",
-      "headlineOne": "Kostenlose Anfahrt in 1020 Wien",
-      "copyOne": "Wir sind zu jeder Tages- und Nachtzeit unterwegs. Die Anfahrtskosten für 1020 Wien sind bereits in unseren Preisen inbegriffen.",
-      "headlineTwo": "Einsatzbereit rund um die Uhr",
-      "copyTwo": "Unser Service umfasst sowohl Schlüsselnotdienst als auch Normal- und Spätdienst.",
-      "headlineThree": "Türöffnung ohne Schäden",
-      "copyThree": "Schadfreie Türöffnung bei versehentlichem Aussperren oder abgebrochenem Schlüssel – unsere Priorität ist die schonende Öffnung."
+      "description": "Schlüsseldienst 1020 Wien mit Aufsperrdienst: rund um die Uhr erreichbar, transparente Fixpreise. Ankunft in 20 bis 30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Seriöser 24/7 Aufsperrdienst.",
+      "proofSectionCopy": "Schon ein kurzer Anruf reicht, und unser Team macht sich auf den Weg. Der Schlüsseldienst 1020 Wien ist rund um die Uhr einsatzbereit – auch am Wochenende und an Feiertagen. Wenn du nicht in deine Wohnung kommst oder dein Schlüssel klemmt, sind wir sofort da. In der Leopoldstadt bieten wir dir schnelle, professionelle und faire Hilfe. Türex ist ein offiziell befähigter Schlüsseldienst in 1020 Wien und steht für transparente Abläufe und klare Preise.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1020 Wien",
+      "proofCopyOne": "Ob Schlosswechsel am Tag mit dem Schlüsseldienst 1020 oder nächtliche Türöffnung durch den Aufsperrdienst 1020 – wir stehen bereit. 24 Stunden täglich, das ganze Jahr hindurch. Unsere Einsatzfahrten in der Leopoldstadt garantieren dir rasche Unterstützung bei allen Problemen mit Türen und Schlüsseln.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1020 Wien",
+      "proofCopyTwo": "Unser behördlich autorisierte Schlüsseldienst 1020 Wien sorgt für beschädigungsfreie Türöffnungen, wann immer möglich. Ganz gleich, ob es sich um eine Sicherheitstür oder eine Standardtür handelt – oft können wir schonend öffnen. Unsere Fachkräfte sind bestens geschult und arbeiten mit innovativer Technik, um unnötige Schäden zu vermeiden.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Wir bieten eine klare, faire Preisstruktur ohne versteckte Gebühren. Pro Leistung gilt ein Fixpreis, inklusive An- und Abfahrt und aller Nebenkosten. Der Fixpreis ändert sich nicht, sofern die normale Arbeitszeit der jeweiligen Leistung eingehalten wird.",
+      "pricesSectionCopy": "Wir sind ein behördlich geprüfter Schlüsseldienst in Wien und präsentieren dir unsere Preise absolut transparent. Lockangebote und versteckte Kosten gibt es bei uns nicht. Du bekommst klare Fixpreise, die abhängig von Uhrzeit, Tageszeit und der Türöffnungs-Art sind. Damit weißt du immer genau, was dich erwartet. Unsere Preisliste zeigt dir alle Türöffnungs-Preise übersichtlich.",
+      "differenceSectionCopy": "Viele Menschen nutzen die Begriffe Schlüsseldienst und Aufsperrdienst synonym, doch streng genommen sind es zwei verschiedene Leistungen. Der Schlüsseldienst deckt sämtliche Tätigkeiten im Bereich Schlüssel und Schlösser ab: von der Anfertigung von Kopien über den Austausch defekter Zylinder bis hin zur Sicherheitsberatung. Der Aufsperrdienst hingegen ist die richtige Adresse, wenn man ausgesperrt ist und dringend Hilfe benötigt. Dann geht es darum, Türen verlässlich und jederzeit zu öffnen. Wir kombinieren beide Funktionen in einem Service – Unterschiede bestehen lediglich in der Ausrichtung, nicht im Preis, der sich immer nur nach Aufwand und Einsatzzeit richtet.",
+      "waitingTime": [
+        {
+          "districtPart": "Prater, Krieau & Viertel Zwei",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Stuwerviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Karmeliterviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Rembrandtviertel & Augarten",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "LeoPrater, Freudenau & Donaumarina",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Nordbahnviertel",
+          "time": "ca. 25 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "In welchen Bezirken bietet Türex seine Hilfe an?",
+          "answer": "Unser Team von Türex ist in sämtlichen Wiener Bezirken im Einsatz. Unabhängig von Uhrzeit oder Wochentag machen wir uns sofort auf den Weg, sobald du uns kontaktierst."
+        },
+        {
+          "question": "Kann ich den Schlüsseldienst 1020 Wien auch außerhalb dieses Bezirks beauftragen?",
+          "answer": "Natürlich, unser Schlüsseldienst 1020 Wien ist für alle Bezirke Wiens verfügbar. Voraussetzung ist lediglich, dass du berechtigt bist, die Türöffnung in Auftrag zu geben – also Mieter, Eigentümer oder bevollmächtigt durch den Eigentümer."
+        },
+        {
+          "question": "Welche Nachweise brauche ich, wenn Schlüsseldienst 1020 Wien meine Tür öffnet?",
+          "answer": "Um sicherzustellen, dass du die Türöffnung rechtmäßig beauftragst, benötigen wir einen amtlichen Lichtbildausweis. Direkt nach der Öffnung wirst du zusätzlich gebeten, eine Erklärung zu unterzeichnen, die der rechtlichen Absicherung dient."
+        },
+        {
+          "question": "Wie ist ein Fixpreis zu verstehen?",
+          "answer": "Ein Fixpreis heißt, dass der Preis vor Beginn der Arbeit verbindlich festgelegt wird. Dieser Betrag verändert sich nicht, solange der normale Zeitaufwand für die Tätigkeit eingehalten wird."
+        }
+      ]
     },
     {
       "postalCode": "1030",
       "districtName": "Landstraße",
-      "description": "Schlüsseldienst in Wien 1030: Klare Fixpreise, Notdienst rund um die Uhr, schnelle Ankunft in Landstraße. Jetzt anrufen.",
-      "subline": "Schneller 24h Schlüsseldienst in Ihrer Nähe.",
-      "introCopy": "Stehst du vor einer verschlossenen Tür und brauchst dringend Hilfe? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, in solchen Situationen schnell und professionell zu handeln.",
-      "headlineOne": "Anfahrt nach 1030 Wien kostenlos",
-      "copyOne": "Unser Team ist rund um die Uhr einsatzbereit. In unseren Preisen sind die Anfahrtskosten für 1030 Wien bereits inkludiert.",
-      "headlineTwo": "24 Stunden täglich im Dienst",
-      "copyTwo": "Unser Angebot umfasst Schlüsselnotdienst sowie Dienste zu regulären und späten Zeiten.",
-      "headlineThree": "Schadensfreier Zugang",
-      "copyThree": "Behutsame Türöffnung ohne Schäden, egal ob versehentlich ausgesperrt oder der Schlüssel abgebrochen ist."
+      "description": "Schlüsseldienst 1030 Wien – Aufsperrdienst: 24/7 erreichbar, transparente Fixpreise. Vor Ort in 20–30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Schneller 24h Schlüsseldienst in Ihrer Nähe.",
+      "proofSectionCopy": "Mit einem einzigen Anruf starten wir los. Unser Schlüsseldienst 1030 Wien arbeitet 24/7 – auch an Feiertagen. Stehst du vor einer blockierten Tür oder lässt dich dein Schlüssel im Stich, sind wir sofort vor Ort. Egal wo du dich in 1030 Wien befindest, sorgen wir für rasche, verlässliche und klare Unterstützung. Türex ist ein befugter Schlüssel- und Aufsperrdienst in 1030 Wien und garantiert transparente Kosten und fachgerechte Durchführung.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1030 Wien",
+      "proofCopyOne": "Benötigst du am Tag einen Schlüsseldienst 1030 für den Austausch deines Schlosses oder mitten in der Nacht den Aufsperrdienst 1030 für eine Türöffnung? Wir sind immer verfügbar – 24/7, auch an Feiertagen. In der Landstraße sind unsere Fachkräfte dauerhaft im Einsatz, um dir sofortige Hilfe in allen Schlüsseldienst-Fragen zu bieten.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1030 Wien",
+      "proofCopyTwo": "Unser behördlich geprüfter Schlüsseldienst 1030 Wien öffnet Türen sicher und meist ohne Schaden. Ob Wohnungseingang oder Sicherheitstür – in vielen Fällen lässt sich die Tür materialschonend öffnen. Dank Erfahrung und modernster Werkzeuge vermeiden unsere Spezialisten Beschädigungen so weit wie möglich.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Unsere Preise sind nachvollziehbar, gerecht und frei von versteckten Kosten. Jede Leistung wird mit einem Fixpreis abgerechnet, der An- und Abfahrt plus sämtliche Nebenkosten einschließt. Dieser Preis bleibt unverändert, solange die übliche Arbeitszeit für die betreffende Leistung nicht überschritten ist.",
+      "pricesSectionCopy": "Als behördlich geprüfter Wiener Schlüsseldienst machen wir unsere Preise komplett transparent. Es gibt bei uns keine Lockangebote und keine versteckten Gebühren. Du erhältst fixe, klare Preise, die sich nach Uhrzeit, Tageszeit und der jeweiligen Türöffnung richten. So hast du jederzeit Klarheit über die Kosten. In unserer Preisliste sind alle Preise für Türöffnungen auf einen Blick ersichtlich.",
+      "differenceSectionCopy": "Wer vom Schlüsseldienst spricht, meint oft den Aufsperrdienst, obwohl zwischen beiden Begriffen ein feiner Unterschied besteht. Während ein klassischer Schlüsseldienst sich um das Nachmachen von Schlüsseln, den Wechsel von Zylindern und die Beratung rund um Einbruchschutz kümmert, springt der Aufsperrdienst ein, wenn jemand den Zugang zu seiner Wohnung verloren hat. In diesem Fall liegt der Fokus auf der schnellen und zuverlässigen Türöffnung, auch nachts und an Feiertagen. Wir bieten beide Leistungen in einem Paket an – die Kosten unterscheiden sich dadurch nicht, sondern orientieren sich ausschließlich an Arbeitsaufwand und Einsatzzeit.",
+      "waitingTime": [
+        {
+          "districtPart": "Erdberg",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Weißgerberviertel",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Rochusviertel & Wien Mitte",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Rennweg",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Gasometer",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Arsenal",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Botschaftsviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Fasanviertel & Belvedere",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "In welchen Teilen Wiens ist Türex verfügbar?",
+          "answer": "Wir sind in sämtlichen Bezirken von Wien erreichbar. Egal ob frühmorgens, abends oder an Feiertagen – nach deinem Anruf sind wir unterwegs."
+        },
+        {
+          "question": "Kann ich den Schlüsseldienst 1030 Wien auch für andere Bezirke anfordern?",
+          "answer": "Ja, unser Schlüsseldienst 1030 Wien kann in ganz Wien beauftragt werden. Wichtig ist nur, dass du rechtlich befugt bist, die Türöffnung in Auftrag zu geben – etwa als Eigentümer, Hauptmieter oder mit schriftlicher Zustimmung des Eigentümers."
+        },
+        {
+          "question": "Welche Dokumente muss ich vorlegen, wenn Schlüsseldienst 1030 Wien kommt?",
+          "answer": "Damit die Türöffnung rechtlich abgesichert ist, musst du einen gültigen Ausweis zeigen. Danach bitten wir dich, eine Bestätigung zu unterschreiben, die die ordnungsgemäße Durchführung dokumentiert."
+        },
+        {
+          "question": "Was versteht man unter Fixpreis?",
+          "answer": "Ein Fixpreis bedeutet, dass der Betrag für eine Leistung vorab bestimmt wird. Er bleibt konstant, solange die Arbeiten im üblichen Rahmen bleiben."
+        }
+      ]
     },
     {
       "postalCode": "1040",
       "districtName": "Wieden",
-      "description": "Schlüsseldienst in Wien 1040: Fixpreise ohne Überraschungen, sofortiger Notdienst, rasche Ankunft in Wieden. Jetzt anrufen.",
-      "subline": "Professioneller 24-Stunden Schlüsselnotdienst.",
-      "introCopy": "Falls du vor einer verschlossenen Tür stehst und nicht weiterweißt, ist unser 24-Stunden-Schlüsseldienst deine Lösung. Wir helfen schnell und zuverlässig in solchen Notfällen.",
-      "headlineOne": "Keine Gebühren für die Anfahrt in 1040 Wien",
-      "copyOne": "Wir stehen Ihnen rund um die Uhr zur Verfügung. Die Anfahrtskosten für 1040 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Nonstop im Einsatz",
-      "copyTwo": "Sowohl Schlüsselnotdienst als auch Dienstleistungen zu normalen und späten Zeiten sind Teil unseres Angebots.",
-      "headlineThree": "Sanfte Türöffnung",
-      "copyThree": "Wir öffnen Türen behutsam und ohne Schäden, sei es durch versehentliches Ausperren oder einen abgebrochenen Schlüssel."
+      "description": "Schlüsseldienst 1040 Wien mit Aufsperrdienst: jederzeit erreichbar, transparente Fixpreise. Anfahrt in 20–30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Professioneller 24-Stunden Schlüsselnotdienst.",
+      "proofSectionCopy": "Ein kurzer Anruf genügt, und Hilfe ist unterwegs. Unser Schlüsseldienst 1040 Wien ist Tag und Nacht einsatzbereit – auch an Sonn- und Feiertagen. Wenn du plötzlich nicht mehr in deine Wohnung kommst, öffnen wir deine Tür schnell und professionell. In Wieden sind wir für transparente Preise und sauberes Arbeiten bekannt. Türex ist ein autorisierter Schlüssel- und Aufsperrdienst in 1040 Wien und steht für Offenheit bei Kosten und Vorgehensweise.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1040 Wien",
+      "proofCopyOne": "Tagsüber ein Schlosswechsel mit dem Schlüsseldienst 1040 oder eine Türöffnung in der Nacht durch den Aufsperrdienst 1040 – wir übernehmen beides. 24 Stunden, jeden Tag im Jahr. Unsere Teams sind ununterbrochen in Wieden unterwegs, um dir schnelle und professionelle Hilfe bei allen Schlüssel- und Schlossproblemen zu leisten.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1040 Wien",
+      "proofCopyTwo": "Mit unserem behördlich befähigten Schlüsseldienst 1040 Wien erhältst du beschädigungsfreie Türöffnungen. Egal ob Sicherheitstüren oder normale Wohnungstüren – wir arbeiten in den meisten Fällen schonend. Unsere Experten setzen moderne Werkzeuge ein und nutzen ihr Fachwissen, um Schäden weitgehend zu verhindern.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Transparente, faire Preise ohne versteckte Kosten: Für jede Leistung rechnen wir einen Fixpreis ab, der auch An- und Abfahrt sowie alle Nebenkosten beinhaltet. Der Fixpreis bleibt bestehen, solange die übliche Arbeitszeit je Leistung nicht überzogen wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien veröffentlichen sämtliche Preise transparent. Lockangebote oder versteckte Kosten kommen bei uns nicht vor. Du bekommst feste Fixpreise, gestaffelt nach Uhrzeit, Tageszeit und Art der Türöffnung. Dadurch weißt du immer genau, was an Kosten anfällt. In unserer Schlüsseldienst-Preisliste findest du alle Türöffnungs-Preise auf einen Blick.",
+      "differenceSectionCopy": "Oft wird der Begriff Schlüsseldienst verwendet, wenn eigentlich der Aufsperrdienst gemeint ist. Ganz korrekt ist das zwar nicht, aber es gibt Gemeinsamkeiten. Der Schlüsseldienst erledigt Arbeiten wie Schlüssel nachmachen, Schlösser tauschen oder Kunden beim Thema Sicherheit beraten. Der Aufsperrdienst hingegen ist zuständig, wenn jemand vor verschlossener Tür steht und rasch wieder hinein muss. Hier zählt vor allem die schnelle, zuverlässige Türöffnung zu jeder Tages- und Nachtzeit. Bei uns gibt es keinen Widerspruch: Wir vereinen beide Dienstleistungen, der Unterschied liegt nur in der Ausrichtung. Preislich macht das keinen Unterschied – hier zählen ausschließlich Aufwand und Zeitpunkt.",
+      "waitingTime": [
+        {
+          "districtPart": "Gußhaus- & Paulanerviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Elisabethviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Freihaus- & Schleifmühlviertel",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Schaumburgergrund & Hungelbrunn",
+          "time": "ca. 25 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wo in Wien ist Türex aktiv?",
+          "answer": "Türex arbeitet in jedem Wiener Bezirk. Ob werktags, am Wochenende oder mitten in der Nacht – wir sind rund um die Uhr einsatzbereit."
+        },
+        {
+          "question": "Kann ich Schlüsseldienst 1040 Wien auch für andere Gegenden beauftragen?",
+          "answer": "Ja, unser Schlüsseldienst 1040 Wien ist nicht nur lokal, sondern in allen Bezirken Wiens verfügbar. Voraussetzung ist, dass du zur Beauftragung berechtigt bist – also als Mieter, Eigentümer oder mit einer entsprechenden Vollmacht."
+        },
+        {
+          "question": "Was muss ich zeigen, wenn Schlüsseldienst 1040 Wien meine Tür öffnet?",
+          "answer": "Damit wir rechtmäßig arbeiten können, musst du dich mit einem offiziellen Ausweis identifizieren. Nach der Türöffnung unterschreibst du eine kurze Erklärung, die uns und dir Sicherheit gibt."
+        },
+        {
+          "question": "Wie definiert man Fixpreis?",
+          "answer": "Ein Fixpreis ist ein vorher vereinbarter Betrag, der sich nicht ändert, solange die Arbeitszeit im üblichem Rahmen bleibt."
+        }
+      ]
     },
     {
       "postalCode": "1050",
       "districtName": "Margareten",
-      "description": "Schlüsseldienst in Wien 1050: Transparente Fixpreise, 24/7 Notdienst, schnelle Türöffnungen in Margareten. Jetzt anrufen.",
-      "subline": "Sofortiger 24/7 Schlüsselnotdienst.",
-      "introCopy": "Plötzlich vor einer verschlossenen Tür und der Schlüssel fehlt oder funktioniert nicht? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, dir in solchen Situationen sofort zu helfen.",
-      "headlineOne": "Gratis Anfahrt in 1050 Wien",
-      "copyOne": "Unser Service ist 24/7 verfügbar. Die Anfahrtskosten für 1050 Wien sind bereits in unseren Preisen inbegriffen.",
-      "headlineTwo": "Immer verfügbar, 24 Stunden am Tag",
-      "copyTwo": "Unser Service umfasst sowohl Schlüsselnotdienst als auch Dienstleistungen während normaler und späten Stunden.",
-      "headlineThree": "Zugang ohne Beschädigungen",
-      "copyThree": "Türöffnung ohne Schäden bei versehentlichem Aussperren oder abgebrochenem Schlüssel – unser Ziel ist eine schonende Öffnung."
+      "description": "Schlüsseldienst und Aufsperrdienst 1050 Wien: 24/7 erreichbar, transparente Fixpreise. Wir sind in 20–30 Minuten da. Jetzt anrufen.",
+      "proofSectionHeadline": "Sofortiger 24/7 Schlüsselnotdienst.",
+      "proofSectionCopy": "Sobald du uns anrufst, machen wir uns sofort auf den Weg. Der Schlüsseldienst 1050 Wien ist an allen Tagen und zu jeder Uhrzeit verfügbar. Falls dein Schlüssel nicht mehr passt oder du ausgesperrt bist, sind wir sofort zur Stelle. In Margareten erhältst du rasche und faire Hilfe. Türex ist ein konzessionierter Schlüssel- und Aufsperrdienst in 1050 Wien und garantiert klare Preise und transparente Arbeitsweise.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1050 Wien",
+      "proofCopyOne": "Ob du einen Schlüsseldienst 1050 für den Austausch deines Schlosses tagsüber brauchst oder in der Nacht einen Aufsperrdienst 1050 benötigst – wir sind sofort da. Unsere Hilfe ist 24h am Tag verfügbar, an allen 365 Tagen. In Margareten sorgen wir für rasche, effektive Unterstützung bei sämtlichen Schlüsselangelegenheiten.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1050 Wien",
+      "proofCopyTwo": "Der behördlich autorisierte Schlüsseldienst 1050 Wien öffnet Türen aller Art – in der Regel ohne Schäden. Sicherheitstür oder Standardmodell, wir finden die schonendste Lösung. Unsere geschulten Monteure verfügen über jahrelange Erfahrung und nutzen neueste Techniken, um Beschädigungen möglichst auszuschließen.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Bei uns ist die Preisgestaltung klar und fair, versteckte Kosten gibt es nicht. Jede Leistung hat einen Fixpreis, inklusive An- und Abfahrt und sämtlicher Nebenkosten. Dieser Fixpreis bleibt konstant, solange die übliche Arbeitszeit der Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien legen wir großen Wert auf vollständige Preistransparenz. Lockangebote und versteckte Aufschläge gibt es bei uns nicht. Du erhältst klare Fixpreise, die nach Uhrzeit, Tageszeit und Türöffnungs-Art berechnet werden. So bist du stets im Bilde, was dich erwartet. Unsere Preisliste zeigt alle Preise für Türöffnungen übersichtlich an.",
+      "differenceSectionCopy": "Viele verwechseln den Schlüsseldienst mit dem Aufsperrdienst. Ganz falsch ist das nicht, doch die Aufgaben unterscheiden sich leicht. Der Schlüsseldienst ist die richtige Adresse, wenn ein Schlüssel kopiert, ein Schloss getauscht oder eine Beratung zum Einbruchschutz gewünscht wird. Der Aufsperrdienst hingegen wird dann benötigt, wenn jemand sich ausgesperrt hat und Hilfe beim Öffnen der Tür braucht – und das jederzeit. Unser Service deckt beide Bereiche ab. Unterschiede bestehen lediglich im Schwerpunkt, nicht bei der Preisgestaltung, die sich stets nach Leistung und Einsatzzeit richtet.",
+      "waitingTime": [
+        {
+          "districtPart": "Margareten 5er City",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Reinprechtsdorf",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Matzleinsdorf",
+          "time": "ca. 25 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welche Bezirke deckt Türex ab?",
+          "answer": "Wir sind in allen Wiener Bezirken tätig. Egal ob Feiertag, Nacht oder reguläre Arbeitszeit – nach deinem Anruf kommen wir sofort zu dir."
+        },
+        {
+          "question": "Kann ich den Schlüsseldienst 1050 Wien auch in ganz Wien rufen?",
+          "answer": "Ja, unser Schlüsseldienst 1050 Wien steht dir in sämtlichen Bezirken zur Verfügung. Wichtig ist lediglich, dass du nachweisen kannst, berechtigt zu sein – etwa als Hauptmieter, Eigentümer oder durch eine Vollmacht."
+        },
+        {
+          "question": "Welche Unterlagen brauche ich, wenn Schlüsseldienst 1050 Wien meine Tür aufsperrt?",
+          "answer": "Für die Türöffnung musst du dich mit einem gültigen Ausweis legitimieren. Nach erfolgter Arbeit unterschreibst du zusätzlich ein Formular, das die rechtliche Grundlage bestätigt."
+        },
+        {
+          "question": "Was heißt Fixpreis?",
+          "answer": "Fixpreis bedeutet, dass der Endpreis vorab klar festgelegt ist. Solange die vereinbarte Arbeit im üblichen Zeitrahmen bleibt, verändert er sich nicht."
+        }
+      ]
     },
     {
       "postalCode": "1060",
       "districtName": "Mariahilf",
-      "description": "Schlüsseldienst in Wien 1060: Klare Preise, jederzeit erreichbar, schnelle Hilfe in Mariahilf. Jetzt anrufen.",
-      "subline": "Effizienter Aufsperrdienst rund um die Uhr.",
-      "introCopy": "In einer Notsituation vor einer verschlossenen Tür? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, professionell und schnell zu reagieren, um dir zu helfen.",
-      "headlineOne": "Anfahrt nach 1060 Wien ohne Zusatzkosten",
-      "copyOne": "Wir sind jederzeit für Sie da. Die Anfahrtskosten für 1060 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Bereitschaft rund um die Uhr",
-      "copyTwo": "Wir bieten sowohl Schlüsselnotdienst als auch Dienstleistungen im Normaldienst an.",
-      "headlineThree": "Fachgerechte Türöffnung",
-      "copyThree": "Wir ermöglichen eine schadfreie Türöffnung, sei es durch versehentliches Ausperren oder einen abgebrochenen Schlüssel."
+      "description": "Schlüsseldienst 1060 Wien mit Aufsperrdienst: durchgehend erreichbar, transparente Fixpreise. Ankunft in ca. 15–25 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Effizienter Aufsperrdienst rund um die Uhr.",
+      "proofSectionCopy": "Ein Telefonat genügt, und wir fahren los. Unser Schlüsseldienst 1060 Wien steht dir 24 Stunden täglich zur Verfügung – auch an Feiertagen oder Sonntagen. Wenn deine Tür verschlossen bleibt und der Schlüssel versagt, helfen wir sofort. In Mariahilf arbeiten wir professionell, zügig und mit klarer Preisgestaltung. Türex ist ein behördlich befähigter Schlüssel- und Aufsperrdienst in 1060 Wien und steht für volle Transparenz.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1060 Wien",
+      "proofCopyOne": "Schlüsseldienst 1060 für Schlosswechsel am Tag oder Aufsperrdienst 1060 für Türöffnungen nachts – wir sind für dich da, wann immer du uns brauchst. Rund um die Uhr, an jedem Tag im Jahr. In Mariahilf fahren unsere Einsatzteams ständig und bringen dir schnelle Hilfe bei allen Schloss- und Schlüsselproblemen.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1060 Wien",
+      "proofCopyTwo": "Unser staatlich befugter Schlüsseldienst 1060 Wien arbeitet präzise und öffnet Türen meist ohne Schäden. Ob Sicherheitstür oder einfache Tür – oft ist eine sanfte Öffnung machbar. Unsere Fachkräfte kombinieren Erfahrung mit innovativer Technik, um jede Türöffnung so materialschonend wie möglich zu gestalten.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Unsere Preisstruktur ist offen, fair und ohne versteckte Aufschläge. Für jede Leistung verrechnen wir einen Fixpreis, der An- und Abfahrt sowie alle Nebenkosten einschließt. Die Fixpreise bleiben gleich, sofern die übliche Arbeitszeit für die jeweilige Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Wir sind ein in Wien behördlich geprüfter Schlüsseldienst und gestalten unsere Preise vollkommen transparent. Bei uns findest du keine Lockangebote und keine versteckten Kosten. Du bekommst eindeutige Fixpreise, abhängig von Uhrzeit, Tageszeit und der Art der Türöffnung. Damit weißt du immer genau, welche Kosten anfallen. In unserer Preisliste siehst du alle Türöffnungs-Preise sofort.",
+      "differenceSectionCopy": "Wenn von einem Schlüsseldienst die Rede ist, denken viele eigentlich an den Aufsperrdienst. Zwar hängen beide Bereiche eng zusammen, aber es gibt klare Unterschiede: Der Schlüsseldienst kümmert sich um alle Arbeiten an Schlüssel und Schloss – Nachfertigungen, Zylindertausch oder Sicherheitslösungen. Der Aufsperrdienst dagegen kommt dann ins Spiel, wenn jemand vor verschlossener Tür steht. Hier geht es vor allem darum, Türen zuverlässig zu öffnen, egal zu welcher Uhrzeit. Bei uns musst du dich nicht entscheiden, denn wir vereinen beide Dienste. Der Preis richtet sich ausschließlich nach Aufwand und Zeitpunkt des Einsatzes.",
+      "waitingTime": [
+        {
+          "districtPart": "Gumpendorf / Mahü",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Gumpendorf & Naschmarkt",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "In welchen Wiener Bezirken arbeitet Türex?",
+          "answer": "Unser Service steht dir in allen Bezirken Wiens zur Verfügung. Egal ob mitten in der Nacht, am Wochenende oder an Feiertagen – wir sind sofort einsatzbereit, sobald du uns anrufst."
+        },
+        {
+          "question": "Kann ich den Schlüsseldienst 1060 Wien auch außerhalb des 6. Bezirks beauftragen?",
+          "answer": "Ja, der Schlüsseldienst 1060 Wien fährt auch in andere Bezirke. Voraussetzung ist, dass du uns rechtmäßig beauftragst – zum Beispiel als Eigentümer, Hauptmieter oder mit einer Vollmacht des Eigentümers."
+        },
+        {
+          "question": "Welche Nachweise muss ich zeigen, wenn Schlüsseldienst 1060 Wien kommt?",
+          "answer": "Damit die Türöffnung rechtlich korrekt durchgeführt werden kann, musst du einen gültigen Lichtbildausweis vorlegen. Anschließend unterschreibst du eine Erklärung, die zur Absicherung beider Seiten dient."
+        },
+        {
+          "question": "Was ist ein Fixpreis genau?",
+          "answer": "Fixpreis bedeutet, dass der Betrag für eine Leistung im Vorfeld festgelegt wird und unverändert bleibt, solange der übliche Arbeitsaufwand nicht überschritten wird."
+        }
+      ]
     },
     {
       "postalCode": "1070",
       "districtName": "Neubau",
-      "description": "Schlüsseldienst in Wien 1070: Transparente Fixpreise, sofortiger Notdienst, schnelle Ankunft in Neubau. Jetzt anrufen.",
-      "subline": "Zuverlässiger Schlüsselnotdienst rund um die Uhr.",
-      "introCopy": "Stehst du vor einer verschlossenen Tür und benötigst dringend Unterstützung? Unser 24-Stunden-Schlüsseldienst bietet professionelle Hilfe rund um die Uhr.",
-      "headlineOne": "Kostenlose Anfahrtsservice in 1070 Wien",
-      "copyOne": "Unser Team bietet einen Rund-um-die-Uhr-Service. In unseren Preisen sind die Anfahrtskosten für 1070 Wien bereits inkludiert.",
-      "headlineTwo": "Tag und Nacht im Dienst",
-      "copyTwo": "Unser Angebot beinhaltet sowohl Schlüsselnotdienst als auch Dienste zu regulären und späten Stunden.",
-      "headlineThree": "Behutsame, schadfreie Türöffnung",
-      "copyThree": "Behutsame Öffnung ohne Schäden, sei es durch versehentliches Aussperren oder abgebrochenen Schlüssel."
+      "description": "Schlüsseldienst 1070 Wien inkl. Aufsperrdienst, 24/7 erreichbar, transparente Fixpreise. Eintreffen binnen 15-30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Zuverlässiger Schlüsselnotdienst rund um die Uhr.",
+      "proofSectionCopy": "Ruf uns an, und wir kommen sofort. Unser Schlüsseldienst 1070 Wien ist immer erreichbar – auch nachts, am Wochenende und an Feiertagen. Wenn du nicht mehr ins deine Wohnung gelangst, sorgen wir für eine schnelle Lösung. In Neubau garantieren wir dir transparente und faire Arbeit. Türex ist ein geprüfter Schlüssel- und Aufsperrdienst in 1070 Wien mit klarer Preisstruktur.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1070 Wien",
+      "proofCopyOne": "Ob tagsüber Schlosswechsel durch den Schlüsseldienst 1070 oder Türöffnung mitten in der Nacht durch den Aufsperrdienst 1070 – unser Service läuft ohne Pause. 24 Stunden am Tag, das gesamte Jahr hindurch. In Neubau garantieren wir dir sofortige Hilfe bei allen Anliegen im Bereich Schlüssel und Schlösser.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1070 Wien",
+      "proofCopyTwo": "Der befähigte Schlüsseldienst 1070 Wien öffnet deine Tür in den meisten Fällen beschädigungsfrei. Sicherheitstür oder Standardausführung – wir wenden moderne Verfahren an, um schonend zu arbeiten. Mit viel Know-how und geschultem Personal reduzieren wir das Risiko von Schäden auf ein Minimum.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Wir stehen für transparente, faire Preise ohne versteckte Kosten. Pro Leistung fällt ein Fixpreis an, der auch An- und Abfahrt und alle Nebenkosten abdeckt. Dieser Fixpreis bleibt unverändert, solange die normale Arbeitszeit der jeweiligen Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien veröffentlichen wir alle Preise klar und nachvollziehbar. Lockangebote sowie versteckte Kosten schließen wir aus. Du erhältst feste Fixpreise, die sich nach Uhrzeit, Tageszeit und der jeweiligen Türöffnung richten. So hast du volle Kostensicherheit. In unserer Schlüsseldienst Preisliste stehen alle Preise für Türöffnungen auf einen Blick.",
+      "differenceSectionCopy": "Schlüsseldienst und Aufsperrdienst werden oft gleichgesetzt, obwohl es Unterschiede gibt. Während der Schlüsseldienst vor allem mit Kopien, Austausch von Schlössern und Beratungen im Sicherheitsbereich beschäftigt ist, greift der Aufsperrdienst dann ein, wenn man den Schlüssel verloren oder sich ausgesperrt hat. Seine Hauptaufgabe: Türen rund um die Uhr schnell und sicher öffnen. Wir decken beide Leistungen in einem ab. Kostenunterschiede entstehen dabei nicht – maßgeblich sind allein Arbeitsumfang und Einsatzzeit.",
+      "waitingTime": [
+        {
+          "districtPart": "West Neubau",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Spittelberg & Siebensternviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Schottenfeld",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welche Bezirke in Wien deckt Türex ab?",
+          "answer": "Wir sind in allen Teilen Wiens unterwegs. Sobald du dich bei uns meldest, machen wir uns unabhängig von Uhrzeit oder Tag sofort auf den Weg."
+        },
+        {
+          "question": "Kann der Schlüsseldienst 1070 Wien auch in anderen Bezirken tätig werden?",
+          "answer": "Selbstverständlich, der Schlüsseldienst 1070 Wien ist für alle Wiener Bezirke verfügbar. Voraussetzung ist nur, dass du berechtigt bist – also Eigentümer, Hauptmieter oder mit ausdrücklicher Zustimmung des Besitzers."
+        },
+        {
+          "question": "Welche Dokumente brauche ich, wenn Schlüsseldienst 1070 Wien die Tür öffnet?",
+          "answer": "Um die Berechtigung nachzuweisen, musst du dich mit einem amtlichen Ausweis identifizieren. Nach der Türöffnung bitten wir dich, eine kurze Bestätigung zu unterzeichnen."
+        },
+        {
+          "question": "Was bedeutet Fixpreis im Detail?",
+          "answer": "Ein Fixpreis ist ein vorab vereinbarter Betrag für eine bestimmte Leistung. Dieser verändert sich nicht, solange der normale Arbeitsrahmen eingehalten wird."
+        }
+      ]
     },
     {
       "postalCode": "1080",
       "districtName": "Josefstadt",
-      "description": "Schlüsseldienst in Wien 1080: Fixpreise, rund um die Uhr erreichbar, schnelle Türöffnung in Josefstadt. Jetzt anrufen.",
-      "subline": "Kompetenter 24h Schlüsselnotdienst.",
-      "introCopy": "Plötzlich vor einer verschlossenen Tür ohne funktionierenden Schlüssel? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, in solchen Situationen effizient und professionell zu handeln.",
-      "headlineOne": "Keine Anfahrtsgebühren in 1080 Wien",
-      "copyOne": "Wir sind rund um die Uhr für Notfälle erreichbar. Die Anfahrtskosten für 1080 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Notdienst 24/7",
-      "copyTwo": "Sowohl Schlüsselnotdienst als auch Dienstleistungen zu normalen und späten Zeiten sind Teil unseres Leistungsspektrums.",
-      "headlineThree": "Türöffnung ohne Beschädigungen",
-      "copyThree": "Schadfreier Zugang trotz versehentlichem Aussperren oder abgebrochenem Schlüssel – unser Ziel ist eine schonende Türöffnung."
+      "description": "Schlüsseldienst 1080 Wien – Aufsperrdienst rund um die Uhr, transparente Fixpreise. Vor Ort innerhalb von 15-25 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Kompetenter 24h Schlüsselnotdienst.",
+      "proofSectionCopy": "Ein einziger Anruf genügt, und unser Team in 1080 Wien startet los. Unser Aufsperrdienst 1080 Wien ist täglich rund um die Uhr im Einsatz. Solltest du deine Wohnung nicht betreten können, sind wir sofort vor Ort. In der Josefstadt leisten wir zuverlässige Hilfe zu fairen Konditionen. Türex ist ein befugter Aufsperr- und Schlüsseldienst in 1080 Wien mit garantierter Preistransparenz.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1080 Wien",
+      "proofCopyOne": "Ein Schlüsseldienst 1080 für Schlosswechsel am Tag oder ein Aufsperrdienst 1080 für eine Türöffnung nachts – wir sind immer bereit. 24/7, auch an Sonn- und Feiertagen. In der Josefstadt sind unsere Teams ununterbrochen unterwegs, damit du rasch und zuverlässig Unterstützung bekommst.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1080 Wien",
+      "proofCopyTwo": "Unser behördlich geprüfter Schlüsseldienst 1080 Wien bietet Türöffnungen, die meist ohne Beschädigung ablaufen. Ob stabile Sicherheitstür oder einfache Eingangstür – wir setzen auf sanfte Methoden. Mit modernsten Werkzeugen und erfahrenen Technikern lassen sich Schäden häufig komplett vermeiden.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Die Preisgestaltung ist klar, gerecht und ohne verdeckte Kosten. Jede unserer Leistungen wird zu einem Fixpreis angeboten, der An- und Abfahrt plus alle Nebenkosten umfasst. Der Fixpreis bleibt bestehen, solange die übliche Arbeitszeit für diese Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Wir, ein behördlich geprüfter Schlüsseldienst in Wien, zeigen dir unsere Preise lückenlos transparent. Bei uns gibt es keine Lockangebote und keine versteckten Gebühren. Du bekommst klare Fixpreise, abhängig von Uhrzeit, Tageszeit und der Art der Türöffnung. Dadurch weißt du von Anfang an, womit du rechnen musst. In unserer Preisliste sind sämtliche Türöffnungs-Preise übersichtlich aufgeführt.",
+      "differenceSectionCopy": "Nicht selten werden die Begriffe Schlüsseldienst und Aufsperrdienst verwechselt. Streng genommen handelt es sich aber um zwei unterschiedliche Schwerpunkte. Ein Schlüsseldienst sorgt für Ersatzschlüssel, neue Zylinder und Beratung in puncto Sicherheit. Ein Aufsperrdienst hingegen hilft, wenn die Tür verschlossen ist und man dringend wieder hinein muss – und das zu jeder Tages- und Nachtzeit. Wir kombinieren beides in einer Dienstleistung, der einzige Unterschied liegt im Fokus. Die Preise ändern sich dadurch nicht, sie richten sich nur nach Aufwand und Einsatzzeit.",
+      "waitingTime": [
+        {
+          "districtPart": "Piaristenviertel",
+          "time": "ca. 15 Minuten"
+        },
+        {
+          "districtPart": "Albertviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Laudonviertel",
+          "time": "ca. 15 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wo in Wien ist Türex im Einsatz?",
+          "answer": "Türex hilft dir in sämtlichen Bezirken Wiens. Ob morgens, nachts oder an Feiertagen – wir reagieren sofort auf deinen Anruf."
+        },
+        {
+          "question": "Kann der Schlüsseldienst 1080 Wien auch über den 8. Bezirk hinaus arbeiten?",
+          "answer": "Ja, unser Schlüsseldienst 1080 Wien ist in allen Wiener Bezirken im Einsatz. Wichtig ist nur, dass du die Berechtigung zur Beauftragung hast – etwa als Eigentümer, Mieter oder mit Vollmacht."
+        },
+        {
+          "question": "Welche Unterlagen brauche ich, wenn Schlüsseldienst 1080 Wien meine Tür öffnet?",
+          "answer": "Du musst einen gültigen Ausweis vorlegen, um deine Berechtigung zu beweisen. Danach unterschreibst du eine Bestätigung, die rechtlich notwendig ist und Sicherheit für beide Seiten bietet."
+        },
+        {
+          "question": "Wie wird ein Fixpreis definiert?",
+          "answer": "Fixpreis bedeutet, dass der Preis für eine bestimmte Dienstleistung vorab fixiert ist. Er bleibt gleich, solange die Arbeiten im üblichen Zeitrahmen liegen."
+        }
+      ]
     },
     {
       "postalCode": "1090",
       "districtName": "Alsergrund",
-      "description": "Schlüsseldienst in Wien 1090: Transparente Preise, 24/7 Notdienst, schnelle Hilfe in Alsergrund. Jetzt anrufen.",
-      "subline": "Schnelle Hilfe vom 24/7 Schlüsseldienst",
-      "introCopy": "Wenn du vor einer verschlossenen Tür stehst und nicht weiterkommst, ist unser 24-Stunden-Schlüsseldienst die richtige Wahl. Wir bieten schnelle und zuverlässige Hilfe.",
-      "headlineOne": "Kostenlose Anfahrt nach 1090 Wien",
-      "copyOne": "Unser Service ist Tag und Nacht verfügbar. Für die Anfahrt in 1090 Wien verrechnen wir keine Zusatzkosten.",
-      "headlineTwo": "Immer erreichbar, 24 Stunden lang",
-      "copyTwo": "Unser Service umfasst sowohl Schlüsselnotdienst als auch Dienstleistungen zu regulären und späten Uhrzeiten.",
-      "headlineThree": "Behutsamer Zugang",
-      "copyThree": "Wir öffnen Türen behutsam und ohne Schäden, sei es durch versehentliches Aussperren oder abgebrochenen Schlüssel."
+      "description": "Schlüsseldienst 1090 Wien: 24/7 Aufsperrdienst mit transparenten Fixpreisen. Anfahrt nach 1090 Wien in 20–30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Schnelle Hilfe vom 24/7 Schlüsseldienst",
+      "proofSectionCopy": "Ein Anruf, und Hilfe ist unterwegs. Unser Schlüsseldienst 1090 Wien arbeitet durchgehend – auch an Sonn- und Feiertagen. Wenn du dich aussperrst oder dein Schlüssel nicht mehr funktioniert, sind wir da. In Wien Alsergrund erhältst du schnelle und fachgerechte Unterstützung. Türex ist ein autorisierter Schlüssel- und Aufsperrdienst in 1090 Wien und steht für offene und klare Preise.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1090 Wien",
+      "proofCopyOne": "Benötigst du am Tag einen Schlüsseldienst 1090 für einen Schlosswechsel oder nachts den Aufsperrdienst 1090 für eine Türöffnung? Wir stehen jederzeit zur Verfügung. 24h am Tag, das ganze Jahr. In Alsergrund sorgen wir für schnelle und fachgerechte Hilfe bei allen Schlüsseldienstleistungen.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1090 Wien",
+      "proofCopyTwo": "Der autorisierte Schlüsseldienst 1090 Wien öffnet Türen professionell und in der Regel beschädigungsfrei. Ganz gleich ob Standardtür oder Hochsicherheitstür – wir arbeiten so schonend wie möglich. Unsere Monteure sind bestens ausgebildet und nutzen aktuelle Technik, um Schäden zu verhindern.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Unsere Preise sind transparent und fair; versteckte Kosten gibt es nicht. Für jede Leistung gilt ein Fixpreis, der An- und Abfahrt sowie sämtliche Nebenkosten einschließt. Er bleibt unverändert, solange die übliche Arbeitszeit der jeweiligen Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in 1090 Wien machen wir unsere Preise zu 100% transparent. Lockangebote und versteckte Kosten sind bei uns ausgeschlossen. Du erhältst fix definierte Preise, gestaffelt nach Uhrzeit, Tageszeit und Art der Türöffnung. So kennst du immer genau die anfallenden Kosten. Unsere Schlüsseldienst-Preisliste zeigt alle Türöffnungs-Preise auf einen Blick.",
+      "differenceSectionCopy": "Viele Menschen setzen den Schlüsseldienst mit dem Aufsperrdienst gleich. Auch wenn beides nah beieinander liegt, bestehen feine Unterschiede: Der Schlüsseldienst bietet Leistungen wie Schlüsselanfertigung, Schlossaustausch und Beratung zum Einbruchschutz. Der Aufsperrdienst ist gefragt, wenn schnelle Türöffnungen notwendig sind, etwa nach einer Aussperrung. Wir sind in beiden Bereichen tätig und verbinden diese Leistungen. Die Preisgestaltung bleibt davon unberührt – sie richtet sich ausschließlich nach Arbeit und Zeitpunkt.",
+      "waitingTime": [
+        {
+          "districtPart": "Michelbeuern & Alservorstadt",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Roßau & Liechtensteinpark",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Servitenviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Althangrund",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Schubertviertel",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "In welchen Bezirken kann ich Türex anfordern?",
+          "answer": "Unser Team ist in allen Wiener Bezirken tätig. Wir kommen jederzeit – Tag und Nacht – sobald du uns kontaktierst."
+        },
+        {
+          "question": "Kann ich Schlüsseldienst 1090 Wien auch in anderen Stadtteilen nutzen?",
+          "answer": "Ja, Schlüsseldienst 1090 Wien arbeitet nicht nur lokal, sondern in ganz Wien. Bedingung ist lediglich, dass du befugt bist – als Eigentümer, Mieter oder mit einer gültigen Erlaubnis."
+        },
+        {
+          "question": "Was muss ich vorlegen, wenn Schlüsseldienst 1090 Wien meine Tür öffnet?",
+          "answer": "Du musst einen amtlichen Ausweis bereithalten, um deine Berechtigung zu belegen. Nach erfolgter Türöffnung unterschreibst du außerdem eine Erklärung als rechtliche Absicherung."
+        },
+        {
+          "question": "Was versteht man genau unter Fixpreis?",
+          "answer": "Ein Fixpreis ist ein im Vorhinein festgelegter Betrag. Dieser bleibt gleich, solange die Arbeitszeit im normalen Rahmen bleibt."
+        }
+      ]
     },
     {
       "postalCode": "1100",
       "districtName": "Favoriten",
-      "description": "Schlüsseldienst in Wien 1100: Klare Fixpreise, sofortiger Notdienst, rasche Türöffnungen in Favoriten. Jetzt anrufen.",
-      "subline": "Befähigter Schlüsselnotdienst, rund um die Uhr.",
-      "introCopy": "In einer unerwarteten Situation vor einer verschlossenen Tür? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, dir schnell und professionell zu helfen.",
-      "headlineOne": "Anfahrt nach 1100 Wien kostenfrei.",
-      "copyOne": "Wir sind 24 Stunden am Tag einsatzbereit. Die Anfahrtskosten für 1100 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Ununterbrochener Einsatz",
-      "copyTwo": "Wir bieten sowohl Schlüsselnotdienst als auch Dienstleistungen während normaler und späten Zeiten an.",
-      "headlineThree": "Schadensfreier Zugang",
-      "copyThree": "Schonende Türöffnung, egal ob versehentlich ausgesperrt oder abgebrochenem Schlüssel – ohne Schäden."
+      "description": "Schlüsseldienst 1100 Wien mit Aufsperrdienst: jederzeit erreichbar, transparente Fixpreise. Vor Ort in 20–30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Befähigter Schlüsselnotdienst, rund um die Uhr.",
+      "proofSectionCopy": "Ein kurzer Anruf, und wir fahren sofort los. Der Schlüsseldienst 1100 Wien ist zu jeder Zeit einsatzbereit – auch an Wochenenden und Feiertagen. Wenn du vor verschlossener Tür stehst, helfen wir schnell und verlässlich. In Favoriten bieten wir transparente Leistungen ohne versteckte Kosten. Türex ist ein behördlich befähigter Schlüsseldienst in 1100 Wien und garantiert klare Abläufe.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1100 Wien",
+      "proofCopyOne": "Egal ob Schlüsseldienst 1100 tagsüber für Schlosswechsel oder Aufsperrdienst 1100 nachts für Türöffnungen – du erreichst uns jederzeit. 24 Stunden täglich, an allen 365 Tagen. In Favoriten sind wir im Dauereinsatz, um dir schnelle und zuverlässige Lösungen für Tür- und Schlossprobleme zu bieten.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1100 Wien",
+      "proofCopyTwo": "Unser Schlüsseldienst 1100 Wien mit behördlicher Befähigung öffnet Türen sicher und ohne Schäden, wenn es machbar ist. Ob Sicherheitstür oder einfache Wohnungstür – wir bevorzugen sanfte Öffnungsmethoden. Mit Erfahrung und moderner Ausrüstung minimieren unsere Profis jedes Risiko.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Wir kalkulieren transparent und fair, ohne versteckte Kosten. Jede Leistung hat einen Fixpreis, in dem An- und Abfahrt und alle Nebenkosten enthalten sind. Der Fixpreis ändert sich nicht, solange die übliche Arbeitszeit pro Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Wir treten als behördlich geprüfter Schlüsseldienst in 1100 Wien mit vollständiger Preisklarheit auf. Lockangebote oder versteckte Kosten gibt es bei uns nicht. Du bekommst klare Fixpreise, die sich nach Uhrzeit, Tageszeit sowie Art der Türöffnung richten. Somit weißt du jederzeit, was auf dich zukommt. Alle Preise für Türöffnungen findest du kompakt in unserer Preisliste.",
+      "differenceSectionCopy": "Manche nennen den Aufsperrdienst Schlüsseldienst, was nicht ganz falsch, aber auch nicht präzise ist. Der Schlüsseldienst deckt alle klassischen Arbeiten rund um Schlüssel und Schlösser ab: Kopien, Zylindertausch, Beratung zur Sicherheit. Der Aufsperrdienst wiederum kommt ins Spiel, wenn der Schlüssel fehlt oder abgebrochen ist und man vor verschlossener Tür steht. Wichtig ist hier vor allem die sofortige Türöffnung – rund um die Uhr. Bei uns bekommst du beides, ohne Preisunterschied. Die Kosten hängen allein von Einsatzzeit und Aufwand ab.",
+      "waitingTime": [
+        {
+          "districtPart": "Laaer Berg / Siedlung Südost",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Oberlaa & Unterlaa",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Sonnwendviertel & Hauptbahnhof",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Wienerberg",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Neilreichviertel",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Triesterviertel",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "In welchen Gebieten Wiens ist Türex verfügbar?",
+          "answer": "Wir sind in jedem Wiener Bezirk einsatzbereit. Ob Feiertag, Wochenende oder mitten in der Nacht – wir kommen, sobald du uns brauchst."
+        },
+        {
+          "question": "Kann der Schlüsseldienst 1100 Wien auch für andere Bezirke bestellt werden?",
+          "answer": "Ja, der Schlüsseldienst 1100 Wien ist für alle Bezirke Wiens verfügbar. Du musst lediglich nachweisen, dass du zur Türöffnung berechtigt bist – als Eigentümer, Mieter oder mit Zustimmung des Eigentümers."
+        },
+        {
+          "question": "Welche Belege brauche ich, wenn Schlüsseldienst 1100 Wien kommt?",
+          "answer": "Um Missbrauch zu verhindern, musst du einen amtlichen Ausweis vorlegen. Direkt nach der Türöffnung unterschreibst du außerdem eine Bestätigung für die rechtliche Sicherheit."
+        },
+        {
+          "question": "Wie funktioniert das Prinzip Fixpreis?",
+          "answer": "Fixpreis heißt, der Betrag wird vor der Arbeit festgelegt und bleibt unverändert, solange die Tätigkeit im üblichen Zeitrahmen abgeschlossen wird."
+        }
+      ]
     },
     {
       "postalCode": "1110",
       "districtName": "Simmering",
-      "description": "Schlüsseldienst in Wien 1110: Fixpreise ohne versteckte Kosten, jederzeit erreichbar, schnelle Ankunft in Simmering. Jetzt anrufen.",
-      "subline": "Zuverlässiger Schlüsselnotdienst, Tag und Nacht erreichbar.",
-      "introCopy": "Stehst du vor einer verschlossenen Tür und brauchst sofortige Unterstützung? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, in solchen Fällen professionelle Hilfe zu leisten.",
-      "headlineOne": "Keine Gebühren für die Anfahrt nach 1110 Wien.",
-      "copyOne": "Unser Team ist rund um die Uhr erreichbar. Die Anfahrtskosten für 1110 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Dauerhaft im Dienst, 24 Stunden",
-      "copyTwo": "Unser Angebot beinhaltet sowohl Schlüsselnotdienst als auch Dienste im normalen und späten Zeitrahmen.",
-      "headlineThree": "Türöffnung ohne Beschädigungen",
-      "copyThree": "Türöffnung ohne Schäden bei versehentlichem Aussperren oder abgebrochenem Schlüssel – unser Ziel ist eine schonende Öffnung."
+      "description": "Schlüsseldienst Wien 1100 und Aufsperrdienst: 24/7 im Einsatz zu transparenten Fixpreisen. Ankunftszeit ca. 25 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Zuverlässiger Schlüsselnotdienst, Tag und Nacht erreichbar.",
+      "proofSectionCopy": "Ein Anruf genügt, und wir machen uns sofort auf den Weg. Unser Schlüsseldienst 1110 Wien ist jederzeit erreichbar – auch an Feiertagen. Stehst du plötzlich ohne Zugang vor deiner Wohnung, öffnen wir die Tür rasch und professionell. In Simmering sind wir für transparente Preise und saubere Arbeit bekannt. Türex ist ein konzessionierter Schlüssel- und Aufsperrdienst in 1110 Wien und garantiert klare Abläufe.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1110 Wien",
+      "proofCopyOne": "Tagsüber ein Schlosswechsel über den Schlüsseldienst 1110 oder nachts eine Türöffnung durch den Aufsperrdienst 1110 – wir sind immer für dich da. Rund um die Uhr, auch an Feiertagen. In Simmering helfen wir dir schnell, effektiv und transparent bei allen Schlüsselthemen.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1110 Wien",
+      "proofCopyTwo": "Der befugte Schlüsseldienst 1110 Wien steht für Türöffnungen, die in den meisten Fällen beschädigungsfrei möglich sind. Egal ob robuste Sicherheitstür oder Standardmodell – wir nutzen moderne Werkzeuge. Geschulte Mitarbeiter sorgen dafür, dass unnötige Schäden weitestgehend vermieden werden.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Transparenz und Fairness prägen unsere Preise – ohne versteckte Kosten. Für jede Leistung setzen wir einen Fixpreis an, inklusive An- und Abfahrt sowie sämtlicher Nebenkosten. Dieser bleibt gleich, solange die übliche Arbeitszeit der Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien legen wir sämtliche Kosten komplett offen. Bei uns findest du weder Lockangebote noch versteckte Gebühren. Du erhältst transparente Fixpreise, abhängig von Uhrzeit, Tageszeit und der Türöffnungs-Art. So bist du immer exakt über die Kosten informiert. Alle Türöffnungs-Preise sind in unserer Preisliste auf einen Blick ersichtlich.",
+      "differenceSectionCopy": "Zwischen Schlüsseldienst und Aufsperrdienst wird häufig nicht unterschieden. Tatsächlich gibt es Unterschiede: Der Schlüsseldienst übernimmt Arbeiten wie Nachfertigungen, Zylindertausch und Sicherheitsberatung. Der Aufsperrdienst hingegen ist spezialisiert auf das Öffnen verschlossener Türen – jederzeit, wenn jemand nicht mehr in die Wohnung kommt. Wir bieten beide Leistungen in einem Service. Der einzige Unterschied liegt im Fokus, nicht im Preis, der sich immer an Arbeit und Einsatzzeit orientiert.",
+      "waitingTime": [
+        {
+          "districtPart": "Kopalviertel",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Zentralfriedhof",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Gasometer",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Alt Simmering",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Simmeringer Haide",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Kaiserebersdorf",
+          "time": "ca. 25 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welche Wiener Bezirke betreut Türex?",
+          "answer": "Türex bietet seinen Service in sämtlichen Wiener Bezirken an. Ganz egal, ob frühmorgens, spätabends oder an Feiertagen – wir sind jederzeit einsatzbereit."
+        },
+        {
+          "question": "Kann der Schlüsseldienst 1110 Wien auch außerhalb des Bezirks angefordert werden?",
+          "answer": "Ja, der Schlüsseldienst 1110 Wien übernimmt Aufträge in allen Wiener Bezirken. Voraussetzung ist nur, dass du die Berechtigung zur Beauftragung hast – etwa als Eigentümer, Hauptmieter oder mit Vollmacht."
+        },
+        {
+          "question": "Welche Unterlagen sind erforderlich, wenn Schlüsseldienst 1110 Wien die Tür öffnet?",
+          "answer": "Du musst einen gültigen Ausweis vorzeigen, um deine Berechtigung nachzuweisen. Danach unterschreibst du eine kurze Erklärung, die rechtlich vorgeschrieben ist und Sicherheit für beide Seiten schafft."
+        },
+        {
+          "question": "Was bedeutet Fixpreis konkret?",
+          "answer": "Ein Fixpreis ist ein vorab vereinbarter Betrag, der gleichbleibt, solange die Dienstleistung im normalen Zeitrahmen erbracht wird."
+        }
+      ]
     },
     {
       "postalCode": "1120",
       "districtName": "Meidling",
-      "description": "Schlüsseldienst in Wien 1120: Transparente Preise, Notdienst rund um die Uhr, schnelle Türöffnung in Meidling. Jetzt anrufen.",
-      "subline": "Sofortige Unterstützung durch unseren 24h Aufsperrdienst.",
-      "introCopy": "Falls du vor einer verschlossenen Tür stehst und nicht weiterweißt, kannst du auf unseren 24-Stunden-Schlüsseldienst zählen. Wir helfen schnell und zuverlässig in solchen Notfällen.",
-      "headlineOne": "Kostenfreie Anfahrt in 1120 Wien.",
-      "copyOne": "Wir bieten einen 24/7 Service. Die Anfahrtskosten für 1120 Wien sind bereits in unseren Preisen inbegriffen.",
-      "headlineTwo": "Konstante Bereitschaft",
-      "copyTwo": "Sowohl Schlüsselnotdienst als auch Dienstleistungen zu normalen und späten Uhrzeiten sind Teil unseres Leistungsspektrums.",
-      "headlineThree": "Sorgfältige Türöffnung",
-      "copyThree": "Wir ermöglichen eine schadfreie Türöffnung, sei es durch versehentliches Ausperren oder abgebrochenem Schlüssel."
+      "description": "Schlüsseldienst 1120 Wien: rund um die Uhr erreichbarer Aufsperrdienst zu transparenten Fixpreise. Eintreffen in ca. 20–30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Sofortige Unterstützung durch unseren 24h Aufsperrdienst.",
+      "proofSectionCopy": "Schon ein kurzer Anruf reicht, und wir starten. Unser Schlüsseldienst 1120 Wien ist 24 Stunden täglich verfügbar – auch am Wochenende. Wenn dein Schlüssel nicht funktioniert oder du dich ausgesperrt hast, helfen wir sofort. In Meidling bieten wir schnelle, faire und transparente Lösungen. Türex ist ein befugter Schlüsseldienst in 1120 Wien und steht für klare Preise.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1120 Wien",
+      "proofCopyOne": "Schlüsseldienst 1120 für den Schlosswechsel am Tag oder Aufsperrdienst 1120 für Türöffnungen in der Nacht – unser Service kennt keine Pausen. 24/7, jeden Tag im Jahr. In Meidling sind unsere Einsatzteams ständig unterwegs, um dir rasche Hilfe bei Schlüssel- und Schlossproblemen zu garantieren.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1120 Wien",
+      "proofCopyTwo": "Unser Schlüsseldienst 1120 Wien arbeitet behördlich autorisiert und öffnet Türen in der Regel ohne Beschädigungen. Ob Sicherheitstür oder normale Tür – oft reicht eine schonende Technik. Mit Erfahrung und aktuellem Werkzeugbestand sorgen unsere Experten für saubere Ergebnisse.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Unsere Preisangaben sind klar, fair und frei von versteckten Kosten. Jede Leistung wird zum Fixpreis verrechnet, der An- und Abfahrt und alle Nebenkosten umfasst. Der Fixpreis bleibt unverändert, sofern die übliche Arbeitszeit dafür nicht überschritten wird.",
+      "pricesSectionCopy": "Wir sind ein behördlich geprüfter Schlüsseldienst aus Wien und stellen unsere Preise vollständig transparent dar. Lockangebote und versteckte Kosten kommen bei uns nicht vor. Du bekommst klare Fixpreise, die nach Uhrzeit, Tageszeit und Art der Türöffnung bemessen werden. Damit kennst du die Kosten im Voraus. In unserer Schlüsseldienst-Preisliste siehst du alle Preise für Türöffnungen sofort.",
+      "differenceSectionCopy": "Viele sprechen vom Schlüsseldienst, wenn sie eigentlich den Aufsperrdienst meinen. Zwar überschneiden sich beide, doch die Aufgabenfelder sind nicht identisch. Beim Schlüsseldienst geht es um Nachschlüssel, Schlösser und Sicherheitskonzepte. Beim Aufsperrdienst steht die schnelle Türöffnung im Mittelpunkt – Tag und Nacht. Wir sind in beiden Bereichen tätig, Unterschiede gibt es nur im Schwerpunkt. Die Preise dagegen bleiben gleich und richten sich allein nach Aufwand und Zeitpunkt.",
+      "waitingTime": [
+        {
+          "districtPart": "Hetzendorf",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Untermeidling",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Tivoliviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Längenfeldviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Meidling Zentrum",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Altmannsdorf",
+          "time": "ca. 25 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wo in Wien ist Türex im Einsatz?",
+          "answer": "Wir arbeiten in jedem Wiener Bezirk. Egal ob Tag, Nacht oder Wochenende – sobald du uns kontaktierst, sind wir unterwegs."
+        },
+        {
+          "question": "Kann ich Schlüsseldienst 1120 Wien auch in anderen Bezirken rufen?",
+          "answer": "Natürlich, unser Schlüsseldienst 1120 Wien ist in ganz Wien verfügbar. Wichtig ist nur, dass du uns rechtmäßig beauftragst – also als Eigentümer, Mieter oder mit Zustimmung des Besitzers."
+        },
+        {
+          "question": "Welche Nachweise brauche ich, wenn Schlüsseldienst 1120 Wien meine Tür öffnet?",
+          "answer": "Wir benötigen einen amtlichen Ausweis von dir, um deine Berechtigung zu prüfen. Zusätzlich unterschreibst du nach der Türöffnung eine Erklärung als rechtliche Absicherung."
+        },
+        {
+          "question": "Wie versteht man Fixpreis?",
+          "answer": "Fixpreis bedeutet, dass der Endbetrag bereits vor Beginn der Arbeit festgelegt wird. Er verändert sich nicht, solange der übliche Zeitrahmen eingehalten wird."
+        }
+      ]
     },
     {
       "postalCode": "1130",
       "districtName": "Hietzing",
-      "description": "Schlüsseldienst in Wien 1130: Klare Fixpreise, sofortiger Notdienst, schnelle Ankunft in Hietzing. Jetzt anrufen.",
-      "subline": "Professioneller 24/7 Schlüsselnotdienst.",
-      "introCopy": "Plötzlich vor einer verschlossenen Tür und der Schlüssel funktioniert nicht? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, dir in solchen Situationen sofort zu helfen.",
-      "headlineOne": "Keine Zusatzkosten für die Anfahrt in 1130 Wien.",
-      "copyOne": "Unser Service steht Ihnen rund um die Uhr zur Verfügung. Die Anfahrtskosten für 1130 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Rund-um-die-Uhr-Verfügbarkeit",
-      "copyTwo": "Unser Service umfasst sowohl Schlüsselnotdienst als auch Dienstleistungen zu regulären Zeiten.",
-      "headlineThree": "Sanfte Türöffnung",
-      "copyThree": "Behutsame Öffnung ohne Schäden, sei es durch versehentliches Aussperren oder abgebrochenen Schlüssel."
+      "description": "Schlüsseldienst 1130 Wien: Aufsperrdienst 24/7, transparente Fixpreise. Vor Ort in nur 25 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Professioneller 24/7 Schlüsselnotdienst.",
+      "proofSectionCopy": "Ein Anruf, und unser Team ist schon unterwegs. Der Schlüsseldienst 1130 Wien steht Tag und Nacht bereit – auch an Sonn- und Feiertagen. Solltest du nicht mehr in deine Wohnung gelangen, öffnen wir schnell und zuverlässig. In Hietzing sorgen wir für faire und transparente Unterstützung. Türex ist ein autorisierter Schlüssel- und Aufsperrdienst in 1130 Wien mit klaren Kosten.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1130 Wien",
+      "proofCopyOne": "Brauchst du am Tag einen Schlüsseldienst 1130 für den Schlosswechsel oder in der Nacht den Aufsperrdienst 1130 für die Türöffnung? Wir sind durchgehend erreichbar. 24 Stunden täglich, an allen Tagen des Jahres. In Hietzing leisten wir sofortige und professionelle Unterstützung in allen Schlüsselfragen.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1130 Wien",
+      "proofCopyTwo": "Der geprüfte Schlüsseldienst 1130 Wien öffnet deine Tür fachgerecht und meist beschädigungsfrei. Sicherheitstür oder Standardtür – beides ist mit sanften Methoden möglich. Durch Erfahrung und innovative Technik gelingt es unseren Spezialisten, Schäden so weit wie möglich auszuschließen.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Wir arbeiten mit einer transparenten, fairen Preisgestaltung ohne versteckte Kosten. Pro Leistung berechnen wir einen Fixpreis, der auch An- und Abfahrt sowie sämtliche Nebenkosten beinhaltet. Dieser Preis bleibt fix, solange die übliche Arbeitszeit je Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien garantieren wir volle Preistransparenz. Lockangebote sowie versteckte Kosten schließen wir konsequent aus. Du erhältst eindeutige Fixpreise, abhängig von Uhrzeit, Tageszeit und der konkreten Türöffnungs-Art. So weißt du immer im Voraus, was dich erwartet. Unsere Preisliste bietet alle Türöffnungs-Preise auf einen Blick.",
+      "differenceSectionCopy": "Der Begriff Schlüsseldienst wird oft als Synonym für Aufsperrdienst genutzt. Ganz korrekt ist das nicht, auch wenn sich die Tätigkeiten ähneln. Ein Schlüsseldienst ist zuständig für Schlüsselkopien, Zylindertausch und Einbruchschutzberatung. Der Aufsperrdienst hilft hingegen, wenn man sich ausgesperrt hat und sofort wieder hineinmuss. Wir bieten beides in einem Servicepaket an. Die Kosten sind davon unabhängig und werden ausschließlich nach Arbeit und Einsatzzeit berechnet.",
+      "waitingTime": [
+        {
+          "districtPart": "Hacking",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Alt Hietzing",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Lainz",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Speising",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Schönbrunn",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Ober St. Veit",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Unter St. Veit",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welche Bezirke in Wien deckt Türex ab?",
+          "answer": "Türex ist in allen Bezirken von Wien aktiv. Ganz gleich, ob werktags oder an Feiertagen – wir kommen sofort nach deinem Anruf."
+        },
+        {
+          "question": "Kann der Schlüsseldienst 1130 Wien auch für andere Bezirke bestellt werden?",
+          "answer": "Ja, unser Schlüsseldienst 1130 Wien ist nicht auf den 13. Bezirk beschränkt. Wir übernehmen Aufträge in ganz Wien, solange du berechtigt bist, die Türöffnung zu veranlassen."
+        },
+        {
+          "question": "Was muss ich vorlegen, wenn Schlüsseldienst 1130 Wien meine Tür öffnet?",
+          "answer": "Zur rechtlichen Absicherung benötigen wir einen amtlichen Lichtbildausweis. Danach unterschreibst du eine kurze Bestätigung, die beide Seiten schützt."
+        },
+        {
+          "question": "Was genau versteht man unter Fixpreis?",
+          "answer": "Ein Fixpreis ist ein im Voraus vereinbarter Betrag, der unverändert bleibt, solange der reguläre Arbeitsaufwand nicht überschritten wird."
+        }
+      ]
     },
     {
       "postalCode": "1140",
       "districtName": "Penzing",
-      "description": "Schlüsseldienst in Wien 1140: Fixpreise ohne Überraschungen, rund um die Uhr erreichbar, schnelle Türöffnungen in Penzing. Jetzt anrufen.",
-      "subline": "Kompetenter Schlüsselnotdienst rund um die Uhr.",
-      "introCopy": "In einer Notsituation vor einer verschlossenen Tür? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, professionell und schnell zu reagieren, um dir zu helfen.",
-      "headlineOne": "Kostenlose Anfahrt nach 1140 Wien.",
-      "copyOne": "Wir sind Tag und Nacht für Sie da. Die Anfahrtskosten für 1140 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Ununterbrochene Einsatzbereitschaft",
-      "copyTwo": "Wir bieten sowohl Schlüsselnotdienst als auch Dienstleistungen während normaler und späten Stunden an.",
-      "headlineThree": "Fachgerechter Zugang",
-      "copyThree": "Schadfreier Zugang trotz versehentlichem Aussperren oder abgebrochenem Schlüssel – unser Ziel ist eine schonende Türöffnung."
+      "description": "Schlüsseldienst 1140 Wien mit Aufsperrdienst: 24/7 erreichbar, transparente Fixpreise. Ankunft nach Penzing in ca. 25 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Kompetenter Schlüsselnotdienst rund um die Uhr.",
+      "proofSectionCopy": "Mit nur einem Anruf sind wir sofort auf dem Weg. Unser Schlüsseldienst 1140 Wien ist rund um die Uhr einsatzbereit. Wenn du ausgesperrt bist oder dein Schlüssel bricht, helfen wir schnell weiter. In Penzing garantieren wir dir Transparenz und fachgerechte Arbeit. Türex ist ein geprüfter Schlüssel- und Aufsperrdienst in 1140 Wien mit klaren Preisen.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1140 Wien",
+      "proofCopyOne": "Egal ob du am Tag den Schlüsseldienst 1140 für Schlosswechsel brauchst oder nachts den Aufsperrdienst 1140 für eine Türöffnung – wir stehen bereit. Jederzeit, 365 Tage im Jahr. In Penzing sorgen wir für schnelle und fachgerechte Hilfe bei allen Anliegen mit Schloss und Schlüssel.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1140 Wien",
+      "proofCopyTwo": "Unser behördlich befähigter Schlüsseldienst 1140 Wien führt Türöffnungen durch, die in vielen Fällen ohne Schäden ablaufen. Ganz gleich ob Sicherheitstür oder einfache Eingangstür – wir arbeiten sorgfältig und modern. Unsere erfahrenen Mitarbeiter setzen auf Methoden, die Beschädigungen weitgehend verhindern.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Faire, transparente Preise ohne versteckte Gebühren: Jede Leistung kostet einen Fixpreis, inklusive An- und Abfahrt und aller Nebenkosten. Dieser Fixpreis bleibt unangetastet, solange die übliche Arbeitszeit für die Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Wir, ein behördlich geprüfter Schlüsseldienst in Wien, veröffentlichen unsere Preise ohne jede Intransparenz. Bei uns gibt es keine Lockangebote und keine versteckten Kosten. Du bekommst feste Fixpreise, gestaffelt nach Uhrzeit, Tageszeit und der Art der Türöffnung. Dadurch hast du jederzeit Kostensicherheit. In unserer Preisliste findest du alle Preise für Türöffnungen übersichtlich zusammengefasst.",
+      "differenceSectionCopy": "Wer Schlüsseldienst sagt, meint oft Aufsperrdienst. Auch wenn die Begriffe ähnlich klingen, unterscheiden sich die Aufgaben: Der Schlüsseldienst fertigt Kopien an, tauscht Schlösser und berät zum Thema Sicherheit. Der Aufsperrdienst dagegen öffnet Türen, wenn kein Schlüssel zur Hand ist – und das jederzeit. Wir kombinieren beide Leistungen. Preislich macht das keinen Unterschied: Abgerechnet wird nach Aufwand und Einsatzzeit.",
+      "waitingTime": [
+        {
+          "districtPart": "Breitensee",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Ober- & Unterbaumgarten",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Penzing",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Auhof",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Hütteldorf",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Hadersdorf-Weidlingau",
+          "time": "ca. 30 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "In welchen Teilen Wiens ist Türex verfügbar?",
+          "answer": "Wir bieten unseren Service in jedem Wiener Bezirk an. Egal wann du uns brauchst – wir sind sofort zur Stelle."
+        },
+        {
+          "question": "Kann der Schlüsseldienst 1140 Wien auch in anderen Stadtteilen tätig sein?",
+          "answer": "Ja, Schlüsseldienst 1140 Wien arbeitet in allen Wiener Bezirken. Wichtig ist nur, dass du die Türöffnung rechtmäßig beauftragst – als Eigentümer, Hauptmieter oder mit Erlaubnis des Besitzers."
+        },
+        {
+          "question": "Welche Belege muss ich vorzeigen, wenn Schlüsseldienst 1140 Wien meine Tür aufsperrt?",
+          "answer": "Du musst dich mit einem amtlichen Ausweis identifizieren. Nach der Türöffnung wirst du zusätzlich gebeten, eine Bestätigung zu unterschreiben, die rechtliche Sicherheit schafft."
+        },
+        {
+          "question": "Wie definiert man Fixpreis?",
+          "answer": "Ein Fixpreis ist eine vorab getroffene Vereinbarung über den Preis, der unverändert bleibt, solange sich die Arbeit im normalen Rahmen bewegt."
+        }
+      ]
     },
     {
       "postalCode": "1150",
       "districtName": "Rudolfsheim-Fünfhaus",
-      "description": "Schlüsseldienst in Wien 1150: Transparente Fixpreise, 24/7 Notdienst, schnelle Hilfe in Rudolfsheim-Fünfhaus. Jetzt anrufen.",
-      "subline": "Schnelle Hilfe vom zuverlässigen 24h Schlüsseldienst.",
-      "introCopy": "Stehst du vor einer verschlossenen Tür und benötigst dringend Unterstützung? Unser 24-Stunden-Schlüsseldienst bietet professionelle Hilfe rund um die Uhr.",
-      "headlineOne": "Anfahrt nach 1150 Wien ohne Zusatzgebühren.",
-      "copyOne": "Unser Team ist rund um die Uhr einsatzbereit. Die Anfahrtskosten für 1150 Wien sind bereits in unseren Preisen inbegriffen.",
-      "headlineTwo": "Nonstop verfügbar, 24/7",
-      "copyTwo": "Unser Angebot beinhaltet sowohl Schlüsselnotdienst als auch Dienste im normalen und späten Zeitrahmen.",
-      "headlineThree": "Türöffnung ohne Beschädigungen",
-      "copyThree": "Wir öffnen Türen behutsam und ohne Schäden, sei es durch versehentliches Aussperren oder abgebrochenen Schlüssel."
+      "description": "Schlüsseldienst 1150 Wien und Aufsperrdienst: durchgehend erreichbar, transparente Fixpreise. Anfahrt in 20 bis 30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Schnelle Hilfe vom zuverlässigen 24h Schlüsseldienst.",
+      "proofSectionCopy": "Ruf uns an, und wir kommen sofort. Unser Schlüsseldienst 1150 Wien ist jederzeit einsatzbereit – auch an Feiertagen. Wenn du vor einer verschlossenen Tür stehst, sorgen wir für rasche und zuverlässige Hilfe. Wir öffnen deine Türe in Rudolfsheim-Fünfhaus transparent und ohne versteckte Kosten. Türex ist ein befähigter Schlüssel- und Aufsperrdienst in 1150 Wien mit klarer Preisgestaltung.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1150 Wien",
+      "proofCopyOne": "Ob tagsüber der Schlüsseldienst 1150 für den Austausch deines Schlosses oder nachts der Aufsperrdienst 1150 für eine Türöffnung – wir sind immer erreichbar. 24 Stunden, auch an Feiertagen. In Rudolfsheim-Fünfhaus sind wir durchgehend im Einsatz, um dir rasche Unterstützung zu sichern.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1150 Wien",
+      "proofCopyTwo": "Der autorisierte Schlüsseldienst 1150 Wien öffnet Türen jeder Art – meist beschädigungsfrei. Ob Sicherheits- oder Standardtür – unsere Fachkräfte nutzen schonende Verfahren. Mit geschultem Personal und technischen Hilfsmitteln sorgen wir für möglichst schadlose Ergebnisse.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Unsere Tarife sind transparent, fair und ohne versteckte Kosten. Für jede Leistung gibt es einen Fixpreis, der An- und Abfahrt sowie alle Nebenkosten einschließt. Dieser Fixpreis bleibt gleich, solange die normale Arbeitszeit für die Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien zeigen wir dir alle Preise offen und transparent. Lockangebote oder versteckte Kosten existieren bei uns nicht. Du erhältst klare Fixpreise, die sich nach Uhrzeit, Tageszeit sowie der Art der Türöffnung richten. So bist du immer genau informiert, welche Kosten entstehen. Unsere Schlüsseldienst-Preisliste listet alle Türöffnungs-Preise auf einen Blick.",
+      "differenceSectionCopy": "Nicht jeder, der vom Schlüsseldienst spricht, denkt an die klassischen Aufgaben wie Schlüsselanfertigung oder Zylindertausch. Oft ist eigentlich der Aufsperrdienst gemeint, der im Notfall Türen öffnet – rund um die Uhr. Wir sind beides: Schlüsseldienst und Aufsperrdienst. Unterschiede bestehen nur im Schwerpunkt. Die Preise hingegen hängen allein von der erbrachten Arbeit und dem Zeitpunkt des Einsatzes ab.",
+      "waitingTime": [
+        {
+          "districtPart": "Sechshaus",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Schmelz",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Rudolfsheim",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Nibelungenviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Fünfhaus",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Märzstrasse",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welche Bezirke gehören zum Einsatzgebiet von Türex?",
+          "answer": "Wir arbeiten in allen Wiener Bezirken. Sobald du dich meldest, kommen wir sofort – egal ob mitten in der Nacht oder am Feiertag."
+        },
+        {
+          "question": "Kann ich Schlüsseldienst 1150 Wien auch über den 15. Bezirk hinaus beauftragen?",
+          "answer": "Ja, unser Schlüsseldienst 1150 Wien ist in ganz Wien verfügbar. Voraussetzung ist lediglich, dass du nachweisen kannst, dass du zur Türöffnung befugt bist."
+        },
+        {
+          "question": "Welche Unterlagen verlangt Schlüsseldienst 1150 Wien vor einer Öffnung?",
+          "answer": "Wir benötigen zur Identifikation einen gültigen Ausweis. Zusätzlich unterschreibst du im Anschluss eine Erklärung, die für rechtliche Absicherung sorgt."
+        },
+        {
+          "question": "Was bedeutet Fixpreis?",
+          "answer": "Fixpreis heißt, dass der Preis im Voraus festgelegt wird. Dieser Betrag bleibt gleich, solange die Türöffnung im üblichen Arbeitszeitrahmen erfolgt."
+        }
+      ]
     },
     {
       "postalCode": "1160",
       "districtName": "Ottakring",
-      "description": "Schlüsseldienst in Wien 1160: Klare Preise, jederzeit erreichbar, schnelle Türöffnung in Ottakring. Jetzt anrufen.",
-      "subline": "24/7 Schlüsselnotdienst mit Expertise.",
-      "introCopy": "Plötzlich vor einer verschlossenen Tür ohne funktionierenden Schlüssel? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, in solchen Situationen effizient und professionell zu handeln.",
-      "headlineOne": "Keine Anfahrtskosten nach 1160 Wien.",
-      "copyOne": "Wir bieten einen 24-Stunden-Service. Die Anfahrtskosten für 1160 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Verfügbar rund um die Uhr",
-      "copyTwo": "Sowohl Schlüsselnotdienst als auch Dienstleistungen zu normalen und späten Stunden sind Teil unseres Leistungsspektrums.",
-      "headlineThree": "Behutsamer Zugang",
-      "copyThree": "Schonende Türöffnung, egal ob versehentlich ausgesperrt oder abgebrochenen Schlüssel – ohne Schäden."
+      "description": "Schlüsseldienst 1160 Wien: 24/7 erreichbar, transparente Fixpreise. 24h Aufsperrdienst vor Ort in Ottakring in ca. 20 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "24/7 Schlüsselnotdienst mit Expertise.",
+      "proofSectionCopy": "Ein kurzer Anruf genügt, und unser Team fährt los. Der Schlüsseldienst 1160 Wien ist 24/7 verfügbar – auch am Wochenende. Wenn du nicht in deine Wohnung kommst, stehen wir sofort bereit. Wir bieten wir faire, transparente und schnelle Lösungen in ganz Ottakring. Türex ist ein Schlüsseldienst in 1160 Wien und steht für klare Preise und professionelles Arbeiten.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1160 Wien",
+      "proofCopyOne": "Ein Schlosswechsel am Tag mit dem Schlüsseldienst 1160 oder eine Türöffnung nachts durch den Aufsperrdienst 1160 – wir sind sofort für dich da. Unser Service läuft rund um die Uhr, jeden Tag im Jahr. In Ottakring garantieren wir dir schnelle und effektive Hilfe in allen Schlüsseldienstbelangen.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1160 Wien",
+      "proofCopyTwo": "Unser Schlüsseldienst 1160 Wien, behördlich befugt, ist auf schonende Türöffnungen spezialisiert. Ob stabile Sicherheitstür oder herkömmliche Tür – wir arbeiten in den meisten Fällen ohne Schäden. Moderne Werkzeuge und erfahrene Techniker garantieren ein sauberes Ergebnis.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Wir bieten klare, faire Preise ohne versteckte Kosten. Jede Leistung wird mit einem Fixpreis berechnet, der An- und Abfahrt und sämtliche Nebenkosten beinhaltet. Der Fixpreis bleibt unverändert, solange die übliche Arbeitszeit der jeweiligen Leistung eingehalten wird.",
+      "pricesSectionCopy": "Wir sind ein behördlich geprüfter Schlüsseldienst in Wien und unsere Preisstruktur ist für jeden komplett nachvollziehbar. Es gibt bei uns weder Lockangebote noch versteckte Kosten. Du bekommst fix festgelegte Preise, abhängig von Uhrzeit, Tageszeit und Türöffnungs-Art. Damit weißt du stets, welche Kosten auf dich zukommen. In unserer Preisliste sind alle Preise für Türöffnungen übersichtlich dargestellt.",
+      "differenceSectionCopy": "Schlüsseldienst und Aufsperrdienst sind nicht identisch, auch wenn sie häufig verwechselt werden. Der Schlüsseldienst übernimmt Nachschlüssel, Zylindertausch und Beratung zur Sicherheit, während der Aufsperrdienst im Notfall Türen öffnet – egal wann. Bei uns bekommst du beide Leistungen in einem. Preislich gibt es keine Unterschiede: Abgerechnet wird nach Arbeitsaufwand und Uhrzeit.",
+      "waitingTime": [
+        {
+          "districtPart": "Brunnenviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Frauenfeld & Sandleiten",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Wilhelminenberg",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Alt-Ottakring",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Neulerchenfeld",
+          "time": "ca. 15-20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wo genau in Wien ist Türex tätig?",
+          "answer": "Türex ist in allen Wiener Bezirken erreichbar. Egal ob Werktag, Wochenende oder Feiertag – wir machen uns sofort auf den Weg, wenn du uns rufst."
+        },
+        {
+          "question": "Kann ich den Schlüsseldienst 1160 Wien auch in anderen Bezirken anfordern?",
+          "answer": "Ja, unser Schlüsseldienst 1160 Wien ist in ganz Wien aktiv. Wichtig ist nur, dass du berechtigt bist, die Türöffnung in Auftrag zu geben."
+        },
+        {
+          "question": "Welche Nachweise sind erforderlich, wenn Schlüsseldienst 1160 Wien die Tür öffnet?",
+          "answer": "Zur Sicherheit benötigen wir einen amtlichen Ausweis. Nach erledigter Öffnung unterschreibst du eine kurze Erklärung, die rechtlich vorgeschrieben ist."
+        },
+        {
+          "question": "Was heißt Fixpreis bei euch?",
+          "answer": "Ein Fixpreis ist ein fester Betrag, der vor Beginn vereinbart wird und gleichbleibt, solange sich der Aufwand im normalen Rahmen bewegt."
+        }
+      ]
     },
     {
       "postalCode": "1170",
       "districtName": "Hernals",
-      "description": "Schlüsseldienst in Wien 1170: Transparente Fixpreise, sofortiger Notdienst, schnelle Ankunft in Hernals. Jetzt anrufen.",
-      "subline": "Aufsperrdienst für sofortige Lösung bei Schlüsselproblemen.",
-      "introCopy": "Wenn du vor einer verschlossenen Tür stehst und nicht weiterkommst, ist unser 24-Stunden-Schlüsseldienst die richtige Wahl. Wir bieten schnelle und zuverlässige Hilfe.",
-      "headlineOne": "Gratis Anfahrtsservice nach 1170 Wien.",
-      "copyOne": "Unser Service ist Tag und Nacht verfügbar. Die Anfahrtskosten für 1170 Wien sind bereits in unseren Preisen inbegriffen.",
-      "headlineTwo": "Ständiger Notdienst",
-      "copyTwo": "Unser Service umfasst sowohl Schlüsselnotdienst als auch Dienstleistungen zu regulären und späten Zeiten.",
-      "headlineThree": "Schadensfreier Zugang",
-      "copyThree": "Türöffnung ohne Schäden bei versehentlichem Aussperren oder abgebrochenen Schlüssel – unser Ziel ist eine schonende Öffnung."
+      "description": "Schlüsseldienst 1170 Wien – rascher Aufsperrdienst in 1170 Wien, 24h erreichbar zu Fixpreisen. Eintreffen in 20–30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Aufsperrdienst für sofortige Lösung bei Schlüsselproblemen.",
+      "proofSectionCopy": "Ein Anruf, und wir sind schon unterwegs. Unser Schlüsseldienst 1170 Wien ist Tag und Nacht im Einsatz – auch an Sonn- und Feiertagen. Falls dein Schlüssel nicht funktioniert oder du dich ausgesperrt hast, helfen wir sofort. In ganz Hernals garantieren wir transparente Kosten und professionelle Arbeit.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1170 Wien",
+      "proofCopyOne": "Benötigst du am Tag den Schlüsseldienst 1170 für einen Schlosswechsel oder in der Nacht den Aufsperrdienst 1170 für die Türöffnung? Wir sind 24/7 erreichbar. In Hernals sind wir dauerhaft unterwegs und versorgen dich mit rascher Unterstützung bei allen Problemen rund um Schlüssel und Tür.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1170 Wien",
+      "proofCopyTwo": "Der geprüfte Schlüsseldienst 1170 Wien öffnet Türen professionell und fast immer beschädigungsfrei. Sicherheitstür oder Standardmodell – wir wenden die besten Methoden an. Unsere Monteure sind ausgebildet, erfahren und setzen neueste Techniken ein, um Schäden zu vermeiden.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Die Preisstruktur ist transparent und fair, ohne versteckte Kosten. Für jede Leistung erheben wir einen Fixpreis, der An- und Abfahrt plus alle Nebenkosten abdeckt. Dieser bleibt konstant, solange die übliche Arbeitszeit für die Leistung nicht überschritten ist.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien legen wir unsere gesamten Preise transparent offen. Lockangebote und versteckte Kosten sind bei uns ausgeschlossen. Du erhältst klare Fixpreise, gestaffelt nach Uhrzeit, Tageszeit und Art der Türöffnung. So behältst du jederzeit den vollen Kostenüberblick. Alle Türöffnungs-Preise findest du gesammelt in unserer Preisliste.",
+      "differenceSectionCopy": "Die Begriffe Schlüsseldienst und Aufsperrdienst werden oft durcheinandergebracht. Tatsächlich ist der Schlüsseldienst zuständig für Schlüsselkopien, Schlossaustausch und Beratung zum Einbruchschutz. Der Aufsperrdienst dagegen hilft, wenn jemand vor verschlossener Tür steht und rasch hinein muss. Wir vereinen beide Leistungen. Der Preis richtet sich ausschließlich nach Aufwand und Zeitpunkt, nicht nach der Bezeichnung.",
+      "waitingTime": [
+        {
+          "districtPart": "Neuwaldegg",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Dornbach",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Alt-Hernals",
+          "time": "ca. 15 Minuten"
+        },
+        {
+          "districtPart": "Alsegg",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welche Einsatzgebiete deckt Türex in Wien ab?",
+          "answer": "Wir arbeiten in sämtlichen Bezirken von Wien. Unabhängig von Tageszeit oder Datum – sobald du uns kontaktierst, fahren wir los."
+        },
+        {
+          "question": "Kann der Schlüsseldienst 1170 Wien auch in anderen Wiener Bezirken helfen?",
+          "answer": "Ja, Schlüsseldienst 1170 Wien ist stadtweit verfügbar. Voraussetzung ist, dass du nachweisen kannst, dass du zur Beauftragung befugt bist."
+        },
+        {
+          "question": "Was muss ich vorlegen, wenn Schlüsseldienst 1170 Wien meine Tür öffnet?",
+          "answer": "Wir verlangen einen gültigen Ausweis, um deine Identität zu prüfen. Danach unterschreibst du eine kurze Bestätigung zur rechtlichen Absicherung."
+        },
+        {
+          "question": "Was bedeutet Fixpreis genau?",
+          "answer": "Fixpreis bedeutet, dass der Endpreis im Voraus bestimmt wird und unverändert bleibt, solange die normale Arbeitszeit nicht überschritten wird."
+        }
+      ]
     },
     {
       "postalCode": "1180",
       "districtName": "Währing",
-      "description": "Schlüsseldienst in Wien 1180: Fixpreise, rund um die Uhr erreichbar, schnelle Türöffnung in Währing. Jetzt anrufen.",
-      "subline": "Erfahrener Aufsperrdienst, rund um die Uhr erreichbar.",
-      "introCopy": "In einer unerwarteten Situation vor einer verschlossenen Tür? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, dir schnell und professionell zu helfen.",
-      "headlineOne": "Kostenloser Anfahrtsservice in 1180 Wien.",
-      "copyOne": "Wir sind 24 Stunden am Tag einsatzbereit. Die Anfahrtskosten für 1180 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Dauerhafte Verfügbarkeit - 24 Stunden",
-      "copyTwo": "Wir bieten sowohl Schlüsselnotdienst als auch Dienstleistungen während normaler und späten Zeiten an.",
-      "headlineThree": "Türöffnung ohne Beschädigungen",
-      "copyThree": "Wir ermöglichen eine schadfreie Türöffnung, sei es durch versehentliches Ausperren oder abgebrochenen Schlüssel."
+      "description": "1180 Wien Schlüsseldienst mit Aufsperrdienst: 24/7 erreichbar, transparente Fixpreise. Binnen 20–30 Minuten vor Ort. Jetzt anrufen.",
+      "proofSectionHeadline": "Erfahrener Aufsperrdienst, rund um die Uhr erreichbar.",
+      "proofSectionCopy": "Mit nur einem Anruf schicken wir sofort Hilfe los. Unser Schlüsseldienst 1180 Wien steht dir jederzeit zur Verfügung – auch an Feiertagen. Wenn du nicht mehr ins Haus kommst, öffnen wir schnell und zuverlässig. In ganz Währing arbeiten wir rund um die Uhr - professionell, fair und transparent. Türex ist ein autorisierter Schlüsseldienst in 1180 Wien und garantiert klare Preise.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1180 Wien",
+      "proofCopyOne": "Schlüsseldienst 1180 für Schlosswechsel am Tag oder Aufsperrdienst 1180 für Türöffnungen in der Nacht – wir sind jederzeit einsatzbereit. 24 Stunden, 365 Tage im Jahr. In Währing sind wir ununterbrochen unterwegs, um dir schnelle und transparente Hilfe zu bringen.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1180 Wien",
+      "proofCopyTwo": "Unser Schlüsseldienst 1180 Wien mit behördlicher Zulassung führt Türöffnungen aus, die in den meisten Fällen ohne Schaden bleiben. Ob Sicherheits- oder Wohnungstür – wir arbeiten so schonend wie möglich. Erfahrene Techniker und moderne Hilfsmittel helfen, unnötige Schäden auszuschließen.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Bei unserer Preisgestaltung gibt es Transparenz und Fairness – keine versteckten Kosten. Pro Leistung gilt ein Fixpreis, inklusive An- und Abfahrt sowie sämtlicher Nebenkosten. Der Fixpreis bleibt bestehen, solange die übliche Arbeitszeit hierfür nicht überschritten wird.",
+      "pricesSectionCopy": "Wir, behördlich geprüft als Schlüsseldienst in Wien, stellen eine vollständig transparente Preisübersicht bereit. Bei uns gibt es keine Lockangebote und keine versteckten Kosten. Du bekommst eindeutige Fixpreise, die sich nach Uhrzeit, Tageszeit und der Art der Türöffnung richten. Dadurch weißt du genau, was dich erwartet. Unsere Preisliste zeigt alle Preise für Türöffnungen auf einen Blick.",
+      "differenceSectionCopy": "Wer sich mit dem Thema Sicherheit beschäftigt, stößt auf die Begriffe Schlüsseldienst und Aufsperrdienst. Beide hängen zusammen, doch sie sind nicht identisch. Der Schlüsseldienst fertigt Schlüssel nach, tauscht Zylinder und bietet Beratung. Der Aufsperrdienst wird im Notfall gebraucht, wenn die Tür verschlossen ist. Wir bieten beide Dienste an – der einzige Unterschied liegt im Schwerpunkt. Preislich bleibt alles gleich: entscheidend sind Arbeit und Einsatzzeit.",
+      "waitingTime": [
+        {
+          "districtPart": "Cottageviertel",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Pötzleinsdorf",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Aumannviertel",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Kutschkerviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Gymnasiumviertel",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Gersthof",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "In welchen Wiener Bezirken ist Türex im Einsatz?",
+          "answer": "Türex ist in ganz Wien tätig. Egal ob mitten in der Nacht oder am Feiertag – wir stehen jederzeit bereit."
+        },
+        {
+          "question": "Kann ich den Schlüsseldienst 1180 Wien auch für andere Bezirke rufen?",
+          "answer": "Ja, unser Schlüsseldienst 1180 Wien bietet seine Leistungen in allen Bezirken Wiens an. Voraussetzung ist deine Berechtigung, die Türöffnung in Auftrag zu geben."
+        },
+        {
+          "question": "Welche Unterlagen brauche ich, wenn Schlüsseldienst 1180 Wien meine Tür aufsperrt?",
+          "answer": "Du musst einen amtlichen Ausweis vorlegen. Anschließend unterschreibst du eine Erklärung, die für die rechtliche Absicherung nötig ist."
+        },
+        {
+          "question": "Wie ist Fixpreis zu verstehen?",
+          "answer": "Fixpreis heißt, dass der Betrag für die Leistung im Vorhinein vereinbart wird und sich nicht ändert, solange die Arbeit im regulären Rahmen bleibt."
+        }
+      ]
     },
     {
       "postalCode": "1190",
       "districtName": "Döbling",
-      "description": "Schlüsseldienst in Wien 1190: Transparente Preise, 24/7 Notdienst, schnelle Hilfe in Döbling. Jetzt anrufen.",
-      "subline": "Schneller und zuverlässiger 24h Schlüsseldienst.",
-      "introCopy": "Stehst du vor einer verschlossenen Tür und brauchst sofortige Unterstützung? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, in solchen Fällen professionelle Hilfe zu leisten.",
-      "headlineOne": "Keine Anfahrtsgebühren nach 1190 Wien.",
-      "copyOne": "Unser Team ist rund um die Uhr erreichbar. Die Anfahrtskosten für 1190 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Dauerhafte Bereitschaft",
-      "copyTwo": "Unser Angebot beinhaltet sowohl Schlüsselnotdienst als auch Dienste im normalen und späten Zeitrahmen.",
-      "headlineThree": "Schonende Türöffnung",
-      "copyThree": "Behutsame Öffnung ohne Schäden, sei es durch versehentliches Aussperren oder abgebrochenen Schlüssel."
+      "description": "Schlüsseldienst in 1190 Wien: 24h Aufsperrdienst in Döbling mit transparenten Fixpreisen. Ankunft innerhalb 25 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Schneller und zuverlässiger 24h Schlüsseldienst.",
+      "proofSectionCopy": "Ein Telefonat genügt, und wir sind auf dem Weg. Unser Schlüsseldienst 1190 Wien ist durchgehend erreichbar – auch an Wochenenden. Wenn du ausgesperrt bist, helfen wir rasch und sicher. In Döbling bieten wir professionelle Unterstützung, mit transparenter Preisgestaltung, rund um die Uhr. Türex ist ein konzessionierter Schlüssel- und Aufsperrdienst in 1190 Wien.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1190 Wien",
+      "proofCopyOne": "Ob tagsüber ein Schlosswechsel mit dem Schlüsseldienst 1190 oder nachts eine Türöffnung durch den Aufsperrdienst 1190 – wir übernehmen das für dich. Rund um die Uhr, an allen Tagen. In Döbling sorgen unsere Teams für rasche, zuverlässige Unterstützung bei sämtlichen Schlüsselproblemen.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1190 Wien",
+      "proofCopyTwo": "Der autorisierte Schlüsseldienst 1190 Wien sorgt für Türöffnungen, die in der Regel beschädigungsfrei verlaufen. Sicherheitstüren oder einfache Eingangstüren werden mit moderner Technik geöffnet. Unsere Fachleute kombinieren Wissen und Erfahrung, um Schäden weitgehend zu verhindern.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Wir rechnen transparent und fair ab, ohne versteckte Kosten. Für jede Leistung fällt ein Fixpreis an, der An- und Abfahrt und alle Nebenkosten umfasst. Dieser Fixpreis ändert sich nicht, sofern die übliche Arbeitszeit der jeweiligen Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien kommunizieren wir unsere Preise offen und klar. Lockangebote sowie versteckte Kosten gibt es bei uns nicht. Du erhältst fixe, transparente Preise, abhängig von Uhrzeit, Tageszeit und Türöffnungs-Art. So kennst du die Kosten im Vorhinein. In unserer Schlüsseldienst Preisliste sind sämtliche Türöffnungs-Preise sofort ersichtlich.",
+      "differenceSectionCopy": "Wenn man den Schlüsseldienst ruft, ist oft der Aufsperrdienst gemeint. Streng genommen unterscheiden sich die Aufgaben aber: Der Schlüsseldienst fertigt Kopien an, tauscht Schlösser und gibt Tipps zum Einbruchschutz. Der Aufsperrdienst hingegen öffnet Türen – schnell und jederzeit. Wir vereinen beide Angebote. Die Preise hängen ausschließlich von Aufwand und Zeitpunkt ab.",
+      "waitingTime": [
+        {
+          "districtPart": "Oberdöbling",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Untersievering",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Grinzing",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Heiligenstadt",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Unterdöbling",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Kahlenberg- & Josefsdorf",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Obersievering",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Nußdorf",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "In welchen Stadtteilen von Wien arbeitet Türex?",
+          "answer": "Wir sind in allen Wiener Bezirken verfügbar. Ganz gleich, ob werktags, am Wochenende oder nachts – wir helfen sofort."
+        },
+        {
+          "question": "Kann der Schlüsseldienst 1190 Wien auch außerhalb des Bezirks arbeiten?",
+          "answer": "Ja, Schlüsseldienst 1190 Wien übernimmt Aufträge in ganz Wien. Wichtig ist nur, dass du die notwendige Berechtigung nachweisen kannst."
+        },
+        {
+          "question": "Was muss ich bereithalten, wenn Schlüsseldienst 1190 Wien meine Tür öffnet?",
+          "answer": "Du musst einen amtlichen Ausweis vorlegen. Danach unterschreibst du eine kurze Erklärung, die rechtlich erforderlich ist."
+        },
+        {
+          "question": "Was heißt Fixpreis bei einer Türöffnung?",
+          "answer": "Ein Fixpreis bedeutet, dass der vereinbarte Betrag fix bleibt, solange die Türöffnung im normalen Arbeitsaufwand durchgeführt werden kann."
+        }
+      ]
     },
     {
       "postalCode": "1200",
       "districtName": "Brigittenau",
-      "description": "Schlüsseldienst in Wien 1200: Klare Fixpreise, sofortiger Notdienst, rasche Türöffnungen in Brigittenau. Jetzt anrufen.",
-      "subline": "Professionelle Hilfe vom befähigten 24/7 Aufsperrdienst.",
-      "introCopy": "Falls du vor einer verschlossenen Tür stehst und nicht weiterweißt, kannst du auf unseren 24-Stunden-Schlüsseldienst zählen. Wir helfen schnell und zuverlässig in solchen Notfällen.",
-      "headlineOne": "Kostenlose Anfahrt in 1200 Wien.",
-      "copyOne": "Wir bieten einen 24/7 Service. Die Anfahrtskosten für 1200 Wien sind bereits in unseren Preisen inbegriffen.",
-      "headlineTwo": "Ununterbrochen im Einsatz",
-      "copyTwo": "Sowohl Schlüsselnotdienst als auch Dienstleistungen zu normalen und späten Stunden sind Teil unseres Leistungsspektrums.",
-      "headlineThree": "Fachgerechter Zugang",
-      "copyThree": "chadfreier Zugang trotz versehentlichem Aussperren oder abgebrochenen Schlüssel – unser Ziel ist eine schonende Türöffnung."
+      "description": "Schlüsseldienst 1200 Wien: 24/7 erreichbar, transparente Fixpreise. Ankunft in nur 20 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Professionelle Hilfe vom befähigten 24/7 Aufsperrdienst.",
+      "proofSectionCopy": "Ein Anruf reicht, und wir kommen sofort. Unser Schlüsseldienst 1200 Wien ist 24 Stunden täglich verfügbar, auch an Sonn- und Feiertagen. Wenn du vor verschlossener Tür stehst, helfen wir schnell und zuverlässig. In Wien Brigittenau sorgen wir für faire Arbeit und transparente Kosten. Türex ist ein befähigter Schlüsseldienst in 1200 Wien und steht für volle Offenheit wenn es um die Preisgestaltung geht.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1200 Wien",
+      "proofCopyOne": "Ein Schlüsseldienst 1200 für Schlosswechsel am Tag oder ein Aufsperrdienst 1200 für Türöffnungen nachts – wir sind immer für dich da. 24 Stunden am Tag, das ganze Jahr hindurch. In der Brigittenau bieten wir schnelle, effektive Hilfe bei allen Anliegen rund um Schlüssel und Schloss.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1200 Wien",
+      "proofCopyTwo": "Unser Schlüsseldienst 1200 Wien arbeitet behördlich befugt und öffnet Türen meistens ohne Beschädigungen. Egal ob Standardtür oder Sicherheitstür – wir setzen auf schonende Techniken. Mit Erfahrung und Präzision sorgen unsere Monteure für eine möglichst schadfreie Türöffnung.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Unsere Preise sind klar, fair und ohne verdeckte Zusatzkosten. Jede Leistung wird zu einem Fixpreis angeboten, der An- und Abfahrt sowie sämtliche Nebenkosten beinhaltet. Der Fixpreis bleibt stabil, solange die übliche Arbeitszeit pro Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Wir sind ein behördlich geprüfter Schlüsseldienst in Wien und machen alle Preise zu jeder Zeit transparent. Lockangebote und versteckte Gebühren schließen wir aus. Du bekommst klare Fixpreise, die nach Uhrzeit, Tageszeit und der Art der Türöffnung berechnet werden. Damit hast du volle Kostensicherheit. Unsere Preisliste enthält alle Preise für Türöffnungen auf einen Blick.",
+      "differenceSectionCopy": "Oftmals wird der Aufsperrdienst fälschlich als Schlüsseldienst bezeichnet. Während ersterer für schnelle Türöffnungen im Notfall zuständig ist, umfasst der Schlüsseldienst eher vorbeugende Arbeiten wie Schlüsselkopien, Schlossaustausch oder Beratung. Unser Unternehmen bietet beides unter einem Dach. Preislich entstehen keine Unterschiede: entscheidend sind Aufwand und Uhrzeit.",
+      "waitingTime": [
+        {
+          "districtPart": "Zwischenbrücken",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Wallensteinviertel & Augarten",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Brigittaviertel",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welche Bezirke in Wien werden von Türex bedient?",
+          "answer": "Türex ist flächendeckend in allen Wiener Bezirken aktiv. Egal wann du anrufst – wir kommen sofort."
+        },
+        {
+          "question": "Kann ich Schlüsseldienst 1200 Wien auch für andere Bezirke beauftragen?",
+          "answer": "Ja, unser Schlüsseldienst 1200 Wien ist in ganz Wien tätig. Wichtig ist nur, dass du die rechtliche Befugnis hast, uns zu beauftragen."
+        },
+        {
+          "question": "Welche Dokumente brauche ich, wenn Schlüsseldienst 1200 Wien meine Tür öffnet?",
+          "answer": "Wir fordern einen amtlichen Ausweis von dir. Zusätzlich unterschreibst du nach der Türöffnung eine kurze Bestätigung als rechtliche Absicherung."
+        },
+        {
+          "question": "Was bedeutet Fixpreis bei euch?",
+          "answer": "Fixpreis heißt, dass der Betrag für die Leistung im Voraus festgelegt wird. Dieser bleibt unverändert, solange sich die Arbeit im üblichen Zeitrahmen bewegt."
+        }
+      ]
     },
     {
       "postalCode": "1210",
       "districtName": "Floridsdorf",
-      "description": "Schlüsseldienst in Wien 1210: Fixpreise ohne versteckte Kosten, jederzeit erreichbar, schnelle Ankunft in Floridsdorf. Jetzt anrufen.",
-      "subline": "Zuverlässige Lösungen für Schlüsselnotfälle rund um die Uhr.",
-      "introCopy": "Plötzlich vor einer verschlossenen Tür und der Schlüssel funktioniert nicht? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, dir in solchen Situationen sofort zu helfen.",
-      "headlineOne": "Anfahrt nach 1210 Wien ohne zusätzliche Kosten.",
-      "copyOne": "Unser Service steht Ihnen rund um die Uhr zur Verfügung. Die Anfahrtskosten für 1210 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Durchgehend verfügbar",
-      "copyTwo": "Unser Service umfasst sowohl Schlüsselnotdienst als auch Dienstleistungen zu regulären und späten Zeiten.",
-      "headlineThree": "Zugang ohne Beschädigungen",
-      "copyThree": "Wir öffnen Türen behutsam und ohne Schäden, sei es durch versehentliches Aussperren oder abgebrochenen Schlüssel."
+      "description": "Schlüsseldienst 1210 Wien: behördlich befähigter 24/7 Aufsperrdienst: transparente Fixpreise, Ankunft in 20–30 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Zuverlässige Lösungen für Schlüsselnotfälle rund um die Uhr.",
+      "proofSectionCopy": "Ein kurzer Anruf, und wir machen uns auf den Weg. Türex, der Schlüsseldienst 1210 Wien steht dir jederzeit zur Verfügung. Egal ob unter der Woche oder an Sonn- und Feiertagen. Solltest du dich in Wien Floridsdorf aussperren, sind wir sofort da und bieten dir schnelle, professionelle und faire Hilfe. Türex ist ein geprüfter Schlüssel- und Aufsperrdienst in 1210 Wien mit klarer Preisgestaltung.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1210 Wien",
+      "proofCopyOne": "Egal ob du einen Schlosswechsel am Tag mit dem Schlüsseldienst 1210 brauchst oder eine nächtliche Türöffnung durch den Aufsperrdienst 1210 – wir sind rund um die Uhr für dich da. In Floridsdorf garantieren wir dir rasche und professionelle Hilfe bei allen Schlüsselthemen.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1210 Wien",
+      "proofCopyTwo": "Wir sind geprüfter Schlüsseldienst 1210 Wien und öffnen Türen verschiedenster Art, meist beschädigungsfrei. Ob Sicherheitstüren oder normale Türen – wir wählen stets die schonendste Lösung. Unsere Spezialisten sind geschult und nutzen moderne Geräte, um Schäden zu minimieren.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Transparente und faire Preisgestaltung, frei von versteckten Kosten: Jede Leistung hat einen Fixpreis, der An- und Abfahrt und alle Nebenkosten einschließt. Dieser bleibt unverändert, solange die übliche Arbeitszeit für die entsprechende Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien stehen wir für absolute Preistransparenz. Es gibt bei uns keine Lockangebote und keine versteckten Kosten. Du erhältst klar definierte Fixpreise, abhängig von Uhrzeit, Tageszeit und Art der Türöffnung. So weißt du immer genau, welche Kosten anfallen. Alle Türöffnungs-Preise sind in unserer Preisliste kompakt dargestellt.",
+      "differenceSectionCopy": "Schlüsseldienst oder Aufsperrdienst – viele sehen darin keinen Unterschied. Dabei liegen die Schwerpunkte unterschiedlich: Der Schlüsseldienst bietet Leistungen wie Kopien, Austausch und Beratung, während der Aufsperrdienst dann gebraucht wird, wenn man keinen Zugang zur Wohnung hat. Wir stehen für beides. Preisunterschiede gibt es keine, ausschlaggebend sind allein Aufwand und Einsatzzeit.",
+      "waitingTime": [
+        {
+          "districtPart": "Nordrandsiedlung",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Leopoldau & Edelsteinviertel",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Großfeldsiedlung",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Donauinsel / Reichsbrücke",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Obere Alte Donau",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Donauinsel / Floridsdorfer Brücke",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Zentrum Floridsdorf & Donaufeld",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Strebersdorf",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Großjedlersdorf",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Stammersdorf",
+          "time": "ca. 30 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "In welchen Bezirken Wiens ist Türex aktiv?",
+          "answer": "Türex ist in sämtlichen Bezirken Wiens einsatzbereit. Ganz gleich, ob Tag, Nacht oder Feiertag – wir sind sofort unterwegs, sobald du uns kontaktierst."
+        },
+        {
+          "question": "Kann der Schlüsseldienst 1210 Wien auch in anderen Bezirken arbeiten?",
+          "answer": "Ja, Schlüsseldienst 1210 Wien ist in allen Wiener Bezirken verfügbar. Voraussetzung ist nur, dass du berechtigt bist, die Türöffnung in Auftrag zu geben – z. B. als Eigentümer, Mieter oder mit Vollmacht."
+        },
+        {
+          "question": "Welche Unterlagen benötige ich, wenn Schlüsseldienst 1210 Wien meine Tür öffnet?",
+          "answer": "Du musst einen amtlichen Ausweis vorlegen, um deine Berechtigung nachzuweisen. Danach unterschreibst du eine kurze Bestätigung, die rechtliche Sicherheit für beide Seiten schafft."
+        },
+        {
+          "question": "Was bedeutet Fixpreis?",
+          "answer": "Fixpreis heißt, dass der Preis für die Dienstleistung vorab festgelegt wird und unverändert bleibt, solange die Arbeit im normalen Zeitrahmen erfolgt."
+        }
+      ]
     },
     {
       "postalCode": "1220",
       "districtName": "Donaustadt",
-      "description": "Schlüsseldienst in Wien 1220: Transparente Preise, Notdienst rund um die Uhr, schnelle Türöffnung in Donaustadt. Jetzt anrufen.",
-      "subline": "Effiziente Unterstützung durch erfahrenen 24h Schlüsseldienst.",
-      "introCopy": "In einer Notsituation vor einer verschlossenen Tür? Unser 24-Stunden-Schlüsseldienst ist darauf spezialisiert, professionell und schnell zu reagieren, um dir zu helfen.",
-      "headlineOne": "Keine Gebühren für die Anfahrt nach 1220 Wien.",
-      "copyOne": "Wir sind Tag und Nacht für Sie da. Die Anfahrtskosten für 1220 Wien sind bereits in unseren Preisen enthalten.",
-      "headlineTwo": "Jederzeit einsatzbereit",
-      "copyTwo": "Wir bieten sowohl Schlüsselnotdienst als auch Dienstleistungen während normaler und späten Stunden an.",
-      "headlineThree": "Schadensfreie Türöffnung",
-      "copyThree": "Schonende Türöffnung, egal ob versehentlich ausgesperrt oder abgebrochenen Schlüssel – ohne Schäden."
+      "description": "Schlüsseldienst 1220 Wien: Aufsperrnotdienst 24/7 erreichbar. Klare und transparente Fixpreise ohne versteckte Kosten. Jetzt anrufen.",
+      "proofSectionHeadline": "Effiziente Unterstützung durch erfahrenen 24h Schlüsseldienst.",
+      "proofSectionCopy": "Ruf uns an, und wir fahren sofort los. Unser Schlüsseldienst 1220 Wien ist Tag und Nacht einsatzbereit. Jeden Tag, auch an Sonn- und Feiertagen. Wenn deine Tür verschlossen bleibt, helfen wir schnell und zuverlässig. In Wien Donaustadt sind wir für faire und transparente Arbeit bekannt. Türex ist ein autorisierter Schlüsseldienst in 1220 Wien und garantiert klare Preise.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1220 Wien",
+      "proofCopyOne": "Ob Schlüsseldienst 1220 für Schlosswechsel tagsüber oder Aufsperrdienst 1220 für Türöffnungen in der Nacht – unser Service ist jederzeit verfügbar. 24/7, auch an Feiertagen. In der Donaustadt sind wir ständig unterwegs, um dir schnelle Unterstützung bei allen Schloss- und Schlüsselproblemen zu bieten.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1220 Wien",
+      "proofCopyTwo": "Unser befähigter Schlüsseldienst 1220 Wien sorgt für beschädigungsfreie Türöffnungen, soweit möglich. Ob robuste Sicherheitstür oder einfache Tür – wir arbeiten mit sanften Methoden. Geschulte Experten und neueste Werkzeuge ermöglichen es, Schäden fast immer zu vermeiden.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Wir setzen auf klare, faire Preise ohne versteckte Gebühren. Für jede Leistung berechnen wir einen Fixpreis, der auch An- und Abfahrt sowie alle Nebenkosten umfasst. Der Fixpreis bleibt gleich, solange die übliche Arbeitszeit bei der jeweiligen Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Wir von Türex, als behördlich geprüfter Schlüsseldienst aus Wien, legen die Preise vollständig und transparent offen. Lockangebote oder verdeckte Kosten findest du bei uns nicht. Du bekommst fix festgelegte, klare Preise, gestaffelt nach Uhrzeit, Tageszeit und der Türöffnungs-Art. Dadurch hast du jederzeit Planungssicherheit. Unsere Schlüsseldienst-Preisliste zeigt alle Türöffnungs-Preise auf einen Blick.",
+      "differenceSectionCopy": "Die Begriffe Schlüsseldienst und Aufsperrdienst werden oft gleichgesetzt, doch tatsächlich sind die Aufgaben verschieden. Schlüsseldienste kümmern sich um Nachschlüssel, Schlossaustausch und Sicherheitsfragen. Aufsperrdienste öffnen Türen im Notfall – Tag und Nacht. Wir übernehmen beide Tätigkeiten. Der Preis richtet sich dabei immer nur nach Leistung und Zeitpunkt, nicht nach der Bezeichnung.",
+      "waitingTime": [
+        {
+          "districtPart": "Donauinsel / Toter Grund",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Kaisermühlen",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Neukagran",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Stadlau",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Eßling",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Obere Alte Donau",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Hirschstetten",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Seestadt Aspern",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Breitenlee",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Untere Alte Donau",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Aspern",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Donau-City",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Kagran",
+          "time": "ca. 30 Minuten"
+        },
+        {
+          "districtPart": "Lobau",
+          "time": "ca. 25 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Wo in Wien ist Türex verfügbar?",
+          "answer": "Wir sind in allen Wiener Bezirken im Einsatz. Ob morgens, abends oder mitten in der Nacht – wir kommen direkt nach deinem Anruf."
+        },
+        {
+          "question": "Kann ich den Schlüsseldienst 1220 Wien auch außerhalb des Bezirks rufen?",
+          "answer": "Ja, Schlüsseldienst 1220 Wien arbeitet in allen Wiener Bezirken. Wichtig ist nur, dass du die rechtliche Befugnis nachweisen kannst – als Eigentümer, Mieter oder mit Vollmacht des Besitzers."
+        },
+        {
+          "question": "Welche Nachweise muss ich erbringen, wenn Schlüsseldienst 1220 Wien die Tür öffnet?",
+          "answer": "Du musst einen gültigen Ausweis vorlegen, um die Berechtigung zu prüfen. Nach der Öffnung unterschreibst du eine Erklärung, die rechtliche Absicherung bietet."
+        },
+        {
+          "question": "Was versteht man unter Fixpreis?",
+          "answer": "Fixpreis bedeutet, dass der Preis vorab festgelegt wird und gleich bleibt, solange die normale Arbeitszeit nicht überschritten wird."
+        }
+      ]
     },
     {
       "postalCode": "1230",
       "districtName": "Liesing",
-      "description": "Schlüsseldienst in Wien 1230: Klare Fixpreise, sofortiger Notdienst, schnelle Hilfe in Liesing. Jetzt anrufen.",
-      "subline": "Sofortige Hilfe vom professionellen 24/7 Aufsperrdienst.",
-      "introCopy": "Stehst du vor einer verschlossenen Tür und benötigst dringend Unterstützung? Unser 24-Stunden-Schlüsseldienst bietet professionelle Hilfe rund um die Uhr.",
-      "headlineOne": "Kostenfreier Anfahrtsservice nach 1230 Wien.",
-      "copyOne": "Unser Team ist rund um die Uhr einsatzbereit. Die Anfahrtskosten für 1230 Wien sind bereits in unseren Preisen inbegriffen.",
-      "headlineTwo": "Kontinuierlicher Notdienst - 24 Stunden",
-      "copyTwo": "Unser Angebot beinhaltet sowohl Schlüsselnotdienst als auch Dienste im normalen und späten Zeitrahmen.",
-      "headlineThree": "Türöffnung ohne Beschädigungen",
-      "copyThree": "Türöffnung ohne Schäden bei versehentlichem Aussperren oder abgebrochenen Schlüssel – unser Ziel ist eine schonende Öffnung."
+      "description": "Schlüsseldienst 1230 Wien – Aufsperrdienst 24/7, transparente Fixpreise. Anfahrt in nur 10–20 Minuten. Jetzt anrufen.",
+      "proofSectionHeadline": "Sofortige Hilfe vom professionellen 24/7 Aufsperrdienst.",
+      "proofSectionCopy": "Ein einziger Anruf genügt, und unser Team kommt sofort. Unser Schlüsseldienst 1230 Wien ist 24/7 erreichbar – auch am Wochenende und an Feiertagen. Wenn du plötzlich nicht mehr in deine Wohnung kommst, öffnen wir deine Tür rasch und professionell. In Liesing bieten wir faire, transparente und schnelle Hilfe rund um die Uhr an. Türex ist ein konzessionierter Schlüssel- und Aufsperrdienst in 1230 Wien und steht für transparente Preise und unkomplizierte Abläufe.",
+      "proofHeadlineOne": "24h Aufsperrdienst 1230 Wien",
+      "proofCopyOne": "Tagsüber ein Schlosswechsel über den Schlüsseldienst 1230 oder nachts eine Türöffnung durch den Aufsperrdienst 1230 – wir helfen sofort. Unser Service läuft ohne Unterbrechung, 24 Stunden täglich, das ganze Jahr. In Liesing bist du mit Türex auf schnelle und verlässliche Hilfe bei allen Schlüsseldienst-Themen vorbereitet.",
+      "proofHeadlineTwo": "Schadfreie Türöffnungen in ganz 1230 Wien",
+      "proofCopyTwo": "Der autorisierte Schlüsseldienst 1230 Wien öffnet Türen sicher und in den meisten Fällen ohne Beschädigungen. Ganz gleich ob Sicherheitstür oder Standardmodell – wir setzen moderne Technik ein. Unsere erfahrenen Profis sorgen für eine schonende Türöffnung, die unnötige Schäden verhindert.",
+      "proofHeadlineThree": "Transparente Fixpreise, ohne Anfahrtskosten",
+      "proofCopyThree": "Unsere Preisgestaltung ist offen und gerecht, ohne versteckte Kosten. Jede Leistung wird mit einem Fixpreis abgerechnet, der An- und Abfahrt plus sämtliche Nebenkosten beinhaltet. Dieser Fixpreis bleibt unverändert, solange die übliche Arbeitszeit für die Leistung nicht überschritten wird.",
+      "pricesSectionCopy": "Als behördlich geprüfter Schlüsseldienst in Wien präsentieren wir eine vollkommen transparente Preisgestaltung. Lockangebote und versteckte Kosten sind bei uns nicht vorhanden. Du erhältst klare Fixpreise, die sich nach Uhrzeit, Tageszeit und Art der Türöffnung richten. So bist du immer im Klaren über die Kosten. In unserer Preisliste sind sämtliche Preise für Türöffnungen auf einen Blick zu sehen.",
+      "differenceSectionCopy": "Viele denken beim Schlüsseldienst sofort an Türöffnungen, obwohl das eigentlich der Bereich des Aufsperrdienstes ist. Der Schlüsseldienst konzentriert sich auf Nachschlüssel, Zylindertausch und Beratung. Der Aufsperrdienst wird dann gebraucht, wenn der Zutritt verwehrt ist. Wir kombinieren beide Angebote. Preislich ändert sich dadurch nichts – abgerechnet wird nach Aufwand und Einsatzzeit.",
+      "waitingTime": [
+        {
+          "districtPart": "Siebenhirten",
+          "time": "ca. 25 Minuten"
+        },
+        {
+          "districtPart": "Mauer",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Erlaa & Alterlaa",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Neustift / Draschegründe",
+          "time": "ca. 20 Minuten"
+        },
+        {
+          "districtPart": "Inzersdorf",
+          "time": "ca. 15 Minuten"
+        },
+        {
+          "districtPart": "Liesing Zentrum",
+          "time": "ca. 15 Minuten"
+        },
+        {
+          "districtPart": "Atzgersdorf",
+          "time": "ca. 10 Minuten"
+        },
+        {
+          "districtPart": "Rodaun & Kalksburg",
+          "time": "ca. 20 Minuten"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Welche Bezirke in Wien bedient Türex?",
+          "answer": "Türex ist in allen Bezirken Wiens tätig. Egal zu welcher Uhrzeit oder an welchem Tag – nach deinem Anruf machen wir uns sofort auf den Weg."
+        },
+        {
+          "question": "Kann der Schlüsseldienst 1230 Wien auch in anderen Bezirken eingesetzt werden?",
+          "answer": "Ja, Schlüsseldienst 1230 Wien ist stadtweit verfügbar. Bedingung ist lediglich, dass du berechtigt bist, uns zu beauftragen – als Eigentümer, Mieter oder mit Vollmacht."
+        },
+        {
+          "question": "Welche Unterlagen muss ich bereitstellen, wenn Schlüsseldienst 1230 Wien meine Tür öffnet?",
+          "answer": "Wir benötigen einen amtlichen Ausweis zur Identifikation. Danach unterschreibst du eine Erklärung, die rechtliche Absicherung für beide Seiten bietet."
+        },
+        {
+          "question": "Was bedeutet Fixpreis genau?",
+          "answer": "Fixpreis heißt, der Preis für die Dienstleistung wird im Voraus festgelegt und bleibt unverändert, solange die Türöffnung innerhalb des normalen Zeitrahmens erfolgt."
+        }
+      ]
     }
   ]
 }
