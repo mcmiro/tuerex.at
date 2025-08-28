@@ -71,8 +71,10 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
     serviceType: [
       "Schlüsseldienst",
       "Aufsperrdienst",
-      "Öffnung zugefallener Standard- und Sicherheitstüren",
-      "Öffnung versperrter Standard- und Sicherheitstüren",
+      "Öffnung zugefallener Standardtüren",
+      "Öffnung zugefallener Sicherheitstüren",
+      "Öffnung versperrter Standardtüren",
+      "Öffnung versperrter Sicherheitstüren",
     ],
     areaServed: {
       "@type": "Place",
@@ -80,8 +82,8 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 48.2082,
-      longitude: 16.3738,
+      latitude: 48.1512,
+      longitude: 16.3313,
     },
     openingHoursSpecification: [
       {
