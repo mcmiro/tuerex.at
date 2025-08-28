@@ -6,6 +6,7 @@ import faqData from "constants/faq";
 import WkoLogo from "../assets/images/wko-logo.svg";
 import { contactData } from "constants/contact";
 import indexStrucutreData from "utils/structure-data";
+import districtsData from "../public/districts.json";
 import {
   ArrowRightIcon,
   CheckIcon,
@@ -716,6 +717,66 @@ const IndexPage = () => {
         </UI.Container>
         {/* Call Section END */}
       </UI.Container>
+      {/* Districts START */}
+      <UI.Container id="andere-bezirke" className="py-[56px]">
+        <UI.Typography
+          variant="h3"
+          weight="bold"
+          className="font-['Lexend'] md:!leading-[1.2] py-8"
+        >
+          <span className="text-primary-500">
+            Schlüsseldienst Wien in deiner Nähe
+          </span>
+          <br></br>Wir sind rund um die Uhr in allen wiener Bezirken tätig.
+        </UI.Typography>
+        <UI.Typography
+          variant="md"
+          className="!text-[18px] text-primary-900 leading-8"
+        >
+          Ob du uns nachts als Aufsperrdienst für schnelle und zuverlässige{" "}
+          <Link
+            href="leistungen/versperrte-tueren"
+            className="underline"
+            target="_blank"
+          >
+            Türöffnungen
+          </Link>{" "}
+          brauchst oder tagsüber als Schlüsseldienst für einen{" "}
+          <Link
+            href="/leistungen/zylinder-tausch"
+            className="underline"
+            target="_blank"
+          >
+            Zylinderwechsel
+          </Link>
+          , wir sind rund um die Uhr in ganz Wien im Einsatz. Egal in welchem
+          Bezirk du wohnst, wir sind immer in deiner Nähe. Unsere Telefonnummer
+          ist an allen Tagen 24 Stunden erreichbar, ganz gleich wo du dich in
+          Wien befindest. Wenn du bezirksspezifische Informationen wie die
+          aktuelle Ankunftszeit in deinem Grätzl wissen möchtest, klicke einfach
+          auf deinen Bezirk.
+        </UI.Typography>
+        {/* Disctricts Loop START */}
+        <UI.Container widthMode="full">
+          <div className="grid grid-cols-2 gap-2 mt-8 md:grid-cols-5">
+            {districtsData.data.map((d: any) => (
+              <div
+                key={d.postalCode}
+                className="p-4 m-1 text-center rounded-lg bg-primary-50"
+              >
+                <Link
+                  href={`/wien/${d.postalCode}`}
+                  className="border-b border-black"
+                >
+                  {d.postalCode} Wien
+                </Link>
+              </div>
+            ))}
+          </div>
+        </UI.Container>
+        {/* Disctricts Loop  END */}
+      </UI.Container>
+      {/* Districts END */}
     </Layout>
   );
 };

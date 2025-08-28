@@ -5,7 +5,7 @@ import Reviews from "components/molecules/reviews";
 import { UI } from "components";
 import WkoLogo from "../../assets/images/wko-logo.svg";
 import {
-  CheckBadgeIcon,
+  ArrowRightIcon,
   CheckIcon,
   ClockIcon,
   CurrencyEuroIcon,
@@ -42,10 +42,163 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
   const otherDistricts = (allDistricts || [])
     .filter((d) => d?.postalCode && d.postalCode !== data.postalCode)
     .sort((a, b) => a.postalCode.localeCompare(b.postalCode));
+
+  // Dynamic JSON-LD schema for Google SEO
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": ["EmergencyService", "Locksmith"],
+    name: `Schlüsseldienst & Aufsperrdienst ${data.postalCode} Wien`,
+    image: "https://tuerex.at/logo.svg",
+    "@id": `https://tuerex.at/wien/${data.postalCode}`,
+    url: `https://tuerex.at/wien/${data.postalCode}`,
+    telephone: "+436763741204",
+    email: "info@tuerex.at",
+    priceRange: "$$",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Oldenburggasse 6",
+      addressLocality: "Wien",
+      addressRegion: "Vienna",
+      postalCode: data.postalCode,
+      addressCountry: "AT",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+436763741204",
+      contactType: "Customer Service",
+      availableLanguage: ["German"],
+    },
+    serviceType: [
+      "Schlüsseldienst",
+      "Aufsperrdienst",
+      "Öffnung zugefallener Standard- und Sicherheitstüren",
+      "Öffnung versperrter Standard- und Sicherheitstüren",
+    ],
+    areaServed: {
+      "@type": "Place",
+      name: `${data.districtName} (${data.postalCode})`,
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 48.2082,
+      longitude: 16.3738,
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+        ],
+        opens: "00:00",
+        closes: "23:59",
+      },
+    ],
+    description: data.description,
+    sameAs: [
+      "https://www.instagram.com/tuerex_schluesseldienst",
+      "https://www.linkedin.com/company/tuerex-schluesseldienst",
+    ],
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://tuerex.at/wien/${data.postalCode}`,
+      name: `Schlüsseldienst ${data.postalCode} Wien - ab 89€ Fixpreis | TÜREX`,
+      description: data.description,
+    },
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "EUR",
+      price: "89",
+      url: `https://tuerex.at/wien/${data.postalCode}#preise`,
+      availability: "https://schema.org/InStock",
+      validFrom: "2022-01-01",
+      description: data.pricesSectionCopy,
+    },
+
+    // FAQ Section
+    ...(data.faqs && Array.isArray(data.faqs) && data.faqs.length > 0
+      ? {
+          mainEntity: {
+            "@type": "FAQPage",
+            mainEntity: data.faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: faq.answer,
+              },
+            })),
+          },
+        }
+      : {}),
+    // Reviews Section
+    review: {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      author: {
+        "@type": "Organization",
+        name: "TÜREX",
+      },
+      reviewBody:
+        // Use the same dynamic review text as rendered in the UI
+        `Unsere Kunden bewerten uns regelmäßig mit 5 von 5 Sternen. Besonders geschätzt werden unsere schnelle Hilfe und transparente Preise. Hier kannst du dir ansehen, was Kunden über unseren Schlüsseldienst ${data.postalCode} Wien sagen.`,
+    },
+    // Waiting time per district part
+    ...(data.waitingTime &&
+    Array.isArray(data.waitingTime) &&
+    data.waitingTime.length > 0
+      ? {
+          potentialAction: data.waitingTime.map((item) => ({
+            "@type": "InformAction",
+            name: `Wartezeit für ${item.districtPart}`,
+            description: `Aktuelle Wartezeit: ${item.time}`,
+          })),
+        }
+      : {}),
+    // Difference Section
+    ...(data.differenceSectionCopy
+      ? {
+          additionalProperty: [
+            {
+              "@type": "PropertyValue",
+              name: "Unterschied Schlüsseldienst vs. Aufsperrdienst",
+              value: data.differenceSectionCopy,
+            },
+          ],
+        }
+      : {}),
+    // Other districts
+    ...(otherDistricts.length > 0
+      ? {
+          areaServed: [
+            {
+              "@type": "Place",
+              name: `${data.districtName} (${data.postalCode})`,
+            },
+            ...otherDistricts.map((d) => ({
+              "@type": "Place",
+              name: `${d.districtName} (${d.postalCode})`,
+              url: `https://tuerex.at/wien/${d.postalCode}`,
+            })),
+          ],
+        }
+      : {}),
+  };
+
   return (
     <Layout
       title={`Schlüsseldienst ${data.postalCode} Wien - ab 89€ Fixpreis | TÜREX`}
       metaDescription={data.description}
+      jsonLd={jsonLd}
     >
       {/* Hero Section START */}
       <header className="pb-8">
@@ -69,9 +222,13 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
             variant="h2"
             className="max-w-4xl mt-2 !text-[18px] md:!text-[24px] text-center leading-normal"
           >
-            Mit 24h Aufsperrdienst in {data.postalCode} Wien, <br />
-            für schadlose Türöffnungen{" "}
-            <span className=" text-primary-500"> bereits ab 89€.</span>
+            Mit{" "}
+            <span className=" text-primary-500">
+              24h Aufsperrdienst {data.postalCode} Wien
+            </span>
+            , für schadlose <br />
+            Türöffnungen in ganz Wien {"-"} {data.districtName} <br />
+            <span className=" text-primary-500"> bereits ab 89€ Fixpreis.</span>
           </UI.Typography>
           {/* Headlines END */}
 
@@ -202,9 +359,14 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
       {/* Price Section START */}
       <div className="bg-[#f5f5f5] pt-16 pb-8" id="preise">
         <UI.Container>
-          <UI.Typography variant="h2" align="center" className="mt-4 font-bold">
-            Aufsperrdienst {data.postalCode} Wien <br></br>
-            <span className="text-primary-500">Preise und Kosten</span>.
+          <UI.Typography
+            variant="h2"
+            align="center"
+            className="max-w-4xl mx-auto mt-4 font-bold"
+          >
+            <span className="text-primary-500">Kosten und Preise</span>
+            <br></br> für Schlüsseldienst & Aufsperrdienst {data.postalCode}{" "}
+            Wien
           </UI.Typography>
           <UI.Typography variant="lg" align="center" className="mt-8">
             {data.pricesSectionCopy}
@@ -214,7 +376,7 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
       </div>
       {/* Price Section END */}
 
-      {/* √ Price Info START */}
+      {/* Price Info START */}
       <UI.Container
         id="kosten-verstehen"
         element="section"
@@ -223,31 +385,46 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
       >
         <UI.Container>
           <UI.Typography variant="lg">
-            Kosten und Zuschäge verstehen
+            Mehr über die Kosten erfahren
           </UI.Typography>
           <UI.Typography variant="h3" className="pt-2">
             Warum kosten Schlüsseldienste / Aufsperrdienste in {data.postalCode}{" "}
             Wien so viel?
           </UI.Typography>
           <UI.Typography variant="lg" className="pt-2">
-            Die Kosten setzen sich allgemein aus mehreren Faktoren zusammen. Das
-            gilt sowohl für einen Schlüsseldienst {data.postalCode} als auch für
-            einen Aufsperrdienst {data.postalCode} Wien. Wir haben Informationen
-            rund um die Kosten für dich vorbereitet.{" "}
-            <Link
-              href="/preise"
-              className="underline underline-primary-500 text-primary-500 underline-offset-2"
-            >
-              Klicke hier
-            </Link>{" "}
-            um mehr über die Preisgestaltung erfahren, Zuschläge zu verstehen
-            und Tipps zu erhalten um Kosten für einen Schlüsseldienst zu sparen.{" "}
+            Die Kosten für einen Einsatz setzen sich aus mehreren Faktoren
+            zusammen. Das gilt sowohl für den Schlüsseldienst {data.postalCode}{" "}
+            Wien als auch für den Aufsperrdienst {data.postalCode} Wien.
+            Preisentscheidend sind unter anderem die Tageszeit{" "}
+            {"(Tag/Nacht, Uhrzeit, Sonn- und Feiertag)"}, die Art der
+            Türöffnung, sowie Türart.
           </UI.Typography>
+          <UI.Typography variant="lg" className="pt-4">
+            Dazu haben wir einen kompakten Guide vorbereitet, der alle Preise
+            transparent auflistet und verständlich erklärt, wie sich die Kosten
+            und Zuschläge je nach Tageszeit und Wochentag zusammensetzen und
+            welche Aufpreise je nach Öffnungsmethode möglich sind. Außerdem
+            enthält er praktische Spartipps, mit denen du unnötige Kosten
+            vermeidest. Unabhängig davon ob du dich gerade in {data.postalCode}{" "}
+            Wien, oder in einem anderen Bezirk befindest.
+          </UI.Typography>
+          <UI.Button
+            variant="contained"
+            iconVisible={true}
+            iconPosition={"right"}
+            icon={<ArrowRightIcon className="w-6" />}
+            className="flex items-center py-4 mt-12 font-bold"
+          >
+            <Link href="/preise" target="_blank">
+              {" "}
+              Mehr erfahren
+            </Link>
+          </UI.Button>
         </UI.Container>
       </UI.Container>
       {/* Price Info END */}
 
-      {/* Bonus Club START - CHECK GRAMMAR AND DONE */}
+      {/* Bonus Club START */}
       <UI.Container element="section" className="py-[56px]" id="nachlass">
         <div className="grid md:grid-cols-2 gap-8 mt-[56px] pt-8 items-center">
           <div className="order-2">
@@ -264,12 +441,12 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
                 variant="md"
                 className="mt-2 !text-[18px] text-primary-900 leading-8"
               >
-                Wenn du in {data.postalCode} Wien - {data.districtName} wohnst
-                und Mitglied im Vorteilsclub der Stadt Wien bist, erhältst du
-                20% Nachlass auf Türöffnungen und alle weiteren Leistungen.
-                Zeige einfach deine Vorteilsclub-Mitgliedskarte vor Ort, und wir
-                ziehen den Rabatt automatisch vom Preis ab. Mehr Informationen
-                findest du auf{" "}
+                Wenn du im Bezirk {data.districtName}, in {data.postalCode}{" "}
+                Wien, wohnst Mitglied im Vorteilsclub der Stadt Wien bist,
+                erhältst du 20 Prozent Nachlass auf Türöffnungen sowie auf alle
+                weiteren Leistungen. Zeige einfach vor Ort deine Mitgliedskarte
+                des Vorteilsclubs, dann ziehen wir den Rabatt automatisch vom
+                Preis ab. Weitere Informationen findest du auf{" "}
                 <Link
                   href="https://vorteilsclub.wien.at/meine-vorteile/tuerex-schluesseldienst-aufsperrdienst"
                   target="_blank"
@@ -307,7 +484,9 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
           aria-label="Top-Bewertung"
         >
           <UI.Typography variant="h2" align="center" className="font-bold">
-            <span className="text-primary-500">Top-Bewertung von Kunden</span>{" "}
+            <span className="text-primary-500">
+              Top{"-"}Bewertung von Kunden
+            </span>{" "}
             <br /> aus {data.postalCode} Wien.
           </UI.Typography>
           <UI.Typography
@@ -325,14 +504,14 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
       </UI.Container>
       {/* Reviews Section END */}
 
-      {/* CTA Section START - CHECK GRAMMAR & DONE */}
+      {/* √ CTA Section START */}
       <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
         <UI.Typography
-          variant="h2"
+          variant="h3"
           align="center"
           className="font-bold text-white"
         >
-          Rund um die Uhr in Wien {"- "}
+          Rund um die Uhr in Wien {"-"}
           {data.districtName} erreichbar
         </UI.Typography>
         <UI.Typography
@@ -355,7 +534,7 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
         <div className="grid md:grid-cols-2 gap-12 mt-[56px] pt-8 items-center">
           <div className="order-2 md:order-1">
             <UI.Typography
-              variant="h3"
+              variant="h2"
               className="flex flex-col gap-2 font-bold"
             >
               <span className="text-xl text-primary-500">
@@ -413,63 +592,6 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
       </UI.Container>
       {/* District Waiting Time END */}
 
-      {/* Section How it works START  */}
-      <UI.Container className="mt-[56px]">
-        <UI.Typography variant="h2" className="font-bold">
-          Verlässlicher <br></br>
-          <span className="text-primary-500">24h Schlüsseldienst</span>.
-        </UI.Typography>
-        <div className="mt-[56px]">
-          <UI.Icon icon={CheckBadgeIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            Akzeptiert von Hausversicherungen
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Nach dem erfolgreichen Entsperren, kannst du unsere Rechnung einfach
-            an deine Haushaltsversicherung senden.
-          </UI.Typography>
-        </div>
-        <div className="mt-[56px]">
-          <UI.Icon icon={ClockIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            24h Schlüsselnotdienst
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Wir sind rund um die Uhr, 365 Tage im Jahr, für dich da, um in
-            Notfällen zu helfen.
-          </UI.Typography>
-        </div>
-        <div className="my-[56px]">
-          <UI.Icon icon={KeyIcon} />
-          <UI.Typography
-            variant="h3"
-            className="text-black mt-4 !text-h4 !leading-8"
-          >
-            Schadfreie Türöffnung
-          </UI.Typography>
-          <UI.Typography
-            variant="md"
-            className="mt-6 !text-[18px] text-primary-900 leading-8"
-          >
-            Unsere Profis öffnen Türen ohne Schäden. Ob ausgesperrt oder
-            abgebrochener Schlüssel - eine schonende Türöffnung ist unser Ziel.
-          </UI.Typography>
-        </div>
-      </UI.Container>
-      {/* Section How it works END  */}
-
       {/* √ Section - Schlüsseldienst vs. Aufsperrdienst Unterschied - START */}
       <UI.Container
         element="section"
@@ -479,7 +601,7 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
         <div className="grid md:grid-cols-2 gap-28  my-[24px] pt-8 items-center">
           <div className="order-2 md:order-1">
             <UI.Typography
-              variant="h2"
+              variant="h3"
               className="flex flex-col gap-2 font-bold"
             >
               <span className="text-primary-500">
