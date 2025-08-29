@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import Image from "next/image";
-import Layout from "../components/layouts";
-import { UI } from "../components";
-import faqData from "constants/faq";
-import WkoLogo from "../assets/images/wko-logo.svg";
-import indexStrucutreData from "utils/structure-data";
-import districtsData from "../public/districts.json";
+import React, { useState } from 'react';
+import Image from 'next/image';
+import Layout from '../components/layouts';
+import { UI } from '../components';
+import faqData from 'constants/faq';
+import WkoLogo from '../assets/images/wko-logo.svg';
+import { contactData } from 'constants/contact';
+import indexStrucutreData from 'utils/structure-data';
 import {
   ArrowRightIcon,
   CheckIcon,
@@ -18,11 +18,10 @@ import {
   PhoneIcon,
   CurrencyEuroIcon,
   ShieldCheckIcon,
-} from "@heroicons/react/24/outline";
-import Link from "next/link";
-import router from "next/router";
-import { priceData } from "constants/price";
-import Reviews from "components/molecules/reviews";
+} from '@heroicons/react/24/outline';
+import Link from 'next/link';
+import router from 'next/router';
+import { priceData } from 'constants/price';
 
 const IndexPage = () => {
   const [priceTableVisible, setPriceTabelVisible] = useState<boolean>(false);
@@ -170,10 +169,10 @@ const IndexPage = () => {
                 variant="md"
                 className="mt-6 !text-[16px] text-primary-900 leading-6"
               >
-                Unsere{" "}
+                Unsere{' '}
                 <Link href="#prices" className="underline">
                   Fixpreise
-                </Link>{" "}
+                </Link>{' '}
                 sind fair und klar, pro Leistung definiert. So kannst du
                 jederzeit die Kosten im Überblick behalten.
               </UI.Typography>
@@ -183,7 +182,13 @@ const IndexPage = () => {
         {/* Content Section END */}
         {/* Call Section START */}
         <div className="flex justify-center my-20">
-          <UI.Call />
+          <a
+            href={`tel:${contactData.phone}`}
+            className="flex items-center justify-center gap-2 h-[40px] rounded-lg bg-primary-500 cursor-pointer text-white font-bold px-4"
+          >
+            0676/374 12 04
+            <PhoneIcon className="w-6 h-6 text-white" />
+          </a>
         </div>
         {/* Call Section END */}
         {/* Content Section START */}
@@ -256,10 +261,10 @@ const IndexPage = () => {
                   Wir verstehen, dass das Warten vor der verschlossenen Tür
                   anstregend sein kann. Unser Team steht dir auch während der
                   Wartezeit zur Verfügung, und betreut dich falls notwendig. Wir
-                  haben dafür auch einige{" "}
+                  haben dafür auch einige{' '}
                   <Link href="#tipps" className="underline">
                     Tipps
-                  </Link>{" "}
+                  </Link>{' '}
                   für dich vorbereitet.
                 </UI.Typography>
               </div>
@@ -358,9 +363,9 @@ const IndexPage = () => {
           </div>
           <UI.Button
             variant="contained"
-            onClick={() => router.push("/abwicklung")}
+            onClick={() => router.push('/abwicklung')}
             iconVisible={true}
-            iconPosition={"right"}
+            iconPosition={'right'}
             icon={<ArrowRightIcon className="w-8" />}
             className="flex items-center py-4 my-8 font-bold mb-[98px]"
           >
@@ -411,35 +416,6 @@ const IndexPage = () => {
           </UI.Container>
         </div>
         {/* Price Section END */}
-
-        {/* Reviews Section START */}
-        <UI.Container widthMode="full" className="mb-[56px]">
-          <section
-            id="top-bewertung"
-            className="py-[56px] bg-gray-100 px-4"
-            aria-label="Top-Bewertung"
-          >
-            <UI.Typography variant="h3" align="center" className="font-bold">
-              <span className="text-primary-500">
-                Top{"-"}Bewertung von Kunden
-              </span>{" "}
-            </UI.Typography>
-            <UI.Typography
-              variant="lg"
-              align="center"
-              className="!text-h5 py-12 max-w-4xl mx-auto"
-            >
-              Unsere Kunden geben uns die Höchstbewertung mit 5 von 5 Sternen.
-              Besonders gelobt werden unsere schnelle Unterstützung und die
-              transparenten Preise. Hier kannst du dir ansehen, welche
-              Erfahrungen Kunden mit unserem Schlüsseldienst in Wien gemacht
-              haben.
-            </UI.Typography>
-            <Reviews />
-          </section>
-        </UI.Container>
-        {/* Reviews Section END */}
-
         {/* Content Section START */}
         <UI.Container className="py-[56px]">
           <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
@@ -471,9 +447,9 @@ const IndexPage = () => {
               </UI.Typography>
               <UI.Button
                 variant="contained"
-                onClick={() => router.push("/serioeser-schluesseldienst")}
+                onClick={() => router.push('/serioeser-schluesseldienst')}
                 iconVisible={true}
-                iconPosition={"right"}
+                iconPosition={'right'}
                 icon={<ArrowRightIcon className="w-8" />}
                 className="w-full mt-12 mb-8 font-bold flex items-center py-4 max-w-[300px]"
               >
@@ -497,7 +473,7 @@ const IndexPage = () => {
           <UI.Container>
             <UI.Typography variant="h2" className="font-bold mt-[56px]">
               <span className="text-primary-500">Aufsperrdienst Wien</span> -
-              das ist bezüglich der{" "}
+              das ist bezüglich der{' '}
               <span className="text-primary-500">Türöffnung</span> deinerseits
               zu beachten.
             </UI.Typography>
@@ -526,7 +502,7 @@ const IndexPage = () => {
               >
                 Der Ausweis dient nur zur Überprüfung deiner Person. Diesen
                 zeigst du einfach unserem Kollegen vor Ort. Zusätzlich wirst du
-                von uns gebeten eine{" "}
+                von uns gebeten eine{' '}
                 <a
                   href="/echtsverbindliche-erklaerung.pdf"
                   rel="noopener noreferrer"
@@ -534,7 +510,7 @@ const IndexPage = () => {
                   className="underline text-primary-500"
                 >
                   rechtsverbindliche Erklärung
-                </a>{" "}
+                </a>{' '}
                 unterzeichnen. Dadurch wird sichergestellt, dass auch alles
                 gesetzeskonform abläuft.
               </UI.Typography>
@@ -545,7 +521,7 @@ const IndexPage = () => {
           <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
             <div>
               <UI.Typography variant="h2" weight="bold">
-                Mehr als nur ein{" "}
+                Mehr als nur ein{' '}
                 <span className="text-primary-500">Schlüsseldienst</span>.
               </UI.Typography>
               <div className="mt-[56px]">
@@ -561,9 +537,9 @@ const IndexPage = () => {
 
                 <UI.Button
                   variant="contained"
-                  onClick={() => router.push("/leistungen")}
+                  onClick={() => router.push('/leistungen')}
                   iconVisible={true}
-                  iconPosition={"right"}
+                  iconPosition={'right'}
                   icon={<ArrowRightIcon className="w-8" />}
                   className="w-full my-8 font-bold flex items-center py-4 max-w-[300px]"
                 >
@@ -740,66 +716,6 @@ const IndexPage = () => {
         </UI.Container>
         {/* Call Section END */}
       </UI.Container>
-      {/* Districts START */}
-      <UI.Container id="andere-bezirke" className="py-[56px]">
-        <UI.Typography
-          variant="h3"
-          weight="bold"
-          className="font-['Lexend'] md:!leading-[1.2] py-8"
-        >
-          <span className="text-primary-500">
-            Schlüsseldienst Wien in deiner Nähe
-          </span>
-          <br></br>Wir sind rund um die Uhr in allen wiener Bezirken tätig.
-        </UI.Typography>
-        <UI.Typography
-          variant="md"
-          className="!text-[18px] text-primary-900 leading-8"
-        >
-          Ob du uns nachts als Aufsperrdienst für schnelle und zuverlässige{" "}
-          <Link
-            href="leistungen/versperrte-tueren"
-            className="underline"
-            target="_blank"
-          >
-            Türöffnungen
-          </Link>{" "}
-          brauchst oder tagsüber als Schlüsseldienst für einen{" "}
-          <Link
-            href="/leistungen/zylinder-tausch"
-            className="underline"
-            target="_blank"
-          >
-            Zylinderwechsel
-          </Link>
-          , wir sind rund um die Uhr in ganz Wien im Einsatz. Egal in welchem
-          Bezirk du wohnst, wir sind immer in deiner Nähe. Unsere Telefonnummer
-          ist an allen Tagen 24 Stunden erreichbar, ganz gleich wo du dich in
-          Wien befindest. Wenn du bezirksspezifische Informationen wie die
-          aktuelle Ankunftszeit in deinem Grätzl wissen möchtest, klicke einfach
-          auf deinen Bezirk.
-        </UI.Typography>
-        {/* Disctricts Loop START */}
-        <UI.Container widthMode="full">
-          <div className="grid grid-cols-2 gap-2 mt-8 md:grid-cols-5">
-            {districtsData.data.map((d: any) => (
-              <div
-                key={d.postalCode}
-                className="p-4 m-1 text-center rounded-lg bg-primary-50"
-              >
-                <Link
-                  href={`/wien/${d.postalCode}`}
-                  className="border-b border-black"
-                >
-                  {d.postalCode} Wien
-                </Link>
-              </div>
-            ))}
-          </div>
-        </UI.Container>
-        {/* Disctricts Loop  END */}
-      </UI.Container>
-      {/* Districts END */}
     </Layout>
   );
 };

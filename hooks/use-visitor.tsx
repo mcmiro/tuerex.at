@@ -13,7 +13,7 @@ interface ScreenSize {
 export interface VisitorProps {
   userAgent: string;
   referrer: string;
-  geolocation?: GeoLocation | null;
+  geolocation: GeoLocation | null;
   screenResolution: ScreenSize;
   language: string;
   operatingSystem: string;
@@ -23,11 +23,24 @@ export interface VisitorProps {
 
 const useVisitor = () => {
   const [visitorInformation, setVisitorInformation] = useState<VisitorProps>();
+  const [geoLocation, setGeoLocation] = useState<GeoLocation | null>(null);
+
+  useEffect(() => {
+    const fetchGeoLocation = () => {
+      navigator.geolocation.getCurrentPosition((position) => {
+        const { latitude, longitude } = position.coords;
+        setGeoLocation({ latitude, longitude });
+      });
+    };
+
+    fetchGeoLocation();
+  }, []);
 
   useEffect(() => {
     const visitorInformation: VisitorProps = {
       userAgent: navigator.userAgent,
       referrer: document.referrer,
+      geolocation: geoLocation,
       screenResolution: {
         width: window.screen.width,
         height: window.screen.height,
@@ -39,7 +52,7 @@ const useVisitor = () => {
     };
 
     setVisitorInformation(visitorInformation);
-  }, []);
+  }, [geoLocation]);
 
   return {
     visitorInformation,
