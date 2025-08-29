@@ -175,6 +175,7 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
       title={`Schlüsseldienst ${data.postalCode} Wien - ab 89€ Fixpreis | TÜREX`}
       metaDescription={data.description}
       jsonLd={jsonLd}
+      canonical={`https://tuerex.at/wien/${data.postalCode}/`}
     >
       {/* Hero Section START */}
       <header className="pb-8">
