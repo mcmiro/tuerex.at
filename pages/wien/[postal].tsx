@@ -47,7 +47,7 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": ["EmergencyService", "Locksmith"],
-    name: `Schlüsseldienst & Aufsperrdienst ${data.postalCode} Wien`,
+    name: `Schlüsseldienst ${data.postalCode} Wien & Aufsperrdienst ${data.postalCode} Wien`,
     image: "https://tuerex.at/logo.svg",
     "@id": `https://tuerex.at/wien/${data.postalCode}`,
     url: `https://tuerex.at/wien/${data.postalCode}`,
@@ -69,12 +69,13 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
       availableLanguage: ["German"],
     },
     serviceType: [
-      "Schlüsseldienst",
-      "Aufsperrdienst",
+      `Schlüsseldienst ${data.postalCode} Wien`,
+      `Aufsperrdienst ${data.postalCode} Wien`,
       "Öffnung zugefallener Standardtüren",
       "Öffnung zugefallener Sicherheitstüren",
       "Öffnung versperrter Standardtüren",
       "Öffnung versperrter Sicherheitstüren",
+      "Zylindertausch",
     ],
     areaServed: {
       "@type": "Place",
@@ -164,34 +165,6 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
             name: `Wartezeit für ${item.districtPart}`,
             description: `Aktuelle Wartezeit: ${item.time}`,
           })),
-        }
-      : {}),
-    // Difference Section
-    ...(data.differenceSectionCopy
-      ? {
-          additionalProperty: [
-            {
-              "@type": "PropertyValue",
-              name: "Unterschied Schlüsseldienst vs. Aufsperrdienst",
-              value: data.differenceSectionCopy,
-            },
-          ],
-        }
-      : {}),
-    // Other districts
-    ...(otherDistricts.length > 0
-      ? {
-          areaServed: [
-            {
-              "@type": "Place",
-              name: `${data.districtName} (${data.postalCode})`,
-            },
-            ...otherDistricts.map((d) => ({
-              "@type": "Place",
-              name: `${d.districtName} (${d.postalCode})`,
-              url: `https://tuerex.at/wien/${d.postalCode}`,
-            })),
-          ],
         }
       : {}),
   };
@@ -506,7 +479,7 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
       </UI.Container>
       {/* Reviews Section END */}
 
-      {/* √ CTA Section START */}
+      {/* CTA Section START */}
       <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
         <UI.Typography
           variant="h3"
@@ -714,6 +687,29 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
         {/* Disctricts Loop  END */}
       </UI.Container>
       {/* Other Districts END */}
+      {/* CTA Section START */}
+      <UI.Container widthMode="full" className="bg-primary-950 py-[56px]">
+        <UI.Typography
+          variant="h3"
+          align="center"
+          className="font-bold text-white"
+        >
+          Jetzt Schlüsseldienst {data.districtName} Wien anrufen
+        </UI.Typography>
+        <UI.Typography
+          variant="lg"
+          align="center"
+          className="max-w-5xl mx-auto !text-[18px] mt-8 leading-6  text-white"
+        >
+          Unser Schlüsseldienst in {data.postalCode} Wien ist jederzeit
+          einsatzbereit und wartet auf deinen Anruf. Rufe uns jetzt an. Unser
+          Aufsperrdienst ist in wenigen Minuten an deinem Standort in{" "}
+          {data.postalCode} und bietet dir professionelle Hilfe. Schnell,
+          zuverlässig und effizient. Zum Fixpreis ohne versteckte Kosten.
+        </UI.Typography>
+        <UI.Call mode="dark" />
+      </UI.Container>
+      {/* CTA Section END */}
     </Layout>
   );
 };

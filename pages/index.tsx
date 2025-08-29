@@ -4,7 +4,6 @@ import Layout from "../components/layouts";
 import { UI } from "../components";
 import faqData from "constants/faq";
 import WkoLogo from "../assets/images/wko-logo.svg";
-import { contactData } from "constants/contact";
 import indexStrucutreData from "utils/structure-data";
 import districtsData from "../public/districts.json";
 import {
@@ -23,6 +22,7 @@ import {
 import Link from "next/link";
 import router from "next/router";
 import { priceData } from "constants/price";
+import Reviews from "components/molecules/reviews";
 
 const IndexPage = () => {
   const [priceTableVisible, setPriceTabelVisible] = useState<boolean>(false);
@@ -183,13 +183,7 @@ const IndexPage = () => {
         {/* Content Section END */}
         {/* Call Section START */}
         <div className="flex justify-center my-20">
-          <a
-            href={`tel:${contactData.phone}`}
-            className="flex items-center justify-center gap-2 h-[40px] rounded-lg bg-primary-500 cursor-pointer text-white font-bold px-4"
-          >
-            0676/374 12 04
-            <PhoneIcon className="w-6 h-6 text-white" />
-          </a>
+          <UI.Call />
         </div>
         {/* Call Section END */}
         {/* Content Section START */}
@@ -417,6 +411,35 @@ const IndexPage = () => {
           </UI.Container>
         </div>
         {/* Price Section END */}
+
+        {/* Reviews Section START */}
+        <UI.Container widthMode="full" className="mb-[56px]">
+          <section
+            id="top-bewertung"
+            className="py-[56px] bg-gray-100 px-4"
+            aria-label="Top-Bewertung"
+          >
+            <UI.Typography variant="h3" align="center" className="font-bold">
+              <span className="text-primary-500">
+                Top{"-"}Bewertung von Kunden
+              </span>{" "}
+            </UI.Typography>
+            <UI.Typography
+              variant="lg"
+              align="center"
+              className="!text-h5 py-12 max-w-4xl mx-auto"
+            >
+              Unsere Kunden geben uns die Höchstbewertung mit 5 von 5 Sternen.
+              Besonders gelobt werden unsere schnelle Unterstützung und die
+              transparenten Preise. Hier kannst du dir ansehen, welche
+              Erfahrungen Kunden mit unserem Schlüsseldienst in Wien gemacht
+              haben.
+            </UI.Typography>
+            <Reviews />
+          </section>
+        </UI.Container>
+        {/* Reviews Section END */}
+
         {/* Content Section START */}
         <UI.Container className="py-[56px]">
           <div className="grid md:grid-cols-2 gap-8 mt-[56px]">
