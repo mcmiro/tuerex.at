@@ -33,9 +33,9 @@ const IndexPage = () => {
 
   return (
     <Layout
-      title="Schlüsseldienst und Aufsperrdienst in Wien | TÜREX"
+      title="Schlüsseldienst Wien & Aufsperrdienst | Fixpreise ab 89€ | TÜREX"
       canonical="https://tuerex.at/"
-      metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
+      metaDescription="Schlüsseldienst Wien rund um die Uhr. Behördlich befähigter Aufsperrdienst in Wien mit klarer Preisgestaltung. Türöffnungen ohne Schaden. Jetzt anrufen."
       jsonLd={indexStrucutreData}
     >
       {/* Modal Price START */}

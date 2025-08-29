@@ -1,4 +1,6 @@
 import React from "react";
+import fs from "fs";
+import path from "path";
 import Image from "next/image";
 import Layout from "components/layouts";
 import Reviews from "components/molecules/reviews";
@@ -11,7 +13,6 @@ import {
   CurrencyEuroIcon,
   KeyIcon,
 } from "@heroicons/react/24/outline";
-import axios from "axios";
 import NowOpen from "components/molecules/now-open";
 import Link from "next/link";
 
@@ -717,10 +718,10 @@ const IndexPage = ({ data, allDistricts }: ContentProps) => {
 export default IndexPage;
 
 export async function getStaticPaths() {
-  const response = await axios.get(
-    `${process.env.NEXT_LOCAL_URL}/districts.json`
-  );
-  const paths = response.data.data.map((el: any) => ({
+  const filePath = path.join(process.cwd(), "public", "districts.json");
+  const fileContents = fs.readFileSync(filePath, "utf8");
+  const districts = JSON.parse(fileContents).data;
+  const paths = districts.map((el: any) => ({
     params: { postal: el.postalCode },
   }));
 
@@ -734,10 +735,9 @@ export const getStaticProps = async (context: any) => {
   const { params } = context;
   const postalCode = params.postal;
 
-  const response = await axios.get(
-    `${process.env.NEXT_LOCAL_URL}/districts.json`
-  );
-  const allDistricts = response.data.data || [];
+  const filePath = path.join(process.cwd(), "public", "districts.json");
+  const fileContents = fs.readFileSync(filePath, "utf8");
+  const allDistricts = JSON.parse(fileContents).data || [];
   const data = allDistricts.find(
     (el: any) => el.postalCode?.toString() === postalCode
   );
