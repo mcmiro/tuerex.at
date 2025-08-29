@@ -1,17 +1,17 @@
-import React, { useEffect, useRef } from "react";
-import { UI } from "components";
-import FooterColumn from "./column";
-import { footerData } from "constants/footer";
-import { useCookies } from "hooks/use-cookies";
-import { XMarkIcon } from "@heroicons/react/24/outline";
-import CookieIcon from "../../../assets/icons/cookie.svg";
-import { FaLinkedin, FaInstagram } from "react-icons/fa";
-import Link from "next/link";
+import React, { useEffect, useRef } from 'react';
+import { UI } from 'components';
+import FooterColumn from './column';
+import { footerData } from 'constants/footer';
+import { useCookies } from 'hooks/use-cookies';
+import { XMarkIcon } from '@heroicons/react/24/outline';
+import CookieIcon from '../../../assets/icons/cookie.svg';
+import { FaLinkedin, FaInstagram } from 'react-icons/fa';
+import Link from 'next/link';
 
 const classesSchema = {
-  base: "pt-[56px] border-t bg-primary-50",
-  content: "px-4",
-  title: "pt-[32px]",
+  base: 'pt-[56px] border-t bg-primary-50',
+  content: 'px-4',
+  title: 'pt-[32px]',
 };
 
 const Footer = () => {
@@ -20,15 +20,15 @@ const Footer = () => {
   const { functionalCookies, saveFunctionalCookies } = useCookies();
 
   const handleCookieDialog = () => {
-    saveFunctionalCookies("accepted");
+    saveFunctionalCookies('accepted');
     if (cookieWrapper.current !== null) {
-      cookieWrapper.current.classList.remove("active");
+      cookieWrapper.current.classList.remove('active');
     }
   };
 
   useEffect(() => {
     if (cookieWrapper.current !== null) {
-      cookieWrapper.current.classList.add("active");
+      cookieWrapper.current.classList.add('active');
     }
   }, [functionalCookies]);
 
@@ -53,7 +53,7 @@ const Footer = () => {
           })}
         </div>
       </UI.Container>
-      <UI.Container className="flex justify-center gap-8 pb-8">
+      <UI.Container className="pb-8 flex gap-8 justify-center">
         <Link
           href="https://www.linkedin.com/company/tuerex-schluesseldienst/"
           target="blank"
@@ -67,21 +67,21 @@ const Footer = () => {
           <FaInstagram className="w-10 h-10" />
         </Link>
       </UI.Container>
-      <div className="w-full bg-primary-950">
+      <div className="bg-primary-950 w-full">
         <UI.Container>
           <UI.Typography variant="md" className="py-[16px] text-white">
             © Copyright© {copyrightDate} Türex. Alle Rechte vorbehalten.
           </UI.Typography>
         </UI.Container>
       </div>
-      {functionalCookies !== "accepted" && (
+      {functionalCookies !== 'accepted' && (
         <div
           ref={cookieWrapper}
-          className="fixed py-2 pl-2 pr-6 bg-yellow-200 rounded-full left-4 cookie-wrapper"
+          className="fixed left-4 bg-yellow-200 rounded-full py-2 pl-2 pr-6 cookie-wrapper"
         >
           <div
             onClick={handleCookieDialog}
-            className="absolute p-1 bg-white rounded-full shadow cursor-pointer -top-2 -right-2"
+            className="absolute -top-2 -right-2 bg-white rounded-full shadow p-1 cursor-pointer"
           >
             <XMarkIcon className="w-4 h-4" />
           </div>
