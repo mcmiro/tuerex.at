@@ -1,7 +1,6 @@
 # *
 User-agent: *
 Allow: /
-Disallow: /wien/
 
 # Host
 Host: https://tuerex.at
