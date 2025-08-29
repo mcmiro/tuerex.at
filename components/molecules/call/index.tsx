@@ -1,16 +1,16 @@
-import React from 'react';
-import { UI } from 'components';
-import { PhoneIcon } from '@heroicons/react/24/outline';
-import { contactData } from 'constants/contact';
-import clsx from 'clsx';
-import useSlack from 'hooks/use-slack';
+import React from "react";
+import { UI } from "components";
+import { PhoneIcon } from "@heroicons/react/24/outline";
+import { contactData } from "constants/contact";
+import clsx from "clsx";
+import useSlack from "hooks/use-slack";
 
-type CallMode = 'dark' | 'light';
+type CallMode = "dark" | "light";
 
 const classesSchema = {
-  base: 'w-full pt-12',
-  dark: 'text-white',
-  light: 'text-black',
+  base: "w-full pt-12",
+  dark: "text-white",
+  light: "text-black",
 };
 
 export interface CallProps {
@@ -21,7 +21,7 @@ export interface CallProps {
 export const Call = ({ mode, className }: CallProps) => {
   const { getTimeStampNow, sendMessageToSlack } = useSlack();
   const callBaseClasses = clsx([classesSchema.base, className]);
-  const callClasses = clsx([classesSchema[mode ? mode : 'light']]);
+  const callClasses = clsx([classesSchema[mode ? mode : "light"]]);
 
   return (
     <div className={callBaseClasses}>
